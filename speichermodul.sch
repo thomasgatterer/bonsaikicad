@@ -1,0 +1,246 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:speichermodul-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "speichermodul"
+Date "9 sep 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 7400 U1
+U 1 1 57B9FEAF
+P 2650 2750
+F 0 "U1" H 2650 2800 60  0000 C CNN
+F 1 "7400" H 2650 2650 60  0000 C CNN
+F 2 "~" H 2650 2750 60  0000 C CNN
+F 3 "~" H 2650 2750 60  0000 C CNN
+	1    2650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7400 U1
+U 2 1 57B9FECD
+P 2650 3950
+F 0 "U1" H 2650 4000 60  0000 C CNN
+F 1 "7400" H 2650 3850 60  0000 C CNN
+F 2 "~" H 2650 3950 60  0000 C CNN
+F 3 "~" H 2650 3950 60  0000 C CNN
+	2    2650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS08 U2
+U 1 1 57B9FEDC
+P 4150 2850
+F 0 "U2" H 4150 2900 60  0000 C CNN
+F 1 "74LS08" H 4150 2800 60  0000 C CNN
+F 2 "~" H 4150 2850 60  0000 C CNN
+F 3 "~" H 4150 2850 60  0000 C CNN
+	1    4150 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L 74LS08 U2
+U 2 1 57B9FEEB
+P 4150 3850
+F 0 "U2" H 4150 3900 60  0000 C CNN
+F 1 "74LS08" H 4150 3800 60  0000 C CNN
+F 2 "~" H 4150 3850 60  0000 C CNN
+F 3 "~" H 4150 3850 60  0000 C CNN
+	2    4150 3850
+	1    0    0    1   
+$EndComp
+$Comp
+L 74LS08 U2
+U 4 1 57B9FEFA
+P 5550 2950
+F 0 "U2" H 5550 3000 60  0000 C CNN
+F 1 "74LS08" H 5550 2900 60  0000 C CNN
+F 2 "~" H 5550 2950 60  0000 C CNN
+F 3 "~" H 5550 2950 60  0000 C CNN
+	4    5550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS08 U2
+U 3 1 57B9FF09
+P 5550 3750
+F 0 "U2" H 5550 3800 60  0000 C CNN
+F 1 "74LS08" H 5550 3700 60  0000 C CNN
+F 2 "~" H 5550 3750 60  0000 C CNN
+F 3 "~" H 5550 3750 60  0000 C CNN
+	3    5550 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 57B9FF7E
+P 1650 2400
+F 0 "R1" V 1730 2400 40  0000 C CNN
+F 1 "R" V 1657 2401 40  0000 C CNN
+F 2 "~" V 1580 2400 30  0000 C CNN
+F 3 "~" H 1650 2400 30  0000 C CNN
+	1    1650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 57B9FF8D
+P 1650 4400
+F 0 "R2" V 1730 4400 40  0000 C CNN
+F 1 "4,7k" V 1657 4401 40  0000 C CNN
+F 2 "~" V 1580 4400 30  0000 C CNN
+F 3 "~" H 1650 4400 30  0000 C CNN
+	1    1650 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 57B9FF9C
+P 1850 5800
+F 0 "R3" V 1930 5800 40  0000 C CNN
+F 1 "4,7k" V 1857 5801 40  0000 C CNN
+F 2 "~" V 1780 5800 30  0000 C CNN
+F 3 "~" H 1850 5800 30  0000 C CNN
+	1    1850 5800
+	0    1    1    0   
+$EndComp
+Connection ~ 1900 3950
+Wire Wire Line
+	1900 3200 1900 3950
+Wire Wire Line
+	3400 3200 1900 3200
+Wire Wire Line
+	3400 2950 3400 3200
+Wire Wire Line
+	3550 2950 3400 2950
+Wire Wire Line
+	3550 2750 3250 2750
+Wire Wire Line
+	3550 3950 3250 3950
+Wire Wire Line
+	1650 3950 1650 4150
+Connection ~ 2050 3950
+Wire Wire Line
+	2050 3950 1650 3950
+Wire Wire Line
+	2050 4050 2050 3850
+Connection ~ 2050 2750
+Wire Wire Line
+	1650 2650 1650 3550
+Wire Wire Line
+	2050 2750 1650 2750
+Wire Wire Line
+	2050 2850 2050 2650
+Wire Wire Line
+	3550 3750 3400 3750
+Wire Wire Line
+	3400 3750 3400 3550
+Wire Wire Line
+	3400 3550 1600 3550
+Connection ~ 1650 2750
+$Comp
+L 7400 U?
+U 2 1 57BB7324
+P 6950 3650
+F 0 "U?" H 6950 3700 60  0000 C CNN
+F 1 "7400" H 6950 3550 60  0000 C CNN
+F 2 "~" H 6950 3650 60  0000 C CNN
+F 3 "~" H 6950 3650 60  0000 C CNN
+	2    6950 3650
+	1    0    0    1   
+$EndComp
+$Comp
+L 7400 U?
+U 3 1 57BB7384
+P 6950 3050
+F 0 "U?" H 6950 3100 60  0000 C CNN
+F 1 "7400" H 6950 2950 60  0000 C CNN
+F 2 "~" H 6950 3050 60  0000 C CNN
+F 3 "~" H 6950 3050 60  0000 C CNN
+	3    6950 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L 6116 IC?
+U 1 1 57D2A745
+P 9450 3150
+F 0 "IC?" H 9050 3950 40  0000 C CNN
+F 1 "6116" H 9800 2350 40  0000 C CNN
+F 2 "" H 9450 3150 60  0000 C CNN
+F 3 "" H 9450 3150 60  0000 C CNN
+	1    9450 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP?
+U 1 1 57D2A815
+P 5400 1650
+F 0 "JP?" H 5400 1800 60  0000 C CNN
+F 1 "JUMPER" H 5400 1570 40  0000 C CNN
+F 2 "~" H 5400 1650 60  0000 C CNN
+F 3 "~" H 5400 1650 60  0000 C CNN
+	1    5400 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JUMPER JP?
+U 1 1 57D2A99F
+P 5750 1650
+F 0 "JP?" H 5750 1800 60  0000 C CNN
+F 1 "JUMPER" H 5750 1570 40  0000 C CNN
+F 2 "~" H 5750 1650 60  0000 C CNN
+F 3 "~" H 5750 1650 60  0000 C CNN
+	1    5750 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JUMPER JP?
+U 1 1 57D2A9B7
+P 6050 1650
+F 0 "JP?" H 6050 1800 60  0000 C CNN
+F 1 "JUMPER" H 6050 1570 40  0000 C CNN
+F 2 "~" H 6050 1650 60  0000 C CNN
+F 3 "~" H 6050 1650 60  0000 C CNN
+	1    6050 1650
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

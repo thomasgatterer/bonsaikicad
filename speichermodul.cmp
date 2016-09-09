@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Son 21 Aug 2016 22:03:42 CEST
+
+BeginCmp
+TimeStamp = /57B9FF7E;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B9FF8D;
+Reference = R2;
+ValeurCmp = 4,7k;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B9FF9C;
+Reference = R3;
+ValeurCmp = 4,7k;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B9FEAF;
+Reference = U1;
+ValeurCmp = 7400;
+IdModule  = DIP-14__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /57B9FEDC;
+Reference = U2;
+ValeurCmp = 74LS08;
+IdModule  = DIP-14__300;
+EndCmp
+
+EndListe
