@@ -1,4 +1,4 @@
-update=Son 11 Sep 2016 19:21:06 CEST
+update=Son 11 Sep 2016 20:10:37 CEST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -83,3 +83,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=bonsaicomplib/bonsai
