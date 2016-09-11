@@ -1,4 +1,4 @@
-update=Sam 10 Sep 2016 09:40:47 CEST
+update=Sam 10 Sep 2016 20:16:49 CEST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -47,7 +47,7 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=bonsailib
 NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
@@ -84,4 +84,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=bonsai
+LibName31=bon
