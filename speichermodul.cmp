@@ -1,38 +1,136 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Son 21 Aug 2016 22:03:42 CEST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Son 11 Sep 2016 22:22:35 CEST
+
+BeginCmp
+TimeStamp = /57D2D85D;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D2D86C;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D2D87B;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D2A745;
+Reference = IC1;
+ValeurCmp = 6116;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D30104;
+Reference = P1;
+ValeurCmp = CONN_3X2;
+IdModule  = ;
+EndCmp
 
 BeginCmp
 TimeStamp = /57B9FF7E;
 Reference = R1;
-ValeurCmp = R;
-IdModule  = R3-5;
+ValeurCmp = 1,7k;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /57B9FF8D;
 Reference = R2;
 ValeurCmp = 4,7k;
-IdModule  = R3-5;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /57B9FF9C;
 Reference = R3;
 ValeurCmp = 4,7k;
-IdModule  = R3-5;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D2D569;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D2D84E;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D2D83F;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D2D821;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D2D830;
+Reference = R8;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D2F1B1;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D2F144;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /57B9FEAF;
 Reference = U1;
 ValeurCmp = 7400;
-IdModule  = DIP-14__300;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /57B9FEDC;
 Reference = U2;
 ValeurCmp = 74LS08;
-IdModule  = DIP-14__300;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D2D5B3;
+Reference = U3;
+ValeurCmp = 74LS08;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D2D7E5;
+Reference = U4;
+ValeurCmp = 74LS14;
+IdModule  = ;
 EndCmp
 
 EndListe
