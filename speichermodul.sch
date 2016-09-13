@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "speichermodul"
-Date "11 sep 2016"
+Date "13 sep 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1244,10 +1244,6 @@ Text Label 4350 6250 0    60   ~ 0
 D6
 Text Label 4350 6350 0    60   ~ 0
 D7
-Text Notes 8300 1350 0    60   Italic 0
-R Pack 8 Bussed fehlt hier noch
-Text Notes 5850 6400 0    60   Italic 0
-R Pack 8 Bussed fehlt hier noch
 Text Label 9650 3450 0    60   Italic 0
 A8
 Text Label 9650 3550 0    60   Italic 0
@@ -1695,9 +1691,7 @@ Wire Bus Line
 Wire Bus Line
 	10950 4850 10200 4850
 Wire Bus Line
-	10200 4850 10200 6150
-Wire Bus Line
-	10200 6150 4450 6150
+	10200 4850 10200 6450
 Wire Bus Line
 	4450 5750 4450 6450
 Wire Bus Line
@@ -1712,4 +1706,126 @@ Wire Bus Line
 	8100 1750 10100 1750
 Wire Bus Line
 	9150 3050 9550 3350
+$Comp
+L R_PACK8BUSSED RP2
+U 1 1 57D77728
+P 9050 1250
+F 0 "RP2" H 9050 1550 50  0000 C CNN
+F 1 "R_PACK8BUSSED" H 9050 950 50  0000 C CNN
+F 2 "~" H 9050 1300 60  0000 C CNN
+F 3 "~" H 9050 1300 60  0000 C CNN
+	1    9050 1250
+	-1   0    0    -1  
+$EndComp
+Wire Bus Line
+	9350 1200 9350 1750
+$Comp
+L VCC #PWR024
+U 1 1 57D778D3
+P 9350 1000
+F 0 "#PWR024" H 9350 850 50  0001 C CNN
+F 1 "VCC" H 9350 1150 50  0000 C CNN
+F 2 "" H 9350 1000 60  0000 C CNN
+F 3 "" H 9350 1000 60  0000 C CNN
+	1    9350 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 1050 9350 1000
+$Comp
+L R_PACK8BUSSED RP3
+U 1 1 57D77ABD
+P 7000 5800
+F 0 "RP3" H 7000 6100 50  0000 C CNN
+F 1 "R_PACK8BUSSED" H 7000 5500 50  0000 C CNN
+F 2 "~" H 7000 5850 60  0000 C CNN
+F 3 "~" H 7000 5850 60  0000 C CNN
+	1    7000 5800
+	-1   0    0    -1  
+$EndComp
+Wire Bus Line
+	7300 5750 7300 6450
+$Comp
+L VCC #PWR025
+U 1 1 57D77ACC
+P 7300 5550
+F 0 "#PWR025" H 7300 5400 50  0001 C CNN
+F 1 "VCC" H 7300 5700 50  0000 C CNN
+F 2 "" H 7300 5550 60  0000 C CNN
+F 3 "" H 7300 5550 60  0000 C CNN
+	1    7300 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 5600 7300 5550
+Wire Bus Line
+	4450 6450 10200 6450
+Entry Wire Line
+	7200 5650 7300 5750
+Entry Wire Line
+	7200 5700 7300 5800
+Entry Wire Line
+	7200 5750 7300 5850
+Entry Wire Line
+	7200 5800 7300 5900
+Entry Wire Line
+	7200 5850 7300 5950
+Entry Wire Line
+	7200 5900 7300 6000
+Entry Wire Line
+	7200 5950 7300 6050
+Entry Wire Line
+	7200 6000 7300 6100
+Wire Wire Line
+	7300 5600 7200 5600
+Text Label 7200 5650 0    60   ~ 0
+D0
+Text Label 7200 5700 0    60   ~ 0
+D1
+Text Label 7200 5750 0    60   ~ 0
+D2
+Text Label 7200 5800 0    60   ~ 0
+D3
+Text Label 7200 5850 0    60   ~ 0
+D4
+Text Label 7200 5900 0    60   ~ 0
+D5
+Text Label 7200 5950 0    60   ~ 0
+D6
+Text Label 7200 6000 0    60   ~ 0
+D7
+Entry Wire Line
+	9250 1100 9350 1200
+Entry Wire Line
+	9250 1150 9350 1250
+Entry Wire Line
+	9250 1200 9350 1300
+Entry Wire Line
+	9250 1250 9350 1350
+Entry Wire Line
+	9250 1300 9350 1400
+Entry Wire Line
+	9250 1350 9350 1450
+Entry Wire Line
+	9250 1400 9350 1500
+Entry Wire Line
+	9250 1450 9350 1550
+Wire Wire Line
+	9250 1050 9350 1050
+Text Label 9250 1100 0    60   ~ 0
+A0
+Text Label 9250 1150 0    60   ~ 0
+A1
+Text Label 9250 1200 0    60   ~ 0
+A2
+Text Label 9250 1250 0    60   ~ 0
+A3
+Text Label 9250 1300 0    60   ~ 0
+A4
+Text Label 9250 1350 0    60   ~ 0
+A5
+Text Label 9250 1400 0    60   ~ 0
+A6
+Text Label 9250 1450 0    60   ~ 0
+A7
 $EndSCHEMATC

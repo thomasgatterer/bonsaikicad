@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Son 11 Sep 2016 20:11:29 CEST
+EESchema-DOCLIB  Version 2.0  Date: Die 13 Sep 2016 04:50:16 CEST
 #
 $CMP C
 D Unpolarized capacitor
@@ -494,6 +494,11 @@ $ENDCMP
 #
 $CMP R_PACK8
 D 8 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP R_PACK8BUSSED
+D r resistor Pack bussed
 K R DEV
 $ENDCMP
 #
