@@ -2011,7 +2011,7 @@ Wire Wire Line
 Wire Wire Line
 	850  6300 1900 6300
 Wire Wire Line
-	1900 6300 6850 3600
+	1900 6300 4300 4500
 $Comp
 L 74LS374 U?
 U 1 1 57E97B9C
@@ -2023,4 +2023,10 @@ F 3 "" H 7750 4250 50  0000 C CNN
 	1    7750 4250
 	0    -1   1    0   
 $EndComp
+Wire Wire Line
+	4300 4500 4300 3700
+Wire Wire Line
+	4300 3700 4650 3700
+Wire Wire Line
+	4650 3700 6550 3750
 $EndSCHEMATC
