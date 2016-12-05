@@ -232,7 +232,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 559B82F6) (tstamp 5845958C)
-    (at 92.71 105.41)
+    (at 92.71 76.2)
     (descr "LED 3mm round vertical")
     (tags "LED  3mm round vertical")
     (path /57E93FFA)
@@ -267,7 +267,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 559B82F6) (tstamp 5845959D)
-    (at 99.06 105.41)
+    (at 99.06 76.2)
     (descr "LED 3mm round vertical")
     (tags "LED  3mm round vertical")
     (path /57E93FCF)
@@ -302,7 +302,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 559B82F6) (tstamp 584595AE)
-    (at 105.41 105.41)
+    (at 105.41 76.2)
     (descr "LED 3mm round vertical")
     (tags "LED  3mm round vertical")
     (path /57E93FA3)
@@ -337,7 +337,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 559B82F6) (tstamp 584595BF)
-    (at 111.76 105.41)
+    (at 111.76 76.2)
     (descr "LED 3mm round vertical")
     (tags "LED  3mm round vertical")
     (path /57E93F7E)
@@ -372,7 +372,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 559B82F6) (tstamp 584595D0)
-    (at 118.11 105.41)
+    (at 118.11 76.2)
     (descr "LED 3mm round vertical")
     (tags "LED  3mm round vertical")
     (path /57E93F38)
@@ -407,7 +407,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 559B82F6) (tstamp 584595E1)
-    (at 124.46 105.41)
+    (at 124.46 76.2)
     (descr "LED 3mm round vertical")
     (tags "LED  3mm round vertical")
     (path /57E93ED1)
@@ -442,7 +442,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 559B82F6) (tstamp 584595F2)
-    (at 130.81 105.41)
+    (at 130.81 76.2)
     (descr "LED 3mm round vertical")
     (tags "LED  3mm round vertical")
     (path /57E93CED)
@@ -477,7 +477,7 @@
   )
 
   (module LEDs:LED-3MM (layer F.Cu) (tedit 559B82F6) (tstamp 58459603)
-    (at 137.16 105.41)
+    (at 137.16 76.2)
     (descr "LED 3mm round vertical")
     (tags "LED  3mm round vertical")
     (path /57E93BF0)
@@ -952,7 +952,7 @@
   )
 
   (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 56648415) (tstamp 58459704)
-    (at 93.98 123.19 90)
+    (at 93.98 93.98 90)
     (descr "Resistor, Axial,  RM 10mm, 1/3W")
     (tags "Resistor Axial RM 10mm 1/3W")
     (path /57E98213)
@@ -984,7 +984,7 @@
   )
 
   (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 56648415) (tstamp 58459714)
-    (at 100.33 123.19 90)
+    (at 100.33 93.98 90)
     (descr "Resistor, Axial,  RM 10mm, 1/3W")
     (tags "Resistor Axial RM 10mm 1/3W")
     (path /57E942DE)
@@ -1016,7 +1016,7 @@
   )
 
   (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 56648415) (tstamp 58459724)
-    (at 106.68 123.19 90)
+    (at 106.68 93.98 90)
     (descr "Resistor, Axial,  RM 10mm, 1/3W")
     (tags "Resistor Axial RM 10mm 1/3W")
     (path /57E94316)
@@ -1048,7 +1048,7 @@
   )
 
   (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 56648415) (tstamp 58459734)
-    (at 113.03 123.19 90)
+    (at 113.03 93.98 90)
     (descr "Resistor, Axial,  RM 10mm, 1/3W")
     (tags "Resistor Axial RM 10mm 1/3W")
     (path /57E94362)
@@ -1080,7 +1080,7 @@
   )
 
   (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 56648415) (tstamp 58459744)
-    (at 119.38 123.19 90)
+    (at 119.38 93.98 90)
     (descr "Resistor, Axial,  RM 10mm, 1/3W")
     (tags "Resistor Axial RM 10mm 1/3W")
     (path /57E943BA)
@@ -1112,7 +1112,7 @@
   )
 
   (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 56648415) (tstamp 58459754)
-    (at 125.73 123.19 90)
+    (at 125.73 93.98 90)
     (descr "Resistor, Axial,  RM 10mm, 1/3W")
     (tags "Resistor Axial RM 10mm 1/3W")
     (path /57E94424)
@@ -1144,7 +1144,7 @@
   )
 
   (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 56648415) (tstamp 58459764)
-    (at 132.08 123.19 90)
+    (at 132.08 93.98 90)
     (descr "Resistor, Axial,  RM 10mm, 1/3W")
     (tags "Resistor Axial RM 10mm 1/3W")
     (path /57E94464)
@@ -1176,7 +1176,7 @@
   )
 
   (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 56648415) (tstamp 58459774)
-    (at 138.43 123.19 90)
+    (at 138.43 93.98 90)
     (descr "Resistor, Axial,  RM 10mm, 1/3W")
     (tags "Resistor Axial RM 10mm 1/3W")
     (path /57E944B7)
@@ -1612,7 +1612,7 @@
   )
 
   (module EuroBoard_Outline:EuroBoard160mmX100mm_holes (layer F.Cu) (tedit 0) (tstamp 58459D7C)
-    (at 50.8 54.61 270)
+    (at 50.8 57.15 270)
     (descr "Outline, Eurocard, 100x160mm, with holes 3,5mm,")
     (tags "Outline, Eurocard, 100x160mm, with holes 3,5mm,")
     (fp_text reference REF** (at 78.74 -60.96 270) (layer F.SilkS)
