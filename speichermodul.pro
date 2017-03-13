@@ -1,4 +1,4 @@
-update=Mit 14 Sep 2016 20:45:53 CEST
+update=Mon 13 Mär 2017 14:33:28 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -43,8 +43,6 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -80,3 +78,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=bonsaicomplib/bonsai
+[general]
+version=1
