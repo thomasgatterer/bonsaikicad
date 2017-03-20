@@ -1,7 +1,11 @@
 (export (version D)
   (design
     (source /home/nwboxuser/bonsaikicad/Befehle.sch)
+<<<<<<< HEAD
     (date "Mon 20 Mär 2017 15:55:38 CET")
+=======
+    (date "Mon 20 Mär 2017 15:36:41 CET")
+>>>>>>> e2343dd6e8803c0eef2e0bc8bcfcbbb6aa7f1005
     (tool "Eeschema no-vcs-found-undefined")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -172,7 +176,7 @@
       (tstamp 57E9A030))
     (comp (ref R20)
       (value 330)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 57E9A0AC))
@@ -579,12 +583,20 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
+<<<<<<< HEAD
+=======
+    (library (logical cmos4000)
+      (uri /usr/share/kicad/library/cmos4000.lib))
+>>>>>>> e2343dd6e8803c0eef2e0bc8bcfcbbb6aa7f1005
     (library (logical 74xx)
       (uri /usr/share/kicad/library/74xx.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+<<<<<<< HEAD
     (library (logical cmos4000)
       (uri /usr/share/kicad/library/cmos4000.lib))
+=======
+>>>>>>> e2343dd6e8803c0eef2e0bc8bcfcbbb6aa7f1005
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib)))
   (nets
