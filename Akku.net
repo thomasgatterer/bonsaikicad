@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/nwboxuser/Dokumente/bonsaikicad/Akku.sch)
-    (date "Mon 19 Dez 2016 17:08:54 CET")
+    (source /home/nwboxuser/bonsaikicad/Akku.sch)
+    (date "Mon 20 Mär 2017 15:22:23 CET")
     (tool "Eeschema no-vcs-found-undefined")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -221,6 +221,7 @@
       (tstamp 580F5956))
     (comp (ref R1)
       (value R)
+      (footprint Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 58100242))
@@ -494,14 +495,14 @@
         (pin (num 2) (name 2) (type passive))
         (pin (num 3) (name 3) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
+    (library (logical cmos4000)
+      (uri /usr/share/kicad/library/cmos4000.lib))
     (library (logical 74xx)
       (uri /usr/share/kicad/library/74xx.lib))
-    (library (logical cmos4000)
-      (uri /usr/share/kicad/library/cmos4000.lib)))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name "Net-(U1-Pad13)")
       (node (ref U1) (pin 8))

@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/nwboxuser/bonsaikicad/Befehle.sch)
-    (date "Mon 13 Mär 2017 16:06:12 CET")
-    (tool "Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable")
+    (date "Mon 20 Mär 2017 15:36:41 CET")
+    (tool "Eeschema no-vcs-found-undefined")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -172,7 +172,7 @@
       (tstamp 57E9A030))
     (comp (ref R20)
       (value 330)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 57E9A0AC))
@@ -539,7 +539,7 @@
         (pin (num 19) (name G2) (type input))
         (pin (num 20) (name VCC) (type power_in))))
     (libpart (lib conn) (part CONN_01X07)
-      (description "Connector 01x07")
+      (description "Connector, single row, 01x07")
       (footprints
         (fp Pin_Header_Straight_1X07)
         (fp Pin_Header_Angled_1X07)
@@ -559,8 +559,8 @@
     (libpart (lib device) (part Led_Small)
       (description Led)
       (footprints
-        (fp CP*)
-        (fp SM*))
+        (fp LED-*)
+        (fp LED_*))
       (fields
         (field (name Reference) D)
         (field (name Value) Led_Small))
@@ -579,14 +579,14 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
+    (library (logical cmos4000)
+      (uri /usr/share/kicad/library/cmos4000.lib))
     (library (logical 74xx)
       (uri /usr/share/kicad/library/74xx.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
-    (library (logical cmos4000)
-      (uri /usr/share/kicad/library/cmos4000.lib)))
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name incPCz)
       (node (ref U7) (pin 2))
