@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/nwboxuser/Dokumente/bonsaikicad/Steuerwerk.sch)
-    (date "Mon 12 Dez 2016 16:48:32 CET")
+    (source /home/nwboxuser/bonsaikicad/Steuerwerk.sch)
+    (date "Mon 20 Mär 2017 15:58:12 CET")
     (tool "Eeschema no-vcs-found-undefined")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -154,7 +154,7 @@
       (tstamp 57F3423B))
     (comp (ref R9)
       (value R)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 57F34377))
@@ -933,10 +933,10 @@
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical 74xx)
-      (uri /usr/share/kicad/library/74xx.lib)))
+      (uri /usr/share/kicad/library/74xx.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name "Net-(D23-Pad1)")
       (node (ref U4) (pin 9))
