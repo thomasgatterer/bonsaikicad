@@ -2,7 +2,7 @@
   (design
     (source /home/nwboxuser/bonsaikicad/Befehle.sch)
     (date "Mon 20 Mär 2017 16:44:33 CET")
-    (tool "Eeschema no-vcs-found-ecdfa40~58~ubuntu16.04.1")
+    (tool "Eeschema no-vcs-found-undefined")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -131,7 +131,7 @@
       (tstamp 57E9588C))
     (comp (ref R17)
       (value 10k)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 57E98FC1))
@@ -579,8 +579,23 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    (library (logical cmos4000)
+      (uri /usr/share/kicad/library/cmos4000.lib))
+>>>>>>> e2343dd6e8803c0eef2e0bc8bcfcbbb6aa7f1005
+    (library (logical 74xx)
+      (uri /usr/share/kicad/library/74xx.lib))
+>>>>>>> 29eba0dac9529928228a00f04f930a954ccc33a3
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+<<<<<<< HEAD
+    (library (logical cmos4000)
+      (uri /usr/share/kicad/library/cmos4000.lib))
+=======
+>>>>>>> e2343dd6e8803c0eef2e0bc8bcfcbbb6aa7f1005
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical cmos4000)

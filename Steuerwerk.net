@@ -1,7 +1,11 @@
 (export (version D)
   (design
     (source /home/nwboxuser/bonsaikicad/Steuerwerk.sch)
+<<<<<<< HEAD
+    (date "Mon 20 Mär 2017 15:58:12 CET")
+=======
     (date "Mon 20 Mär 2017 15:32:06 CET")
+>>>>>>> e2343dd6e8803c0eef2e0bc8bcfcbbb6aa7f1005
     (tool "Eeschema no-vcs-found-undefined")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -154,7 +158,7 @@
       (tstamp 57F3423B))
     (comp (ref R9)
       (value R)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 57F34377))
@@ -931,12 +935,21 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
+<<<<<<< HEAD
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical 74xx)
+      (uri /usr/share/kicad/library/74xx.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
+=======
     (library (logical 74xx)
       (uri /usr/share/kicad/library/74xx.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib)))
+>>>>>>> e2343dd6e8803c0eef2e0bc8bcfcbbb6aa7f1005
   (nets
     (net (code 1) (name "Net-(D23-Pad1)")
       (node (ref U4) (pin 9))

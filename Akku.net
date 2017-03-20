@@ -1,7 +1,11 @@
 (export (version D)
   (design
     (source /home/nwboxuser/bonsaikicad/Akku.sch)
+<<<<<<< HEAD
+    (date "Mon 20 Mär 2017 15:54:35 CET")
+=======
     (date "Mon 20 Mär 2017 15:22:23 CET")
+>>>>>>> e2343dd6e8803c0eef2e0bc8bcfcbbb6aa7f1005
     (tool "Eeschema no-vcs-found-undefined")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
