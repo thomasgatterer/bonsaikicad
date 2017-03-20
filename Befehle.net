@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/nwboxuser/bonsaikicad/Befehle.sch)
-    (date "Mon 20 Mär 2017 17:24:33 CET")
-    (tool "Eeschema no-vcs-found-f7632d5~58~ubuntu16.04.1")
+    (date "Mon 20 Mär 2017 16:44:33 CET")
+    (tool "Eeschema no-vcs-found-undefined")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -131,7 +131,7 @@
       (tstamp 57E9588C))
     (comp (ref R14)
       (value 10k)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 57E98FC1))
@@ -609,14 +609,39 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    (library (logical cmos4000)
+      (uri /usr/share/kicad/library/cmos4000.lib))
+>>>>>>> e2343dd6e8803c0eef2e0bc8bcfcbbb6aa7f1005
+    (library (logical 74xx)
+      (uri /usr/share/kicad/library/74xx.lib))
+>>>>>>> 29eba0dac9529928228a00f04f930a954ccc33a3
+>>>>>>> ef3ff4d9e0188f01dd9ad8da8939ae32b5ecf15c
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+<<<<<<< HEAD
+    (library (logical cmos4000)
+      (uri /usr/share/kicad/library/cmos4000.lib))
+=======
+>>>>>>> e2343dd6e8803c0eef2e0bc8bcfcbbb6aa7f1005
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
+<<<<<<< HEAD
     (library (logical 74xx)
       (uri /usr/share/kicad/library/74xx.lib))
     (library (logical cmos4000)
       (uri /usr/share/kicad/library/cmos4000.lib)))
+=======
+    (library (logical cmos4000)
+      (uri /usr/share/kicad/library/cmos4000.lib))
+    (library (logical 74xx)
+      (uri /usr/share/kicad/library/74xx.lib)))
+>>>>>>> ef3ff4d9e0188f01dd9ad8da8939ae32b5ecf15c
   (nets
     (net (code 1) (name "Net-(P2-Pad3)")
       (node (ref U5) (pin 11))
@@ -968,6 +993,7 @@
       (node (ref D11) (pin 2)))
     (net (code 146) (name "Net-(D12-Pad2)")
       (node (ref D12) (pin 2)))
+<<<<<<< HEAD
     (net (code 147) (name "Net-(U4-Pad13)")
       (node (ref U4) (pin 13)))
     (net (code 148) (name "Net-(U4-Pad4)")
@@ -982,3 +1008,24 @@
     (net (code 152) (name "Net-(R7-Pad1)")
       (node (ref U8) (pin 18))
       (node (ref R7) (pin 1)))))
+=======
+    (net (code 131) (name "Net-(D13-Pad2)")
+      (node (ref D13) (pin 2)))
+    (net (code 132) (name "Net-(D9-Pad1)")
+      (node (ref D9) (pin 1))
+      (node (ref R10) (pin 1)))
+    (net (code 133) (name "Net-(U6-Pad10)")
+      (node (ref U6) (pin 10)))
+    (net (code 134) (name "Net-(U6-Pad13)")
+      (node (ref U6) (pin 13)))
+    (net (code 135) (name "Net-(U6-Pad4)")
+      (node (ref U6) (pin 4)))
+    (net (code 136) (name "Net-(U7-Pad10)")
+      (node (ref U7) (pin 6))
+      (node (ref U7) (pin 10)))
+    (net (code 137) (name "Net-(R8-Pad1)")
+      (node (ref R8) (pin 1))
+      (node (ref U2) (pin 18)))
+    (net (code 138) (name "Net-(U7-Pad8)")
+      (node (ref U7) (pin 8)))))
+>>>>>>> ef3ff4d9e0188f01dd9ad8da8939ae32b5ecf15c

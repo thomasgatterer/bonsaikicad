@@ -1,7 +1,11 @@
 (export (version D)
   (design
     (source /home/nwboxuser/bonsaikicad/EinTaktReset.sch)
+<<<<<<< HEAD
+    (date "Mon 20 Mär 2017 15:56:35 CET")
+=======
     (date "Mon 20 Mär 2017 15:30:27 CET")
+>>>>>>> e2343dd6e8803c0eef2e0bc8bcfcbbb6aa7f1005
     (tool "Eeschema no-vcs-found-undefined")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -310,10 +314,17 @@
   (libraries
     (library (logical 74xx)
       (uri /usr/share/kicad/library/74xx.lib))
+<<<<<<< HEAD
+    (library (logical cmos4000)
+      (uri /usr/share/kicad/library/cmos4000.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib)))
+=======
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical cmos4000)
       (uri /usr/share/kicad/library/cmos4000.lib)))
+>>>>>>> e2343dd6e8803c0eef2e0bc8bcfcbbb6aa7f1005
   (nets
     (net (code 1) (name "Net-(U1-Pad3)")
       (node (ref U1) (pin 3))
