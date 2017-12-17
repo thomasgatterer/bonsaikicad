@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/nwboxuser/Schreibtisch/bonsaikicad/Befehle.sch)
-    (date "Mit 06 Dez 2017 15:38:46 CET")
+    (date "Mit 13 Dez 2017 14:56:25 CET")
     (tool "Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -341,6 +341,7 @@
       (tstamp 5A282C7C))
     (comp (ref U1)
       (value 74LS14)
+      (footprint Housings_DIP:DIP-14_W7.62mm_Socket_LongPads)
       (libsource (lib 74xx) (part 74LS14))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A2A45AB)))
@@ -590,12 +591,12 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical 74xx)
-      (uri /usr/share/kicad/library/74xx.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical 74xx)
+      (uri /usr/share/kicad/library/74xx.lib))
     (library (logical 74540)
       (uri /home/nwboxuser/Schreibtisch/bonsaikicad/74540.lib)))
   (nets
