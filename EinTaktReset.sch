@@ -729,12 +729,12 @@ $EndComp
 $Comp
 L CONN_02X10 P?
 U 1 1 5A28337D
-P 6150 1050
-F 0 "P?" H 6150 1600 50  0000 C CNN
-F 1 "CONN_02X10" V 6150 1050 50  0000 C CNN
-F 2 "" H 6150 -150 50  0000 C CNN
-F 3 "" H 6150 -150 50  0000 C CNN
-	1    6150 1050
+P 6150 1100
+F 0 "P?" H 6150 1650 50  0000 C CNN
+F 1 "CONN_02X10" V 6150 1100 50  0000 C CNN
+F 2 "" H 6150 -100 50  0000 C CNN
+F 3 "" H 6150 -100 50  0000 C CNN
+	1    6150 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1485,7 +1485,7 @@ Entry Wire Line
 Entry Wire Line
 	2100 1450 2200 1550
 Wire Bus Line
-	3950 1000 2200 1000
+	2200 1000 5650 1000
 Wire Bus Line
 	2200 850  2200 1550
 Text Label 2050 750  2    60   ~ 0
@@ -1504,4 +1504,124 @@ Text Label 2050 1350 2    60   ~ 0
 a6
 Text Label 2050 1450 2    60   ~ 0
 a7
+Wire Wire Line
+	1950 650  2050 650 
+Wire Wire Line
+	2050 650  2050 500 
+Wire Wire Line
+	2050 500  1450 500 
+Wire Wire Line
+	1450 500  1450 1700
+Connection ~ 1450 650 
+Connection ~ 1450 750 
+Connection ~ 1450 850 
+Connection ~ 1450 950 
+Connection ~ 1450 1050
+Connection ~ 1450 1150
+Connection ~ 1450 1250
+Connection ~ 1450 1350
+Connection ~ 1450 1450
+Wire Wire Line
+	1950 1550 2050 1550
+Wire Wire Line
+	2050 1550 2050 1700
+Wire Wire Line
+	2050 1700 1450 1700
+Connection ~ 1450 1550
+$Comp
+L GND #PWR?
+U 1 1 5A384C6C
+P 1700 1700
+F 0 "#PWR?" H 1700 1450 50  0001 C CNN
+F 1 "GND" H 1700 1550 50  0000 C CNN
+F 2 "" H 1700 1700 50  0001 C CNN
+F 3 "" H 1700 1700 50  0001 C CNN
+	1    1700 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 650  5750 650 
+Wire Wire Line
+	5900 750  5750 750 
+Wire Wire Line
+	5900 850  5750 850 
+Wire Wire Line
+	5900 950  5750 950 
+Wire Wire Line
+	5900 1050 5750 1050
+Wire Wire Line
+	5900 1150 5750 1150
+Wire Wire Line
+	5900 1250 5750 1250
+Wire Wire Line
+	5750 650  5750 500 
+Wire Wire Line
+	5750 500  6400 500 
+Wire Wire Line
+	6400 500  6400 1700
+Wire Wire Line
+	5900 1350 5750 1350
+Wire Wire Line
+	5900 1450 5750 1450
+Wire Wire Line
+	5900 1550 5750 1550
+Connection ~ 6400 650 
+Connection ~ 6400 750 
+Connection ~ 6400 850 
+Connection ~ 6400 950 
+Connection ~ 6400 1050
+Connection ~ 6400 1150
+Connection ~ 6400 1250
+Connection ~ 6400 1350
+Connection ~ 6400 1450
+Wire Wire Line
+	6400 1700 5750 1700
+Wire Wire Line
+	5750 1700 5750 1550
+Connection ~ 6400 1550
+Entry Wire Line
+	5650 650  5750 750 
+Entry Wire Line
+	5650 750  5750 850 
+Entry Wire Line
+	5650 850  5750 950 
+Entry Wire Line
+	5650 950  5750 1050
+Entry Wire Line
+	5650 1050 5750 1150
+Entry Wire Line
+	5650 1150 5750 1250
+Entry Wire Line
+	5650 1250 5750 1350
+Entry Wire Line
+	5650 1350 5750 1450
+Wire Bus Line
+	5650 650  5650 1350
+Text Label 5800 750  0    60   ~ 0
+a0
+Text Label 5800 850  0    60   ~ 0
+a1
+Text Label 5800 950  0    60   ~ 0
+a2
+Text Label 5800 1050 0    60   ~ 0
+a3
+Text Label 5800 1150 0    60   ~ 0
+a4
+Text Label 5800 1250 0    60   ~ 0
+a5
+Text Label 5800 1350 0    60   ~ 0
+a6
+Text Label 5800 1450 0    60   ~ 0
+a7
+$Comp
+L GND #PWR?
+U 1 1 5A389DC9
+P 6100 1700
+F 0 "#PWR?" H 6100 1450 50  0001 C CNN
+F 1 "GND" H 6100 1550 50  0000 C CNN
+F 2 "" H 6100 1700 50  0001 C CNN
+F 3 "" H 6100 1700 50  0001 C CNN
+	1    6100 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
