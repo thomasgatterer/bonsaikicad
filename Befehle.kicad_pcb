@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4+e1-6308~48~ubuntu16.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 82)
     (no_connects 82)
-    (area 0 0 0 0)
+    (area 17.932 17.409819 119.83 180.288)
     (thickness 1.6)
     (drawings 0)
     (tracks 34)
@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -1514,7 +1514,7 @@
   )
 
   (module Housings_DIP:DIP-14_W7.62mm_Socket_LongPads (layer F.Cu) (tedit 59C78D6B) (tstamp 5A27FADF)
-    (at 34.29 144.78)
+    (at 33.02 144.78)
     (descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket, LongPads")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
     (path /57F3278C)

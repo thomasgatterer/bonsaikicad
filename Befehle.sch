@@ -50,7 +50,7 @@ U 1 1 57E93BBB
 P -4550 200
 F 0 "R7" V -4550 200 50  0000 C CNN
 F 1 "330" V -4550 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4600 -1700 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4550 -1750 50  0000 C CNN
 F 3 "" H -4550 200 50  0000 C CNN
 	1    -4550 200 
 	-1   0    0    1   
@@ -61,7 +61,7 @@ U 1 1 57E93CDA
 P -4450 200
 F 0 "R8" V -4450 200 50  0000 C CNN
 F 1 "330" V -4450 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4500 -1700 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4450 -1750 50  0000 C CNN
 F 3 "" H -4450 200 50  0000 C CNN
 	1    -4450 200 
 	-1   0    0    1   
@@ -72,7 +72,7 @@ U 1 1 57E93D22
 P -4350 200
 F 0 "R10" V -4350 200 50  0000 C CNN
 F 1 "330" V -4350 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4400 -1700 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4350 -1750 50  0000 C CNN
 F 3 "" H -4350 200 50  0000 C CNN
 	1    -4350 200 
 	-1   0    0    1   
@@ -83,7 +83,7 @@ U 1 1 57E93D69
 P -4250 200
 F 0 "R11" V -4250 200 50  0000 C CNN
 F 1 "330" V -4250 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4300 -1700 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4250 -1750 50  0000 C CNN
 F 3 "" H -4250 200 50  0000 C CNN
 	1    -4250 200 
 	-1   0    0    1   
@@ -94,7 +94,7 @@ U 1 1 57E93DAB
 P -4150 200
 F 0 "R12" V -4150 200 50  0000 C CNN
 F 1 "330" V -4150 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4200 -1700 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4150 -1750 50  0000 C CNN
 F 3 "" H -4150 200 50  0000 C CNN
 	1    -4150 200 
 	-1   0    0    1   
@@ -105,7 +105,7 @@ U 1 1 57E93DE4
 P -4050 200
 F 0 "R13" V -4050 200 50  0000 C CNN
 F 1 "330" V -4050 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4100 -1700 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4050 -1750 50  0000 C CNN
 F 3 "" H -4050 200 50  0000 C CNN
 	1    -4050 200 
 	-1   0    0    1   
@@ -116,7 +116,7 @@ U 1 1 57E93E32
 P -3950 200
 F 0 "R15" V -3950 200 50  0000 C CNN
 F 1 "330" V -3950 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4000 -1700 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -3950 -1750 50  0000 C CNN
 F 3 "" H -3950 200 50  0000 C CNN
 	1    -3950 200 
 	-1   0    0    1   
@@ -127,7 +127,7 @@ U 1 1 57E93E85
 P -3850 200
 F 0 "R18" V -3850 200 50  0000 C CNN
 F 1 "330" V -3850 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -3900 -1700 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -3850 -1750 50  0000 C CNN
 F 3 "" H -3850 200 50  0000 C CNN
 	1    -3850 200 
 	-1   0    0    1   
@@ -226,7 +226,7 @@ U 1 1 57E94D2E
 P -6400 4000
 F 0 "U6" H -6400 3234 50  0000 C CNN
 F 1 "74LS373" H -6400 3325 50  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -6400 4000 50  0000 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" V -6400 4000 50  0000 C CNN
 F 3 "" H -6400 4000 50  0000 C CNN
 	1    -6400 4000
 	0    -1   -1   0   
@@ -237,7 +237,7 @@ U 1 1 57E94F18
 P -6400 1200
 F 0 "U5" H -6400 434 50  0000 C CNN
 F 1 "74LS541" H -6400 525 50  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -6400 1200 50  0000 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" V -6200 1200 50  0000 C CNN
 F 3 "" H -6400 1200 50  0000 C CNN
 	1    -6400 1200
 	0    -1   -1   0   
@@ -301,9 +301,9 @@ $Comp
 L R R21
 U 1 1 57E99EFD
 P -3350 9050
-F 0 "R21" V -3557 9050 50  0000 C CNN
-F 1 "330" V -3466 9050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -3420 9050 50  0000 C CNN
+F 0 "R21" V -3350 9050 50  0000 C CNN
+F 1 "330" V -3450 9050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -3350 10500 50  0000 C CNN
 F 3 "" H -3350 9050 50  0000 C CNN
 	1    -3350 9050
 	-1   0    0    1   
@@ -312,9 +312,9 @@ $Comp
 L R R17
 U 1 1 57E9A030
 P -3900 9050
-F 0 "R17" V -4107 9050 50  0000 C CNN
-F 1 "330" V -4016 9050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -3970 9050 50  0000 C CNN
+F 0 "R17" V -3900 9050 50  0000 C CNN
+F 1 "330" V -4000 9050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -3900 10500 50  0000 C CNN
 F 3 "" H -3900 9050 50  0000 C CNN
 	1    -3900 9050
 	-1   0    0    1   
@@ -323,9 +323,9 @@ $Comp
 L R R9
 U 1 1 57E9A0AC
 P -4400 9050
-F 0 "R9" V -4607 9050 50  0000 C CNN
-F 1 "330" V -4516 9050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -4470 9050 50  0000 C CNN
+F 0 "R9" V -4400 9050 50  0000 C CNN
+F 1 "330" V -4500 9050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -4400 10500 50  0000 C CNN
 F 3 "" H -4400 9050 50  0000 C CNN
 	1    -4400 9050
 	-1   0    0    1   
@@ -334,9 +334,9 @@ $Comp
 L R R6
 U 1 1 57E9A129
 P -4850 9050
-F 0 "R6" V -5057 9050 50  0000 C CNN
-F 1 "330" V -4966 9050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -4920 9050 50  0000 C CNN
+F 0 "R6" V -4850 9050 50  0000 C CNN
+F 1 "330" V -4950 9050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -4850 10500 50  0000 C CNN
 F 3 "" H -4850 9050 50  0000 C CNN
 	1    -4850 9050
 	-1   0    0    1   
@@ -347,7 +347,7 @@ U 1 1 57E9A417
 P -3350 9300
 F 0 "D21" H -3350 9443 50  0000 C CNN
 F 1 "LED" H -3350 9186 50  0001 C CNN
-F 2 "LEDs:LED-3MM" V -3350 9300 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H -3500 9200 50  0000 C CNN
 F 3 "" V -3350 9300 50  0000 C CNN
 	1    -3350 9300
 	0    1    1    0   
@@ -358,7 +358,7 @@ U 1 1 57E9A814
 P -3900 9300
 F 0 "D17" H -3900 9443 50  0000 C CNN
 F 1 "LED" H -3900 9186 50  0001 C CNN
-F 2 "LEDs:LED-3MM" V -3900 9300 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H -4050 9200 50  0000 C CNN
 F 3 "" V -3900 9300 50  0000 C CNN
 	1    -3900 9300
 	0    1    1    0   
@@ -369,7 +369,7 @@ U 1 1 57E9A89E
 P -4400 9300
 F 0 "D7" H -4400 9443 50  0000 C CNN
 F 1 "LED" H -4400 9186 50  0001 C CNN
-F 2 "LEDs:LED-3MM" V -4400 9300 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H -4550 9200 50  0000 C CNN
 F 3 "" V -4400 9300 50  0000 C CNN
 	1    -4400 9300
 	0    1    1    0   
@@ -378,9 +378,9 @@ $Comp
 L Led_Small D4
 U 1 1 57E9A927
 P -4850 9300
-F 0 "D4" H -4850 9443 50  0000 C CNN
+F 0 "D4" H -4850 9450 50  0000 C CNN
 F 1 "LED" H -4850 9186 50  0001 C CNN
-F 2 "LEDs:LED-3MM" V -4850 9300 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H -5000 9200 50  0000 C CNN
 F 3 "" V -4850 9300 50  0000 C CNN
 	1    -4850 9300
 	0    1    1    0   
@@ -391,7 +391,7 @@ U 1 1 57F2C440
 P -7700 4500
 F 0 "U4" H -7700 4550 50  0000 C CNN
 F 1 "74HCT02" H -7650 4450 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -7700 4500 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8250 4750 50  0000 C CNN
 F 3 "" H -7700 4500 50  0000 C CNN
 	1    -7700 4500
 	-1   0    0    1   
@@ -402,7 +402,7 @@ U 2 1 57F2C605
 P -7700 5050
 F 0 "U4" H -7700 5100 50  0000 C CNN
 F 1 "74HCT02" H -7650 5000 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -7700 5050 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8250 5300 50  0000 C CNN
 F 3 "" H -7700 5050 50  0000 C CNN
 	2    -7700 5050
 	-1   0    0    1   
@@ -413,7 +413,7 @@ U 3 1 57F2C694
 P -7700 5600
 F 0 "U4" H -7700 5650 50  0000 C CNN
 F 1 "74HCT02" H -7650 5550 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -7700 5600 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8250 5850 50  0000 C CNN
 F 3 "" H -7700 5600 50  0000 C CNN
 	3    -7700 5600
 	-1   0    0    1   
@@ -424,7 +424,7 @@ U 4 1 57F2C76F
 P -7700 6150
 F 0 "U4" H -7700 6200 50  0000 C CNN
 F 1 "74HCT02" H -7650 6100 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -7700 6150 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8250 6450 50  0000 C CNN
 F 3 "" H -7700 6150 50  0000 C CNN
 	4    -7700 6150
 	-1   0    0    1   
@@ -435,7 +435,7 @@ U 1 1 57E93AFB
 P -4050 1050
 F 0 "U8" H -4050 284 50  0000 C CNN
 F 1 "74LS540" H -4050 375 50  0000 C CNN
-F 2 "Housings_DIP:DIP-18_W7.62mm_Socket_LongPads" V -4050 1050 50  0000 C CNN
+F 2 "Housings_DIP:DIP-18_W7.62mm_Socket_LongPads" V -3850 1050 50  0000 C CNN
 F 3 "" H -4050 1050 50  0000 C CNN
 	1    -4050 1050
 	0    -1   -1   0   
@@ -446,7 +446,7 @@ U 2 1 57F3278C
 P -8400 7250
 F 0 "U3" H -8400 7300 50  0000 C CNN
 F 1 "7400" H -8400 7150 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8400 7250 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8700 7500 50  0000 C CNN
 F 3 "" H -8400 7250 50  0000 C CNN
 	2    -8400 7250
 	0    1    1    0   
@@ -457,7 +457,7 @@ U 3 1 57F32988
 P -8300 8450
 F 0 "U3" H -8300 8500 50  0000 C CNN
 F 1 "7400" H -8300 8350 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8300 8450 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8650 8750 50  0000 C CNN
 F 3 "" H -8300 8450 50  0000 C CNN
 	3    -8300 8450
 	0    1    1    0   
@@ -468,7 +468,7 @@ U 4 1 57F32A39
 P -7650 8850
 F 0 "U3" H -7650 8900 50  0000 C CNN
 F 1 "7400" H -7650 8750 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -7650 8850 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -7650 9100 50  0000 C CNN
 F 3 "" H -7650 8850 50  0000 C CNN
 	4    -7650 8850
 	0    1    1    0   
@@ -479,7 +479,7 @@ U 1 1 57F331B6
 P -8650 6050
 F 0 "U3" H -8650 6100 50  0000 C CNN
 F 1 "7400" H -8650 5950 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8650 6050 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8800 6300 50  0000 C CNN
 F 3 "" H -8650 6050 50  0000 C CNN
 	1    -8650 6050
 	0    1    1    0   
@@ -488,9 +488,9 @@ $Comp
 L R R4
 U 1 1 57F34F54
 P -8300 3850
-F 0 "R4" V -8220 3850 50  0000 C CNN
-F 1 "1k" V -8300 3850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -8370 3850 50  0000 C CNN
+F 0 "R4" V -8300 3850 50  0000 C CNN
+F 1 "1k" V -8400 3850 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H -8300 4100 50  0000 C CNN
 F 3 "" H -8300 3850 50  0000 C CNN
 	1    -8300 3850
 	-1   0    0    1   
@@ -499,9 +499,9 @@ $Comp
 L R R3
 U 1 1 57FBEFF9
 P -8800 2000
-F 0 "R3" V -8720 2000 50  0000 C CNN
-F 1 "330" V -8800 2000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -8870 2000 50  0000 C CNN
+F 0 "R3" V -8800 2000 50  0000 C CNN
+F 1 "330" V -8900 2000 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -9100 2050 50  0000 C CNN
 F 3 "" H -8800 2000 50  0000 C CNN
 	1    -8800 2000
 	-1   0    0    1   
@@ -512,7 +512,7 @@ U 1 1 57FBF0ED
 P -8800 2250
 F 0 "D2" H -8850 2375 50  0000 L CNN
 F 1 "Led_Small" H -8975 2150 50  0000 L CNN
-F 2 "LEDs:LED-3MM" V -8800 2250 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H -8800 2050 50  0000 C CNN
 F 3 "" V -8800 2250 50  0000 C CNN
 	1    -8800 2250
 	0    1    1    0   
@@ -532,9 +532,9 @@ $Comp
 L R R1
 U 1 1 57FBF2F2
 P -9700 1100
-F 0 "R1" V -9620 1100 50  0000 C CNN
-F 1 "4,7k" V -9700 1100 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -9770 1100 50  0000 C CNN
+F 0 "R1" V -9700 1100 50  0000 C CNN
+F 1 "4,7k" V -9800 1100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -9500 2050 50  0000 C CNN
 F 3 "" H -9700 1100 50  0000 C CNN
 	1    -9700 1100
 	-1   0    0    1   
@@ -722,9 +722,9 @@ $Comp
 L R 4,7k3
 U 1 1 580F54F3
 P -8700 8250
-F 0 "4,7k3" V -8620 8250 50  0000 C CNN
+F 0 "4,7k3" V -8800 8250 50  0000 C CNN
 F 1 "R" V -8700 8250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -8770 8250 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -8550 8200 50  0000 C CNN
 F 3 "" H -8700 8250 50  0000 C CNN
 	1    -8700 8250
 	-1   0    0    -1  
@@ -748,7 +748,7 @@ U 1 1 582A32C5
 P -9150 5750
 F 0 "4,7k1" V -9070 5750 50  0000 C CNN
 F 1 "R" V -9150 5750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -9220 5750 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -9300 5150 50  0000 C CNN
 F 3 "" H -9150 5750 50  0000 C CNN
 	1    -9150 5750
 	-1   0    0    -1  
@@ -768,9 +768,9 @@ $Comp
 L R R2
 U 1 1 582AA727
 P -9350 4650
-F 0 "R2" V -9557 4650 50  0000 C CNN
-F 1 "330" V -9466 4650 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -9420 4650 50  0000 C CNN
+F 0 "R2" V -9350 4650 50  0000 C CNN
+F 1 "330" V -9450 4650 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -9150 3850 50  0000 C CNN
 F 3 "" H -9350 4650 50  0000 C CNN
 	1    -9350 4650
 	-1   0    0    1   
@@ -779,9 +779,9 @@ $Comp
 L Led_Small D1
 U 1 1 582AC971
 P -9350 4900
-F 0 "D1" H -9350 5043 50  0000 C CNN
+F 0 "D1" H -9350 5000 50  0000 C CNN
 F 1 "LED" H -9350 4786 50  0001 C CNN
-F 2 "LEDs:LED-3MM" V -9350 4900 50  0000 C CNN
+F 2 "LEDs:LED-3MM" V -9200 4900 50  0000 C CNN
 F 3 "" V -9350 4900 50  0000 C CNN
 	1    -9350 4900
 	0    1    1    0   
@@ -803,9 +803,9 @@ $Comp
 L R 4,7k2
 U 1 1 582B55B4
 P -8850 3450
-F 0 "4,7k2" V -8770 3450 50  0000 C CNN
+F 0 "4,7k2" V -8950 3450 50  0000 C CNN
 F 1 "R" V -8850 3450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -8920 3450 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H -9200 3650 50  0000 C CNN
 F 3 "" H -8850 3450 50  0000 C CNN
 	1    -8850 3450
 	-1   0    0    -1  
@@ -825,9 +825,9 @@ $Comp
 L R R5
 U 1 1 582B6652
 P -7400 2350
-F 0 "R5" V -7320 2350 50  0000 C CNN
-F 1 "330" V -7400 2350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -7470 2350 50  0000 C CNN
+F 0 "R5" V -7400 2350 50  0000 C CNN
+F 1 "330" V -7500 2350 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H -7050 2100 50  0000 C CNN
 F 3 "" H -7400 2350 50  0000 C CNN
 	1    -7400 2350
 	0    -1   -1   0   
@@ -838,7 +838,7 @@ U 1 1 582B68A1
 P -7700 2350
 F 0 "D3" H -7700 2493 50  0000 C CNN
 F 1 "LED" H -7700 2236 50  0001 C CNN
-F 2 "LEDs:LED-3MM" V -7700 2350 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H -7700 2200 50  0000 C CNN
 F 3 "" V -7700 2350 50  0000 C CNN
 	1    -7700 2350
 	1    0    0    -1  
@@ -1523,7 +1523,7 @@ U 2 1 5A2A45AB
 P -8800 1400
 F 0 "U1" H -8650 1500 50  0000 C CNN
 F 1 "74LS14" H -8600 1300 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8800 1400 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -10400 1400 50  0000 C CNN
 F 3 "" H -8800 1400 50  0000 C CNN
 	2    -8800 1400
 	0    1    1    0   
@@ -1534,7 +1534,7 @@ U 1 1 5A2A5408
 P -9250 950
 F 0 "U1" H -9100 1050 50  0000 C CNN
 F 1 "74LS14" H -9050 850 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -9250 950 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" V -9250 2100 50  0000 C CNN
 F 3 "" H -9250 950 50  0000 C CNN
 	1    -9250 950 
 	1    0    0    -1  
@@ -1545,7 +1545,7 @@ U 3 1 5A2A55C6
 P -8300 950
 F 0 "U1" H -8150 1050 50  0000 C CNN
 F 1 "74LS14" H -8100 850 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" V -8350 1100 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" V -8300 2100 50  0000 C CNN
 F 3 "" H -8300 950 50  0000 C CNN
 	3    -8300 950 
 	1    0    0    -1  
