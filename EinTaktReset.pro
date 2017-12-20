@@ -1,5 +1,5 @@
 
-update=Son 17 Dez 2017 07:24:53 CET
+update=Mit 20 Dez 2017 16:02:04 CET
 
 version=1
 last_client=kicad
@@ -25,8 +25,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -63,3 +61,6 @@ LibName29=contrib
 LibName30=valves
 LibName31=vco
 LibName32=74540
+LibName33=bonsaicomplib/bonsai
+[general]
+version=1
