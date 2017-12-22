@@ -1,4 +1,4 @@
-update=Fre 22 Dez 2017 18:34:11 CET
+update=Fre 22 Dez 2017 18:34:08 CET
 version=1
 last_client=eeschema
 [cvpcb]
@@ -48,3 +48,5 @@ version=1
 [eeschema]
 version=1
 LibDir=
+[eeschema/libraries]
+LibName1=speichermodul-rescue
