@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:74540
+EESchema Schematic File Version 4
 LIBS:Befehle-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R7
+L device:R R7
 U 1 1 57E93BBB
 P -4550 200
 F 0 "R7" V -4550 200 50  0000 C CNN
@@ -56,7 +26,7 @@ F 3 "" H -4550 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R8
+L device:R R8
 U 1 1 57E93CDA
 P -4450 200
 F 0 "R8" V -4450 200 50  0000 C CNN
@@ -67,7 +37,7 @@ F 3 "" H -4450 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R10
+L device:R R10
 U 1 1 57E93D22
 P -4350 200
 F 0 "R10" V -4350 200 50  0000 C CNN
@@ -78,7 +48,7 @@ F 3 "" H -4350 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R11
+L device:R R11
 U 1 1 57E93D69
 P -4250 200
 F 0 "R11" V -4250 200 50  0000 C CNN
@@ -89,7 +59,7 @@ F 3 "" H -4250 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R12
+L device:R R12
 U 1 1 57E93DAB
 P -4150 200
 F 0 "R12" V -4150 200 50  0000 C CNN
@@ -100,7 +70,7 @@ F 3 "" H -4150 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R13
+L device:R R13
 U 1 1 57E93DE4
 P -4050 200
 F 0 "R13" V -4050 200 50  0000 C CNN
@@ -111,7 +81,7 @@ F 3 "" H -4050 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R15
+L device:R R15
 U 1 1 57E93E32
 P -3950 200
 F 0 "R15" V -3950 200 50  0000 C CNN
@@ -122,7 +92,7 @@ F 3 "" H -3950 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R18
+L device:R R18
 U 1 1 57E93E85
 P -3850 200
 F 0 "R18" V -3850 200 50  0000 C CNN
@@ -133,7 +103,7 @@ F 3 "" H -3850 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Led_Small D5
+L bonsai:Led_Small D5
 U 1 1 57E94020
 P -4550 -50
 F 0 "D5" H -4450 -50 50  0000 C CNN
@@ -144,7 +114,7 @@ F 3 "" V -4550 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Led_Small D6
+L bonsai:Led_Small D6
 U 1 1 57E94088
 P -4450 -50
 F 0 "D6" H -4350 -50 50  0000 C CNN
@@ -155,7 +125,7 @@ F 3 "" V -4450 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Led_Small D8
+L bonsai:Led_Small D8
 U 1 1 57E940D8
 P -4350 -50
 F 0 "D8" H -4250 -50 50  0000 C CNN
@@ -166,7 +136,7 @@ F 3 "" V -4350 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Led_Small D9
+L bonsai:Led_Small D9
 U 1 1 57E9412E
 P -4250 -50
 F 0 "D9" H -4150 -50 50  0000 C CNN
@@ -177,7 +147,7 @@ F 3 "" V -4250 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Led_Small D10
+L bonsai:Led_Small D10
 U 1 1 57E94186
 P -4150 -50
 F 0 "D10" H -4050 -50 50  0000 C CNN
@@ -188,7 +158,7 @@ F 3 "" V -4150 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Led_Small D13
+L bonsai:Led_Small D13
 U 1 1 57E941E2
 P -4050 -50
 F 0 "D13" H -3950 -50 50  0000 C CNN
@@ -199,7 +169,7 @@ F 3 "" V -4050 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Led_Small D14
+L bonsai:Led_Small D14
 U 1 1 57E94242
 P -3950 -50
 F 0 "D14" H -3850 -50 50  0000 C CNN
@@ -210,7 +180,7 @@ F 3 "" V -3950 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Led_Small D18
+L bonsai:Led_Small D18
 U 1 1 57E942A6
 P -3850 -50
 F 0 "D18" H -3750 -50 50  0000 C CNN
@@ -221,7 +191,7 @@ F 3 "" V -3850 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74LS373 U6
+L 74xx:74LS373 U6
 U 1 1 57E94D2E
 P -6400 4000
 F 0 "U6" H -6400 3234 50  0000 C CNN
@@ -232,7 +202,7 @@ F 3 "" H -6400 4000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74LS541 U5
+L 74xx:74LS541 U5
 U 1 1 57E94F18
 P -6400 1200
 F 0 "U5" H -6400 434 50  0000 C CNN
@@ -243,7 +213,7 @@ F 3 "" H -6400 1200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74LS139 U7
+L 74xx:74LS139 U7
 U 1 1 57E9588C
 P -5000 6100
 F 0 "U7" V -4954 5657 50  0000 R CNN
@@ -254,7 +224,7 @@ F 3 "" H -5000 6100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14
+L device:R R14
 U 1 1 57E98FC1
 P -4050 5250
 F 0 "R14" V -4050 5250 50  0000 C CNN
@@ -265,7 +235,7 @@ F 3 "" H -4050 5250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R16
+L device:R R16
 U 1 1 57E992B4
 P -3900 5250
 F 0 "R16" V -3900 5250 50  0000 C CNN
@@ -276,7 +246,7 @@ F 3 "" H -3900 5250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R19
+L device:R R19
 U 1 1 57E99353
 P -3750 5250
 F 0 "R19" V -3750 5250 50  0000 C CNN
@@ -287,7 +257,7 @@ F 3 "" H -3750 5250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R20
+L device:R R20
 U 1 1 57E993B7
 P -3600 5250
 F 0 "R20" V -3600 5250 50  0000 C CNN
@@ -298,7 +268,7 @@ F 3 "" H -3600 5250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R21
+L device:R R21
 U 1 1 57E99EFD
 P -3350 9050
 F 0 "R21" V -3350 9050 50  0000 C CNN
@@ -309,7 +279,7 @@ F 3 "" H -3350 9050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R17
+L device:R R17
 U 1 1 57E9A030
 P -3900 9050
 F 0 "R17" V -3900 9050 50  0000 C CNN
@@ -320,7 +290,7 @@ F 3 "" H -3900 9050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R9
+L device:R R9
 U 1 1 57E9A0AC
 P -4400 9050
 F 0 "R9" V -4400 9050 50  0000 C CNN
@@ -331,7 +301,7 @@ F 3 "" H -4400 9050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R6
+L device:R R6
 U 1 1 57E9A129
 P -4850 9050
 F 0 "R6" V -4850 9050 50  0000 C CNN
@@ -342,7 +312,7 @@ F 3 "" H -4850 9050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Led_Small D21
+L bonsai:Led_Small D21
 U 1 1 57E9A417
 P -3350 9300
 F 0 "D21" H -3350 9443 50  0000 C CNN
@@ -353,7 +323,7 @@ F 3 "" V -3350 9300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Led_Small D17
+L bonsai:Led_Small D17
 U 1 1 57E9A814
 P -3900 9300
 F 0 "D17" H -3900 9443 50  0000 C CNN
@@ -364,7 +334,7 @@ F 3 "" V -3900 9300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Led_Small D7
+L bonsai:Led_Small D7
 U 1 1 57E9A89E
 P -4400 9300
 F 0 "D7" H -4400 9443 50  0000 C CNN
@@ -375,7 +345,7 @@ F 3 "" V -4400 9300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Led_Small D4
+L bonsai:Led_Small D4
 U 1 1 57E9A927
 P -4850 9300
 F 0 "D4" H -4850 9450 50  0000 C CNN
@@ -386,7 +356,7 @@ F 3 "" V -4850 9300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74HCT02 U4
+L 74xx:74HCT02 U4
 U 1 1 57F2C440
 P -7700 4500
 F 0 "U4" H -7700 4550 50  0000 C CNN
@@ -397,7 +367,7 @@ F 3 "" H -7700 4500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74HCT02 U4
+L 74xx:74HCT02 U4
 U 2 1 57F2C605
 P -7700 5050
 F 0 "U4" H -7700 5100 50  0000 C CNN
@@ -408,7 +378,7 @@ F 3 "" H -7700 5050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74HCT02 U4
+L 74xx:74HCT02 U4
 U 3 1 57F2C694
 P -7700 5600
 F 0 "U4" H -7700 5650 50  0000 C CNN
@@ -419,7 +389,7 @@ F 3 "" H -7700 5600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74HCT02 U4
+L 74xx:74HCT02 U4
 U 4 1 57F2C76F
 P -7700 6150
 F 0 "U4" H -7700 6200 50  0000 C CNN
@@ -430,7 +400,7 @@ F 3 "" H -7700 6150 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74LS540 U8
+L 74xx:74LS540 U8
 U 1 1 57E93AFB
 P -4050 1050
 F 0 "U8" H -4050 284 50  0000 C CNN
@@ -441,7 +411,7 @@ F 3 "" H -4050 1050 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 7400 U3
+L 74xx:7400 U3
 U 2 1 57F3278C
 P -8400 7250
 F 0 "U3" H -8400 7300 50  0000 C CNN
@@ -452,7 +422,7 @@ F 3 "" H -8400 7250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 7400 U3
+L 74xx:7400 U3
 U 3 1 57F32988
 P -8300 8450
 F 0 "U3" H -8300 8500 50  0000 C CNN
@@ -463,7 +433,7 @@ F 3 "" H -8300 8450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 7400 U3
+L 74xx:7400 U3
 U 4 1 57F32A39
 P -7650 8850
 F 0 "U3" H -7650 8900 50  0000 C CNN
@@ -474,7 +444,7 @@ F 3 "" H -7650 8850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 7400 U3
+L 74xx:7400 U3
 U 1 1 57F331B6
 P -8650 6050
 F 0 "U3" H -8650 6100 50  0000 C CNN
@@ -485,7 +455,7 @@ F 3 "" H -8650 6050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L device:R R4
 U 1 1 57F34F54
 P -8300 3850
 F 0 "R4" V -8300 3850 50  0000 C CNN
@@ -496,7 +466,7 @@ F 3 "" H -8300 3850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R3
+L device:R R3
 U 1 1 57FBEFF9
 P -8800 2000
 F 0 "R3" V -8800 2000 50  0000 C CNN
@@ -507,7 +477,7 @@ F 3 "" H -8800 2000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Led_Small D2
+L bonsai:Led_Small D2
 U 1 1 57FBF0ED
 P -8800 2250
 F 0 "D2" H -8850 2375 50  0000 L CNN
@@ -518,7 +488,7 @@ F 3 "" V -8800 2250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR01
+L power:VCC #PWR01
 U 1 1 57FBF211
 P -8800 2450
 F 0 "#PWR01" H -8800 2300 50  0001 C CNN
@@ -529,7 +499,7 @@ F 3 "" H -8800 2450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R1
+L device:R R1
 U 1 1 57FBF2F2
 P -9700 1100
 F 0 "R1" V -9700 1100 50  0000 C CNN
@@ -540,7 +510,7 @@ F 3 "" H -9700 1100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VCC #PWR02
+L power:VCC #PWR02
 U 1 1 57FBF424
 P -9700 1250
 F 0 "#PWR02" H -9700 1100 50  0001 C CNN
@@ -553,7 +523,7 @@ $EndComp
 Text GLabel -9800 950  0    60   Input ~ 0
 enableR
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 57FC32E9
 P -6200 1900
 F 0 "#PWR03" H -6200 1650 50  0001 C CNN
@@ -564,7 +534,7 @@ F 3 "" H -6200 1900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 57FC33C9
 P -6300 1900
 F 0 "#PWR04" H -6300 1650 50  0001 C CNN
@@ -575,7 +545,7 @@ F 3 "" H -6300 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 57FC4CCE
 P -3600 1750
 F 0 "#PWR05" H -3600 1500 50  0001 C CNN
@@ -586,7 +556,7 @@ F 3 "" H -3600 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR06
+L power:VCC #PWR06
 U 1 1 57FC686E
 P -3450 5100
 F 0 "#PWR06" H -3450 4950 50  0001 C CNN
@@ -597,7 +567,7 @@ F 3 "" H -3450 5100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR07
+L power:VCC #PWR07
 U 1 1 57FC839A
 P -3200 9450
 F 0 "#PWR07" H -3200 9300 50  0001 C CNN
@@ -616,7 +586,7 @@ Text GLabel -4450 7250 0    60   Input ~ 0
 Text GLabel -4300 7450 0    60   Input ~ 0
 3
 $Comp
-L VCC #PWR08
+L power:VCC #PWR08
 U 1 1 57FCF846
 P -8300 3700
 F 0 "#PWR08" H -8300 3550 50  0001 C CNN
@@ -627,7 +597,7 @@ F 3 "" H -8300 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Led_Small D15
+L bonsai:Led_Small D15
 U 1 1 580EAA2D
 P -3950 5550
 F 0 "D15" H -4000 5675 50  0000 L CNN
@@ -638,7 +608,7 @@ F 3 "" V -3950 5550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Led_Small D11
+L bonsai:Led_Small D11
 U 1 1 580EAB66
 P -4100 5550
 F 0 "D11" H -4150 5675 50  0000 L CNN
@@ -649,7 +619,7 @@ F 3 "" V -4100 5550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Led_Small D12
+L bonsai:Led_Small D12
 U 1 1 580EABEB
 P -4100 5900
 F 0 "D12" V -4050 5800 50  0000 L CNN
@@ -660,7 +630,7 @@ F 3 "" V -4100 5900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Led_Small D16
+L bonsai:Led_Small D16
 U 1 1 580EAC8E
 P -3950 6150
 F 0 "D16" V -3900 6050 50  0000 L CNN
@@ -671,7 +641,7 @@ F 3 "" V -3950 6150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Led_Small D20
+L bonsai:Led_Small D20
 U 1 1 580EAD43
 P -3650 6400
 F 0 "D20" V -3600 6350 50  0000 L CNN
@@ -682,7 +652,7 @@ F 3 "" V -3650 6400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Led_Small D19
+L bonsai:Led_Small D19
 U 1 1 580EAE00
 P -3850 6400
 F 0 "D19" V -3800 6300 50  0000 L CNN
@@ -693,7 +663,7 @@ F 3 "" V -3850 6400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 580EBD54
 P -5850 6350
 F 0 "#PWR09" H -5850 6100 50  0001 C CNN
@@ -704,7 +674,7 @@ F 3 "" H -5850 6350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR010
+L power:VCC #PWR010
 U 1 1 580EC580
 P -5900 4700
 F 0 "#PWR010" H -5900 4550 50  0001 C CNN
@@ -719,7 +689,7 @@ upPC
 Text GLabel -8900 7850 0    60   Input ~ 0
 incPC
 $Comp
-L R 4,7k3
+L device:R 4,7k3
 U 1 1 580F54F3
 P -8700 8250
 F 0 "4,7k3" V -8800 8250 50  0000 C CNN
@@ -730,7 +700,7 @@ F 3 "" H -8700 8250 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR011
+L power:VCC #PWR011
 U 1 1 580F57E4
 P -8700 8400
 F 0 "#PWR011" H -8700 8250 50  0001 C CNN
@@ -743,7 +713,7 @@ $EndComp
 Text GLabel -9350 5350 0    60   Input ~ 0
 incPCz
 $Comp
-L R 4,7k1
+L device:R 4,7k1
 U 1 1 582A32C5
 P -9150 5750
 F 0 "4,7k1" V -9070 5750 50  0000 C CNN
@@ -754,7 +724,7 @@ F 3 "" H -9150 5750 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR012
+L power:VCC #PWR012
 U 1 1 582A32CB
 P -9150 5900
 F 0 "#PWR012" H -9150 5750 50  0001 C CNN
@@ -765,7 +735,7 @@ F 3 "" H -9150 5900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R2
+L device:R R2
 U 1 1 582AA727
 P -9350 4650
 F 0 "R2" V -9350 4650 50  0000 C CNN
@@ -776,7 +746,7 @@ F 3 "" H -9350 4650 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Led_Small D1
+L bonsai:Led_Small D1
 U 1 1 582AC971
 P -9350 4900
 F 0 "D1" H -9350 5000 50  0000 C CNN
@@ -787,7 +757,7 @@ F 3 "" V -9350 4900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR013
+L power:VCC #PWR013
 U 1 1 582B09F9
 P -9500 5000
 F 0 "#PWR013" H -9500 4850 50  0001 C CNN
@@ -800,7 +770,7 @@ $EndComp
 Text GLabel -9100 3150 0    60   Input ~ 0
 loadIR
 $Comp
-L R 4,7k2
+L device:R 4,7k2
 U 1 1 582B55B4
 P -8850 3450
 F 0 "4,7k2" V -8950 3450 50  0000 C CNN
@@ -811,7 +781,7 @@ F 3 "" H -8850 3450 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR014
+L power:VCC #PWR014
 U 1 1 582B5718
 P -8850 3600
 F 0 "#PWR014" H -8850 3450 50  0001 C CNN
@@ -822,7 +792,7 @@ F 3 "" H -8850 3600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R5
+L device:R R5
 U 1 1 582B6652
 P -7400 2350
 F 0 "R5" V -7400 2350 50  0000 C CNN
@@ -833,7 +803,7 @@ F 3 "" H -7400 2350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Led_Small D3
+L bonsai:Led_Small D3
 U 1 1 582B68A1
 P -7700 2350
 F 0 "D3" H -7700 2493 50  0000 C CNN
@@ -844,7 +814,7 @@ F 3 "" V -7700 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 582B6B6B
 P -7750 2350
 F 0 "#PWR015" H -7750 2100 50  0001 C CNN
@@ -1039,25 +1009,25 @@ y7
 Text Label -6900 550  1    60   ~ 0
 y8
 $Comp
-L CONN_02X10 P2
+L conn:Conn_02x10_Counter_Clockwise P2
 U 1 1 58D096FC
-P -6000 -800
-F 0 "P2" V -5954 -1338 50  0000 R CNN
-F 1 "CONN_02X10" V -6045 -1338 50  0000 R CNN
-F 2 "Connect:IDC_Header_Straight_20pins" H -6000 -2000 50  0000 C CNN
-F 3 "" H -6000 -2000 50  0000 C CNN
-	1    -6000 -800
+P -6050 -750
+F 0 "P2" V -6004 -1288 50  0000 R CNN
+F 1 "CONN_02X10" V -6095 -1288 50  0000 R CNN
+F 2 "Connect:IDC_Header_Straight_20pins" H -6050 -1950 50  0000 C CNN
+F 3 "" H -6050 -1950 50  0000 C CNN
+	1    -6050 -750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_02X10 P1
+L conn:Conn_02x10_Counter_Clockwise P1
 U 1 1 5A1624C1
-P -6350 7300
-F 0 "P1" V -6304 6762 50  0000 R CNN
-F 1 "CONN_02X10" V -6395 6762 50  0000 R CNN
-F 2 "Connect:IDC_Header_Straight_20pins" H -6350 6100 50  0000 C CNN
-F 3 "" H -6350 6100 50  0000 C CNN
-	1    -6350 7300
+P -6300 7300
+F 0 "P1" V -6254 6762 50  0000 R CNN
+F 1 "CONN_02X10" V -6345 6762 50  0000 R CNN
+F 2 "Connect:IDC_Header_Straight_20pins" H -6300 6100 50  0000 C CNN
+F 3 "" H -6300 6100 50  0000 C CNN
+	1    -6300 7300
 	0    -1   -1   0   
 $EndComp
 Text Label -6950 6250 0    60   ~ 0
@@ -1070,7 +1040,7 @@ Wire Wire Line
 	-9800 950  -9700 950 
 Connection ~ -7650 8250
 Wire Wire Line
-	-7750 8250 -7550 8250
+	-7750 8250 -7650 8250
 Wire Wire Line
 	-7650 8150 -7650 8250
 Wire Wire Line
@@ -1111,8 +1081,6 @@ Wire Wire Line
 	-6200 -100 -6200 500 
 Wire Wire Line
 	-6350 -100 -6200 -100
-Wire Bus Line
-	-6500 6800 -5900 6800
 Connection ~ -7050 4400
 Wire Wire Line
 	-7100 4400 -7050 4400
@@ -1133,19 +1101,10 @@ Wire Wire Line
 	-6400 6050 -7100 6050
 Wire Wire Line
 	-6400 6250 -7100 6250
-Wire Bus Line
-	-6300 4850 -6300 4950
-Wire Bus Line
-	-6300 4900 -6300 6800
-Wire Bus Line
-	-7000 4850 -6300 4850
 Wire Wire Line
-	-7350 3000 -7050 3000
-Connection ~ -7050 3000
+	-7350 3000 -7250 3000
 Wire Wire Line
-	-7050 3000 -7050 4900
-Wire Wire Line
-	-7050 4900 -6000 4900
+	-7050 3000 -7050 4400
 Wire Wire Line
 	-6900 1900 -6900 2550
 Wire Wire Line
@@ -1171,11 +1130,7 @@ Wire Wire Line
 Wire Wire Line
 	-6900 2750 -6900 3300
 Wire Bus Line
-	-6900 2650 -3950 2650
-Wire Bus Line
 	-3950 2650 -3950 1950
-Wire Bus Line
-	-3950 1950 -4650 1950
 Wire Wire Line
 	-3300 -150 -4550 -150
 Wire Wire Line
@@ -1203,13 +1158,13 @@ Wire Wire Line
 Wire Wire Line
 	-6300 3000 -6300 3300
 Wire Wire Line
-	-3900 5400 -3900 7800
+	-3900 5400 -3900 5450
 Wire Wire Line
-	-4050 5400 -4050 7700
+	-4050 5400 -4050 5450
 Wire Wire Line
-	-3750 5400 -3750 8000
+	-3750 5400 -3750 6300
 Wire Wire Line
-	-3600 5400 -3600 7700
+	-3600 5400 -3600 6300
 Wire Wire Line
 	-3600 7700 -3350 7700
 Wire Wire Line
@@ -1227,7 +1182,7 @@ Wire Wire Line
 Wire Wire Line
 	-4850 9450 -4850 9400
 Wire Wire Line
-	-4850 9450 -3200 9450
+	-4850 9450 -4400 9450
 Wire Wire Line
 	-3350 9450 -3350 9400
 Connection ~ -3350 9450
@@ -1238,11 +1193,11 @@ Wire Wire Line
 	-4400 9450 -4400 9400
 Connection ~ -4400 9450
 Wire Wire Line
-	-8300 4000 -8300 6650
+	-8300 4000 -8300 4500
 Wire Wire Line
 	-8500 6650 -8650 6650
 Wire Wire Line
-	-8900 7850 -8200 7850
+	-8900 7850 -8700 7850
 Connection ~ -8300 4500
 Wire Wire Line
 	-8600 4500 -8300 4500
@@ -1253,7 +1208,7 @@ Wire Wire Line
 Wire Wire Line
 	-5900 2350 -5900 1900
 Wire Wire Line
-	-7050 2350 -5900 2350
+	-7050 2350 -6000 2350
 Wire Wire Line
 	-7050 2350 -7050 950 
 Wire Wire Line
@@ -1319,12 +1274,12 @@ Wire Wire Line
 	-8700 7850 -8700 8100
 Connection ~ -8700 7850
 Wire Wire Line
-	-9350 5350 -8650 5350
+	-9350 5350 -9150 5350
 Wire Wire Line
 	-9150 5350 -9150 5600
 Connection ~ -9150 5350
 Wire Wire Line
-	-8750 5450 -8550 5450
+	-8750 5450 -8650 5450
 Wire Wire Line
 	-8650 5350 -8650 5450
 Connection ~ -8650 5450
@@ -1335,7 +1290,7 @@ Wire Wire Line
 Wire Wire Line
 	-8200 3150 -8200 3000
 Wire Wire Line
-	-9100 3150 -8200 3150
+	-9100 3150 -8850 3150
 Wire Wire Line
 	-8850 3150 -8850 3300
 Connection ~ -8850 3150
@@ -1395,7 +1350,7 @@ Wire Wire Line
 Wire Wire Line
 	-42900 40500 -42900 25500
 Wire Wire Line
-	-58500 40500 -42900 40500
+	-58500 40500 -53650 40500
 Wire Wire Line
 	-58500 40500 -58500 25400
 Wire Wire Line
@@ -1442,7 +1397,7 @@ Wire Wire Line
 	-53650 48450 -56350 48450
 Connection ~ -53650 40500
 $Comp
-L 74540 U2
+L 74540:74540 U2
 U 6 1 5A282C7C
 P -3350 8350
 F 0 "U2" H -3250 8450 60  0000 C CNN
@@ -1453,7 +1408,7 @@ F 3 "" H -3200 8200 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74540 U2
+L 74540:74540 U2
 U 5 1 5A282E5F
 P -3900 8350
 F 0 "U2" H -3800 8450 60  0000 C CNN
@@ -1464,7 +1419,7 @@ F 3 "" H -3750 8200 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74540 U2
+L 74540:74540 U2
 U 4 1 5A282F54
 P -4400 8350
 F 0 "U2" H -4300 8450 60  0000 C CNN
@@ -1475,14 +1430,14 @@ F 3 "" H -4250 8200 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74540 U2
-U 3 1 5A28303B
+L 74540:74540 U2
+U 1 1 5A28303B
 P -4850 8350
 F 0 "U2" H -4750 8450 60  0000 C CNN
 F 1 "74540" H -4700 8200 60  0000 C CNN
 F 2 "Housings_DIP:DIP-18_W7.62mm_LongPads" H -4700 8200 60  0001 C CNN
 F 3 "" H -4700 8200 60  0001 C CNN
-	3    -4850 8350
+	1    -4850 8350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1494,7 +1449,7 @@ Wire Wire Line
 Wire Wire Line
 	-4850 8750 -4850 8900
 $Comp
-L 74540 U2
+L 74540:74540 U2
 U 2 1 5A287D96
 P -7750 3000
 F 0 "U2" H -7650 3100 60  0000 C CNN
@@ -1507,7 +1462,7 @@ $EndComp
 Wire Wire Line
 	-8200 3000 -8100 3000
 $Comp
-L 74540 U2
+L 74540:74540 U2
 U 1 1 5A2905C7
 P -8950 4500
 F 0 "U2" H -8850 4600 60  0000 C CNN
@@ -1518,7 +1473,7 @@ F 3 "" H -8800 4350 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74LS14 U1
+L 74xx:74LS14 U1
 U 2 1 5A2A45AB
 P -8800 1400
 F 0 "U1" H -8650 1500 50  0000 C CNN
@@ -1529,7 +1484,7 @@ F 3 "" H -8800 1400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74LS14 U1
+L 74xx:74LS14 U1
 U 1 1 5A2A5408
 P -9250 950
 F 0 "U1" H -9100 1050 50  0000 C CNN
@@ -1540,7 +1495,7 @@ F 3 "" H -9250 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS14 U1
+L 74xx:74LS14 U1
 U 3 1 5A2A55C6
 P -8300 950
 F 0 "U1" H -8150 1050 50  0000 C CNN
@@ -1551,7 +1506,7 @@ F 3 "" H -8300 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR016
+L power:VCC #PWR016
 U 1 1 5A2AA32D
 P -3300 -150
 F 0 "#PWR016" H -3300 -300 50  0001 C CNN
@@ -1561,4 +1516,76 @@ F 3 "" H -3300 -150 50  0000 C CNN
 	1    -3300 -150
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	-7650 8250 -7550 8250
+Wire Wire Line
+	-7050 4400 -7050 4600
+Wire Wire Line
+	-7050 4600 -7050 4900
+Wire Wire Line
+	-3350 9450 -3200 9450
+Wire Wire Line
+	-3900 9450 -3350 9450
+Wire Wire Line
+	-4400 9450 -3900 9450
+Wire Wire Line
+	-8300 4500 -8300 6650
+Wire Wire Line
+	-6000 2350 -5900 2350
+Wire Wire Line
+	-4050 7450 -4050 7700
+Wire Wire Line
+	-3900 7250 -3900 7800
+Wire Wire Line
+	-3750 7050 -3750 8000
+Wire Wire Line
+	-3600 6800 -3600 7700
+Wire Wire Line
+	-3600 6300 -3600 6800
+Wire Wire Line
+	-3750 6300 -3750 7050
+Wire Wire Line
+	-3900 6050 -3900 7250
+Wire Wire Line
+	-4050 5800 -4050 7450
+Wire Wire Line
+	-4050 5450 -4050 5800
+Wire Wire Line
+	-3900 5450 -3900 6050
+Wire Wire Line
+	-8700 7850 -8200 7850
+Wire Wire Line
+	-9150 5350 -8650 5350
+Wire Wire Line
+	-8650 5450 -8550 5450
+Wire Wire Line
+	-8850 3150 -8200 3150
+Wire Wire Line
+	-7250 3000 -7050 3000
+Wire Wire Line
+	-53650 40500 -42900 40500
+Wire Bus Line
+	-55650 10350 -53450 8200
+Wire Bus Line
+	-53450 8200 -53200 10500
+Wire Bus Line
+	-53200 10500 -47450 10600
+Wire Bus Line
+	-47450 10600 -45800 8700
+Wire Bus Line
+	-45800 8700 -45000 10500
+Wire Bus Line
+	-6500 6800 -6300 6800
+Wire Wire Line
+	-7050 4900 -6000 4900
+Wire Bus Line
+	-6300 6800 -5900 6800
+Wire Bus Line
+	-4650 1950 -3950 1950
+Wire Bus Line
+	-6900 2650 -3950 2650
+Wire Bus Line
+	-7000 4850 -6300 4850
+Wire Bus Line
+	-6300 4850 -6300 6800
 $EndSCHEMATC
