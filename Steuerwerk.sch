@@ -37,17 +37,6 @@ F 3 "" H 4150 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS161 U2
-U 1 1 57E937E4
-P 2500 1200
-F 0 "U2" H 2500 1925 50  0000 C CNN
-F 1 "74LS161" H 2500 1834 50  0000 C CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm_Socket_LongPads" H 2500 1200 50  0001 C CNN
-F 3 "" H 2500 1200 50  0000 C CNN
-	1    2500 1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L device:R R16
 U 1 1 57E93BD4
 P 4650 650
@@ -1144,8 +1133,6 @@ Text Label 900  1650 0    60   ~ 0
 vom_Befehle-decoder
 Text Label 900  2150 0    60   ~ 0
 vom_Befehle-decoder
-NoConn ~ 3550 3050
-NoConn ~ 3200 1200
 $Comp
 L power:VCC #PWR025
 U 1 1 582EEF49
@@ -1983,14 +1970,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 4550 850  4550
 Wire Wire Line
-	1800 1000 900  2150
-Wire Wire Line
-	1450 900  1450 1000
-Wire Wire Line
-	1800 900  1450 900 
-Wire Wire Line
-	1450 1000 900  1650
-Wire Wire Line
 	900  800  900  1150
 Wire Wire Line
 	1400 1500 1800 1500
@@ -2020,7 +1999,7 @@ Connection ~ 3250 900
 Wire Wire Line
 	3250 900  3250 2650
 Wire Wire Line
-	3200 1000 3200 2950
+	3200 1000 3200 1800
 Wire Wire Line
 	4750 3150 11150 3150
 Wire Wire Line
@@ -2054,10 +2033,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 3600 5450 3600
 Wire Wire Line
-	1600 1200 1550 500 
-Wire Wire Line
-	1800 1200 1600 1200
-Wire Wire Line
 	4750 1800 7600 1800
 Wire Wire Line
 	4750 1700 5500 1700
@@ -2080,17 +2055,11 @@ Wire Wire Line
 Wire Wire Line
 	3400 900  3400 1300
 Wire Wire Line
-	3200 900  3250 900 
-Wire Wire Line
 	3500 1200 3550 1200
 Wire Wire Line
 	3500 800  3500 1200
 Wire Wire Line
-	3200 800  3300 800 
-Wire Wire Line
 	3550 700  3550 1100
-Wire Wire Line
-	3200 700  3350 700 
 Wire Wire Line
 	7950 3350 8800 3350
 Wire Wire Line
@@ -2233,7 +2202,6 @@ Wire Wire Line
 	750  5950 750  5850
 Wire Wire Line
 	750  5650 750  5550
-Connection ~ 3350 1800
 Wire Wire Line
 	3350 1800 3350 2450
 Wire Wire Line
@@ -2989,8 +2957,6 @@ Wire Wire Line
 Connection ~ 4650 500 
 Connection ~ 4750 1700
 Wire Wire Line
-	1550 500  4650 500 
-Wire Wire Line
 	3400 3500 3350 3500
 Wire Wire Line
 	3100 3500 3300 3500
@@ -3011,14 +2977,11 @@ Wire Wire Line
 Wire Wire Line
 	3350 2450 3350 3500
 Wire Wire Line
-	3550 3050 2950 3050
-Wire Wire Line
 	1800 3050 1800 4900
 Wire Wire Line
 	3550 1700 2950 1700
 Wire Wire Line
 	2950 1700 2950 3050
-Connection ~ 2950 3050
 Wire Wire Line
 	2950 3050 1800 3050
 $Comp
@@ -3032,4 +2995,50 @@ F 3 "" H 3550 3150 50  0001 C CNN
 	1    3550 3150
 	1    0    0    -1  
 $EndComp
+$Comp
+L 74ls161bonsai:74LS161 U2
+U 1 1 5B42C8F2
+P 2500 1200
+F 0 "U2" H 2493 1925 50  0000 C CNN
+F 1 "74LS161" H 2493 1834 50  0000 C CNN
+F 2 "" H 2500 1200 50  0001 C CNN
+F 3 "" H 2500 1200 50  0001 C CNN
+	1    2500 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 700  3350 700 
+Wire Wire Line
+	3100 800  3300 800 
+Wire Wire Line
+	3100 900  3250 900 
+Wire Wire Line
+	3100 1000 3200 1000
+Wire Wire Line
+	3350 1800 3200 1800
+Connection ~ 3200 1800
+Wire Wire Line
+	3200 1800 3200 2950
+Wire Wire Line
+	950  900  950  1650
+Wire Wire Line
+	950  1650 900  1650
+Wire Wire Line
+	950  900  1800 900 
+Wire Wire Line
+	1800 1000 1000 1000
+Wire Wire Line
+	1000 1000 1000 2150
+Wire Wire Line
+	1000 2150 900  2150
+Wire Wire Line
+	1500 1200 1500 500 
+Wire Wire Line
+	1500 1200 1800 1200
+Wire Wire Line
+	1500 500  4650 500 
+Wire Wire Line
+	3550 3050 2950 3050
+Connection ~ 2950 3050
+NoConn ~ 3100 1200
 $EndSCHEMATC
