@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LS160
+D Sychronous 4 bits programmable decimal Counter
+K TTL CNT CNT4
+$ENDCMP
+#
+$CMP 74LS161
+D Sychronous 4 bits programmable binary Counter
+K TTL CNT CNT4
+$ENDCMP
+#
+$CMP 74LS162
+D Sychronous 4 bits programmable decimal Counter
+K TTL CNT CNT4
+$ENDCMP
+#
+$CMP 74LS163
+D Sychronous 4 bits programmable binary Counter
+K TTL CNT CNT4
+$ENDCMP
+#
+#End Doc Library
