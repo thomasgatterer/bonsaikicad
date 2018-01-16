@@ -1901,10 +1901,6 @@ Connection ~ 5750 6100
 Wire Wire Line
 	4850 7300 5650 7300
 Wire Wire Line
-	5850 7300 5650 7300
-Connection ~ 5850 7300
-Connection ~ 5650 7300
-Wire Wire Line
 	3250 5450 3400 5450
 Connection ~ 3400 5450
 Wire Wire Line
