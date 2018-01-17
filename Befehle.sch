@@ -17,19 +17,8 @@ $EndDescr
 $Comp
 L device:R R10
 U 1 1 57E93BBB
-P -4550 200
-F 0 "R10" V -4550 200 50  0000 C CNN
-F 1 "330" V -4550 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4550 -1750 50  0000 C CNN
-F 3 "" H -4550 200 50  0000 C CNN
-	1    -4550 200 
-	-1   0    0    1   
-$EndComp
-$Comp
-L device:R R11
-U 1 1 57E93CDA
 P -4450 200
-F 0 "R11" V -4450 200 50  0000 C CNN
+F 0 "R10" V -4450 200 50  0000 C CNN
 F 1 "330" V -4450 350 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4450 -1750 50  0000 C CNN
 F 3 "" H -4450 200 50  0000 C CNN
@@ -37,10 +26,10 @@ F 3 "" H -4450 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R13
-U 1 1 57E93D22
+L device:R R11
+U 1 1 57E93CDA
 P -4350 200
-F 0 "R13" V -4350 200 50  0000 C CNN
+F 0 "R11" V -4350 200 50  0000 C CNN
 F 1 "330" V -4350 350 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4350 -1750 50  0000 C CNN
 F 3 "" H -4350 200 50  0000 C CNN
@@ -48,21 +37,10 @@ F 3 "" H -4350 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R14
-U 1 1 57E93D69
-P -4250 200
-F 0 "R14" V -4250 200 50  0000 C CNN
-F 1 "330" V -4250 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4250 -1750 50  0000 C CNN
-F 3 "" H -4250 200 50  0000 C CNN
-	1    -4250 200 
-	-1   0    0    1   
-$EndComp
-$Comp
-L device:R R15
-U 1 1 57E93DAB
+L device:R R13
+U 1 1 57E93D22
 P -4150 200
-F 0 "R15" V -4150 200 50  0000 C CNN
+F 0 "R13" V -4150 200 50  0000 C CNN
 F 1 "330" V -4150 350 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4150 -1750 50  0000 C CNN
 F 3 "" H -4150 200 50  0000 C CNN
@@ -70,10 +48,10 @@ F 3 "" H -4150 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R16
-U 1 1 57E93DE4
+L device:R R14
+U 1 1 57E93D69
 P -4050 200
-F 0 "R16" V -4050 200 50  0000 C CNN
+F 0 "R14" V -4050 200 50  0000 C CNN
 F 1 "330" V -4050 350 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4050 -1750 50  0000 C CNN
 F 3 "" H -4050 200 50  0000 C CNN
@@ -81,10 +59,10 @@ F 3 "" H -4050 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R18
-U 1 1 57E93E32
+L device:R R15
+U 1 1 57E93DAB
 P -3950 200
-F 0 "R18" V -3950 200 50  0000 C CNN
+F 0 "R15" V -3950 200 50  0000 C CNN
 F 1 "330" V -3950 350 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -3950 -1750 50  0000 C CNN
 F 3 "" H -3950 200 50  0000 C CNN
@@ -92,14 +70,36 @@ F 3 "" H -3950 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R21
-U 1 1 57E93E85
+L device:R R16
+U 1 1 57E93DE4
 P -3850 200
-F 0 "R21" V -3850 200 50  0000 C CNN
+F 0 "R16" V -3850 200 50  0000 C CNN
 F 1 "330" V -3850 350 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -3850 -1750 50  0000 C CNN
 F 3 "" H -3850 200 50  0000 C CNN
 	1    -3850 200 
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:R R18
+U 1 1 57E93E32
+P -4400 9050
+F 0 "R18" V -4400 9050 50  0000 C CNN
+F 1 "330" V -4500 9050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4400 11150 50  0000 C CNN
+F 3 "" H -4400 9050 50  0000 C CNN
+	1    -4400 9050
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:R R17
+U 1 1 57E93E85
+P -4850 9050
+F 0 "R17" V -4850 9050 50  0000 C CNN
+F 1 "330" V -4950 9050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4850 11150 50  0000 C CNN
+F 3 "" H -4850 9050 50  0000 C CNN
+	1    -4850 9050
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -108,7 +108,7 @@ U 1 1 57E94020
 P -4550 -50
 F 0 "D5" H -4450 -50 50  0000 C CNN
 F 1 "Led_Small" H -4550 -164 50  0001 C CNN
-F 2 "LEDs:LED_D3.0mm" H -800 -150 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H -800 -50 50  0000 C CNN
 F 3 "" V -4550 -50 50  0000 C CNN
 	1    -4550 -50 
 	0    -1   -1   0   
@@ -119,7 +119,7 @@ U 1 1 57E94088
 P -4450 -50
 F 0 "D6" H -4350 -50 50  0000 C CNN
 F 1 "Led_Small" H -4450 -164 50  0001 C CNN
-F 2 "LEDs:LED_D3.0mm" H -700 -150 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H -700 -50 50  0000 C CNN
 F 3 "" V -4450 -50 50  0000 C CNN
 	1    -4450 -50 
 	0    -1   -1   0   
@@ -127,68 +127,68 @@ $EndComp
 $Comp
 L bonsai:Led_Small D8
 U 1 1 57E940D8
-P -4350 -50
-F 0 "D8" H -4250 -50 50  0000 C CNN
-F 1 "Led_Small" H -4350 -164 50  0001 C CNN
-F 2 "LEDs:LED_D3.0mm" H -600 -150 50  0000 C CNN
-F 3 "" V -4350 -50 50  0000 C CNN
-	1    -4350 -50 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L bonsai:Led_Small D9
-U 1 1 57E9412E
 P -4250 -50
-F 0 "D9" H -4150 -50 50  0000 C CNN
+F 0 "D8" H -4150 -50 50  0000 C CNN
 F 1 "Led_Small" H -4250 -164 50  0001 C CNN
-F 2 "LEDs:LED_D3.0mm" H -500 -150 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H -500 -50 50  0000 C CNN
 F 3 "" V -4250 -50 50  0000 C CNN
 	1    -4250 -50 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:Led_Small D10
-U 1 1 57E94186
+L bonsai:Led_Small D9
+U 1 1 57E9412E
 P -4150 -50
-F 0 "D10" H -4050 -50 50  0000 C CNN
+F 0 "D9" H -4050 -50 50  0000 C CNN
 F 1 "Led_Small" H -4150 -164 50  0001 C CNN
-F 2 "LEDs:LED_D3.0mm" H -400 -150 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H -400 -50 50  0000 C CNN
 F 3 "" V -4150 -50 50  0000 C CNN
 	1    -4150 -50 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:Led_Small D13
-U 1 1 57E941E2
+L bonsai:Led_Small D10
+U 1 1 57E94186
 P -4050 -50
-F 0 "D13" H -3950 -50 50  0000 C CNN
+F 0 "D10" H -3950 -50 50  0000 C CNN
 F 1 "Led_Small" H -4050 -164 50  0001 C CNN
-F 2 "LEDs:LED_D3.0mm" H -300 -150 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H -300 -50 50  0000 C CNN
 F 3 "" V -4050 -50 50  0000 C CNN
 	1    -4050 -50 
 	0    -1   -1   0   
 $EndComp
 $Comp
+L bonsai:Led_Small D13
+U 1 1 57E941E2
+P -4850 9300
+F 0 "D13" H -4850 9450 50  0000 C CNN
+F 1 "Led_Small" H -4850 9186 50  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H -4850 9150 50  0000 C CNN
+F 3 "" V -4850 9300 50  0000 C CNN
+	1    -4850 9300
+	0    1    1    0   
+$EndComp
+$Comp
 L bonsai:Led_Small D14
 U 1 1 57E94242
-P -3950 -50
-F 0 "D14" H -3850 -50 50  0000 C CNN
-F 1 "Led_Small" H -3950 -164 50  0001 C CNN
-F 2 "LEDs:LED_D3.0mm" H -200 -150 50  0000 C CNN
-F 3 "" V -3950 -50 50  0000 C CNN
-	1    -3950 -50 
-	0    -1   -1   0   
+P -4400 9300
+F 0 "D14" H -4400 9450 50  0000 C CNN
+F 1 "Led_Small" H -4400 9186 50  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H -4400 9150 50  0000 C CNN
+F 3 "" V -4400 9300 50  0000 C CNN
+	1    -4400 9300
+	0    1    1    0   
 $EndComp
 $Comp
 L bonsai:Led_Small D18
 U 1 1 57E942A6
-P -3850 -50
-F 0 "D18" H -3750 -50 50  0000 C CNN
-F 1 "LED" H -3850 -164 50  0001 C CNN
-F 2 "LEDs:LED_D3.0mm" H -100 -150 50  0000 C CNN
-F 3 "" V -3850 -50 50  0000 C CNN
-	1    -3850 -50 
-	0    -1   -1   0   
+P -4100 5900
+F 0 "D18" H -4100 5800 50  0000 C CNN
+F 1 "LED" H -4100 5786 50  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" V -4100 6350 50  0000 C CNN
+F 3 "" V -4100 5900 50  0000 C CNN
+	1    -4100 5900
+	0    1    1    0   
 $EndComp
 $Comp
 L 74xx:74LS373 U6
@@ -224,10 +224,10 @@ F 3 "" H -5000 6100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R24
+L device:R R20
 U 1 1 57E99EFD
 P -3350 9050
-F 0 "R24" V -3350 9050 50  0000 C CNN
+F 0 "R20" V -3350 9050 50  0000 C CNN
 F 1 "330" V -3450 9050 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -3350 11150 50  0000 C CNN
 F 3 "" H -3350 9050 50  0000 C CNN
@@ -235,10 +235,10 @@ F 3 "" H -3350 9050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R20
+L device:R R19
 U 1 1 57E9A030
 P -3900 9050
-F 0 "R20" V -3900 9050 50  0000 C CNN
+F 0 "R19" V -3900 9050 50  0000 C CNN
 F 1 "330" V -4000 9050 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -3900 11150 50  0000 C CNN
 F 3 "" H -3900 9050 50  0000 C CNN
@@ -248,23 +248,23 @@ $EndComp
 $Comp
 L device:R R12
 U 1 1 57E9A0AC
-P -4400 9050
-F 0 "R12" V -4400 9050 50  0000 C CNN
-F 1 "330" V -4500 9050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4400 11150 50  0000 C CNN
-F 3 "" H -4400 9050 50  0000 C CNN
-	1    -4400 9050
+P -4250 200
+F 0 "R12" V -4250 200 50  0000 C CNN
+F 1 "330" V -4250 350 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4250 -1750 50  0000 C CNN
+F 3 "" H -4250 200 50  0000 C CNN
+	1    -4250 200 
 	-1   0    0    1   
 $EndComp
 $Comp
 L device:R R9
 U 1 1 57E9A129
-P -4850 9050
-F 0 "R9" V -4850 9050 50  0000 C CNN
-F 1 "330" V -4950 9050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4850 11150 50  0000 C CNN
-F 3 "" H -4850 9050 50  0000 C CNN
-	1    -4850 9050
+P -4550 200
+F 0 "R9" V -4550 200 50  0000 C CNN
+F 1 "330" V -4550 350 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4550 -1750 50  0000 C CNN
+F 3 "" H -4550 200 50  0000 C CNN
+	1    -4550 200 
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -273,7 +273,7 @@ U 1 1 57E9A417
 P -3350 9300
 F 0 "D21" H -3350 9443 50  0000 C CNN
 F 1 "LED" H -3350 9186 50  0001 C CNN
-F 2 "LEDs:LED_D3.0mm" H -3500 9200 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H -3350 9150 50  0000 C CNN
 F 3 "" V -3350 9300 50  0000 C CNN
 	1    -3350 9300
 	0    1    1    0   
@@ -284,7 +284,7 @@ U 1 1 57E9A814
 P -3900 9300
 F 0 "D17" H -3900 9443 50  0000 C CNN
 F 1 "LED" H -3900 9186 50  0001 C CNN
-F 2 "LEDs:LED_D3.0mm" H -4050 9200 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H -3900 9150 50  0000 C CNN
 F 3 "" V -3900 9300 50  0000 C CNN
 	1    -3900 9300
 	0    1    1    0   
@@ -292,23 +292,23 @@ $EndComp
 $Comp
 L bonsai:Led_Small D7
 U 1 1 57E9A89E
-P -4400 9300
-F 0 "D7" H -4400 9443 50  0000 C CNN
-F 1 "LED" H -4400 9186 50  0001 C CNN
-F 2 "LEDs:LED-3MM" H -4550 9200 50  0000 C CNN
-F 3 "" V -4400 9300 50  0000 C CNN
-	1    -4400 9300
-	0    1    1    0   
+P -4350 -50
+F 0 "D7" H -4250 -50 50  0000 C CNN
+F 1 "LED" H -4350 -164 50  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H -600 -50 50  0000 C CNN
+F 3 "" V -4350 -50 50  0000 C CNN
+	1    -4350 -50 
+	0    -1   -1   0   
 $EndComp
 $Comp
 L bonsai:Led_Small D4
 U 1 1 57E9A927
-P -4850 9300
-F 0 "D4" H -4850 9450 50  0000 C CNN
-F 1 "LED" H -4850 9186 50  0001 C CNN
-F 2 "LEDs:LED-3MM" H -5000 9200 50  0000 C CNN
-F 3 "" V -4850 9300 50  0000 C CNN
-	1    -4850 9300
+P -4100 5550
+F 0 "D4" H -4100 5450 50  0000 C CNN
+F 1 "LED" H -4100 5436 50  0001 C CNN
+F 2 "LEDs:LED-3MM" V -4100 5100 50  0000 C CNN
+F 3 "" V -4100 5550 50  0000 C CNN
+	1    -4100 5550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -556,9 +556,9 @@ $Comp
 L bonsai:Led_Small D15
 U 1 1 580EAA2D
 P -3950 5550
-F 0 "D15" H -4000 5675 50  0000 L CNN
-F 1 "Led_Small" V -4050 5950 50  0000 L CNN
-F 2 "LEDs:LED_D3.0mm" V -3950 6250 50  0000 C CNN
+F 0 "D15" H -4000 5700 50  0000 L CNN
+F 1 "Led_Small" V -3950 6500 50  0000 L CNN
+F 2 "LEDs:LED_D3.0mm" V -3950 6150 50  0000 C CNN
 F 3 "" V -3950 5550 50  0000 C CNN
 	1    -3950 5550
 	0    1    1    0   
@@ -566,32 +566,32 @@ $EndComp
 $Comp
 L bonsai:Led_Small D11
 U 1 1 580EAB66
-P -4100 5550
-F 0 "D11" H -4150 5675 50  0000 L CNN
-F 1 "Led_Small" V -4200 5000 50  0000 L CNN
-F 2 "LEDs:LED_D3.0mm" V -4100 5100 50  0000 C CNN
-F 3 "" V -4100 5550 50  0000 C CNN
-	1    -4100 5550
-	0    1    1    0   
+P -3950 -50
+F 0 "D11" H -3900 -50 50  0000 L CNN
+F 1 "Led_Small" V -3600 -1200 50  0000 L CNN
+F 2 "LEDs:LED_D3.0mm" H -200 -50 50  0000 C CNN
+F 3 "" V -3950 -50 50  0000 C CNN
+	1    -3950 -50 
+	0    -1   -1   0   
 $EndComp
 $Comp
 L bonsai:Led_Small D12
 U 1 1 580EABEB
-P -4100 5900
-F 0 "D12" V -4050 5800 50  0000 L CNN
-F 1 "Led_Small" V -4150 6000 50  0000 L CNN
-F 2 "LEDs:LED_D3.0mm" H -3750 5900 50  0000 C CNN
-F 3 "" V -4100 5900 50  0000 C CNN
-	1    -4100 5900
-	0    1    1    0   
+P -3850 -50
+F 0 "D12" H -3800 -50 50  0000 L CNN
+F 1 "Led_Small" V -3400 -1100 50  0000 L CNN
+F 2 "LEDs:LED_D3.0mm" H -100 -50 50  0000 C CNN
+F 3 "" V -3850 -50 50  0000 C CNN
+	1    -3850 -50 
+	0    -1   -1   0   
 $EndComp
 $Comp
 L bonsai:Led_Small D16
 U 1 1 580EAC8E
 P -3950 6150
-F 0 "D16" V -3900 6050 50  0000 L CNN
-F 1 "Led_Small" V -4000 6200 50  0000 L CNN
-F 2 "LEDs:LED_D3.0mm" H -3550 6150 50  0000 C CNN
+F 0 "D16" H -4000 6050 50  0000 L CNN
+F 1 "Led_Small" V -3950 6950 50  0000 L CNN
+F 2 "LEDs:LED_D3.0mm" V -3950 6600 50  0000 C CNN
 F 3 "" V -3950 6150 50  0000 C CNN
 	1    -3950 6150
 	0    1    1    0   
@@ -600,9 +600,9 @@ $Comp
 L bonsai:Led_Small D20
 U 1 1 580EAD43
 P -3650 6400
-F 0 "D20" V -3600 6350 50  0000 L CNN
-F 1 "Led_Small" V -3700 6500 50  0000 L CNN
-F 2 "LEDs:LED_D3.0mm" H -3250 6400 50  0000 C CNN
+F 0 "D20" H -3700 6300 50  0000 L CNN
+F 1 "Led_Small" V -3700 7200 50  0000 L CNN
+F 2 "LEDs:LED_D3.0mm" V -3700 6850 50  0000 C CNN
 F 3 "" V -3650 6400 50  0000 C CNN
 	1    -3650 6400
 	0    1    1    0   
@@ -611,9 +611,9 @@ $Comp
 L bonsai:Led_Small D19
 U 1 1 580EAE00
 P -3850 6400
-F 0 "D19" V -3800 6300 50  0000 L CNN
-F 1 "Led_Small" V -3800 6700 50  0000 L CNN
-F 2 "LEDs:LED_D3.0mm" H -3450 6400 50  0000 C CNN
+F 0 "D19" H -3900 6300 50  0000 L CNN
+F 1 "Led_Small" V -3800 7400 50  0000 L CNN
+F 2 "LEDs:LED_D3.0mm" V -3800 7050 50  0000 C CNN
 F 3 "" V -3850 6400 50  0000 C CNN
 	1    -3850 6400
 	0    1    1    0   
@@ -707,7 +707,7 @@ U 1 1 582AC971
 P -9350 4900
 F 0 "D1" H -9350 5000 50  0000 C CNN
 F 1 "LED" H -9350 4786 50  0001 C CNN
-F 2 "LEDs:LED-3MM" V -9200 4900 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" V -9200 4900 50  0000 C CNN
 F 3 "" V -9350 4900 50  0000 C CNN
 	1    -9350 4900
 	0    1    1    0   
@@ -970,7 +970,7 @@ U 1 1 58D096FC
 P -6050 -750
 F 0 "P2" V -6004 -1288 50  0000 R CNN
 F 1 "CONN_02X10" V -6095 -1288 50  0000 R CNN
-F 2 "Connect:IDC_Header_Straight_20pins" H -6050 -1950 50  0000 C CNN
+F 2 "Connect:IDC_Header_Straight_20pins" V -5600 -750 50  0000 C CNN
 F 3 "" H -6050 -1950 50  0000 C CNN
 	1    -6050 -750
 	0    -1   -1   0   
@@ -981,7 +981,7 @@ U 1 1 5A1624C1
 P -6300 7200
 F 0 "P1" V -6254 6662 50  0000 R CNN
 F 1 "CONN_02X10" V -6345 6662 50  0000 R CNN
-F 2 "Connect:IDC_Header_Straight_20pins" H -6300 6000 50  0000 C CNN
+F 2 "Connect:IDC_Header_Straight_20pins" V -6650 7200 50  0000 C CNN
 F 3 "" H -6300 6000 50  0000 C CNN
 	1    -6300 7200
 	0    -1   -1   0   
@@ -1478,7 +1478,7 @@ U 1 1 5A282C7C
 P -3350 8350
 F 0 "U2" H -3250 8450 60  0000 C CNN
 F 1 "74540" H -3200 8200 60  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -3200 8200 60  0000 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" V -3750 7600 60  0000 C CNN
 F 3 "" H -3200 8200 60  0001 C CNN
 	1    -3350 8350
 	0    1    1    0   
@@ -1523,9 +1523,9 @@ $Comp
 L bonsai:R_PACK4BUSSED RP1
 U 1 1 5A5FCAF2
 P -3950 5050
-F 0 "RP1" V -3960 4772 50  0000 R CNN
-F 1 "R_PACK4BUSSED" V -4051 4772 50  0000 R CNN
-F 2 "Resistors_ThroughHole:R_Array_SIP5" H -3950 4900 60  0000 C CNN
+F 0 "RP1" V -3900 4750 50  0000 R CNN
+F 1 "R_PACK4BUSSED" V -4000 4750 50  0000 R CNN
+F 2 "Resistors_ThroughHole:R_Array_SIP5" V -3750 5050 60  0000 C CNN
 F 3 "" H -3950 4900 60  0000 C CNN
 	1    -3950 5050
 	0    -1   -1   0   
@@ -1555,26 +1555,8 @@ Wire Wire Line
 Wire Wire Line
 	-4550 -150 -4450 -150
 Connection ~ -4450 -150
-Wire Wire Line
-	-4450 -150 -4350 -150
-Connection ~ -4350 -150
-Wire Wire Line
-	-4350 -150 -4250 -150
 Connection ~ -4250 -150
-Wire Wire Line
-	-4250 -150 -4150 -150
-Connection ~ -4150 -150
-Wire Wire Line
-	-4150 -150 -4050 -150
 Connection ~ -4050 -150
-Wire Wire Line
-	-4050 -150 -3950 -150
-Connection ~ -3950 -150
-Wire Wire Line
-	-3950 -150 -3850 -150
-Connection ~ -3850 -150
-Wire Wire Line
-	-3850 -150 -3300 -150
 Connection ~ -3650 6500
 Wire Wire Line
 	-3650 6500 -3300 6500
@@ -1590,16 +1572,6 @@ Wire Wire Line
 Connection ~ -3950 6250
 Wire Wire Line
 	-3950 6250 -3300 6250
-Wire Wire Line
-	-4150 6000 -4100 6000
-Connection ~ -4100 6000
-Wire Wire Line
-	-4100 6000 -3300 6000
-Wire Wire Line
-	-4150 5650 -4100 5650
-Connection ~ -4100 5650
-Wire Wire Line
-	-4100 5650 -3950 5650
 Connection ~ -3950 5650
 Wire Wire Line
 	-3950 5650 -3300 5650
@@ -1728,12 +1700,44 @@ Wire Wire Line
 Connection ~ -8300 5050
 Wire Wire Line
 	-8300 5050 -8300 5600
+Connection ~ -8300 5600
 Wire Wire Line
-	-8300 6350 -8300 6150
+	-8300 5600 -8300 6150
+Connection ~ -8300 6150
 Wire Wire Line
-	-8300 5050 -8300 4900
+	-8300 4900 -8300 5050
 Wire Wire Line
-	-8300 4500 -8300 4900
+	-8300 4500 -8300 5050
+Wire Wire Line
+	-8300 6150 -8300 6650
+Wire Wire Line
+	-4450 -150 -4350 -150
+Connection ~ -4350 -150
+Wire Wire Line
+	-4350 -150 -4250 -150
+Wire Wire Line
+	-4050 -150 -3950 -150
+Connection ~ -3950 -150
+Wire Wire Line
+	-3950 -150 -3850 -150
+Wire Wire Line
+	-4150 6000 -4100 6000
+Wire Wire Line
+	-4150 5650 -4100 5650
+Connection ~ -3850 -150
+Wire Wire Line
+	-3850 -150 -3300 -150
+Connection ~ -4150 -150
+Wire Wire Line
+	-4150 -150 -4050 -150
+Wire Wire Line
+	-4250 -150 -4150 -150
+Connection ~ -4100 5650
+Wire Wire Line
+	-4100 5650 -3950 5650
+Connection ~ -4100 6000
+Wire Wire Line
+	-4100 6000 -3300 6000
 Wire Bus Line
 	-6500 6800 -6300 6800
 Wire Bus Line
@@ -1746,20 +1750,4 @@ Wire Bus Line
 	-6300 4850 -6300 6800
 Wire Bus Line
 	-7050 4850 -6300 4850
-Connection ~ -8300 6350
-Wire Wire Line
-	-8300 6350 -8300 6650
-Connection ~ -8300 4900
-Wire Wire Line
-	-8300 4900 -8300 5050
-Connection ~ -8300 5600
-Wire Wire Line
-	-8300 5600 -8300 6150
-Wire Wire Line
-	-8300 5600 -8300 5050
-Connection ~ -8300 6150
-Wire Wire Line
-	-8300 6150 -8300 5600
-Wire Wire Line
-	-8300 6150 -8300 6350
 $EndSCHEMATC

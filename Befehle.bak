@@ -1721,10 +1721,19 @@ Wire Wire Line
 	-5450 -800 -5450 -550
 Wire Wire Line
 	-7100 5150 -6400 5150
-Wire Wire Line
-	-8300 4500 -8300 6650
 Wire Bus Line
 	-7050 4850 -7050 4400
+Wire Wire Line
+	-8250 5050 -8300 5050
+Connection ~ -8300 5050
+Wire Wire Line
+	-8300 5050 -8300 5600
+Wire Wire Line
+	-8300 6350 -8300 6150
+Wire Wire Line
+	-8300 5050 -8300 4900
+Wire Wire Line
+	-8300 4500 -8300 4900
 Wire Bus Line
 	-6500 6800 -6300 6800
 Wire Bus Line
@@ -1737,4 +1746,20 @@ Wire Bus Line
 	-6300 4850 -6300 6800
 Wire Bus Line
 	-7050 4850 -6300 4850
+Connection ~ -8300 6350
+Wire Wire Line
+	-8300 6350 -8300 6650
+Connection ~ -8300 4900
+Wire Wire Line
+	-8300 4900 -8300 5050
+Connection ~ -8300 5600
+Wire Wire Line
+	-8300 5600 -8300 6150
+Wire Wire Line
+	-8300 5600 -8300 5050
+Connection ~ -8300 6150
+Wire Wire Line
+	-8300 6150 -8300 5600
+Wire Wire Line
+	-8300 6150 -8300 6350
 $EndSCHEMATC
