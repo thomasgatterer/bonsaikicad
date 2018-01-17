@@ -574,7 +574,7 @@ L cmos4000:4069 U3
 U 2 1 580F11C5
 P 3000 3350
 F 0 "U3" V 2954 3528 50  0000 L CNN
-F 1 "4069" V 3045 3528 50  0000 L CNN
+F 1 "74HC14" V 3045 3528 50  0000 L CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 3000 3350 60  0000 C CNN
 F 3 "" H 3000 3350 60  0001 C CNN
 	2    3000 3350
@@ -712,7 +712,7 @@ L cmos4000:4069 U3
 U 3 1 581014B6
 P 3150 4350
 F 0 "U3" V 3104 4528 50  0000 L CNN
-F 1 "4069" V 3195 4528 50  0000 L CNN
+F 1 "74HC14" V 3195 4528 50  0000 L CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 3150 4350 60  0000 C CNN
 F 3 "" H 3150 4350 60  0001 C CNN
 	3    3150 4350
@@ -1349,17 +1349,6 @@ F 3 "" H -100 7450 50  0000 C CNN
 	1    -100 7450
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR022
-U 1 1 5A3B485C
-P -700 7100
-F 0 "#PWR022" H -700 6950 50  0001 C CNN
-F 1 "VCC" H -700 7250 50  0000 C CNN
-F 2 "" H -700 7100 50  0000 C CNN
-F 3 "" H -700 7100 50  0000 C CNN
-	1    -700 7100
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	-700 7100 -300 7100
 $Comp
@@ -1577,6 +1566,59 @@ Connection ~ 1200 4450
 Connection ~ 1450 850 
 Wire Bus Line
 	1450 850  5350 850 
+Wire Wire Line
+	5550 3350 5550 3550
+Wire Wire Line
+	5550 3550 5250 3550
+Wire Wire Line
+	5250 3550 5250 3400
+Text GLabel -700 7100 0    60   Input ~ 0
+down/up/enable/load/CLR
+$Comp
+L conn:Conn_01x01 P?
+U 1 1 5A616C3E
+P -100 6800
+F 0 "P?" H -100 6900 50  0000 C CNN
+F 1 "CONN_01X01" V 0   6800 50  0000 C CNN
+F 2 "Connect:1pin" H -100 6800 50  0000 C CNN
+F 3 "" H -100 6800 50  0000 C CNN
+	1    -100 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Conn_01x01 P?
+U 1 1 5A616D5C
+P -100 6450
+F 0 "P?" H -100 6550 50  0000 C CNN
+F 1 "CONN_01X01" V 0   6450 50  0000 C CNN
+F 2 "Connect:1pin" H -100 6450 50  0000 C CNN
+F 3 "" H -100 6450 50  0000 C CNN
+	1    -100 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Conn_01x01 P?
+U 1 1 5A616F2D
+P -100 6100
+F 0 "P?" H -100 6200 50  0000 C CNN
+F 1 "CONN_01X01" V 0   6100 50  0000 C CNN
+F 2 "Connect:1pin" H -100 6100 50  0000 C CNN
+F 3 "" H -100 6100 50  0000 C CNN
+	1    -100 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel -650 6800 0    60   Input ~ 0
+down/up/enable/load/CLR
+Text GLabel -600 6450 0    60   Input ~ 0
+down/up/enable/load/CLR
+Text GLabel -550 6100 0    60   Input ~ 0
+down/up/enable/load/CLR
+Wire Wire Line
+	-300 6100 -550 6100
+Wire Wire Line
+	-600 6450 -300 6450
+Wire Wire Line
+	-300 6800 -650 6800
 Wire Bus Line
 	450  1050 450  1750
 Wire Bus Line
