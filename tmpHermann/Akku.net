@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Orte/1_Daten_Server/bonsaikicad/Akku.sch)
-    (date "Mit 17 Jän 2018 15:50:39 CET")
+    (date "Mit 17 Jän 2018 15:52:37 CET")
     (tool "Eeschema no-vcs-found-bf44d39~61~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

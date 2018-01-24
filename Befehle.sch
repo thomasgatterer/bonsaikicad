@@ -569,7 +569,7 @@ U 1 1 580EAB66
 P -4100 5550
 F 0 "D11" H -4150 5675 50  0000 L CNN
 F 1 "Led_Small" V -4200 5000 50  0000 L CNN
-F 2 "LEDs:LED_D3.0mm" V -4100 5100 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" V -4100 5100 50  0000 C CNN
 F 3 "" V -4100 5550 50  0000 C CNN
 	1    -4100 5550
 	0    1    1    0   
@@ -580,7 +580,7 @@ U 1 1 580EABEB
 P -4100 5900
 F 0 "D12" V -4050 5800 50  0000 L CNN
 F 1 "Led_Small" V -4150 6000 50  0000 L CNN
-F 2 "LEDs:LED_D3.0mm" H -3750 5900 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H -3750 5900 50  0000 C CNN
 F 3 "" V -4100 5900 50  0000 C CNN
 	1    -4100 5900
 	0    1    1    0   
@@ -591,7 +591,7 @@ U 1 1 580EAC8E
 P -3950 6150
 F 0 "D16" V -3900 6050 50  0000 L CNN
 F 1 "Led_Small" V -4000 6200 50  0000 L CNN
-F 2 "LEDs:LED_D3.0mm" H -3550 6150 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H -3550 6150 50  0000 C CNN
 F 3 "" V -3950 6150 50  0000 C CNN
 	1    -3950 6150
 	0    1    1    0   
@@ -602,7 +602,7 @@ U 1 1 580EAD43
 P -3650 6400
 F 0 "D20" V -3600 6350 50  0000 L CNN
 F 1 "Led_Small" V -3700 6500 50  0000 L CNN
-F 2 "LEDs:LED_D3.0mm" H -3250 6400 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H -3250 6400 50  0000 C CNN
 F 3 "" V -3650 6400 50  0000 C CNN
 	1    -3650 6400
 	0    1    1    0   
@@ -613,7 +613,7 @@ U 1 1 580EAE00
 P -3850 6400
 F 0 "D19" V -3800 6300 50  0000 L CNN
 F 1 "Led_Small" V -3800 6700 50  0000 L CNN
-F 2 "LEDs:LED_D3.0mm" H -3450 6400 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H -3450 6400 50  0000 C CNN
 F 3 "" V -3850 6400 50  0000 C CNN
 	1    -3850 6400
 	0    1    1    0   
@@ -1728,12 +1728,20 @@ Wire Wire Line
 Connection ~ -8300 5050
 Wire Wire Line
 	-8300 5050 -8300 5600
+Connection ~ -8300 6350
+Connection ~ -8300 4900
 Wire Wire Line
-	-8300 6350 -8300 6150
+	-8300 4900 -8300 5050
+Connection ~ -8300 5600
 Wire Wire Line
-	-8300 5050 -8300 4900
+	-8300 5600 -8300 6150
+Connection ~ -8300 6150
 Wire Wire Line
-	-8300 4500 -8300 4900
+	-8300 6150 -8300 6350
+Wire Wire Line
+	-8300 6150 -8300 6650
+Wire Wire Line
+	-8300 4500 -8300 5050
 Wire Bus Line
 	-6500 6800 -6300 6800
 Wire Bus Line
@@ -1746,20 +1754,4 @@ Wire Bus Line
 	-6300 4850 -6300 6800
 Wire Bus Line
 	-7050 4850 -6300 4850
-Connection ~ -8300 6350
-Wire Wire Line
-	-8300 6350 -8300 6650
-Connection ~ -8300 4900
-Wire Wire Line
-	-8300 4900 -8300 5050
-Connection ~ -8300 5600
-Wire Wire Line
-	-8300 5600 -8300 6150
-Wire Wire Line
-	-8300 5600 -8300 5050
-Connection ~ -8300 6150
-Wire Wire Line
-	-8300 6150 -8300 5600
-Wire Wire Line
-	-8300 6150 -8300 6350
 $EndSCHEMATC
