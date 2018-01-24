@@ -3041,4 +3041,6 @@ $EndComp
 Connection ~ 1050 5250
 Wire Wire Line
 	1050 5250 1500 5250
+Connection ~ 3950 600 
+Connection ~ 4350 600 
 $EndSCHEMATC
