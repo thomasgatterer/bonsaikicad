@@ -1812,21 +1812,97 @@ Wire Wire Line
 Wire Wire Line
 	950  1200 950  1300
 Wire Wire Line
-	1300 2600 1300 2950
+	1300 2600 1300 2850
 Wire Wire Line
-	8000 1850 8000 2050
+	1300 4150 1300 4250
 Wire Wire Line
-	4350 6550 4350 6750
+	9600 5800 9850 5800
+Connection ~ 9850 5800
 Wire Wire Line
-	10200 1850 10700 1850
+	9850 5800 10100 5800
 Wire Wire Line
-	9600 5800 10100 5800
+	9600 4650 9600 4800
+Connection ~ 9600 5700
 Wire Wire Line
-	1300 4150 1300 4700
+	9600 5700 9600 5800
+Connection ~ 9600 4800
 Wire Wire Line
-	10700 700  10700 1850
+	9600 4800 9600 4900
+Connection ~ 9600 4900
 Wire Wire Line
-	9600 4650 9600 5800
+	9600 4900 9600 5000
+Connection ~ 9600 5000
+Wire Wire Line
+	9600 5000 9600 5100
+Connection ~ 9600 5100
+Wire Wire Line
+	9600 5100 9600 5200
+Connection ~ 9600 5200
+Wire Wire Line
+	9600 5200 9600 5300
+Connection ~ 9600 5300
+Wire Wire Line
+	9600 5300 9600 5400
+Connection ~ 9600 5400
+Wire Wire Line
+	9600 5400 9600 5500
+Connection ~ 9600 5500
+Wire Wire Line
+	9600 5500 9600 5600
+Connection ~ 9600 5600
+Wire Wire Line
+	9600 5600 9600 5700
+Wire Wire Line
+	1300 2850 1300 2950
+Connection ~ 1300 2850
+Connection ~ 1000 2950
+Connection ~ 1300 4250
+Wire Wire Line
+	1300 4250 1300 4700
+Wire Wire Line
+	10700 700  10700 850 
+Connection ~ 10700 850 
+Wire Wire Line
+	10700 850  10700 950 
+Connection ~ 10700 1750
+Wire Wire Line
+	10700 1750 10700 1850
+Connection ~ 10700 950 
+Wire Wire Line
+	10700 950  10700 1050
+Connection ~ 10700 1050
+Wire Wire Line
+	10700 1050 10700 1150
+Connection ~ 10700 1150
+Wire Wire Line
+	10700 1150 10700 1250
+Connection ~ 10700 1250
+Wire Wire Line
+	10700 1250 10700 1350
+Connection ~ 10700 1350
+Wire Wire Line
+	10700 1350 10700 1450
+Connection ~ 10700 1450
+Wire Wire Line
+	10700 1450 10700 1550
+Connection ~ 10700 1550
+Wire Wire Line
+	10700 1550 10700 1650
+Connection ~ 10700 1650
+Wire Wire Line
+	10700 1650 10700 1750
+Wire Wire Line
+	10200 1850 10450 1850
+Connection ~ 10450 1850
+Wire Wire Line
+	10450 1850 10700 1850
+Wire Wire Line
+	4350 6550 4350 6650
+Connection ~ 4350 6650
+Wire Wire Line
+	4350 6650 4350 6750
+Wire Wire Line
+	8000 1850 8000 1950
 Wire Bus Line
 	9550 3350 9550 3550
 Wire Bus Line
@@ -1836,15 +1912,18 @@ Wire Bus Line
 Wire Bus Line
 	8100 1050 8100 1750
 Wire Bus Line
-	7300 5750 7300 6450
-Wire Bus Line
-	9350 1200 9350 1750
-Wire Bus Line
-	10100 850  10100 2500
-Wire Bus Line
-	9550 2500 9550 3250
+	10950 2750 10950 4850
 Wire Bus Line
 	10200 4850 10200 6450
 Wire Bus Line
-	10950 2750 10950 4850
+	9550 2500 9550 3250
+Wire Bus Line
+	10100 850  10100 2500
+Wire Bus Line
+	9350 1200 9350 1750
+Wire Bus Line
+	7300 5750 7300 6450
+Connection ~ 8000 1950
+Wire Wire Line
+	8000 1950 8000 2050
 $EndSCHEMATC
