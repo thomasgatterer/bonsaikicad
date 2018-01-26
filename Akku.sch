@@ -631,12 +631,12 @@ Text Notes 2150 3050 0    60   ~ 0
 $Comp
 L 74xx:74LS08 U2
 U 1 1 580F517F
-P 1950 4350
-F 0 "U2" H 1950 4400 50  0000 C CNN
-F 1 "7408" H 1950 4250 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 1950 4350 50  0000 C CNN
-F 3 "" H 1950 4350 50  0000 C CNN
-	1    1950 4350
+P 4150 4050
+F 0 "U2" H 4150 4100 50  0000 C CNN
+F 1 "7408" H 4150 3950 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 4150 4050 50  0000 C CNN
+F 3 "" H 4150 4050 50  0000 C CNN
+	1    4150 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -653,12 +653,12 @@ $EndComp
 $Comp
 L 74xx:7400 U1
 U 1 1 580F5818
-P 600 4450
-F 0 "U1" H 600 4500 50  0000 C CNN
-F 1 "7400" H 600 4350 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 600 4450 50  0000 C CNN
-F 3 "" H 600 4450 50  0000 C CNN
-	1    600  4450
+P 2650 4200
+F 0 "U1" H 2650 4250 50  0000 C CNN
+F 1 "7400" H 2650 4100 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 2650 4200 50  0000 C CNN
+F 3 "" H 2650 4200 50  0000 C CNN
+	1    2650 4200
 	1    0    0    -1  
 $EndComp
 Text GLabel 9950 4800 2    79   Input ~ 0
@@ -666,24 +666,24 @@ load
 $Comp
 L device:R R1
 U 1 1 58100242
-P -50 4100
-F 0 "R1" V 30  4100 50  0000 C CNN
-F 1 "R" V -50 4100 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -120 4100 50  0000 C CNN
-F 3 "" H -50 4100 50  0000 C CNN
-	1    -50  4100
-	1    0    0    -1  
+P 1750 4100
+F 0 "R1" V 1830 4100 50  0000 C CNN
+F 1 "R" V 1750 4100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1680 4100 50  0000 C CNN
+F 3 "" H 1750 4100 50  0000 C CNN
+	1    1750 4100
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:VCC #PWR012
 U 1 1 581002AD
-P -50 3950
-F 0 "#PWR012" H -50 3800 50  0001 C CNN
-F 1 "VCC" H -50 4100 50  0000 C CNN
-F 2 "" H -50 3950 50  0000 C CNN
-F 3 "" H -50 3950 50  0000 C CNN
-	1    -50  3950
-	1    0    0    -1  
+P 1600 4100
+F 0 "#PWR012" H 1600 3950 50  0001 C CNN
+F 1 "VCC" H 1600 4250 50  0000 C CNN
+F 2 "" H 1600 4100 50  0000 C CNN
+F 3 "" H 1600 4100 50  0000 C CNN
+	1    1600 4100
+	0    -1   -1   0   
 $EndComp
 $Comp
 L bonsai:SWITCH_INV SW1
@@ -710,45 +710,45 @@ $EndComp
 $Comp
 L cmos4000:4069 U3
 U 3 1 581014B6
-P 3150 4350
-F 0 "U3" V 3104 4528 50  0000 L CNN
-F 1 "74HC14" V 3195 4528 50  0000 L CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 3150 4350 60  0000 C CNN
-F 3 "" H 3150 4350 60  0001 C CNN
-	3    3150 4350
+P 5400 4050
+F 0 "U3" V 5354 4228 50  0000 L CNN
+F 1 "74HC14" V 5445 4228 50  0000 L CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5400 4050 60  0000 C CNN
+F 3 "" H 5400 4050 60  0001 C CNN
+	3    5400 4050
 	1    0    0    1   
 $EndComp
 $Comp
 L device:R R10
 U 1 1 581018B2
-P 3600 4200
-F 0 "R10" V 3680 4200 50  0000 C CNN
-F 1 "R" V 3600 4200 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3530 4200 50  0000 C CNN
-F 3 "" H 3600 4200 50  0000 C CNN
-	1    3600 4200
+P 5850 3900
+F 0 "R10" V 5930 3900 50  0000 C CNN
+F 1 "R" V 5850 3900 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5780 3900 50  0000 C CNN
+F 3 "" H 5850 3900 50  0000 C CNN
+	1    5850 3900
 	-1   0    0    1   
 $EndComp
 $Comp
 L bonsai:LED D1
 U 1 1 58101E2D
-P 3600 3850
-F 0 "D1" H 3600 3950 50  0000 C CNN
-F 1 "LED" H 3600 3750 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm_FlatTop" H 3600 3850 50  0000 C CNN
-F 3 "" H 3600 3850 50  0000 C CNN
-	1    3600 3850
+P 5850 3550
+F 0 "D1" H 5850 3650 50  0000 C CNN
+F 1 "LED" H 5850 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm_FlatTop" H 5850 3550 50  0000 C CNN
+F 3 "" H 5850 3550 50  0000 C CNN
+	1    5850 3550
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR014
 U 1 1 58101F33
-P 3600 3650
-F 0 "#PWR014" H 3600 3400 50  0001 C CNN
-F 1 "GND" H 3600 3500 50  0000 C CNN
-F 2 "" H 3600 3650 50  0000 C CNN
-F 3 "" H 3600 3650 50  0000 C CNN
-	1    3600 3650
+P 5850 3350
+F 0 "#PWR014" H 5850 3100 50  0001 C CNN
+F 1 "GND" H 5850 3200 50  0000 C CNN
+F 2 "" H 5850 3350 50  0000 C CNN
+F 3 "" H 5850 3350 50  0000 C CNN
+	1    5850 3350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -976,25 +976,12 @@ Wire Wire Line
 Wire Wire Line
 	-550 3650 550  3650
 Wire Wire Line
-	1050 3650 1050 4250
-Wire Wire Line
-	1050 4250 1350 4250
-Wire Wire Line
 	4650 4450 6350 4450
-Wire Wire Line
-	2600 4600 2600 4350
-Wire Wire Line
-	2600 4600 4300 4600
-Connection ~ 2600 4350
 Connection ~ 4650 6050
 Wire Wire Line
 	4650 4450 4650 6050
 Wire Wire Line
 	4600 6050 4650 6050
-Wire Wire Line
-	2550 4350 2600 4350
-Wire Wire Line
-	1350 4450 1200 4450
 Wire Wire Line
 	3250 5950 3400 5950
 Wire Wire Line
@@ -1026,31 +1013,18 @@ Wire Wire Line
 	2000 5450 2050 5450
 Wire Wire Line
 	2000 5400 2000 5450
-Connection ~ -50  4350
 Wire Wire Line
-	-50  4250 -50  4350
-Wire Wire Line
-	-150 4350 -150 4750
+	1900 4100 1900 4500
 Wire Wire Line
 	1900 5100 1900 4700
 Wire Wire Line
 	1900 5100 2000 5100
 Wire Wire Line
-	-150 4350 -50  4350
-Wire Wire Line
 	8300 6200 9900 6200
-Wire Wire Line
-	2050 4500 3250 4700
-Wire Wire Line
-	3250 4500 2050 4700
-Wire Wire Line
-	1200 4450 1200 4750
 Wire Wire Line
 	3250 4700 3250 5000
 Wire Wire Line
-	2050 4700 2050 4900
-Wire Wire Line
-	0    4550 0    4750
+	2050 4300 2050 4500
 Connection ~ 1300 3000
 Wire Wire Line
 	1550 3000 1300 3000
@@ -1373,10 +1347,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 7550 3400 7550
 Wire Wire Line
-	550  3650 1050 3650
-Wire Wire Line
-	2600 4350 2700 4350
-Wire Wire Line
 	4650 6050 4750 6050
 Wire Wire Line
 	2000 5850 2050 5850
@@ -1385,13 +1355,11 @@ Wire Wire Line
 Wire Wire Line
 	2000 5450 2000 5550
 Wire Wire Line
-	-50  4350 0    4350
-Wire Wire Line
 	1300 3000 1300 3350
 Wire Wire Line
 	1300 3350 1650 3350
 Wire Wire Line
-	3650 3350 5550 3350
+	3650 3350 4650 3350
 Wire Wire Line
 	7600 3100 7700 3100
 Wire Wire Line
@@ -1562,16 +1530,9 @@ Wire Bus Line
 Connection ~ 1100 2450
 Wire Wire Line
 	1100 2450 1350 2450
-Connection ~ 1200 4450
 Connection ~ 1450 850 
 Wire Bus Line
 	1450 850  5350 850 
-Wire Wire Line
-	5550 3350 5550 3550
-Wire Wire Line
-	5550 3550 5250 3550
-Wire Wire Line
-	5250 3550 5250 3400
 Text GLabel -700 7100 0    60   Input ~ 0
 down/up/enable/load/CLR
 $Comp
@@ -1619,6 +1580,46 @@ Wire Wire Line
 	-600 6450 -300 6450
 Wire Wire Line
 	-300 6800 -650 6800
+Wire Wire Line
+	3550 3950 2950 3950
+Wire Wire Line
+	4950 4050 4750 4050
+Wire Wire Line
+	2050 4500 2650 4500
+Wire Wire Line
+	2650 4500 2650 4700
+Wire Wire Line
+	2650 4700 3250 4700
+Wire Wire Line
+	3250 4200 3250 4650
+Wire Wire Line
+	3250 4650 2050 4650
+Wire Wire Line
+	2050 4650 2050 4900
+Wire Wire Line
+	3550 4150 3550 4200
+Wire Wire Line
+	3550 4200 3250 4200
+Connection ~ 3250 4200
+Connection ~ 1900 4100
+Wire Wire Line
+	2950 3950 2950 3650
+Wire Wire Line
+	1900 4100 2050 4100
+Wire Wire Line
+	550  3650 2950 3650
+Wire Wire Line
+	7600 3100 4650 3100
+Wire Wire Line
+	4650 3100 4650 3350
+Connection ~ 7600 3100
+Wire Wire Line
+	9500 2750 9600 2750
+Connection ~ 9600 2750
+Wire Bus Line
+	7400 600  5350 600 
+Wire Bus Line
+	5350 600  5350 850 
 Wire Bus Line
 	450  1050 450  1750
 Wire Bus Line
