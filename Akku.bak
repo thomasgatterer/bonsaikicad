@@ -330,7 +330,7 @@ L bonsai:SWITCH_INV SW3
 U 1 1 57FC34DF
 P 7500 6200
 F 0 "SW3" H 7300 6350 50  0000 C CNN
-F 1 "SWITCH_INV" H 7350 6050 50  0000 C CNN
+F 1 "CLR_Bonsai_SWITCH_INV" H 7350 6050 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm_h5mm" H 7500 6200 50  0000 C CNN
 F 3 "" H 7500 6200 50  0000 C CNN
 	1    7500 6200
@@ -690,7 +690,7 @@ L bonsai:SWITCH_INV SW1
 U 1 1 58100CBF
 P 1400 4600
 F 0 "SW1" H 1200 4750 50  0000 C CNN
-F 1 "SWITCH_INV" H 1250 4450 50  0000 C CNN
+F 1 "UP_Bonsai_SWITCH_INV" H 1250 4450 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm_h5mm" H 1400 4600 50  0000 C CNN
 F 3 "" H 1400 4600 50  0000 C CNN
 	1    1400 4600
@@ -833,7 +833,7 @@ L bonsai:SWITCH_INV SW2
 U 1 1 58103EB5
 P 1400 6350
 F 0 "SW2" H 1200 6500 50  0000 C CNN
-F 1 "SWITCH_INV" H 1250 6200 50  0000 C CNN
+F 1 "DOWN_Bonsai_SWITCH_INV" H 1250 6200 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm_h5mm" H 1400 6350 50  0000 C CNN
 F 3 "" H 1400 6350 50  0000 C CNN
 	1    1400 6350
@@ -1285,7 +1285,7 @@ F 3 "" H 8650 5250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel -500 7800 0    60   Input ~ 0
-down/up/enable/load/CLR
+load
 Wire Wire Line
 	-500 7800 -300 7800
 $Comp
@@ -1534,7 +1534,7 @@ Connection ~ 1450 850
 Wire Bus Line
 	1450 850  5350 850 
 Text GLabel -700 7100 0    60   Input ~ 0
-down/up/enable/load/CLR
+CLR
 $Comp
 L conn:Conn_01x01 P9
 U 1 1 5A616C3E
@@ -1549,12 +1549,12 @@ $EndComp
 $Comp
 L conn:Conn_01x01 P8
 U 1 1 5A616D5C
-P -100 6450
-F 0 "P8" H -100 6550 50  0000 C CNN
-F 1 "CONN_01X01" V 0   6450 50  0000 C CNN
-F 2 "Connect:1pin" H -100 6450 50  0000 C CNN
-F 3 "" H -100 6450 50  0000 C CNN
-	1    -100 6450
+P -100 5800
+F 0 "P8" H -100 5900 50  0000 C CNN
+F 1 "CONN_01X01" V 0   5800 50  0000 C CNN
+F 2 "Connect:1pin" H -100 5800 50  0000 C CNN
+F 3 "" H -100 5800 50  0000 C CNN
+	1    -100 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1569,15 +1569,15 @@ F 3 "" H -100 6100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel -650 6800 0    60   Input ~ 0
-down/up/enable/load/CLR
-Text GLabel -600 6450 0    60   Input ~ 0
-down/up/enable/load/CLR
+down
+Text GLabel -600 5800 0    60   Input ~ 0
+enable
 Text GLabel -550 6100 0    60   Input ~ 0
-down/up/enable/load/CLR
+up
 Wire Wire Line
 	-300 6100 -550 6100
 Wire Wire Line
-	-600 6450 -300 6450
+	-600 5800 -300 5800
 Wire Wire Line
 	-300 6800 -650 6800
 Wire Wire Line
@@ -1615,11 +1615,15 @@ Wire Wire Line
 Connection ~ 7600 3100
 Wire Wire Line
 	9500 2750 9600 2750
+Connection ~ 9600 2750
+Wire Bus Line
+	7400 600  5350 600 
+Wire Bus Line
+	5350 600  5350 850 
 Wire Bus Line
 	450  1050 450  1750
 Wire Bus Line
 	450  2150 450  2850
 Wire Bus Line
 	1450 850  1450 2350
-Connection ~ 9600 2750
 $EndSCHEMATC
