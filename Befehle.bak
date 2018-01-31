@@ -20,7 +20,7 @@ U 1 1 57E93BBB
 P -4550 200
 F 0 "R10" V -4550 200 50  0000 C CNN
 F 1 "330" V -4550 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4550 -1750 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -4550 -1750 50  0000 C CNN
 F 3 "" H -4550 200 50  0000 C CNN
 	1    -4550 200 
 	-1   0    0    1   
@@ -31,7 +31,7 @@ U 1 1 57E93CDA
 P -4450 200
 F 0 "R11" V -4450 200 50  0000 C CNN
 F 1 "330" V -4450 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4450 -1750 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -4450 -1750 50  0000 C CNN
 F 3 "" H -4450 200 50  0000 C CNN
 	1    -4450 200 
 	-1   0    0    1   
@@ -42,7 +42,7 @@ U 1 1 57E93D22
 P -4350 200
 F 0 "R13" V -4350 200 50  0000 C CNN
 F 1 "330" V -4350 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4350 -1750 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -4350 -1750 50  0000 C CNN
 F 3 "" H -4350 200 50  0000 C CNN
 	1    -4350 200 
 	-1   0    0    1   
@@ -53,7 +53,7 @@ U 1 1 57E93D69
 P -4250 200
 F 0 "R14" V -4250 200 50  0000 C CNN
 F 1 "330" V -4250 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4250 -1750 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -4250 -1750 50  0000 C CNN
 F 3 "" H -4250 200 50  0000 C CNN
 	1    -4250 200 
 	-1   0    0    1   
@@ -64,7 +64,7 @@ U 1 1 57E93DAB
 P -4150 200
 F 0 "R15" V -4150 200 50  0000 C CNN
 F 1 "330" V -4150 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4150 -1750 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -4150 -1750 50  0000 C CNN
 F 3 "" H -4150 200 50  0000 C CNN
 	1    -4150 200 
 	-1   0    0    1   
@@ -75,7 +75,7 @@ U 1 1 57E93DE4
 P -4050 200
 F 0 "R16" V -4050 200 50  0000 C CNN
 F 1 "330" V -4050 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4050 -1750 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -4050 -1750 50  0000 C CNN
 F 3 "" H -4050 200 50  0000 C CNN
 	1    -4050 200 
 	-1   0    0    1   
@@ -86,7 +86,7 @@ U 1 1 57E93E32
 P -3950 200
 F 0 "R18" V -3950 200 50  0000 C CNN
 F 1 "330" V -3950 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -3950 -1750 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -3950 -1750 50  0000 C CNN
 F 3 "" H -3950 200 50  0000 C CNN
 	1    -3950 200 
 	-1   0    0    1   
@@ -97,7 +97,7 @@ U 1 1 57E93E85
 P -3850 200
 F 0 "R21" V -3850 200 50  0000 C CNN
 F 1 "330" V -3850 350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -3850 -1750 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -3850 -1750 50  0000 C CNN
 F 3 "" H -3850 200 50  0000 C CNN
 	1    -3850 200 
 	-1   0    0    1   
@@ -229,7 +229,7 @@ U 1 1 57E99EFD
 P -3350 9050
 F 0 "R24" V -3350 9050 50  0000 C CNN
 F 1 "330" V -3450 9050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -3350 11150 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -3350 11150 50  0000 C CNN
 F 3 "" H -3350 9050 50  0000 C CNN
 	1    -3350 9050
 	-1   0    0    1   
@@ -240,7 +240,7 @@ U 1 1 57E9A030
 P -3900 9050
 F 0 "R20" V -3900 9050 50  0000 C CNN
 F 1 "330" V -4000 9050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -3900 11150 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -3900 11150 50  0000 C CNN
 F 3 "" H -3900 9050 50  0000 C CNN
 	1    -3900 9050
 	-1   0    0    1   
@@ -251,7 +251,7 @@ U 1 1 57E9A0AC
 P -4400 9050
 F 0 "R12" V -4400 9050 50  0000 C CNN
 F 1 "330" V -4500 9050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4400 11150 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -4400 11150 50  0000 C CNN
 F 3 "" H -4400 9050 50  0000 C CNN
 	1    -4400 9050
 	-1   0    0    1   
@@ -262,7 +262,7 @@ U 1 1 57E9A129
 P -4850 9050
 F 0 "R9" V -4850 9050 50  0000 C CNN
 F 1 "330" V -4950 9050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V -4850 11150 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -4850 11150 50  0000 C CNN
 F 3 "" H -4850 9050 50  0000 C CNN
 	1    -4850 9050
 	-1   0    0    1   
@@ -602,7 +602,7 @@ U 1 1 580EAD43
 P -3650 6400
 F 0 "D20" V -3600 6350 50  0000 L CNN
 F 1 "Led_Small" V -3700 6500 50  0000 L CNN
-F 2 "LEDs:LED_D3.0mm" H -3250 6400 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H -3250 6400 50  0000 C CNN
 F 3 "" V -3650 6400 50  0000 C CNN
 	1    -3650 6400
 	0    1    1    0   
