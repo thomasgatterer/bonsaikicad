@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Orte/1_Daten_Server/bonsaikicad/EinTaktReset.sch)
-    (date "Mit 31 Jän 2018 15:21:55 CET")
+    (date "Mit 21 Feb 2018 15:41:51 CET")
     (tool "Eeschema no-vcs-found-bf44d39~61~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -119,7 +119,7 @@
       (tstamp 57E97853))
     (comp (ref SW4)
       (value SPST)
-      (footprint tg_foodprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight)
+      (footprint tg_footprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight)
       (libsource (lib bonsai) (part SW_PUSH))
       (sheetpath (names /) (tstamps /))
       (tstamp 57E97A95))
@@ -202,6 +202,7 @@
       (tstamp 5A2833E0))
     (comp (ref C2)
       (value "10 µ")
+      (footprint Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.00mm)
       (libsource (lib bonsai) (part CP))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A315184))
@@ -213,6 +214,7 @@
       (tstamp 5A318D8E))
     (comp (ref C1)
       (value 47µ)
+      (footprint Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.00mm)
       (libsource (lib bonsai) (part CP))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A319373))
