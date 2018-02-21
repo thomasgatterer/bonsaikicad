@@ -2025,13 +2025,17 @@ F 3 "" H 6900 13250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Bus Line
-	3100 1350 3100 1500
-Wire Bus Line
-	6550 1500 6550 1850
-Wire Bus Line
-	6550 1150 6550 1500
+	3100 1500 6550 1500
 Wire Bus Line
 	3100 1500 3100 2050
 Wire Bus Line
-	3100 1500 6550 1500
+	6550 1150 6550 1500
+Wire Bus Line
+	6550 1500 6550 1850
+Wire Bus Line
+	3100 1350 3100 1500
+Text Notes 50   12900 0    50   ~ 0
+Diode braucht footprint\n
+Text Notes 4150 5850 0    50   ~ 0
+fettes Teil braucht footprint
 $EndSCHEMATC
