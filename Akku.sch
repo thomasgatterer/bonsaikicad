@@ -709,13 +709,13 @@ F 3 "" H 900 4600 50  0000 C CNN
 $EndComp
 $Comp
 L cmos4000:4069 U3
-U 3 1 581014B6
+U 6 1 581014B6
 P 5400 4050
 F 0 "U3" V 5354 4228 50  0000 L CNN
 F 1 "74HC14" V 5445 4228 50  0000 L CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5400 4050 60  0000 C CNN
 F 3 "" H 5400 4050 60  0001 C CNN
-	3    5400 4050
+	6    5400 4050
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1706,11 +1706,15 @@ Wire Wire Line
 	4450 7150 4600 7150
 Wire Wire Line
 	4600 7150 4600 7100
+Connection ~ 4450 7150
+Text Notes 5150 5850 0    50   ~ 0
+f
 Wire Bus Line
 	450  1050 450  1750
 Wire Bus Line
 	450  2150 450  2850
 Wire Bus Line
 	1450 850  1450 2350
-Connection ~ 4450 7150
+Text Notes 5400 3900 0    50   ~ 0
+e
 $EndSCHEMATC
