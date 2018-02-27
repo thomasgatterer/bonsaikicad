@@ -1,0 +1,3 @@
+- Eines der zwei Bauteile, die die Platine mit dem Buskabel (P4) verbinden wirft Probleme auf.
+
+- Schalter (Namen beginnen mit SW) werfen Probleme auf (foodprint statt footprint im Footprint, Korrektur alleine löst Probleme nicht)
