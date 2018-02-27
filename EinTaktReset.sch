@@ -495,7 +495,7 @@ U 1 1 5A158E16
 P 3650 5950
 F 0 "IC1" H 3600 6050 60  0000 C CNN
 F 1 "74LS624" H 3650 5950 60  0000 C CNN
-F 2 "" H 3650 5950 60  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3650 5950 60  0001 C CNN
 F 3 "" H 3650 5950 60  0001 C CNN
 	1    3650 5950
 	1    0    0    -1  
@@ -2024,18 +2024,18 @@ F 3 "" H 6900 13250 50  0000 C CNN
 	1    6900 13250
 	0    1    1    0   
 $EndComp
+Text Notes 50   12900 0    50   ~ 0
+Diode braucht footprint\n
+Text Notes 4150 5850 0    50   ~ 0
+fettes Teil braucht footprint
 Wire Bus Line
-	3100 1500 6550 1500
-Wire Bus Line
-	3100 1500 3100 2050
+	3100 1350 3100 1500
 Wire Bus Line
 	6550 1150 6550 1500
 Wire Bus Line
 	6550 1500 6550 1850
 Wire Bus Line
-	3100 1350 3100 1500
-Text Notes 50   12900 0    50   ~ 0
-Diode braucht footprint\n
-Text Notes 4150 5850 0    50   ~ 0
-fettes Teil braucht footprint
+	3100 1500 3100 2050
+Wire Bus Line
+	3100 1500 6550 1500
 $EndSCHEMATC

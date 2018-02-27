@@ -262,7 +262,7 @@ U 1 1 57E97A95
 P 3150 4350
 F 0 "SW4" V 3128 4478 50  0000 L CNN
 F 1 "SPST" V 3195 4478 20  0000 L CNN
-F 2 "tg_footprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight" H 3150 4350 50  0000 C CNN
+F 2 "tg_foodprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight" H 3150 4350 50  0000 C CNN
 F 3 "" H 3150 4350 50  0000 C CNN
 	1    3150 4350
 	0    -1   -1   0   
@@ -2034,4 +2034,8 @@ Wire Bus Line
 	6550 1500 6550 1850
 Wire Bus Line
 	3100 1350 3100 1500
+Text Notes 50   12900 0    50   ~ 0
+Diode braucht footprint\n
+Text Notes 4150 5850 0    50   ~ 0
+fettes Teil braucht footprint
 $EndSCHEMATC
