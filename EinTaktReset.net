@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/tomm/devlopTomm/bonsaikicad/EinTaktReset.sch)
-    (date "Die 27 Feb 2018 07:33:34 CET")
+    (date "Die 27 Feb 2018 07:39:32 CET")
     (tool "Eeschema no-vcs-found-7586afd~61~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -233,6 +233,7 @@
       (tstamp 5A31B889))
     (comp (ref D1)
       (value D)
+      (footprint Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal)
       (libsource (lib bonsai) (part D))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A32A9C2))
