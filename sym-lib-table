@@ -33,4 +33,5 @@
   (lib (name 74540)(type Legacy)(uri ${KIPRJMOD}/74540.lib)(options "")(descr ""))
   (lib (name 74ls624)(type Legacy)(uri ${KIPRJMOD}/74ls624.lib)(options "")(descr ""))
   (lib (name 74ls161bonsai)(type Legacy)(uri ${KIPRJMOD}/74ls161bonsai.lib)(options "")(descr ""))
+  (lib (name vco)(type Legacy)(uri /home/tomm/devlopTomm/bonsaikicad/vco.lib)(options "")(descr ""))
 )

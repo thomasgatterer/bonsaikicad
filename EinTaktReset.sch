@@ -490,17 +490,6 @@ $EndComp
 Text GLabel 8200 2650 2    60   Input ~ 0
 en-ln1
 $Comp
-L 74ls624:74LS624 IC1
-U 1 1 5A158E16
-P 3650 5950
-F 0 "IC1" H 3600 6050 60  0000 C CNN
-F 1 "74LS624" H 3650 5950 60  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3650 5950 60  0001 C CNN
-F 3 "" H 3650 5950 60  0001 C CNN
-	1    3650 5950
-	1    0    0    -1  
-$EndComp
-$Comp
 L 74xx:74HCT541_PWR U3
 U 1 1 57E935F2
 P 4750 2450
@@ -1902,12 +1891,6 @@ Wire Wire Line
 	4850 7300 5650 7300
 Wire Wire Line
 	3250 5450 3400 5450
-Connection ~ 3400 5450
-Wire Wire Line
-	3400 5450 3500 5450
-Wire Wire Line
-	3850 5450 3950 5450
-Connection ~ 3950 5450
 Wire Wire Line
 	3950 5450 4150 5450
 Wire Wire Line
@@ -2038,4 +2021,15 @@ Wire Bus Line
 	3100 1500 3100 2050
 Wire Bus Line
 	3100 1500 6550 1500
+$Comp
+L vco:74LS624 IC1
+U 1 1 5A96C7F1
+P 3650 5950
+F 0 "IC1" H 2960 6028 60  0000 R CNN
+F 1 "74LS624" H 2960 5922 60  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch2.00mm" H 3650 5950 60  0001 C CNN
+F 3 "" H 3650 5950 60  0001 C CNN
+	1    3650 5950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

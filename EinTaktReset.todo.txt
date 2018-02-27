@@ -1,3 +1,9 @@
+
+
+
+
 - Eines der zwei Bauteile, die die Platine mit dem Buskabel (P4) verbinden wirft Probleme auf.
+Solte eigentlich der Pin_Headers:Pin_Header_Straight_2x10_Pitch2.00mm sein
+Error: Component "IC1" pad "CX1" not found in footprint "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" 
 
 - Schalter (Namen beginnen mit SW) werfen Probleme auf (foodprint statt footprint im Footprint, Korrektur alleine löst Probleme nicht)
