@@ -490,17 +490,6 @@ $EndComp
 Text GLabel 8200 2650 2    60   Input ~ 0
 en-ln1
 $Comp
-L 74ls624:74LS624 IC1
-U 1 1 5A158E16
-P 3650 5950
-F 0 "IC1" H 3600 6050 60  0000 C CNN
-F 1 "74LS624" H 3650 5950 60  0000 C CNN
-F 2 "" H 3650 5950 60  0001 C CNN
-F 3 "" H 3650 5950 60  0001 C CNN
-	1    3650 5950
-	1    0    0    -1  
-$EndComp
-$Comp
 L 74xx:74HCT541_PWR U3
 U 1 1 57E935F2
 P 4750 2450
@@ -753,7 +742,7 @@ U 1 1 5A32A9C2
 P -200 12900
 F 0 "D1" H -200 13000 50  0000 C CNN
 F 1 "D" H -200 12800 50  0000 C CNN
-F 2 "" H -200 12900 50  0001 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal" H -200 12900 50  0001 C CNN
 F 3 "" H -200 12900 50  0001 C CNN
 	1    -200 12900
 	0    1    1    0   
@@ -1902,12 +1891,6 @@ Wire Wire Line
 	4850 7300 5650 7300
 Wire Wire Line
 	3250 5450 3400 5450
-Connection ~ 3400 5450
-Wire Wire Line
-	3400 5450 3500 5450
-Wire Wire Line
-	3850 5450 3950 5450
-Connection ~ 3950 5450
 Wire Wire Line
 	3950 5450 4150 5450
 Wire Wire Line
@@ -2024,12 +2007,27 @@ F 3 "" H 6900 13250 50  0000 C CNN
 	1    6900 13250
 	0    1    1    0   
 $EndComp
+Text Notes 50   12900 0    50   ~ 0
+Diode braucht footprint\n
+Text Notes 4150 5850 0    50   ~ 0
+fettes Teil braucht footprint
+$Comp
+L vco:74LS624 IC1
+U 1 1 5A96C7F1
+P 3650 5950
+F 0 "IC1" H 3600 6000 60  0000 R CNN
+F 1 "74LS624" H 3750 5950 60  0000 R CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3650 5950 60  0001 C CNN
+F 3 "" H 3650 5950 60  0001 C CNN
+	1    3650 5950
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	3100 1350 3100 1500
 Wire Bus Line
-	6550 1500 6550 1850
-Wire Bus Line
 	6550 1150 6550 1500
+Wire Bus Line
+	6550 1500 6550 1850
 Wire Bus Line
 	3100 1500 3100 2050
 Wire Bus Line
