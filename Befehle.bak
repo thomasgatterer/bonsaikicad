@@ -295,7 +295,7 @@ U 1 1 57E9A89E
 P -4400 9300
 F 0 "D7" H -4400 9443 50  0000 C CNN
 F 1 "LED" H -4400 9186 50  0001 C CNN
-F 2 "LEDs:LED-3MM" H -4550 9200 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H -4550 9200 50  0000 C CNN
 F 3 "" V -4400 9300 50  0000 C CNN
 	1    -4400 9300
 	0    1    1    0   
@@ -306,7 +306,7 @@ U 1 1 57E9A927
 P -4850 9300
 F 0 "D4" H -4850 9450 50  0000 C CNN
 F 1 "LED" H -4850 9186 50  0001 C CNN
-F 2 "LEDs:LED-3MM" H -5000 9200 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H -5000 9200 50  0000 C CNN
 F 3 "" V -4850 9300 50  0000 C CNN
 	1    -4850 9300
 	0    1    1    0   
@@ -416,7 +416,7 @@ U 1 1 57F34F54
 P -8300 3850
 F 0 "R7" V -8300 3850 50  0000 C CNN
 F 1 "1k" V -8400 3850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H -8300 4100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H -8300 4100 50  0000 C CNN
 F 3 "" H -8300 3850 50  0000 C CNN
 	1    -8300 3850
 	-1   0    0    1   
@@ -427,7 +427,7 @@ U 1 1 57FBEFF9
 P -8800 2000
 F 0 "R5" V -8800 2000 50  0000 C CNN
 F 1 "330" V -8900 2000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -9100 2050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -9100 2050 50  0000 C CNN
 F 3 "" H -8800 2000 50  0000 C CNN
 	1    -8800 2000
 	-1   0    0    1   
@@ -460,7 +460,7 @@ U 1 1 57FBF2F2
 P -9700 1100
 F 0 "R1" V -9700 1100 50  0000 C CNN
 F 1 "4,7k" V -9800 1100 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -9500 2050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -9500 2050 50  0000 C CNN
 F 3 "" H -9700 1100 50  0000 C CNN
 	1    -9700 1100
 	-1   0    0    1   
@@ -558,7 +558,7 @@ U 1 1 580EAA2D
 P -3950 5550
 F 0 "D15" H -4000 5675 50  0000 L CNN
 F 1 "Led_Small" V -4050 5950 50  0000 L CNN
-F 2 "LEDs:LED_D3.0mm" V -3950 6250 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" V -3950 6250 50  0000 C CNN
 F 3 "" V -3950 5550 50  0000 C CNN
 	1    -3950 5550
 	0    1    1    0   
@@ -650,7 +650,7 @@ U 1 1 580F54F3
 P -8700 8250
 F 0 "R6" V -8800 8250 50  0000 C CNN
 F 1 "4,7k" V -8700 8250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -8550 8200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -8550 8200 50  0000 C CNN
 F 3 "" H -8700 8250 50  0000 C CNN
 	1    -8700 8250
 	-1   0    0    -1  
@@ -674,7 +674,7 @@ U 1 1 582A32C5
 P -9150 5750
 F 0 "R3" V -9070 5750 50  0000 C CNN
 F 1 "4,7k" V -9150 5750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -9300 5150 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -9300 5150 50  0000 C CNN
 F 3 "" H -9150 5750 50  0000 C CNN
 	1    -9150 5750
 	-1   0    0    -1  
@@ -696,7 +696,7 @@ U 1 1 582AA727
 P -9350 4650
 F 0 "R2" V -9350 4650 50  0000 C CNN
 F 1 "330" V -9450 4650 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V -9150 3850 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -9150 3850 50  0000 C CNN
 F 3 "" H -9350 4650 50  0000 C CNN
 	1    -9350 4650
 	-1   0    0    1   
@@ -707,7 +707,7 @@ U 1 1 582AC971
 P -9350 4900
 F 0 "D1" H -9350 5000 50  0000 C CNN
 F 1 "LED" H -9350 4786 50  0001 C CNN
-F 2 "LEDs:LED-3MM" V -9200 4900 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" V -9200 4900 50  0000 C CNN
 F 3 "" V -9350 4900 50  0000 C CNN
 	1    -9350 4900
 	0    1    1    0   
@@ -731,7 +731,7 @@ U 1 1 582B55B4
 P -8850 3450
 F 0 "R4" V -8950 3450 50  0000 C CNN
 F 1 "4,7k" V -8850 3450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H -9200 3650 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H -9200 3650 50  0000 C CNN
 F 3 "" H -8850 3450 50  0000 C CNN
 	1    -8850 3450
 	-1   0    0    -1  
@@ -753,7 +753,7 @@ U 1 1 582B6652
 P -7400 2350
 F 0 "R8" V -7400 2350 50  0000 C CNN
 F 1 "330" V -7500 2350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H -7050 2100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H -7050 2100 50  0000 C CNN
 F 3 "" H -7400 2350 50  0000 C CNN
 	1    -7400 2350
 	0    -1   -1   0   
@@ -1728,20 +1728,120 @@ Wire Wire Line
 Connection ~ -8300 5050
 Wire Wire Line
 	-8300 5050 -8300 5600
-Connection ~ -8300 6350
-Connection ~ -8300 4900
-Wire Wire Line
-	-8300 4900 -8300 5050
 Connection ~ -8300 5600
 Wire Wire Line
 	-8300 5600 -8300 6150
 Connection ~ -8300 6150
 Wire Wire Line
-	-8300 6150 -8300 6350
-Wire Wire Line
-	-8300 6150 -8300 6650
+	-8300 4900 -8300 5050
 Wire Wire Line
 	-8300 4500 -8300 5050
+Wire Wire Line
+	-8300 6150 -8300 6650
+Wire Bus Line
+	37900 55900 37900 44500
+Wire Bus Line
+	37900 44500 50200 44500
+Wire Bus Line
+	50200 44500 50200 20050
+Wire Bus Line
+	50200 20050 65050 20050
+Wire Bus Line
+	65050 45000 77600 45000
+Wire Bus Line
+	77600 45000 77600 54250
+Wire Bus Line
+	77600 54250 77700 54250
+Wire Bus Line
+	65050 20050 65050 45000
+Wire Bus Line
+	56650 20400 56650 27200
+Wire Bus Line
+	64850 27200 64850 26900
+Wire Bus Line
+	50250 27200 56650 27200
+Connection ~ 56650 27200
+Wire Bus Line
+	56650 27200 64850 27200
+Wire Bus Line
+	-54500 -26200 -54500 -18100
+Wire Bus Line
+	-52200 -23300 -48900 -23300
+Wire Bus Line
+	-45550 -23200 -41150 -23200
+Wire Bus Line
+	-48250 -20200 -46900 -20200
+Wire Bus Line
+	-46900 -20200 -46900 -20100
+Wire Bus Line
+	-38650 -25550 -38650 -18900
+Wire Bus Line
+	-38650 -18900 -38600 -18900
+Wire Bus Line
+	-58100 -24350 -58100 -27850
+Wire Bus Line
+	-58100 -27850 -50500 -27850
+Wire Bus Line
+	-50500 -27950 -50500 -33550
+Wire Bus Line
+	-50500 -33550 -41700 -33550
+Wire Bus Line
+	-41700 -33550 -41700 -27850
+Wire Bus Line
+	-41700 -27850 -33000 -27850
+Wire Bus Line
+	-33000 -27850 -33000 -25550
+Wire Bus Line
+	-33000 -25550 -32900 -25550
+Wire Bus Line
+	-38500 -18100 -38500 -19000
+Wire Bus Line
+	-54600 -18100 -54500 -18100
+Connection ~ -54500 -18100
+Wire Bus Line
+	-54500 -18100 -40100 -18100
+Wire Bus Line
+	-52450 -17950 -52450 -17450
+Wire Bus Line
+	-52450 -17450 -40100 -17450
+Connection ~ -40100 -18100
+Wire Bus Line
+	-40100 -18100 -38500 -18100
+Wire Bus Line
+	-52450 -17300 -52450 -16750
+Wire Bus Line
+	-52450 -16600 -40100 -16600
+Wire Bus Line
+	-40100 -18100 -40100 -17450
+Connection ~ -40100 -17450
+Wire Bus Line
+	-40100 -17450 -40100 -16600
+Wire Bus Line
+	-52450 -16750 -72350 -16750
+Wire Bus Line
+	-72350 -16750 -72350 -3400
+Wire Bus Line
+	-72350 -3400 -71800 -3400
+Connection ~ -52450 -16750
+Wire Bus Line
+	-52450 -16750 -52450 -16600
+Wire Bus Line
+	-39650 -16500 -24500 -16500
+Wire Bus Line
+	-24500 -16500 -24500 -6200
+Wire Bus Line
+	-58600 -8800 -58600 -4350
+Wire Bus Line
+	-58100 -4350 -58100 -4250
+Wire Bus Line
+	-58750 -4350 -58600 -4350
+Connection ~ -58600 -4350
+Wire Bus Line
+	-58600 -4350 -58100 -4350
+Wire Bus Line
+	-33650 -9150 -33650 -5150
+Wire Bus Line
+	-33650 -5150 -34100 -5150
 Wire Bus Line
 	-6500 6800 -6300 6800
 Wire Bus Line
