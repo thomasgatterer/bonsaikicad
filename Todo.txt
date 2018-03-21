@@ -1,0 +1,2 @@
+ 
+Die pins bei dem conn 2x10 am boden können nicht mit den pins bei speichermodul6116 verbunden werden.
