@@ -1,2 +1,5 @@
-Pins setzen und footprints
-kabel legen
+Connectors_Samtec:SDL-120-X-XX_2x10 mit vorhandenem tauschen
+Pins rechts unten, enIR, loadIR einfügen?
+100n capacitors einfügen
+tracks und vias legen
+

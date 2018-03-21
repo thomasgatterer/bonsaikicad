@@ -2584,13 +2584,13 @@ F 3 "" H 2550 6300 60  0001 C CNN
 $EndComp
 $Comp
 L 74540:74541 U2
-U 1 1 5A936AA7
+U 7 1 5A936AA7
 P 2100 6450
 F 0 "U2" V 2091 6988 60  0000 L CNN
 F 1 "74541" V 2197 6988 60  0000 L CNN
 F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H 2250 6300 60  0001 C CNN
 F 3 "" H 2250 6300 60  0001 C CNN
-	1    2100 6450
+	7    2100 6450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -2752,8 +2752,6 @@ Wire Wire Line
 Connection ~ 1600 6700
 Wire Wire Line
 	1600 6700 1800 6700
-Wire Wire Line
-	2550 6700 2500 6700
 Connection ~ 2550 6700
 Wire Wire Line
 	7250 5000 7250 5750
