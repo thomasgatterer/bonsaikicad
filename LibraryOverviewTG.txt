@@ -1,5 +1,5 @@
 ${KIPRJMOD} == project directory
-
+${KICAD_SYMBOL_DIR} == /usr/share/kicad/library
 
 Schematic Library Tables
  Global Libraies
@@ -11,6 +11,10 @@ Schematic Library Tables
  Project Specific Libraies
   stored in: ${KICAD_SYMBOL_DIR}/sym-lib-table
      ${KICAD_SYMBOL_DIR}/Sensor_Motion.lib
+
+
+
+
   
 
 
