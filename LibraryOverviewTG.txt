@@ -1,5 +1,6 @@
 ${KIPRJMOD} == project directory
 ${KICAD_SYMBOL_DIR} == /usr/share/kicad/library
+${BON_LIB} == project directory
 
 Schematic Library Tables
  Global Libraies

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:EinTaktReset-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 11693 16535 portrait
@@ -1867,6 +1868,10 @@ Wire Wire Line
 	6850 2450 6850 2650
 Wire Wire Line
 	2350 5950 3000 5950
+Wire Wire Line
+	2350 1000 2350 2200
+Wire Wire Line
+	7300 1000 7300 2200
 Wire Bus Line
 	3100 1350 3100 1500
 Wire Bus Line
@@ -1875,10 +1880,17 @@ Wire Bus Line
 	6550 1500 6550 1850
 Wire Bus Line
 	3100 1500 3100 2050
-Wire Wire Line
-	2350 1000 2350 2200
-Wire Wire Line
-	7300 1000 7300 2200
 Wire Bus Line
 	3100 1500 6550 1500
+$Comp
+L bonsai:R R?
+U 1 1 5ABE15F8
+P 6650 14400
+F 0 "R?" H 6720 14446 50  0000 L CNN
+F 1 "R" H 6720 14355 50  0000 L CNN
+F 2 "" V 6580 14400 30  0000 C CNN
+F 3 "" H 6650 14400 30  0000 C CNN
+	1    6650 14400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
