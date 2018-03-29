@@ -6,7 +6,7 @@
   (lib (name conn)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/conn.lib)(options "")(descr "")(disabled))
   (lib (name linear)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/linear.lib)(options "")(descr "")(disabled))
   (lib (name regul)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/regul.lib)(options "")(descr "")(disabled))
-  (lib (name 74xx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/74xx.lib)(options "")(descr "")(disabled))
+  (lib (name 74xx)(type Legacy)(uri ${BON_LIB}/bonsaicomplib/74xx.lib)(options "")(descr ""))
   (lib (name cmos4000)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/cmos4000.lib)(options "")(descr "")(disabled))
   (lib (name adc-dac)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/adc-dac.lib)(options "")(descr "")(disabled))
   (lib (name memory)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/memory.lib)(options "")(descr "")(disabled))
