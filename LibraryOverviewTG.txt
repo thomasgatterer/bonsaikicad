@@ -1,0 +1,19 @@
+${KIPRJMOD} == project directory
+
+
+Schematic Library Tables
+ Global Libraies
+  stored in: ${KIPRJMOD}/.config/kicad/sym-lib-table 
+    ${KIPRJMOD}/74540.lib
+    ${KIPRJMOD}/74ls624.lib
+    ...
+
+ Project Specific Libraies
+  stored in: ${KICAD_SYMBOL_DIR}/sym-lib-table
+     ${KICAD_SYMBOL_DIR}/Sensor_Motion.lib
+  
+
+
+
+
+
