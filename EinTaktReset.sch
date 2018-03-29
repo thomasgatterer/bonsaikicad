@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:EinTaktReset-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 11693 16535 portrait
@@ -1183,8 +1182,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 7400 2050 7800
 Wire Wire Line
-	2050 7800 2150 7800
-Wire Wire Line
 	4850 7700 4850 7300
 Wire Wire Line
 	5650 3150 5650 2550
@@ -1228,8 +1225,6 @@ Wire Wire Line
 	4850 1750 4850 1600
 Wire Wire Line
 	4950 1750 4950 1600
-Wire Wire Line
-	2350 6900 2100 6900
 Wire Wire Line
 	2050 6900 2050 7200
 Wire Wire Line
@@ -1564,70 +1559,6 @@ Wire Wire Line
 Wire Wire Line
 	6000 12300 6000 12800
 Wire Wire Line
-	2350 1000 2350 1150
-Wire Wire Line
-	7300 1000 7300 1150
-Wire Wire Line
-	2350 2050 2350 2200
-Wire Wire Line
-	7300 2050 7300 2200
-Wire Wire Line
-	2350 1150 2350 1250
-Connection ~ 2350 1150
-Wire Wire Line
-	2350 1250 2350 1350
-Connection ~ 2350 1250
-Wire Wire Line
-	2350 1450 2350 1350
-Connection ~ 2350 1350
-Wire Wire Line
-	2350 1450 2350 1550
-Connection ~ 2350 1450
-Wire Wire Line
-	2350 1650 2350 1750
-Wire Wire Line
-	2350 1850 2350 1950
-Wire Wire Line
-	2350 2050 2350 1950
-Connection ~ 2350 2050
-Connection ~ 2350 1950
-Wire Wire Line
-	2350 1850 2350 1750
-Connection ~ 2350 1850
-Connection ~ 2350 1750
-Wire Wire Line
-	2350 1650 2350 1550
-Connection ~ 2350 1650
-Connection ~ 2350 1550
-Wire Wire Line
-	7300 1150 7300 1250
-Connection ~ 7300 1150
-Wire Wire Line
-	7300 1250 7300 1350
-Connection ~ 7300 1250
-Wire Wire Line
-	7300 1350 7300 1450
-Connection ~ 7300 1350
-Wire Wire Line
-	7300 1450 7300 1550
-Connection ~ 7300 1450
-Wire Wire Line
-	7300 1550 7300 1650
-Connection ~ 7300 1550
-Wire Wire Line
-	7300 1650 7300 1750
-Connection ~ 7300 1650
-Wire Wire Line
-	7300 1750 7300 1850
-Connection ~ 7300 1750
-Wire Wire Line
-	7300 1850 7300 1950
-Connection ~ 7300 1850
-Wire Wire Line
-	7300 1950 7300 2050
-Connection ~ 7300 1950
-Connection ~ 7300 2050
-Wire Wire Line
 	4250 3250 4250 3900
 Wire Wire Line
 	4450 3350 4450 3900
@@ -1740,13 +1671,6 @@ Wire Wire Line
 Connection ~ 4450 14900
 Wire Wire Line
 	4450 14900 4450 15000
-Connection ~ 2150 7800
-Wire Wire Line
-	2150 7800 2350 7800
-Connection ~ 2100 6900
-Wire Wire Line
-	2100 6900 2050 6900
-Connection ~ 2350 7800
 Wire Wire Line
 	3750 7300 3750 7700
 Wire Wire Line
@@ -1759,17 +1683,6 @@ Wire Wire Line
 	3800 8400 3900 8400
 Wire Wire Line
 	5400 8300 5400 8500
-Connection ~ 5400 8500
-Connection ~ 5750 8500
-Wire Wire Line
-	5750 8500 10650 8500
-Wire Wire Line
-	5400 8500 5750 8500
-Wire Wire Line
-	5950 6100 5750 6100
-Wire Wire Line
-	5650 6100 5750 6100
-Connection ~ 5750 6100
 Wire Wire Line
 	4850 7300 5650 7300
 Wire Wire Line
@@ -1785,24 +1698,6 @@ Wire Wire Line
 	3150 3850 3150 4050
 Wire Wire Line
 	3150 4650 3150 4950
-Wire Wire Line
-	5150 3150 5250 3150
-Connection ~ 5250 3150
-Wire Wire Line
-	5250 3150 5450 3150
-Connection ~ 5450 3150
-Wire Wire Line
-	5450 3150 5650 3150
-Wire Wire Line
-	6850 2450 6850 2550
-Connection ~ 6850 2550
-Wire Wire Line
-	6850 2550 6850 2650
-Connection ~ 2500 5950
-Wire Wire Line
-	2500 5950 3000 5950
-Wire Wire Line
-	2350 5950 2500 5950
 Wire Wire Line
 	1850 10650 1850 10600
 $Comp
@@ -1872,13 +1767,10 @@ Connection ~ 2600 2200
 Wire Wire Line
 	2600 2200 2350 2200
 Connection ~ 3100 1500
-Connection ~ 5650 3150
 Connection ~ 6550 1500
 Connection ~ 7000 2200
 Wire Wire Line
 	7000 2200 6650 2200
-Connection ~ 8050 2450
-Connection ~ 8050 2650
 $Comp
 L power:GND #PWR031
 U 1 1 5A6EA5FA
@@ -1903,54 +1795,6 @@ F 1 "74LS624" H 3750 5950 60  0000 R CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3650 5950 60  0001 C CNN
 F 3 "" H 3650 5950 60  0001 C CNN
 	1    3650 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L PCB~Terminal~Blocks:691213710003 J?
-U 1 1 5A989AD2
-P 10550 3150
-F 0 "J?" H 10515 3190 50  0000 L CNN
-F 1 "691213710003" H 10515 3099 50  0000 L CNN
-F 2 "PCB Terminal Blocks:691213710003" H 10550 3150 50  0001 L BNN
-F 3 "1.12 USD" H 10550 3150 50  0001 L BNN
-F 4 "Warning" H 10550 3150 50  0001 L BNN "Field4"
-F 5 "Wurth Electronics" H 10550 3150 50  0001 L BNN "Field5"
-F 6 "TERM BLK 5MM HORZ ENTRY MOD 3P" H 10550 3150 50  0001 L BNN "Field6"
-F 7 "None" H 10550 3150 50  0001 L BNN "Field7"
-F 8 "691213710003" H 10550 3150 50  0001 L BNN "Field8"
-	1    10550 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L PCB~Terminal~Blocks:691213710003 J?
-U 1 1 5A989D4B
-P 13050 9700
-F 0 "J?" H 13015 9740 50  0000 L CNN
-F 1 "691213710003" H 13015 9649 50  0000 L CNN
-F 2 "PCB Terminal Blocks:691213710003" H 13050 9700 50  0001 L BNN
-F 3 "1.12 USD" H 13050 9700 50  0001 L BNN
-F 4 "Warning" H 13050 9700 50  0001 L BNN "Field4"
-F 5 "Wurth Electronics" H 13050 9700 50  0001 L BNN "Field5"
-F 6 "TERM BLK 5MM HORZ ENTRY MOD 3P" H 13050 9700 50  0001 L BNN "Field6"
-F 7 "None" H 13050 9700 50  0001 L BNN "Field7"
-F 8 "691213710003" H 13050 9700 50  0001 L BNN "Field8"
-	1    13050 9700
-	1    0    0    -1  
-$EndComp
-$Comp
-L PCB~Terminal~Blocks:691213710003 J?
-U 1 1 5A989E29
-P 12900 11950
-F 0 "J?" H 12865 11990 50  0000 L CNN
-F 1 "691213710003" H 12865 11899 50  0000 L CNN
-F 2 "PCB Terminal Blocks:691213710003" H 12900 11950 50  0001 L BNN
-F 3 "1.12 USD" H 12900 11950 50  0001 L BNN
-F 4 "Warning" H 12900 11950 50  0001 L BNN "Field4"
-F 5 "Wurth Electronics" H 12900 11950 50  0001 L BNN "Field5"
-F 6 "TERM BLK 5MM HORZ ENTRY MOD 3P" H 12900 11950 50  0001 L BNN "Field6"
-F 7 "None" H 12900 11950 50  0001 L BNN "Field7"
-F 8 "691213710003" H 12900 11950 50  0001 L BNN "Field8"
-	1    12900 11950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2009,6 +1853,20 @@ Wire Wire Line
 	4150 15800 4150 14900
 Wire Wire Line
 	4150 14900 4450 14900
+Wire Wire Line
+	2050 7800 2350 7800
+Wire Wire Line
+	2050 6900 2350 6900
+Wire Wire Line
+	5400 8500 10650 8500
+Wire Wire Line
+	5650 6100 5950 6100
+Wire Wire Line
+	5150 3150 5650 3150
+Wire Wire Line
+	6850 2450 6850 2650
+Wire Wire Line
+	2350 5950 3000 5950
 Wire Bus Line
 	3100 1350 3100 1500
 Wire Bus Line
@@ -2017,6 +1875,10 @@ Wire Bus Line
 	6550 1500 6550 1850
 Wire Bus Line
 	3100 1500 3100 2050
+Wire Wire Line
+	2350 1000 2350 2200
+Wire Wire Line
+	7300 1000 7300 2200
 Wire Bus Line
 	3100 1500 6550 1500
 $EndSCHEMATC
