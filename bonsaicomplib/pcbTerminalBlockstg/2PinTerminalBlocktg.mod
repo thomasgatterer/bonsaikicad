@@ -2,18 +2,18 @@ PCBNEW-LibModule-V1
 # encoding utf-8
 Units mm
 $INDEX
-691216510002
+2PinTerminalBlocktg
 $EndINDEX
-$MODULE 691216510002
+$MODULE 2PinTerminalBlocktg
 Po 0 0 0 15 00000000 00000000 ~~
-Li 691216510002
+Li 2PinTerminalBlocktg
 Cd <b>WR-TBL Serie 2165 - 5.08mm Horizontal Entry Modular with Rising Cage Clamp - 3.5mm2 Wires, 2 Pins
 Sc 00000000
 At STD
 Op 0 0 0
 .SolderMask 0
 .SolderPaste 0
-T0 -0.196539 -6.71131 1.00265 1.00265 0 0.05 N V 21 "691216510002"
+T0 -0.196539 -6.71131 1.00265 1.00265 0 0.05 N V 21 "2PinTerminalBlocktg"
 T1 -0.311598 5.96317 1.00194 1.00194 0 0.05 N V 21 "VAL**"
 DS 5.04 -4.9 -5.04 -4.9 0.127 21
 DS -5.04 -4.9 -5.04 4.9 0.127 21
@@ -40,4 +40,4 @@ At STD N 00E0FFFF
 Ne 0 ""
 Po -2.54 0
 $EndPAD
-$EndMODULE 691216510002
+$EndMODULE 2PinTerminalBlocktg
