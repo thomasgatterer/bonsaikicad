@@ -1307,11 +1307,11 @@ X B 4 -200 -200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Led_Small
+# LED_Small
 #
-DEF Led_Small D 0 10 N N 1 F N
+DEF LED_Small D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "Led_Small" -175 -100 50 H V L CNN
+F1 "LED_Small" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST

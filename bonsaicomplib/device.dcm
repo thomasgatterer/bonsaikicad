@@ -199,7 +199,7 @@ D Common Anode RGB LED
 K RGB LED
 $ENDCMP
 #
-$CMP Led_Small
+$CMP LED_Small
 D Led
 $ENDCMP
 #
