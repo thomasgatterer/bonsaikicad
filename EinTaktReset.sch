@@ -1683,8 +1683,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 8400 3900 8400
 Wire Wire Line
-	5400 8300 5400 8500
-Wire Wire Line
 	4850 7300 5650 7300
 Wire Wire Line
 	3250 5450 3400 5450
@@ -1829,10 +1827,10 @@ Wire Wire Line
 Wire Wire Line
 	9050 3750 10350 3750
 $Comp
-L bonsai:D D?
+L bonsai:D D3
 U 1 1 5AA50448
 P 3850 15800
-F 0 "D?" H 3850 15585 50  0000 C CNN
+F 0 "D3" H 3850 15585 50  0000 C CNN
 F 1 "D" H 3850 15676 50  0000 C CNN
 F 2 "" H 3850 15800 60  0000 C CNN
 F 3 "" H 3850 15800 60  0000 C CNN
@@ -1855,23 +1853,148 @@ Wire Wire Line
 Wire Wire Line
 	4150 14900 4450 14900
 Wire Wire Line
-	2050 7800 2350 7800
-Wire Wire Line
-	2050 6900 2350 6900
-Wire Wire Line
-	5400 8500 10650 8500
-Wire Wire Line
-	5650 6100 5950 6100
-Wire Wire Line
-	5150 3150 5650 3150
-Wire Wire Line
-	6850 2450 6850 2650
+	5400 8500 5750 8500
 Wire Wire Line
 	2350 5950 3000 5950
+$Comp
+L bonsai:R R14
+U 1 1 5ABE15F8
+P 6650 14400
+F 0 "R14" H 6720 14446 50  0000 L CNN
+F 1 "R" H 6720 14355 50  0000 L CNN
+F 2 "" V 6580 14400 30  0000 C CNN
+F 3 "" H 6650 14400 30  0000 C CNN
+	1    6650 14400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3PinTerminalBlocktg:3PinTerminalBlocktg J2
+U 1 1 5ABEE025
+P 13050 9700
+F 0 "J2" H 13015 9740 50  0000 L CNN
+F 1 "3PinTerminalBlocktg" H 13015 9649 50  0000 L CNN
+F 2 "3PinTerminalBlocktg" H 13050 9700 50  0001 L BNN
+F 3 "1.12 USD" H 13050 9700 50  0001 L BNN
+F 4 "Warning" H 13050 9700 50  0001 L BNN "Field4"
+F 5 "Wurth Electronics" H 13050 9700 50  0001 L BNN "Field5"
+F 6 "TERM BLK 5MM HORZ ENTRY MOD 3P" H 13050 9700 50  0001 L BNN "Field6"
+F 7 "None" H 13050 9700 50  0001 L BNN "Field7"
+F 8 "3PinTerminalBlocktg" H 13050 9700 50  0001 L BNN "Field8"
+	1    13050 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3PinTerminalBlocktg:3PinTerminalBlocktg J1
+U 1 1 5ABEE293
+P 12900 11950
+F 0 "J1" H 12865 11990 50  0000 L CNN
+F 1 "3PinTerminalBlocktg" H 12865 11899 50  0000 L CNN
+F 2 "3PinTerminalBlocktg" H 12900 11950 50  0001 L BNN
+F 3 "1.12 USD" H 12900 11950 50  0001 L BNN
+F 4 "Warning" H 12900 11950 50  0001 L BNN "Field4"
+F 5 "Wurth Electronics" H 12900 11950 50  0001 L BNN "Field5"
+F 6 "TERM BLK 5MM HORZ ENTRY MOD 3P" H 12900 11950 50  0001 L BNN "Field6"
+F 7 "None" H 12900 11950 50  0001 L BNN "Field7"
+F 8 "3PinTerminalBlocktg" H 12900 11950 50  0001 L BNN "Field8"
+	1    12900 11950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	2350 1000 2350 2200
+	7300 1000 7300 1150
+Connection ~ 7300 1150
 Wire Wire Line
-	7300 1000 7300 2200
+	7300 1150 7300 1250
+Connection ~ 7300 1250
+Wire Wire Line
+	7300 1250 7300 1350
+Connection ~ 7300 1350
+Wire Wire Line
+	7300 1350 7300 1450
+Connection ~ 7300 1450
+Wire Wire Line
+	7300 1450 7300 1550
+Connection ~ 7300 1550
+Wire Wire Line
+	7300 1550 7300 1650
+Connection ~ 7300 1650
+Wire Wire Line
+	7300 1650 7300 1750
+Connection ~ 7300 1750
+Wire Wire Line
+	7300 1750 7300 1850
+Connection ~ 7300 1850
+Wire Wire Line
+	7300 1850 7300 1950
+Connection ~ 7300 1950
+Wire Wire Line
+	7300 1950 7300 2050
+Connection ~ 7300 2050
+Wire Wire Line
+	7300 2050 7300 2200
+Wire Wire Line
+	2350 1000 2350 1150
+Connection ~ 2350 2050
+Wire Wire Line
+	2350 2050 2350 2200
+Connection ~ 2350 1150
+Wire Wire Line
+	2350 1150 2350 1250
+Connection ~ 2350 1250
+Wire Wire Line
+	2350 1250 2350 1350
+Connection ~ 2350 1350
+Wire Wire Line
+	2350 1350 2350 1450
+Connection ~ 2350 1450
+Wire Wire Line
+	2350 1450 2350 1550
+Connection ~ 2350 1550
+Wire Wire Line
+	2350 1550 2350 1650
+Connection ~ 2350 1650
+Wire Wire Line
+	2350 1650 2350 1750
+Connection ~ 2350 1750
+Wire Wire Line
+	2350 1750 2350 1850
+Connection ~ 2350 1850
+Wire Wire Line
+	2350 1850 2350 1950
+Connection ~ 2350 1950
+Wire Wire Line
+	2350 1950 2350 2050
+Wire Wire Line
+	5150 3150 5250 3150
+Connection ~ 5250 3150
+Wire Wire Line
+	5250 3150 5450 3150
+Connection ~ 5450 3150
+Wire Wire Line
+	5450 3150 5650 3150
+Wire Wire Line
+	6850 2450 6850 2550
+Connection ~ 6850 2550
+Wire Wire Line
+	6850 2550 6850 2650
+Wire Wire Line
+	5650 6100 5750 6100
+Connection ~ 5750 6100
+Wire Wire Line
+	5750 6100 5950 6100
+Wire Wire Line
+	2050 6900 2100 6900
+Connection ~ 2100 6900
+Wire Wire Line
+	2100 6900 2350 6900
+Wire Wire Line
+	2050 7800 2150 7800
+Connection ~ 2150 7800
+Wire Wire Line
+	2150 7800 2350 7800
+Wire Wire Line
+	5400 8300 5400 8500
+Wire Wire Line
+	5400 8500 5750 8500
 Wire Bus Line
 	3100 1350 3100 1500
 Wire Bus Line
@@ -1882,15 +2005,13 @@ Wire Bus Line
 	3100 1500 3100 2050
 Wire Bus Line
 	3100 1500 6550 1500
-$Comp
-L bonsai:R R?
-U 1 1 5ABE15F8
-P 6650 14400
-F 0 "R?" H 6720 14446 50  0000 L CNN
-F 1 "R" H 6720 14355 50  0000 L CNN
-F 2 "" V 6580 14400 30  0000 C CNN
-F 3 "" H 6650 14400 30  0000 C CNN
-	1    6650 14400
-	1    0    0    -1  
-$EndComp
+Connection ~ 5400 8500
+Connection ~ 5800 8500
+Wire Wire Line
+	5800 8500 10650 8500
+Connection ~ 5750 8500
+Wire Wire Line
+	5750 8500 5800 8500
+Wire Wire Line
+	5750 8500 5800 8500
 $EndSCHEMATC
