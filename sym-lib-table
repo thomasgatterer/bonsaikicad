@@ -30,7 +30,7 @@
   (lib (name contrib)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/contrib.lib)(options "")(descr "")(disabled))
   (lib (name valves)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/valves.lib)(options "")(descr "")(disabled))
   (lib (name bonsai)(type Legacy)(uri ${KIPRJMOD}/bonsaicomplib/bonsai.lib)(options "")(descr ""))
-  (lib (name vco)(type Legacy)(uri ${KIPRJMOD}/vco.lib)(options "")(descr ""))
+  (lib (name vco)(type Legacy)(uri ${KIPRJMOD}/bonsaicomplib/vco.lib)(options "")(descr ""))
   (lib (name 4xxx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/4xxx.lib)(options "")(descr ""))
   (lib (name 4xxx_IEEE)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/4xxx_IEEE.lib)(options "")(descr ""))
   (lib (name 74xGxx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/74xGxx.lib)(options "")(descr ""))
