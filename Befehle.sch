@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Befehle-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -969,7 +970,7 @@ U 1 1 58D096FC
 P -6050 -750
 F 0 "P2" V -6004 -1288 50  0000 R CNN
 F 1 "CONN_02X10" V -6095 -1288 50  0000 R CNN
-F 2 "Connect:IDC_Header_Straight_20pins" H -6050 -1950 50  0000 C CNN
+F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H -6050 -1950 50  0000 C CNN
 F 3 "" H -6050 -1950 50  0000 C CNN
 	1    -6050 -750
 	0    -1   -1   0   
@@ -980,7 +981,7 @@ U 1 1 5A1624C1
 P -6300 7200
 F 0 "P1" V -6254 6662 50  0000 R CNN
 F 1 "CONN_02X10" V -6345 6662 50  0000 R CNN
-F 2 "Connect:IDC_Header_Straight_20pins" H -6300 6000 50  0000 C CNN
+F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H -6300 6000 50  0000 C CNN
 F 3 "" H -6300 6000 50  0000 C CNN
 	1    -6300 7200
 	0    -1   -1   0   
@@ -1894,10 +1895,6 @@ Wire Wire Line
 	300  4200 300  4800
 Wire Wire Line
 	-5900 6900 -5650 6900
-Wire Wire Line
-	-6850 7400 -5650 7400
-Wire Wire Line
-	-6550 -1050 -5450 -1050
 Connection ~ -3100 8550
 Wire Wire Line
 	-3200 8550 -3100 8550
@@ -1905,6 +1902,40 @@ Wire Wire Line
 	-3100 8550 -3000 8550
 Wire Wire Line
 	-2900 8500 -2900 8750
+Wire Wire Line
+	-6550 -1050 -6450 -1050
+Connection ~ -5550 -1050
+Wire Wire Line
+	-5550 -1050 -5450 -1050
+Connection ~ -6450 -1050
+Wire Wire Line
+	-6450 -1050 -6350 -1050
+Connection ~ -6350 -1050
+Wire Wire Line
+	-6350 -1050 -6250 -1050
+Connection ~ -6250 -1050
+Wire Wire Line
+	-6250 -1050 -6150 -1050
+Connection ~ -6150 -1050
+Wire Wire Line
+	-6150 -1050 -6050 -1050
+Connection ~ -6050 -1050
+Wire Wire Line
+	-6050 -1050 -5950 -1050
+Connection ~ -5950 -1050
+Wire Wire Line
+	-5950 -1050 -5850 -1050
+Connection ~ -5850 -1050
+Wire Wire Line
+	-5850 -1050 -5750 -1050
+Connection ~ -5750 -1050
+Wire Wire Line
+	-5750 -1050 -5650 -1050
+Connection ~ -5650 -1050
+Wire Wire Line
+	-5650 -1050 -5550 -1050
+Wire Wire Line
+	-6850 7400 -6700 7400
 Wire Bus Line
 	-6500 6800 -6300 6800
 Wire Bus Line
@@ -1917,4 +1948,34 @@ Wire Bus Line
 	-6300 4850 -6300 6800
 Wire Bus Line
 	-7050 4850 -6300 4850
+Connection ~ -6700 7400
+Wire Wire Line
+	-6700 7400 -6600 7400
+Connection ~ -5800 7400
+Wire Wire Line
+	-5800 7400 -5650 7400
+Connection ~ -6600 7400
+Wire Wire Line
+	-6600 7400 -6500 7400
+Connection ~ -6500 7400
+Wire Wire Line
+	-6500 7400 -6400 7400
+Connection ~ -6400 7400
+Wire Wire Line
+	-6400 7400 -6300 7400
+Connection ~ -6300 7400
+Wire Wire Line
+	-6300 7400 -6200 7400
+Connection ~ -6200 7400
+Wire Wire Line
+	-6200 7400 -6100 7400
+Connection ~ -6100 7400
+Wire Wire Line
+	-6100 7400 -6000 7400
+Connection ~ -6000 7400
+Wire Wire Line
+	-6000 7400 -5900 7400
+Connection ~ -5900 7400
+Wire Wire Line
+	-5900 7400 -5800 7400
 $EndSCHEMATC
