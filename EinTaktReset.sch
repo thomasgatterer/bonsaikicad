@@ -1832,7 +1832,7 @@ U 1 1 5AA50448
 P 3850 15800
 F 0 "D3" H 3850 15585 50  0000 C CNN
 F 1 "D" H 3850 15676 50  0000 C CNN
-F 2 "" H 3850 15800 60  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z4.9mm" H 3850 15800 60  0000 C CNN
 F 3 "" H 3850 15800 60  0000 C CNN
 	1    3850 15800
 	-1   0    0    1   
@@ -1999,16 +1999,6 @@ Wire Wire Line
 	5750 8500 5800 8500
 Wire Wire Line
 	5750 8500 10650 8500
-Wire Bus Line
-	3100 1350 3100 1500
-Wire Bus Line
-	6550 1150 6550 1500
-Wire Bus Line
-	6550 1500 6550 1850
-Wire Bus Line
-	3100 1500 3100 2050
-Wire Bus Line
-	3100 1500 6550 1500
 $Comp
 L 3PinTerminalBlocktg:3PinTerminalBlocktg J?
 U 1 1 5AC39ABD
@@ -2025,4 +2015,14 @@ F 8 "3PinTerminalBlocktg" H 10550 3150 50  0001 L BNN "Field8"
 	1    10550 3150
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	3100 1350 3100 1500
+Wire Bus Line
+	6550 1150 6550 1500
+Wire Bus Line
+	6550 1500 6550 1850
+Wire Bus Line
+	3100 1500 3100 2050
+Wire Bus Line
+	3100 1500 6550 1500
 $EndSCHEMATC
