@@ -566,7 +566,7 @@ U 1 1 5A28337D
 P 7000 1550
 F 0 "P4" H 7000 2100 50  0000 C CNN
 F 1 "CONN_02X10" V 7000 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch2.00mm" H 7000 350 50  0000 C CNN
+F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 7000 350 50  0000 C CNN
 F 3 "" H 7000 350 50  0000 C CNN
 	1    7000 1550
 	1    0    0    -1  
@@ -574,13 +574,13 @@ $EndComp
 $Comp
 L conn:Conn_02x10_Counter_Clockwise P1
 U 1 1 5A2833E0
-P 2550 1550
-F 0 "P1" H 2550 2100 50  0000 C CNN
-F 1 "CONN_02X10" V 2550 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch2.00mm" H 2550 350 50  0000 C CNN
-F 3 "" H 2550 350 50  0000 C CNN
-	1    2550 1550
-	1    0    0    -1  
+P 2650 1550
+F 0 "P1" H 2650 2100 50  0000 C CNN
+F 1 "CONN_02X10" V 2650 1550 50  0000 C CNN
+F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 2650 350 50  0000 C CNN
+F 3 "" H 2650 350 50  0000 C CNN
+	1    2650 1550
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR016
@@ -1993,8 +1993,12 @@ Wire Wire Line
 	2150 7800 2350 7800
 Wire Wire Line
 	5400 8300 5400 8500
+Connection ~ 5400 8500
+Connection ~ 5750 8500
 Wire Wire Line
-	5400 8500 5750 8500
+	5750 8500 5800 8500
+Wire Wire Line
+	5750 8500 10650 8500
 Wire Bus Line
 	3100 1350 3100 1500
 Wire Bus Line
@@ -2005,13 +2009,20 @@ Wire Bus Line
 	3100 1500 3100 2050
 Wire Bus Line
 	3100 1500 6550 1500
-Connection ~ 5400 8500
-Connection ~ 5800 8500
-Wire Wire Line
-	5800 8500 10650 8500
-Connection ~ 5750 8500
-Wire Wire Line
-	5750 8500 5800 8500
-Wire Wire Line
-	5750 8500 5800 8500
+$Comp
+L 3PinTerminalBlocktg:3PinTerminalBlocktg J?
+U 1 1 5AC39ABD
+P 10550 3150
+F 0 "J?" H 10515 3190 50  0000 L CNN
+F 1 "3PinTerminalBlocktg" H 10515 3099 50  0000 L CNN
+F 2 "3PinTerminalBlocktg" H 10550 3150 50  0001 L BNN
+F 3 "1.12 USD" H 10550 3150 50  0001 L BNN
+F 4 "Warning" H 10550 3150 50  0001 L BNN "Field4"
+F 5 "Wurth Electronics" H 10550 3150 50  0001 L BNN "Field5"
+F 6 "TERM BLK 5MM HORZ ENTRY MOD 3P" H 10550 3150 50  0001 L BNN "Field6"
+F 7 "None" H 10550 3150 50  0001 L BNN "Field7"
+F 8 "3PinTerminalBlocktg" H 10550 3150 50  0001 L BNN "Field8"
+	1    10550 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
