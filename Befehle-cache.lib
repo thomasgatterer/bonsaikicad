@@ -1,6 +1,48 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 2PinTerminalBlocktg_2PinTerminalBlocktg
+#
+DEF 2PinTerminalBlocktg_2PinTerminalBlocktg J 0 40 Y N 1 L N
+F0 "J" 50 9 50 H V L BNN
+F1 "2PinTerminalBlocktg_2PinTerminalBlocktg" 50 -100 50 H V L BNN
+F2 "2PinTerminalBlocktg" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "Wurth Electronics" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "Unavailable" 0 0 50 H I L BNN
+F7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" 0 0 50 H I L BNN
+F8 "2PinTerminalBlocktg" 0 0 50 H I L BNN
+DRAW
+A -65 -100 35 -900 900 0 0 10 N -65 -65 -65 -135
+A -65 0 35 -900 900 0 0 10 N -65 35 -65 -35
+X 1 1 -200 0 100 R 40 40 0 0 P
+X 2 2 -200 -100 100 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 3PinTerminalBlocktg_3PinTerminalBlocktg
+#
+DEF 3PinTerminalBlocktg_3PinTerminalBlocktg J 0 40 Y N 1 L N
+F0 "J" 50 9 50 H V L BNN
+F1 "3PinTerminalBlocktg_3PinTerminalBlocktg" 50 -100 50 H V L BNN
+F2 "3PinTerminalBlocktg" 0 0 50 H I L BNN
+F3 "1.12 USD" 0 0 50 H I L BNN
+F4 "Warning" 0 0 50 H I L BNN
+F5 "Wurth Electronics" 0 0 50 H I L BNN
+F6 "TERM BLK 5MM HORZ ENTRY MOD 3P" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "3PinTerminalBlocktg" 0 0 50 H I L BNN
+DRAW
+A -65 -100 35 -900 900 0 0 10 N -65 -65 -65 -135
+A -65 0 35 -900 900 0 0 10 N -65 35 -65 -35
+A -65 100 35 -900 900 0 0 10 N -65 135 -65 65
+X 1 1 -200 100 100 R 40 40 0 0 P
+X 2 2 -200 0 100 R 40 40 0 0 P
+X 3 3 -200 -100 100 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
 # 74540_74540
 #
 DEF 74540_74540 U 0 40 Y Y 8 F N
@@ -309,6 +351,28 @@ X A4 6 -700 100 300 R 50 50 1 1 I
 X A5 7 -700 0 300 R 50 50 1 1 I
 X A6 8 -700 -100 300 R 50 50 1 1 I
 X A7 9 -700 -200 300 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# bonsai_C_Small
+#
+DEF bonsai_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "bonsai_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 75 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
