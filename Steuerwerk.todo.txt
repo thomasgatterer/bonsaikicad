@@ -1,5 +1,20 @@
-To Do Liste Steuerwerk
+DONE:
+*Pins austauchen
+-tg:done
 
-Pins austauchen
-LEDs zu groß (passen nicht hinein)
+*U2 Units nach Vorlage (siehe Gimp Datei und Datenblatt)
+-tg:done
+
+-------------------------------
+To Do Liste Steuerwerk:
+
+*U2 und U6 an den Terminal Blocks ausrichten (rechts passen sie schon) 
+
+*LEDs zu groß (passen nicht hinein)
+
+
+
+
+
+
 
