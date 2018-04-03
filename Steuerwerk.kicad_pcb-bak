@@ -3938,8 +3938,8 @@
     )
   )
 
-  (module tg_foodprint:LED_D1.8mm_W3.3mm_H2.4mmBonsai (layer F.Cu) (tedit 5AC28F7D) (tstamp 5AC2A4D6)
-    (at 96.52 74.93)
+  (module tg_foodprint:LED_D1.8mm_W3.3mm_H2.4mmBonsai (layer F.Cu) (tedit 5AC28F7D) (tstamp 5AC2AD99)
+    (at 113.03 91.44)
     (descr "LED, Round,  Rectangular size 3.3x2.4mm^2 diameter 1.8mm, 2 pins")
     (tags "LED Round  Rectangular size 3.3x2.4mm^2 diameter 1.8mm 2 pins")
     (path /58370E12)
