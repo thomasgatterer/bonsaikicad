@@ -13,6 +13,9 @@ Todo: Teil finden
 *Für 2 einzele Pins einen Zweierpin hinzufügen
 -tg:done bitte kontrollieren
 
+*Lösung: 
+IN Kicad -> preferences -> configure paths -> add name: BON_LIB 
+value: /Orte/1_Daten_Server/bonsaikicad
 ------------
 TODO:
 für TG: Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal Foodprint local machen
