@@ -10,7 +10,16 @@ DONE:
 -tg: done, bitte kontrollieren
 
 TODO:
+*für TG Housings_DIP:DIP-20_W7.62mm_Socket_LongPads Lokal anlegen
+
 *bei P1 ist was falsch angeschlossen
 
 *tracks und vias legen
+
+*P2 lässt sich nicht mit gnd track verbinden; mehrere connectoren lassen sich 
+ nicht mit tracks verbinden( U1 mit U5)
+
+*eingefügte Pins muss einmal ein 2Pin terminal getrennt werden (enIr, loadIr), 
+ 3 Terminal inczPC mit incPc umtauschen
+
 
