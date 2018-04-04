@@ -525,13 +525,13 @@ $EndComp
 $Comp
 L power:VCC #PWR016
 U 1 1 57FC839A
-P -3200 9450
-F 0 "#PWR016" H -3200 9300 50  0001 C CNN
-F 1 "VCC" H -3200 9600 50  0000 C CNN
-F 2 "" H -3200 9450 50  0000 C CNN
-F 3 "" H -3200 9450 50  0000 C CNN
-	1    -3200 9450
-	0    1    1    0   
+P -2900 8500
+F 0 "#PWR016" H -2900 8350 50  0001 C CNN
+F 1 "VCC" H -2900 8650 50  0000 C CNN
+F 2 "" H -2900 8500 50  0000 C CNN
+F 3 "" H -2900 8500 50  0000 C CNN
+	1    -2900 8500
+	1    0    0    -1  
 $EndComp
 Text GLabel -4600 6800 0    60   Input ~ 0
 0
@@ -970,7 +970,7 @@ U 1 1 58D096FC
 P -6050 -750
 F 0 "P2" V -6004 -1288 50  0000 R CNN
 F 1 "CONN_02X10" V -6095 -1288 50  0000 R CNN
-F 2 "Connect:IDC_Header_Straight_20pins" H -6050 -1950 50  0000 C CNN
+F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H -6050 -1950 50  0000 C CNN
 F 3 "" H -6050 -1950 50  0000 C CNN
 	1    -6050 -750
 	0    -1   -1   0   
@@ -981,7 +981,7 @@ U 1 1 5A1624C1
 P -6300 7200
 F 0 "P1" V -6254 6662 50  0000 R CNN
 F 1 "CONN_02X10" V -6345 6662 50  0000 R CNN
-F 2 "Connect:IDC_Header_Straight_20pins" H -6300 6000 50  0000 C CNN
+F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H -6300 6000 50  0000 C CNN
 F 3 "" H -6300 6000 50  0000 C CNN
 	1    -6300 7200
 	0    -1   -1   0   
@@ -1508,12 +1508,7 @@ $EndComp
 Wire Wire Line
 	-3200 8600 -3200 8550
 Wire Wire Line
-	-3200 8550 -3100 8550
-Wire Wire Line
 	-3100 8600 -3100 8550
-Connection ~ -3100 8550
-Wire Wire Line
-	-3100 8550 -3000 8550
 Wire Wire Line
 	-3000 8600 -3000 8550
 Connection ~ -3000 8550
@@ -1606,44 +1601,7 @@ Wire Wire Line
 Wire Wire Line
 	-6850 6900 -6850 7400
 Wire Wire Line
-	-6850 7400 -6700 7400
-Wire Wire Line
 	-5650 7400 -5650 7150
-Wire Wire Line
-	-5650 6900 -5800 6900
-Connection ~ -6700 7400
-Wire Wire Line
-	-6700 7400 -6600 7400
-Connection ~ -6600 7400
-Wire Wire Line
-	-6600 7400 -6500 7400
-Connection ~ -6500 7400
-Wire Wire Line
-	-6500 7400 -6400 7400
-Connection ~ -6400 7400
-Wire Wire Line
-	-6400 7400 -6300 7400
-Connection ~ -6300 7400
-Wire Wire Line
-	-6300 7400 -6200 7400
-Connection ~ -6200 7400
-Wire Wire Line
-	-6200 7400 -6100 7400
-Connection ~ -6100 7400
-Wire Wire Line
-	-6100 7400 -6000 7400
-Connection ~ -6000 7400
-Wire Wire Line
-	-6000 7400 -5900 7400
-Connection ~ -5900 7400
-Wire Wire Line
-	-5900 7400 -5800 7400
-Connection ~ -5800 7400
-Wire Wire Line
-	-5800 7400 -5650 7400
-Connection ~ -5800 6900
-Wire Wire Line
-	-5800 6900 -5900 6900
 Wire Wire Line
 	-6850 6900 -6700 6900
 $Comp
@@ -1668,43 +1626,11 @@ Wire Wire Line
 Wire Wire Line
 	-6450 -550 -6550 -550
 Wire Wire Line
-	-6550 -1050 -6450 -1050
-Wire Wire Line
 	-5450 -1050 -5450 -800
 Wire Wire Line
 	-5450 -550 -5550 -550
 Wire Wire Line
 	-6550 -1050 -6550 -550
-Connection ~ -6450 -1050
-Wire Wire Line
-	-6450 -1050 -6350 -1050
-Connection ~ -6350 -1050
-Wire Wire Line
-	-6350 -1050 -6250 -1050
-Connection ~ -6250 -1050
-Wire Wire Line
-	-6250 -1050 -6150 -1050
-Connection ~ -6150 -1050
-Wire Wire Line
-	-6150 -1050 -6050 -1050
-Connection ~ -6050 -1050
-Wire Wire Line
-	-6050 -1050 -5950 -1050
-Connection ~ -5950 -1050
-Wire Wire Line
-	-5950 -1050 -5850 -1050
-Connection ~ -5850 -1050
-Wire Wire Line
-	-5850 -1050 -5750 -1050
-Connection ~ -5750 -1050
-Wire Wire Line
-	-5750 -1050 -5650 -1050
-Connection ~ -5650 -1050
-Wire Wire Line
-	-5650 -1050 -5550 -1050
-Connection ~ -5550 -1050
-Wire Wire Line
-	-5550 -1050 -5450 -1050
 $Comp
 L power:GND #PWR019
 U 1 1 5A6AF80F
@@ -1843,148 +1769,317 @@ Wire Bus Line
 Wire Bus Line
 	-33650 -5150 -34100 -5150
 $Comp
-L conn:CONN_01X01 P4
-U 1 1 5AAF4C20
-P 1900 6350
-F 0 "P4" H 1978 6436 50  0000 L CNN
-F 1 "CONN_01X01" H 1978 6345 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 1978 6254 50  0000 L CNN
-F 3 "" H 1900 6350 50  0000 C CNN
-	1    1900 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:CONN_01X01 P3
-U 1 1 5AAF4F98
-P 1900 6000
-F 0 "P3" H 1978 6086 50  0000 L CNN
-F 1 "CONN_01X01" H 1978 5995 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 1978 5904 50  0000 L CNN
-F 3 "" H 1900 6000 50  0000 C CNN
-	1    1900 6000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5AAF510E
-P 1550 5900
-F 0 "#FLG01" H 1550 5995 50  0001 C CNN
-F 1 "PWR_FLAG" H 1550 6124 50  0000 C CNN
-F 2 "" H 1550 5900 50  0000 C CNN
-F 3 "" H 1550 5900 50  0000 C CNN
-	1    1550 5900
+P 1300 6550
+F 0 "#FLG01" H 1300 6645 50  0001 C CNN
+F 1 "PWR_FLAG" H 1300 6774 50  0000 C CNN
+F 2 "" H 1300 6550 50  0000 C CNN
+F 3 "" H 1300 6550 50  0000 C CNN
+	1    1300 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5AAF51E9
-P 1550 6300
-F 0 "#FLG02" H 1550 6395 50  0001 C CNN
-F 1 "PWR_FLAG" H 1550 6524 50  0000 C CNN
-F 2 "" H 1550 6300 50  0000 C CNN
-F 3 "" H 1550 6300 50  0000 C CNN
-	1    1550 6300
-	1    0    0    -1  
+P 1950 7350
+F 0 "#FLG02" H 1950 7445 50  0001 C CNN
+F 1 "PWR_FLAG" H 1950 7574 50  0000 C CNN
+F 2 "" H 1950 7350 50  0000 C CNN
+F 3 "" H 1950 7350 50  0000 C CNN
+	1    1950 7350
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1550 5900 1550 6000
-Wire Wire Line
-	1550 6000 1700 6000
-Wire Wire Line
-	1700 6350 1550 6350
-Wire Wire Line
-	1550 6350 1550 6300
+	1950 7300 1950 7350
 $Comp
 L power:VCC #PWR020
 U 1 1 5AB1C35B
-P 1400 6000
-F 0 "#PWR020" H 1400 5850 50  0001 C CNN
-F 1 "VCC" V 1418 6127 50  0000 L CNN
-F 2 "" H 1400 6000 50  0000 C CNN
-F 3 "" H 1400 6000 50  0000 C CNN
-	1    1400 6000
-	0    -1   -1   0   
+P 1150 6550
+F 0 "#PWR020" H 1150 6400 50  0001 C CNN
+F 1 "VCC" V 1168 6677 50  0000 L CNN
+F 2 "" H 1150 6550 50  0000 C CNN
+F 3 "" H 1150 6550 50  0000 C CNN
+	1    1150 6550
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 6000 1400 6000
-Connection ~ 1550 6000
-Wire Wire Line
-	1550 6000 1550 6050
-Wire Wire Line
-	1550 6050 1150 6050
-Wire Wire Line
-	1150 6050 1150 6700
-Wire Wire Line
-	1150 6700 1550 6700
+	950  6550 950  7200
 $Comp
 L power:GND #PWR021
 U 1 1 5AB7EDBD
-P 1450 6350
-F 0 "#PWR021" H 1450 6100 50  0001 C CNN
-F 1 "GND" V 1455 6222 50  0000 R CNN
-F 2 "" H 1450 6350 50  0000 C CNN
-F 3 "" H 1450 6350 50  0000 C CNN
-	1    1450 6350
-	0    1    1    0   
+P 1550 7300
+F 0 "#PWR021" H 1550 7050 50  0001 C CNN
+F 1 "GND" V 1555 7172 50  0000 R CNN
+F 2 "" H 1550 7300 50  0000 C CNN
+F 3 "" H 1550 7300 50  0000 C CNN
+	1    1550 7300
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1450 6350 1550 6350
 $Comp
 L device:D D22
 U 1 1 5ABA7A1B
-P 1550 6500
-F 0 "D22" V 1641 6422 50  0000 R CNN
-F 1 "D" V 1550 6422 50  0000 R CNN
-F 2 "Diodes_ThroughHole:D_DO-41_SOD81_P10.16mm_Horizontal" V 1459 6422 50  0000 R CNN
-F 3 "" H 1550 6500 50  0000 C CNN
-	1    1550 6500
-	0    -1   -1   0   
+P 2750 6900
+F 0 "D22" V 2841 6822 50  0000 R CNN
+F 1 "D" V 2750 6822 50  0000 R CNN
+F 2 "Diodes_ThroughHole:D_DO-41_SOD81_P10.16mm_Horizontal" V 2659 6822 50  0000 R CNN
+F 3 "" H 2750 6900 50  0000 C CNN
+	1    2750 6900
+	0    1    1    0   
+$EndComp
+Connection ~ 1950 7300
+Wire Wire Line
+	-5900 6900 -5650 6900
+Connection ~ -3100 8550
+Wire Wire Line
+	-3200 8550 -3100 8550
+Wire Wire Line
+	-3100 8550 -3000 8550
+Wire Wire Line
+	-2900 8500 -2900 8750
+Wire Wire Line
+	-6550 -1050 -6450 -1050
+Connection ~ -5550 -1050
+Wire Wire Line
+	-5550 -1050 -5450 -1050
+Connection ~ -6450 -1050
+Wire Wire Line
+	-6450 -1050 -6350 -1050
+Connection ~ -6350 -1050
+Wire Wire Line
+	-6350 -1050 -6250 -1050
+Connection ~ -6250 -1050
+Wire Wire Line
+	-6250 -1050 -6150 -1050
+Connection ~ -6150 -1050
+Wire Wire Line
+	-6150 -1050 -6050 -1050
+Connection ~ -6050 -1050
+Wire Wire Line
+	-6050 -1050 -5950 -1050
+Connection ~ -5950 -1050
+Wire Wire Line
+	-5950 -1050 -5850 -1050
+Connection ~ -5850 -1050
+Wire Wire Line
+	-5850 -1050 -5750 -1050
+Connection ~ -5750 -1050
+Wire Wire Line
+	-5750 -1050 -5650 -1050
+Connection ~ -5650 -1050
+Wire Wire Line
+	-5650 -1050 -5550 -1050
+Wire Wire Line
+	-6850 7400 -6700 7400
+Connection ~ -6700 7400
+Wire Wire Line
+	-6700 7400 -6600 7400
+Connection ~ -5800 7400
+Wire Wire Line
+	-5800 7400 -5650 7400
+Connection ~ -6600 7400
+Wire Wire Line
+	-6600 7400 -6500 7400
+Connection ~ -6500 7400
+Wire Wire Line
+	-6500 7400 -6400 7400
+Connection ~ -6400 7400
+Wire Wire Line
+	-6400 7400 -6300 7400
+Connection ~ -6300 7400
+Wire Wire Line
+	-6300 7400 -6200 7400
+Connection ~ -6200 7400
+Wire Wire Line
+	-6200 7400 -6100 7400
+Connection ~ -6100 7400
+Wire Wire Line
+	-6100 7400 -6000 7400
+Connection ~ -6000 7400
+Wire Wire Line
+	-6000 7400 -5900 7400
+Connection ~ -5900 7400
+Wire Wire Line
+	-5900 7400 -5800 7400
+$Comp
+L 2PinTerminalBlocktg:2PinTerminalBlocktg J1
+U 1 1 5AC8E498
+P 750 7300
+F 0 "J1" H 612 6986 50  0000 C CNN
+F 1 "2PinTerminalBlocktg" H 612 7077 50  0000 C CNN
+F 2 "2PinTerminalBlocktg" H 750 7300 50  0001 L BNN
+F 3 "None" H 750 7300 50  0001 L BNN
+F 4 "Wurth Electronics" H 750 7300 50  0001 L BNN "Field4"
+F 5 "None" H 750 7300 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 750 7300 50  0001 L BNN "Field6"
+F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 750 7300 50  0001 L BNN "Field7"
+F 8 "2PinTerminalBlocktg" H 750 7300 50  0001 L BNN "Field8"
+	1    750  7300
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1550 6700 1550 6650
-Connection ~ 1550 6350
+	950  7300 1550 7300
+Connection ~ 1150 6550
+Wire Wire Line
+	1150 6550 950  6550
+Connection ~ 1300 6550
+Wire Wire Line
+	1300 6550 1150 6550
+Connection ~ 1550 7300
+Wire Wire Line
+	1550 7300 1750 7300
+Wire Wire Line
+	1300 6550 1750 6550
+Wire Wire Line
+	2750 6550 2750 6750
+Wire Wire Line
+	2750 7050 2750 7300
+Wire Wire Line
+	1950 7300 2200 7300
 $Comp
-L PCB~Terminal~Blocks:691213710003 J1
-U 1 1 5AC4CF5E
-P 1300 4650
-F 0 "J1" H 1265 4690 50  0000 L CNN
-F 1 "691213710003" H 1265 4599 50  0000 L CNN
-F 2 "691213710003" H 1300 4650 50  0001 L BNN
-F 3 "1.12 USD" H 1300 4650 50  0001 L BNN
-F 4 "Warning" H 1300 4650 50  0001 L BNN "Field4"
-F 5 "Wurth Electronics" H 1300 4650 50  0001 L BNN "Field5"
-F 6 "TERM BLK 5MM HORZ ENTRY MOD 3P" H 1300 4650 50  0001 L BNN "Field6"
-F 7 "None" H 1300 4650 50  0001 L BNN "Field7"
-F 8 "691213710003" H 1300 4650 50  0001 L BNN "Field8"
-	1    1300 4650
+L bonsai:C_Small C1
+U 1 1 5AD62DCF
+P 1750 7000
+F 0 "C1" H 1842 7046 50  0000 L CNN
+F 1 "100n" H 1842 6955 50  0000 L CNN
+F 2 "" H 1750 7000 60  0000 C CNN
+F 3 "" H 1750 7000 60  0000 C CNN
+	1    1750 7000
 	1    0    0    -1  
 $EndComp
-Text GLabel 900  4900 0    60   Input ~ 0
+$Comp
+L bonsai:C_Small C2
+U 1 1 5AD62ED1
+P 2200 7000
+F 0 "C2" H 2292 7046 50  0000 L CNN
+F 1 "100n" H 2292 6955 50  0000 L CNN
+F 2 "" H 2200 7000 60  0000 C CNN
+F 3 "" H 2200 7000 60  0000 C CNN
+	1    2200 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 6900 1750 6550
+Connection ~ 1750 6550
+Wire Wire Line
+	1750 6550 2200 6550
+Wire Wire Line
+	2200 6900 2200 6550
+Connection ~ 2200 6550
+Wire Wire Line
+	2200 6550 2750 6550
+Wire Wire Line
+	2200 7100 2200 7300
+Connection ~ 2200 7300
+Wire Wire Line
+	2200 7300 2750 7300
+Wire Wire Line
+	1750 7100 1750 7300
+Connection ~ 1750 7300
+Wire Wire Line
+	1750 7300 1950 7300
+$Comp
+L 2PinTerminalBlocktg:2PinTerminalBlocktg J?
+U 1 1 5ADB99D1
+P -1850 6950
+F 0 "J?" H -1885 6940 50  0000 L CNN
+F 1 "2PinTerminalBlocktg" H -1885 6849 50  0000 L CNN
+F 2 "2PinTerminalBlocktg" H -1850 6950 50  0001 L BNN
+F 3 "None" H -1850 6950 50  0001 L BNN
+F 4 "Wurth Electronics" H -1850 6950 50  0001 L BNN "Field4"
+F 5 "None" H -1850 6950 50  0001 L BNN "Field5"
+F 6 "Unavailable" H -1850 6950 50  0001 L BNN "Field6"
+F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H -1850 6950 50  0001 L BNN "Field7"
+F 8 "2PinTerminalBlocktg" H -1850 6950 50  0001 L BNN "Field8"
+	1    -1850 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2PinTerminalBlocktg:2PinTerminalBlocktg J?
+U 1 1 5ADB9B3E
+P -1850 7150
+F 0 "J?" H -1885 7140 50  0000 L CNN
+F 1 "2PinTerminalBlocktg" H -1885 7049 50  0000 L CNN
+F 2 "2PinTerminalBlocktg" H -1850 7150 50  0001 L BNN
+F 3 "None" H -1850 7150 50  0001 L BNN
+F 4 "Wurth Electronics" H -1850 7150 50  0001 L BNN "Field4"
+F 5 "None" H -1850 7150 50  0001 L BNN "Field5"
+F 6 "Unavailable" H -1850 7150 50  0001 L BNN "Field6"
+F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H -1850 7150 50  0001 L BNN "Field7"
+F 8 "2PinTerminalBlocktg" H -1850 7150 50  0001 L BNN "Field8"
+	1    -1850 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2PinTerminalBlocktg:2PinTerminalBlocktg J?
+U 1 1 5ADBA454
+P -11150 1900
+F 0 "J?" H -11288 1586 50  0000 C CNN
+F 1 "2PinTerminalBlocktg" H -11288 1677 50  0000 C CNN
+F 2 "2PinTerminalBlocktg" H -11150 1900 50  0001 L BNN
+F 3 "None" H -11150 1900 50  0001 L BNN
+F 4 "Wurth Electronics" H -11150 1900 50  0001 L BNN "Field4"
+F 5 "None" H -11150 1900 50  0001 L BNN "Field5"
+F 6 "Unavailable" H -11150 1900 50  0001 L BNN "Field6"
+F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H -11150 1900 50  0001 L BNN "Field7"
+F 8 "2PinTerminalBlocktg" H -11150 1900 50  0001 L BNN "Field8"
+	1    -11150 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 3PinTerminalBlocktg:3PinTerminalBlocktg J?
+U 1 1 5ADBA737
+P -10750 7250
+F 0 "J?" H -10888 6936 50  0000 C CNN
+F 1 "3PinTerminalBlocktg" H -10888 7027 50  0000 C CNN
+F 2 "3PinTerminalBlocktg" H -10750 7250 50  0001 L BNN
+F 3 "1.12 USD" H -10750 7250 50  0001 L BNN
+F 4 "Warning" H -10750 7250 50  0001 L BNN "Field4"
+F 5 "Wurth Electronics" H -10750 7250 50  0001 L BNN "Field5"
+F 6 "TERM BLK 5MM HORZ ENTRY MOD 3P" H -10750 7250 50  0001 L BNN "Field6"
+F 7 "None" H -10750 7250 50  0001 L BNN "Field7"
+F 8 "3PinTerminalBlocktg" H -10750 7250 50  0001 L BNN "Field8"
+	1    -10750 7250
+	-1   0    0    1   
+$EndComp
+Text GLabel -10350 7350 2    60   Input ~ 0
 upPC
-Text GLabel 850  4700 0    60   Input ~ 0
+Text GLabel -10350 7250 2    60   Input ~ 0
 incPC
-Text GLabel 850  4400 0    60   Input ~ 0
+Text GLabel -10350 7150 2    60   Input ~ 0
 incPCz
 Wire Wire Line
-	1100 4750 1100 4900
+	-10350 7150 -10550 7150
 Wire Wire Line
-	1100 4900 900  4900
+	-10550 7250 -10350 7250
 Wire Wire Line
-	850  4400 850  4650
+	-10350 7350 -10550 7350
+Text GLabel -10850 1800 2    60   Input ~ 0
+enableR
+Text GLabel -10850 1900 2    60   Input ~ 0
+loadIR
 Wire Wire Line
-	850  4650 1100 4650
+	-10850 1800 -10950 1800
 Wire Wire Line
-	850  4700 850  4800
+	-10950 1900 -10850 1900
+Text GLabel -2200 6950 0    60   Input ~ 0
+0
+Text GLabel -2200 7050 0    60   Input ~ 0
+1
+Text GLabel -2200 7150 0    60   Input ~ 0
+2
+Text GLabel -2200 7250 0    60   Input ~ 0
+3
 Wire Wire Line
-	850  4800 300  4800
+	-2050 6950 -2200 6950
 Wire Wire Line
-	300  4200 1100 4200
+	-2200 7050 -2050 7050
 Wire Wire Line
-	1100 4200 1100 4550
+	-2050 7150 -2200 7150
+Wire Wire Line
+	-2200 7250 -2050 7250
 Wire Bus Line
 	-6500 6800 -6300 6800
-Wire Wire Line
-	300  4200 300  4800
 Wire Bus Line
 	-6300 6800 -5900 6800
 Wire Bus Line

@@ -1,2 +1,16 @@
-Pins setzen und footprints
-kabel legen
+DONE:
+*Connectors_Samtec:SDL-120-X-XX_2x10 mit vorhandenem tauschen
+-tg:war da Connect:IDC_Header_Straight_20pins gemeint? Ich kann nur die finden.
+2x10 getauscht
+
+*Pins rechts unten, enIR, loadIR einfügen?
+-tg:done bitte testen
+
+*100n capacitors einfügen
+-tg: done, bitte kontrollieren
+
+TODO:
+*bei P1 ist was falsch angeschlossen
+
+*tracks und vias legen
+
