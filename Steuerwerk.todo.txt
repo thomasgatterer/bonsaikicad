@@ -1,0 +1,24 @@
+DONE:
+*Pins austauchen
+-tg:done
+
+*U2 Units nach Vorlage (siehe Gimp Datei und Datenblatt)
+-tg:done
+
+*LEDs zu groß (passen nicht hinein)
+-tg:done, ausprobieren / plazieren 
+
+-------------------------------
+To Do Liste Steuerwerk:
+
+*ein IC ist zu viel
+
+*U2 und U6 an den Terminal Blocks ausrichten (rechts passen sie schon) 
+
+
+
+
+
+
+
+
