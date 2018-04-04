@@ -3,18 +3,18 @@ EESchema-LIBRARY Version 2.3
 #(c) SnapEDA 2016 (snapeda.com)
 #This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
 #
-# 691216510002
+# 2PinTerminalBlocktg
 #
-DEF 691216510002 J 0 40 Y N 1 L N
+DEF 2PinTerminalBlocktg J 0 40 Y N 1 L N
 F0 "J" 50 9 50 H V L BNN
-F1 "691216510002" 50 -100 50 H V L BNN
-F2 "691216510002" 0 0 50 H I L BNN
+F1 "2PinTerminalBlocktg" 50 -100 50 H V L BNN
+F2 "2PinTerminalBlocktg" 0 0 50 H I L BNN
 F3 "None" 0 0 50 H I L BNN
 F4 "Wurth Electronics" 0 0 50 H I L BNN
 F5 "None" 0 0 50 H I L BNN
 F6 "Unavailable" 0 0 50 H I L BNN
 F7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" 0 0 50 H I L BNN
-F8 "691216510002" 0 0 50 H I L BNN
+F8 "2PinTerminalBlocktg" 0 0 50 H I L BNN
 DRAW
 A -65 0 35 2700 900 0 0 10 N -65 35 -65 -35
 A -65 -100 35 2700 900 0 0 10 N -65 -65 -65 -135

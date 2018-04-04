@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4+e1-6308~48~ubuntu16.04.1-stable)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc2-dev-unknown-0ded476~63~ubuntu16.04.1)
 
   (general
-    (links 143)
-    (no_connects 142)
-    (area 49.825 56.7 151.190301 217.540181)
     (thickness 1.6)
     (drawings 0)
     (tracks 3)
@@ -66,6 +63,9 @@
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -75,7 +75,6 @@
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
-      (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -272,7 +271,7 @@
     (pad 2 thru_hole circle (at 2.54 0 90) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask)
       (net 2 VCC))
     (model LEDs.3dshapes/LED-3MM.wrl
-      (at (xyz 0.05 0 0))
+      (offset (xyz 1.269999980926514 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -307,7 +306,7 @@
     (pad 2 thru_hole circle (at 2.54 0 90) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask)
       (net 2 VCC))
     (model LEDs.3dshapes/LED-3MM.wrl
-      (at (xyz 0.05 0 0))
+      (offset (xyz 1.269999980926514 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -342,7 +341,7 @@
     (pad 2 thru_hole circle (at 2.54 0 90) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask)
       (net 2 VCC))
     (model LEDs.3dshapes/LED-3MM.wrl
-      (at (xyz 0.05 0 0))
+      (offset (xyz 1.269999980926514 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -377,7 +376,7 @@
     (pad 2 thru_hole circle (at 2.54 0 90) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask)
       (net 2 VCC))
     (model LEDs.3dshapes/LED-3MM.wrl
-      (at (xyz 0.05 0 0))
+      (offset (xyz 1.269999980926514 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -412,7 +411,7 @@
     (pad 2 thru_hole circle (at 2.54 0 90) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask)
       (net 2 VCC))
     (model LEDs.3dshapes/LED-3MM.wrl
-      (at (xyz 0.05 0 0))
+      (offset (xyz 1.269999980926514 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -447,7 +446,7 @@
     (pad 2 thru_hole circle (at 2.54 0 90) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask)
       (net 2 VCC))
     (model LEDs.3dshapes/LED-3MM.wrl
-      (at (xyz 0.05 0 0))
+      (offset (xyz 1.269999980926514 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -482,7 +481,7 @@
     (pad 2 thru_hole circle (at 2.54 0 90) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask)
       (net 2 VCC))
     (model LEDs.3dshapes/LED-3MM.wrl
-      (at (xyz 0.05 0 0))
+      (offset (xyz 1.269999980926514 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -517,7 +516,7 @@
     (pad 2 thru_hole circle (at 2.54 0 90) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask)
       (net 2 VCC))
     (model LEDs.3dshapes/LED-3MM.wrl
-      (at (xyz 0.05 0 0))
+      (offset (xyz 1.269999980926514 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -765,7 +764,7 @@
     (pad 2 thru_hole circle (at 10.16 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 20 up))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -797,7 +796,7 @@
     (pad 2 thru_hole circle (at 10.16 0 90) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 21 down))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -829,7 +828,7 @@
     (pad 2 thru_hole circle (at 10.16 0 90) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 23 GND))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -861,7 +860,7 @@
     (pad 2 thru_hole circle (at 10.16 0 90) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 25 "Net-(D1-Pad2)"))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -893,7 +892,7 @@
     (pad 2 thru_hole circle (at 10.16 0 90) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 27 "Net-(D2-Pad2)"))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -925,7 +924,7 @@
     (pad 2 thru_hole circle (at 10.16 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 29 "Net-(R12-Pad2)"))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -957,7 +956,7 @@
     (pad 2 thru_hole circle (at 10.16 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 30 "Net-(R13-Pad2)"))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -989,7 +988,7 @@
     (pad 2 thru_hole circle (at 10.16 0 90) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 32 "Net-(D7-Pad2)"))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -1021,7 +1020,7 @@
     (pad 2 thru_hole circle (at 10.16 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 33 "Net-(R15-Pad2)"))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -1053,7 +1052,7 @@
     (pad 2 thru_hole circle (at 10.16 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 34 "Net-(R16-Pad2)"))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -1085,7 +1084,7 @@
     (pad 2 thru_hole circle (at 10.16 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 35 "Net-(R17-Pad2)"))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -1117,7 +1116,7 @@
     (pad 2 thru_hole circle (at 10.16 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 36 "Net-(R18-Pad2)"))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -1149,7 +1148,7 @@
     (pad 2 thru_hole circle (at 10.16 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 37 "Net-(R19-Pad2)"))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -1181,7 +1180,7 @@
     (pad 2 thru_hole circle (at 10.16 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 38 "Net-(R20-Pad2)"))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -1213,7 +1212,7 @@
     (pad 2 thru_hole circle (at 10.16 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 39 "Net-(R21-Pad2)"))
     (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-      (at (xyz 0.2 0 0))
+      (offset (xyz 5.079999923706055 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
@@ -1261,7 +1260,7 @@
     (pad 1 thru_hole circle (at 6.5 0 90) (size 2 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 40 "Net-(R1-Pad2)"))
     (model Buttons_Switches_ThroughHole.3dshapes/SW_PUSH_6mm_h5mm.wrl
-      (at (xyz 0.005 0 0))
+      (offset (xyz 0.1269999980926514 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
@@ -1309,7 +1308,7 @@
     (pad 1 thru_hole circle (at 6.5 0 90) (size 2 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 41 "Net-(R4-Pad2)"))
     (model Buttons_Switches_ThroughHole.3dshapes/SW_PUSH_6mm_h5mm.wrl
-      (at (xyz 0.005 0 0))
+      (offset (xyz 0.1269999980926514 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
@@ -1357,7 +1356,7 @@
     (pad 1 thru_hole circle (at 6.5 0 90) (size 2 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 23 GND))
     (model Buttons_Switches_ThroughHole.3dshapes/SW_PUSH_6mm_h5mm.wrl
-      (at (xyz 0.005 0 0))
+      (offset (xyz 0.1269999980926514 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
@@ -1790,8 +1789,8 @@
     )
   )
 
-  (segment (start 130.81 134.62) (end 130.81 132.08) (width 0.4) (layer F.Cu) (net 39))
-  (segment (start 134.62 128.27) (end 134.62 120.65) (width 0.4) (layer F.Cu) (net 39) (tstamp 5A158B83))
-  (segment (start 130.81 132.08) (end 134.62 128.27) (width 0.4) (layer F.Cu) (net 39) (tstamp 5A158B81))
+  (segment (start 130.81 134.62) (end 130.81 132.08) (width 0.4) (layer B.Cu) (net 39))
+  (segment (start 134.62 128.27) (end 134.62 120.65) (width 0.4) (layer B.Cu) (net 39) (tstamp 5A158B83))
+  (segment (start 130.81 132.08) (end 134.62 128.27) (width 0.4) (layer B.Cu) (net 39) (tstamp 5A158B81))
 
 )

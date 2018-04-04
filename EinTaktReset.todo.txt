@@ -1,9 +1,15 @@
-Libraryprobleme
+*Libraryprobleme
+-tg:done bitte testen
 
-Teil "Pin_Headers:Pin_Header_Straight_2x10_Pitch2.00mm" nicht 
+*Teil "Pin_Headers:Pin_Header_Straight_2x10_Pitch2.00mm" nicht 
 gefunden in /usr/share/kicad/library
 Todo: Teil finden
+-tg:done bitte testen
 
-Diode footprinten
+*Diode footprinten
+-tg:done bitte testen
 
-Für 2 einzele Pins einen Zweierpin hinzufügen
+*Für 2 einzele Pins einen Zweierpin hinzufügen
+-tg:done bitte kontrollieren
+
+
