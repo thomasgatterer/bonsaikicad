@@ -1434,7 +1434,7 @@ U 8 1 5A2905C7
 P -8950 4500
 F 0 "U2" H -8850 4600 60  0000 C CNN
 F 1 "74540" H -8800 4350 60  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_LongPads" H -8800 4350 60  0001 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -8800 4350 60  0001 C CNN
 F 3 "" H -8800 4350 60  0001 C CNN
 	8    -8950 4500
 	-1   0    0    1   
@@ -1445,7 +1445,7 @@ U 4 1 5A28303B
 P -4850 8350
 F 0 "U2" H -4750 8450 60  0000 C CNN
 F 1 "74540" H -4700 8200 60  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_LongPads" H -4700 8200 60  0001 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -4700 8200 60  0001 C CNN
 F 3 "" H -4700 8200 60  0001 C CNN
 	4    -4850 8350
 	0    1    1    0   
@@ -1456,7 +1456,7 @@ U 3 1 5A282F54
 P -4400 8350
 F 0 "U2" H -4300 8450 60  0000 C CNN
 F 1 "74540" H -4250 8200 60  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_LongPads" H -4250 8200 60  0001 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -4250 8200 60  0001 C CNN
 F 3 "" H -4250 8200 60  0001 C CNN
 	3    -4400 8350
 	0    1    1    0   
@@ -1467,7 +1467,7 @@ U 2 1 5A282E5F
 P -3900 8350
 F 0 "U2" H -3800 8450 60  0000 C CNN
 F 1 "74540" H -3750 8200 60  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_LongPads" H -3750 8200 60  0001 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -3750 8200 60  0001 C CNN
 F 3 "" H -3750 8200 60  0001 C CNN
 	2    -3900 8350
 	0    1    1    0   
@@ -1489,7 +1489,7 @@ U 7 1 5A287D96
 P -7750 3000
 F 0 "U2" H -7650 3100 60  0000 C CNN
 F 1 "74540" H -7600 2850 60  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_LongPads" H -7600 2850 60  0001 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -7600 2850 60  0001 C CNN
 F 3 "" H -7600 2850 60  0001 C CNN
 	7    -7750 3000
 	1    0    0    -1  
@@ -1653,17 +1653,9 @@ Wire Wire Line
 	-8250 5050 -8300 5050
 Connection ~ -8300 5050
 Wire Wire Line
-	-8300 5050 -8300 5600
-Connection ~ -8300 5600
-Wire Wire Line
-	-8300 5600 -8300 6150
-Connection ~ -8300 6150
-Wire Wire Line
 	-8300 4900 -8300 5050
 Wire Wire Line
 	-8300 4500 -8300 5050
-Wire Wire Line
-	-8300 6150 -8300 6650
 Wire Bus Line
 	37900 55900 37900 44500
 Wire Bus Line
@@ -1837,70 +1829,6 @@ Wire Wire Line
 	-3100 8550 -3000 8550
 Wire Wire Line
 	-2900 8500 -2900 8750
-Wire Wire Line
-	-6550 -1050 -6450 -1050
-Connection ~ -5550 -1050
-Wire Wire Line
-	-5550 -1050 -5450 -1050
-Connection ~ -6450 -1050
-Wire Wire Line
-	-6450 -1050 -6350 -1050
-Connection ~ -6350 -1050
-Wire Wire Line
-	-6350 -1050 -6250 -1050
-Connection ~ -6250 -1050
-Wire Wire Line
-	-6250 -1050 -6150 -1050
-Connection ~ -6150 -1050
-Wire Wire Line
-	-6150 -1050 -6050 -1050
-Connection ~ -6050 -1050
-Wire Wire Line
-	-6050 -1050 -5950 -1050
-Connection ~ -5950 -1050
-Wire Wire Line
-	-5950 -1050 -5850 -1050
-Connection ~ -5850 -1050
-Wire Wire Line
-	-5850 -1050 -5750 -1050
-Connection ~ -5750 -1050
-Wire Wire Line
-	-5750 -1050 -5650 -1050
-Connection ~ -5650 -1050
-Wire Wire Line
-	-5650 -1050 -5550 -1050
-Wire Wire Line
-	-6850 7400 -6700 7400
-Connection ~ -6700 7400
-Wire Wire Line
-	-6700 7400 -6600 7400
-Connection ~ -5800 7400
-Wire Wire Line
-	-5800 7400 -5650 7400
-Connection ~ -6600 7400
-Wire Wire Line
-	-6600 7400 -6500 7400
-Connection ~ -6500 7400
-Wire Wire Line
-	-6500 7400 -6400 7400
-Connection ~ -6400 7400
-Wire Wire Line
-	-6400 7400 -6300 7400
-Connection ~ -6300 7400
-Wire Wire Line
-	-6300 7400 -6200 7400
-Connection ~ -6200 7400
-Wire Wire Line
-	-6200 7400 -6100 7400
-Connection ~ -6100 7400
-Wire Wire Line
-	-6100 7400 -6000 7400
-Connection ~ -6000 7400
-Wire Wire Line
-	-6000 7400 -5900 7400
-Connection ~ -5900 7400
-Wire Wire Line
-	-5900 7400 -5800 7400
 $Comp
 L 2PinTerminalBlocktg:2PinTerminalBlocktg J1
 U 1 1 5AC8E498
@@ -1979,10 +1907,10 @@ Connection ~ 1750 7300
 Wire Wire Line
 	1750 7300 1950 7300
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J?
+L 2PinTerminalBlocktg:2PinTerminalBlocktg J4
 U 1 1 5ADB99D1
 P -1850 6950
-F 0 "J?" H -1885 6940 50  0000 L CNN
+F 0 "J4" H -1885 6940 50  0000 L CNN
 F 1 "2PinTerminalBlocktg" H -1885 6849 50  0000 L CNN
 F 2 "2PinTerminalBlocktg" H -1850 6950 50  0001 L BNN
 F 3 "None" H -1850 6950 50  0001 L BNN
@@ -1995,10 +1923,10 @@ F 8 "2PinTerminalBlocktg" H -1850 6950 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J?
+L 2PinTerminalBlocktg:2PinTerminalBlocktg J5
 U 1 1 5ADB9B3E
 P -1850 7150
-F 0 "J?" H -1885 7140 50  0000 L CNN
+F 0 "J5" H -1885 7140 50  0000 L CNN
 F 1 "2PinTerminalBlocktg" H -1885 7049 50  0000 L CNN
 F 2 "2PinTerminalBlocktg" H -1850 7150 50  0001 L BNN
 F 3 "None" H -1850 7150 50  0001 L BNN
@@ -2011,10 +1939,10 @@ F 8 "2PinTerminalBlocktg" H -1850 7150 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J?
+L 2PinTerminalBlocktg:2PinTerminalBlocktg J2
 U 1 1 5ADBA454
 P -11150 1900
-F 0 "J?" H -11288 1586 50  0000 C CNN
+F 0 "J2" H -11288 1586 50  0000 C CNN
 F 1 "2PinTerminalBlocktg" H -11288 1677 50  0000 C CNN
 F 2 "2PinTerminalBlocktg" H -11150 1900 50  0001 L BNN
 F 3 "None" H -11150 1900 50  0001 L BNN
@@ -2027,10 +1955,10 @@ F 8 "2PinTerminalBlocktg" H -11150 1900 50  0001 L BNN "Field8"
 	-1   0    0    1   
 $EndComp
 $Comp
-L 3PinTerminalBlocktg:3PinTerminalBlocktg J?
+L 3PinTerminalBlocktg:3PinTerminalBlocktg J3
 U 1 1 5ADBA737
 P -10750 7250
-F 0 "J?" H -10888 6936 50  0000 C CNN
+F 0 "J3" H -10888 6936 50  0000 C CNN
 F 1 "3PinTerminalBlocktg" H -10888 7027 50  0000 C CNN
 F 2 "3PinTerminalBlocktg" H -10750 7250 50  0001 L BNN
 F 3 "1.12 USD" H -10750 7250 50  0001 L BNN
@@ -2078,6 +2006,12 @@ Wire Wire Line
 	-2050 7150 -2200 7150
 Wire Wire Line
 	-2200 7250 -2050 7250
+Wire Wire Line
+	-8300 5050 -8300 6650
+Wire Wire Line
+	-6550 -1050 -5450 -1050
+Wire Wire Line
+	-6850 7400 -5650 7400
 Wire Bus Line
 	-6500 6800 -6300 6800
 Wire Bus Line
