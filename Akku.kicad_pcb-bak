@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew no-vcs-found-bf44d39~61~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc2-dev-unknown-0ded476~63~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
@@ -2165,8 +2165,8 @@
       (net 70 down/up/enable/load/CLR))
   )
 
-  (segment (start 130.81 134.62) (end 130.81 132.08) (width 0.4) (layer F.Cu) (net 37))
-  (segment (start 134.62 128.27) (end 134.62 120.65) (width 0.4) (layer F.Cu) (net 37) (tstamp 5A158B83))
-  (segment (start 130.81 132.08) (end 134.62 128.27) (width 0.4) (layer F.Cu) (net 37) (tstamp 5A158B81))
+  (segment (start 130.81 134.62) (end 130.81 132.08) (width 0.4) (layer B.Cu) (net 37))
+  (segment (start 134.62 128.27) (end 134.62 120.65) (width 0.4) (layer B.Cu) (net 37) (tstamp 5A158B83))
+  (segment (start 130.81 132.08) (end 134.62 128.27) (width 0.4) (layer B.Cu) (net 37) (tstamp 5A158B81))
 
 )

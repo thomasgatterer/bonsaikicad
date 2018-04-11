@@ -219,7 +219,7 @@ F 3 "" H 9700 650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LS193 U5
+L Akku-rescue:74LS193-RESCUE-Akku U5
 U 1 1 57E9530E
 P 7050 4150
 F 0 "U5" H 7050 4775 50  0000 C CNN
@@ -230,7 +230,7 @@ F 3 "" H 7050 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS193 U7
+L Akku-rescue:74LS193-RESCUE-Akku U7
 U 1 1 57E95727
 P 9000 4150
 F 0 "U7" H 9000 4775 50  0000 C CNN
@@ -640,7 +640,7 @@ F 3 "" H 4150 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:7400 U2
+L Akku-rescue:7400-RESCUE-Akku U2
 U 2 1 580F5956
 P 2650 5000
 F 0 "U2" H 2650 5050 50  0000 C CNN
@@ -651,7 +651,7 @@ F 3 "" H 2650 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:7400 U2
+L Akku-rescue:7400-RESCUE-Akku U2
 U 1 1 580F5818
 P 2650 4200
 F 0 "U2" H 2650 4250 50  0000 C CNN
@@ -785,7 +785,7 @@ F 3 "" H 2000 5700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:7400 U2
+L Akku-rescue:7400-RESCUE-Akku U2
 U 3 1 58103E9D
 P 2650 5950
 F 0 "U2" H 2650 6000 50  0000 C CNN
@@ -796,7 +796,7 @@ F 3 "" H 2650 5950 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:7400 U2
+L Akku-rescue:7400-RESCUE-Akku U2
 U 4 1 58103EA3
 P 2650 6750
 F 0 "U2" H 2650 6800 50  0000 C CNN
@@ -1241,7 +1241,7 @@ Wire Wire Line
 NoConn ~ 9700 4250
 NoConn ~ 9700 4450
 $Comp
-L 74xx:74HC14 U1
+L Akku-rescue:74HC14-RESCUE-Akku U1
 U 1 1 5A159C74
 P 2100 3350
 F 0 "U1" H 2250 3450 50  0000 C CNN
@@ -1252,7 +1252,7 @@ F 3 "" H 2100 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC14 U1
+L Akku-rescue:74HC14-RESCUE-Akku U1
 U 3 1 5A159ED2
 P 3650 2900
 F 0 "U1" H 3800 3000 50  0000 C CNN
@@ -1263,7 +1263,7 @@ F 3 "" H 3650 2900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xx:74HC14 U1
+L Akku-rescue:74HC14-RESCUE-Akku U1
 U 2 1 5A15A24E
 P 5200 6050
 F 0 "U1" H 5350 6150 50  0000 C CNN
@@ -1274,7 +1274,7 @@ F 3 "" H 5200 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC14 U1
+L Akku-rescue:74HC14-RESCUE-Akku U1
 U 4 1 5A15A4DE
 P 8650 5250
 F 0 "U1" H 8800 5350 50  0000 C CNN
@@ -1613,16 +1613,16 @@ Wire Wire Line
 	4450 7150 4600 7150
 Wire Wire Line
 	4600 7150 4600 7100
-Wire Bus Line
-	450  1050 450  1750
-Wire Bus Line
-	450  2150 450  2850
 Wire Wire Line
 	-150 1850 -150 2950
 Wire Wire Line
 	-150 750  -150 1850
 Wire Wire Line
 	850  1450 850  2450
+Wire Bus Line
+	450  1050 450  1750
+Wire Bus Line
+	450  2150 450  2850
 Wire Bus Line
 	1450 850  1450 2350
 $EndSCHEMATC
