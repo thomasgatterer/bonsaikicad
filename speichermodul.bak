@@ -292,12 +292,12 @@ $EndComp
 $Comp
 L speichermodul-rescue:VCC-RESCUE-speichermodul #PWR01
 U 1 1 57D2DA5E
-P 950 1300
-F 0 "#PWR01" H 950 1400 30  0001 C CNN
-F 1 "VCC" H 950 1400 30  0000 C CNN
-F 2 "" H 950 1300 60  0000 C CNN
-F 3 "" H 950 1300 60  0000 C CNN
-	1    950  1300
+P 2150 6700
+F 0 "#PWR01" H 2150 6800 30  0001 C CNN
+F 1 "VCC" H 2150 6800 30  0000 C CNN
+F 2 "" H 2150 6700 60  0000 C CNN
+F 3 "" H 2150 6700 60  0000 C CNN
+	1    2150 6700
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -725,101 +725,90 @@ $EndComp
 $Comp
 L speichermodul-rescue:LED-RESCUE-speichermodul D3
 U 1 1 57D5B88B
-P 2350 5650
-F 0 "D3" H 2350 5750 50  0000 C CNN
-F 1 "LED" H 2350 5550 50  0000 C CNN
-F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 550 5650 60  0000 C CNN
-F 3 "" H 2350 5650 60  0000 C CNN
-	1    2350 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D4
-U 1 1 57D5B898
-P 2350 5750
-F 0 "D4" H 2350 5850 50  0000 C CNN
-F 1 "LED" H 2350 5650 50  0000 C CNN
-F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 550 5750 60  0000 C CNN
-F 3 "" H 2350 5750 60  0000 C CNN
-	1    2350 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D5
-U 1 1 57D5B89E
-P 2350 5850
-F 0 "D5" H 2350 5950 50  0000 C CNN
-F 1 "LED" H 2350 5750 50  0000 C CNN
-F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 550 5850 60  0000 C CNN
-F 3 "" H 2350 5850 60  0000 C CNN
-	1    2350 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D6
-U 1 1 57D5B8A4
-P 2350 5950
-F 0 "D6" H 2350 6050 50  0000 C CNN
-F 1 "LED" H 2350 5850 50  0000 C CNN
-F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 550 5950 60  0000 C CNN
-F 3 "" H 2350 5950 60  0000 C CNN
-	1    2350 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D7
-U 1 1 57D5B8AC
-P 2350 6050
-F 0 "D7" H 2350 6150 50  0000 C CNN
-F 1 "LED" H 2350 5950 50  0000 C CNN
-F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 550 6050 60  0000 C CNN
-F 3 "" H 2350 6050 60  0000 C CNN
-	1    2350 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D8
-U 1 1 57D5B8B9
-P 2350 6150
-F 0 "D8" H 2350 6250 50  0000 C CNN
-F 1 "LED" H 2350 6050 50  0000 C CNN
-F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 550 6150 60  0000 C CNN
-F 3 "" H 2350 6150 60  0000 C CNN
-	1    2350 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D9
-U 1 1 57D5B8BF
-P 2350 6250
-F 0 "D9" H 2350 6350 50  0000 C CNN
-F 1 "LED" H 2350 6150 50  0000 C CNN
-F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 550 6250 60  0000 C CNN
-F 3 "" H 2350 6250 60  0000 C CNN
-	1    2350 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D10
-U 1 1 57D5B8D6
 P 2350 6350
-F 0 "D10" H 2350 6450 50  0000 C CNN
+F 0 "D3" H 2350 6450 50  0000 C CNN
 F 1 "LED" H 2350 6250 50  0000 C CNN
 F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 550 6350 60  0000 C CNN
 F 3 "" H 2350 6350 60  0000 C CNN
 	1    2350 6350
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:GND-RESCUE-speichermodul #PWR018
-U 1 1 57D5B8E5
-P 2150 6650
-F 0 "#PWR018" H 2150 6400 50  0001 C CNN
-F 1 "GND" H 2150 6500 50  0000 C CNN
-F 2 "" H 2150 6650 60  0000 C CNN
-F 3 "" H 2150 6650 60  0000 C CNN
-	1    2150 6650
-	1    0    0    -1  
+L speichermodul-rescue:LED-RESCUE-speichermodul D4
+U 1 1 57D5B898
+P 2350 6250
+F 0 "D4" H 2350 6350 50  0000 C CNN
+F 1 "LED" H 2350 6150 50  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 550 6250 60  0000 C CNN
+F 3 "" H 2350 6250 60  0000 C CNN
+	1    2350 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L speichermodul-rescue:LED-RESCUE-speichermodul D5
+U 1 1 57D5B89E
+P 2350 6150
+F 0 "D5" H 2350 6250 50  0000 C CNN
+F 1 "LED" H 2350 6050 50  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 550 6150 60  0000 C CNN
+F 3 "" H 2350 6150 60  0000 C CNN
+	1    2350 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L speichermodul-rescue:LED-RESCUE-speichermodul D6
+U 1 1 57D5B8A4
+P 2350 6050
+F 0 "D6" H 2350 6150 50  0000 C CNN
+F 1 "LED" H 2350 5950 50  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 550 6050 60  0000 C CNN
+F 3 "" H 2350 6050 60  0000 C CNN
+	1    2350 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L speichermodul-rescue:LED-RESCUE-speichermodul D7
+U 1 1 57D5B8AC
+P 2350 5950
+F 0 "D7" H 2350 6050 50  0000 C CNN
+F 1 "LED" H 2350 5850 50  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" V 550 5950 60  0000 C CNN
+F 3 "" H 2350 5950 60  0000 C CNN
+	1    2350 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L speichermodul-rescue:LED-RESCUE-speichermodul D8
+U 1 1 57D5B8B9
+P 2350 5850
+F 0 "D8" H 2350 5950 50  0000 C CNN
+F 1 "LED" H 2350 5750 50  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 550 5850 60  0000 C CNN
+F 3 "" H 2350 5850 60  0000 C CNN
+	1    2350 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L speichermodul-rescue:LED-RESCUE-speichermodul D9
+U 1 1 57D5B8BF
+P 2350 5750
+F 0 "D9" H 2350 5850 50  0000 C CNN
+F 1 "LED" H 2350 5650 50  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 550 5750 60  0000 C CNN
+F 3 "" H 2350 5750 60  0000 C CNN
+	1    2350 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L speichermodul-rescue:LED-RESCUE-speichermodul D10
+U 1 1 57D5B8D6
+P 2350 5650
+F 0 "D10" H 2350 5750 50  0000 C CNN
+F 1 "LED" H 2350 5550 50  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 550 5650 60  0000 C CNN
+F 3 "" H 2350 5650 60  0000 C CNN
+	1    2350 5650
+	-1   0    0    1   
 $EndComp
 $Comp
 L speichermodul-rescue:R-RESCUE-speichermodul R16
@@ -901,101 +890,90 @@ $EndComp
 $Comp
 L speichermodul-rescue:LED-RESCUE-speichermodul D11
 U 1 1 57D5BBCA
-P 6000 950
-F 0 "D11" H 6000 1050 50  0000 C CNN
-F 1 "LED" H 6000 850 50  0000 C CNN
-F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 950 60  0001 C CNN
-F 3 "" H 6000 950 60  0000 C CNN
-	1    6000 950 
-	1    0    0    -1  
+P 6000 1650
+F 0 "D11" H 6000 1750 50  0000 C CNN
+F 1 "LED" H 6000 1550 50  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 1650 60  0001 C CNN
+F 3 "" H 6000 1650 60  0000 C CNN
+	1    6000 1650
+	-1   0    0    1   
 $EndComp
 $Comp
 L speichermodul-rescue:LED-RESCUE-speichermodul D12
 U 1 1 57D5BBD0
-P 6000 1050
-F 0 "D12" H 6000 1150 50  0000 C CNN
-F 1 "LED" H 6000 950 50  0000 C CNN
-F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 1050 60  0001 C CNN
-F 3 "" H 6000 1050 60  0000 C CNN
-	1    6000 1050
-	1    0    0    -1  
+P 6000 1550
+F 0 "D12" H 6000 1650 50  0000 C CNN
+F 1 "LED" H 6000 1450 50  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 1550 60  0001 C CNN
+F 3 "" H 6000 1550 60  0000 C CNN
+	1    6000 1550
+	-1   0    0    1   
 $EndComp
 $Comp
 L speichermodul-rescue:LED-RESCUE-speichermodul D13
 U 1 1 57D5BBD6
-P 6000 1150
-F 0 "D13" H 6000 1250 50  0000 C CNN
-F 1 "LED" H 6000 1050 50  0000 C CNN
-F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 1150 60  0001 C CNN
-F 3 "" H 6000 1150 60  0000 C CNN
-	1    6000 1150
-	1    0    0    -1  
+P 6000 1450
+F 0 "D13" H 6000 1550 50  0000 C CNN
+F 1 "LED" H 6000 1350 50  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 1450 60  0001 C CNN
+F 3 "" H 6000 1450 60  0000 C CNN
+	1    6000 1450
+	-1   0    0    1   
 $EndComp
 $Comp
 L speichermodul-rescue:LED-RESCUE-speichermodul D14
 U 1 1 57D5BBDC
-P 6000 1250
-F 0 "D14" H 6000 1350 50  0000 C CNN
-F 1 "LED" H 6000 1150 50  0000 C CNN
-F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 1250 60  0000 C CNN
-F 3 "" H 6000 1250 60  0000 C CNN
-	1    6000 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D15
-U 1 1 57D5BBE2
 P 6000 1350
-F 0 "D15" H 6000 1450 50  0000 C CNN
+F 0 "D14" H 6000 1450 50  0000 C CNN
 F 1 "LED" H 6000 1250 50  0000 C CNN
 F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 1350 60  0000 C CNN
 F 3 "" H 6000 1350 60  0000 C CNN
 	1    6000 1350
-	1    0    0    -1  
+	-1   0    0    1   
+$EndComp
+$Comp
+L speichermodul-rescue:LED-RESCUE-speichermodul D15
+U 1 1 57D5BBE2
+P 6000 1250
+F 0 "D15" H 6000 1350 50  0000 C CNN
+F 1 "LED" H 6000 1150 50  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 1250 60  0000 C CNN
+F 3 "" H 6000 1250 60  0000 C CNN
+	1    6000 1250
+	-1   0    0    1   
 $EndComp
 $Comp
 L speichermodul-rescue:LED-RESCUE-speichermodul D16
 U 1 1 57D5BBE8
-P 6000 1450
-F 0 "D16" H 6000 1550 50  0000 C CNN
-F 1 "LED" H 6000 1350 50  0000 C CNN
-F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 1450 60  0000 C CNN
-F 3 "" H 6000 1450 60  0000 C CNN
-	1    6000 1450
-	1    0    0    -1  
+P 6000 1150
+F 0 "D16" H 6000 1250 50  0000 C CNN
+F 1 "LED" H 6000 1050 50  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 1150 60  0000 C CNN
+F 3 "" H 6000 1150 60  0000 C CNN
+	1    6000 1150
+	-1   0    0    1   
 $EndComp
 $Comp
 L speichermodul-rescue:LED-RESCUE-speichermodul D17
 U 1 1 57D5BBEE
-P 6000 1550
-F 0 "D17" H 6000 1650 50  0000 C CNN
-F 1 "LED" H 6000 1450 50  0000 C CNN
-F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 1550 60  0000 C CNN
-F 3 "" H 6000 1550 60  0000 C CNN
-	1    6000 1550
-	1    0    0    -1  
+P 6000 1050
+F 0 "D17" H 6000 1150 50  0000 C CNN
+F 1 "LED" H 6000 950 50  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 1050 60  0000 C CNN
+F 3 "" H 6000 1050 60  0000 C CNN
+	1    6000 1050
+	-1   0    0    1   
 $EndComp
 $Comp
 L speichermodul-rescue:LED-RESCUE-speichermodul D18
 U 1 1 57D5BBF4
-P 6000 1650
-F 0 "D18" H 6000 1750 50  0000 C CNN
-F 1 "LED" H 6000 1550 50  0000 C CNN
-F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 1650 60  0000 C CNN
-F 3 "" H 6000 1650 60  0000 C CNN
-	1    6000 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L speichermodul-rescue:GND-RESCUE-speichermodul #PWR019
-U 1 1 57D5BBFA
-P 5800 1950
-F 0 "#PWR019" H 5800 1700 50  0001 C CNN
-F 1 "GND" H 5800 1800 50  0000 C CNN
-F 2 "" H 5800 1950 60  0000 C CNN
-F 3 "" H 5800 1950 60  0000 C CNN
-	1    5800 1950
-	1    0    0    -1  
+P 6000 950
+F 0 "D18" H 6000 1050 50  0000 C CNN
+F 1 "LED" H 6000 850 50  0000 C CNN
+F 2 "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm" H 4250 950 60  0000 C CNN
+F 3 "" H 6000 950 60  0000 C CNN
+	1    6000 950 
+	-1   0    0    1   
 $EndComp
 $Comp
 L speichermodul-rescue:CONN_01X01-RESCUE-speichermodul P7
@@ -1493,7 +1471,6 @@ Connection ~ 2150 5950
 Connection ~ 2150 6050
 Connection ~ 2150 6150
 Connection ~ 2150 6250
-Connection ~ 2150 6350
 Wire Wire Line
 	2500 5650 2600 5650
 Wire Wire Line
@@ -1536,7 +1513,6 @@ Connection ~ 5800 1250
 Connection ~ 5800 1350
 Connection ~ 5800 1450
 Connection ~ 5800 1550
-Connection ~ 5800 1650
 Wire Wire Line
 	6150 950  6250 950 
 Wire Wire Line
@@ -1575,7 +1551,6 @@ Wire Wire Line
 Connection ~ 1650 1200
 Wire Wire Line
 	1000 1200 950  1200
-Connection ~ 950  1200
 Wire Wire Line
 	10200 850  10200 700 
 Wire Wire Line
@@ -1792,8 +1767,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 6250 2150 6350
 Wire Wire Line
-	2150 6350 2150 6650
-Wire Wire Line
 	5800 1050 5800 1150
 Wire Wire Line
 	5800 1250 5800 1350
@@ -1802,15 +1775,9 @@ Wire Wire Line
 Wire Wire Line
 	5800 1450 5800 1550
 Wire Wire Line
-	5800 1550 5800 1650
-Wire Wire Line
-	5800 1650 5800 1950
-Wire Wire Line
 	6650 2550 6850 2550
 Wire Wire Line
 	1650 1200 1650 1300
-Wire Wire Line
-	950  1200 950  1300
 Wire Wire Line
 	1300 2600 1300 2850
 Wire Wire Line
@@ -1906,6 +1873,34 @@ Wire Wire Line
 Connection ~ 8000 1950
 Wire Wire Line
 	8000 1950 8000 2050
+Connection ~ 2150 6350
+$Comp
+L speichermodul-rescue:VCC-RESCUE-speichermodul #PWR03
+U 1 1 5ABDCBFC
+P 950 1200
+F 0 "#PWR03" H 950 1300 30  0001 C CNN
+F 1 "VCC" H 950 1300 30  0000 C CNN
+F 2 "" H 950 1200 60  0000 C CNN
+F 3 "" H 950 1200 60  0000 C CNN
+	1    950  1200
+	-1   0    0    1   
+$EndComp
+Connection ~ 950  1200
+Wire Wire Line
+	2150 6350 2150 6700
+$Comp
+L speichermodul-rescue:VCC-RESCUE-speichermodul #PWR04
+U 1 1 5AC59048
+P 5800 1850
+F 0 "#PWR04" H 5800 1950 30  0001 C CNN
+F 1 "VCC" H 5800 1950 30  0000 C CNN
+F 2 "" H 5800 1850 60  0000 C CNN
+F 3 "" H 5800 1850 60  0000 C CNN
+	1    5800 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 1550 5800 1650
 Wire Bus Line
 	9550 3350 9550 3550
 Wire Bus Line
@@ -1915,15 +1910,18 @@ Wire Bus Line
 Wire Bus Line
 	8100 1050 8100 1750
 Wire Bus Line
-	10950 2750 10950 4850
-Wire Bus Line
-	10200 4850 10200 6450
-Wire Bus Line
-	9550 2500 9550 3250
-Wire Bus Line
-	10100 850  10100 2500
+	7300 5750 7300 6450
 Wire Bus Line
 	9350 1200 9350 1750
 Wire Bus Line
-	7300 5750 7300 6450
+	10100 850  10100 2500
+Wire Bus Line
+	9550 2500 9550 3250
+Wire Bus Line
+	10200 4850 10200 6450
+Wire Bus Line
+	10950 2750 10950 4850
+Connection ~ 5800 1650
+Wire Wire Line
+	5800 1650 5800 1850
 $EndSCHEMATC
