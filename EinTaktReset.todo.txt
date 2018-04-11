@@ -1,3 +1,4 @@
+DONE:
 *Libraryprobleme
 -tg:done bitte testen
 
@@ -11,5 +12,173 @@ Todo: Teil finden
 
 *Für 2 einzele Pins einen Zweierpin hinzufügen
 -tg:done bitte kontrollieren
+
+*Lösung: 
+IN Kicad -> preferences -> configure paths -> add name: BON_LIB 
+value: /Orte/1_Daten_Server/bonsaikicad
+------------
+TODO:
+für TG: Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal Foodprint local machen
+add project specifivic lib ${KIGITHUB}/Housings_DIP.pretty
+in Paths add KIGITHUB https://github.com/KiCad
+
+und folgende auch:
+Info: Reading netlist file "/Orte/1_Daten_Server/bonsaikicad/EinTaktReset.net".
+
+Info: Using references to match components and footprints.
+
+Error: Component "R15" footprint "R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" was not found in any libraries in the footprint library table.
+
+Error: Component "R14" footprint "R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" was not found in any libraries in the footprint library table.
+
+Error: Component "R16" footprint "R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" was not found in any libraries in the footprint library table.
+
+Error: Component "R17" footprint "R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" was not found in any libraries in the footprint library table.
+
+Error: Component "D3" footprint "LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z4.9mm" was not found in any libraries in the footprint library table.
+
+Error: No footprint defined for symbol "C9".
+
+Error: No footprint defined for symbol "C8".
+
+Error: No footprint defined for symbol "C7".
+
+Error: No footprint defined for symbol "C6".
+
+Info: Checking netlist symbol footprint "C1:/5A319373:Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.00mm".
+
+Info: Checking netlist symbol footprint "C2:/5A315184:Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.00mm".
+
+Info: Checking netlist symbol footprint "C3:/57E970CE:Capacitors_ThroughHole:CP_Radial_D8.0mm_P3.50mm".
+
+Info: Checking netlist symbol footprint "C4:/57E96FB7:Capacitors_ThroughHole:CP_Radial_D8.0mm_P3.50mm".
+
+Info: Checking netlist symbol footprint "C5:/57E97853:Capacitors_ThroughHole:C_Disc_D3.0mm_W1.6mm_P2.50mm".
+
+Info: Checking netlist symbol footprint "C6:/5AFEACE5:".
+
+Error: Cannot add new symbol "C6:/5AFEACE5" due to missing footprint "".
+
+Info: Checking netlist symbol footprint "C7:/5AFEABD4:".
+
+Error: Cannot add new symbol "C7:/5AFEABD4" due to missing footprint "".
+
+Info: Checking netlist symbol footprint "C8:/5AFEAAC4:".
+
+Error: Cannot add new symbol "C8:/5AFEAAC4" due to missing footprint "".
+
+Info: Checking netlist symbol footprint "C9:/5AFD86A4:".
+
+Error: Cannot add new symbol "C9:/5AFD86A4" due to missing footprint "".
+
+Info: Checking netlist symbol footprint "D1:/5A32A9C2:Diodes_ThroughHole:D_DO-35_SOD27_P7.62mm_Horizontal".
+
+Info: Checking netlist symbol footprint "D2:/57E94B39:LEDs:LED_D5.0mm".
+
+Info: Checking netlist symbol footprint "D3:/5AA50448:LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z4.9mm".
+
+Error: Cannot add new symbol "D3:/5AA50448" due to missing footprint "LEDs:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z4.9mm".
+
+Info: Checking netlist symbol footprint "DROT1:/584626CA:LEDs:LED_D3.0mm".
+
+Info: Checking netlist symbol footprint "IC1:/5A96C7F1:Housings_DIP:DIP-14_W7.62mm_Socket_LongPads".
+
+Info: Checking netlist symbol footprint "J1:/5ABEE293:3PinTerminalBlocktg".
+
+Info: Checking netlist symbol footprint "J2:/5ABEE025:3PinTerminalBlocktg".
+
+Info: Checking netlist symbol footprint "J3:/5ADB7E0E:2PinTerminalBlocktg".
+
+Info: Checking netlist symbol footprint "J4:/5AC4DD64:3PinTerminalBlocktg".
+
+Info: Checking netlist symbol footprint "J5:/5AC4DB91:2PinTerminalBlocktg".
+
+Info: Checking netlist symbol footprint "P1:/5A2833E0:tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty".
+
+Info: Checking netlist symbol footprint "P4:/5A28337D:tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty".
+
+Info: Checking netlist symbol footprint "R1:/5A318D8E:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R2:/5A31AE8F:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R3:/5A3A7CF2:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R4:/5846192F:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R5:/5A332DED:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R6:/5A3343E3:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R7:/57E94A96:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R8:/5A3370F6:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R9:/5A335A17:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R10:/57E96601:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R11:/57E961BB:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R12:/5A33749E:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R13:/5A335CA1:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R14:/5845F8A9:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Error: Cannot add new symbol "R14:/5845F8A9" due to missing footprint "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R15:/5845E30F:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Error: Cannot add new symbol "R15:/5845E30F" due to missing footprint "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R16:/5845B97A:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Error: Cannot add new symbol "R16:/5845B97A" due to missing footprint "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "R17:/5845CFFB:Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Error: Cannot add new symbol "R17:/5845CFFB" due to missing footprint "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Checking netlist symbol footprint "RP1:/5A3C2E43:Housings_SIP:SIP9_Housing_BigPads".
+
+Info: Checking netlist symbol footprint "RV1:/5A3F8DE9:Potentiometers:Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm".
+
+Info: Checking netlist symbol footprint "SW1:/5A31B889:tg_foodprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight".
+
+Info: Checking netlist symbol footprint "SW2:/5845E8F5:Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx".
+
+Info: Checking netlist symbol footprint "SW3:/5845BEEF:tg_foodprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight".
+
+Info: Checking netlist symbol footprint "SW4:/57E97A95:tg_foodprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight".
+
+Info: Checking netlist symbol footprint "SW5:/57E93F95:tg_foodprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight".
+
+Info: Checking netlist symbol footprint "SW6:/5A32DB4D:Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx".
+
+Info: Checking netlist symbol footprint "SW7:/57E94003:tg_foodprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight".
+
+Info: Checking netlist symbol footprint "SW8:/57E9403B:tg_foodprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight".
+
+Info: Checking netlist symbol footprint "SW9:/57E94073:tg_foodprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight".
+
+Info: Checking netlist symbol footprint "SW10:/57E940A9:tg_foodprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight".
+
+Info: Checking netlist symbol footprint "SW11:/57E940E3:tg_foodprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight".
+
+Info: Checking netlist symbol footprint "SW12:/57E9412D:tg_foodprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight".
+
+Info: Checking netlist symbol footprint "SW13:/57E94163:tg_foodprint:eintakt_tg_SW_CuK_JS202011CQN_DPDT_Straight".
+
+Info: Checking netlist symbol footprint "U1:/5845E5BA:Housings_DIP:DIP-14_W7.62mm_Socket_LongPads".
+
+Info: Checking netlist symbol footprint "U2:/5A3A8709:Housings_DIP:DIP-20_W7.62mm_Socket_LongPads".
+
+Info: Checking netlist symbol footprint "U3:/57E935F2:Housings_DIP:DIP-20_W7.62mm_Socket_LongPads".
+
+Info: Checking netlist symbol footprint "U4:/57E94702:Housings_DIP:DIP-14_W7.62mm_Socket_LongPads".
+
+Info: Checking netlist symbol footprint "U5:/57E954F3:Housings_DIP:DIP-14_W7.62mm_Socket_LongPads".
+
+Info: Checking netlist symbol footprint "U6:/5A32CD74:Housings_DIP:DIP-14_W7.62mm_Socket_LongPads".
 
 
