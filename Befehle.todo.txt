@@ -11,6 +11,8 @@ DONE:
 
 TODO:
 *für TG Housings_DIP:DIP-20_W7.62mm_Socket_LongPads Lokal anlegen
+add project specifivic lib ${KIGITHUB}/Housings_DIP.pretty
+in Paths add KIGITHUB https://github.com/KiCad
 
 *bei P1 ist was falsch angeschlossen
 
