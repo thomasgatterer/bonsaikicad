@@ -1,0 +1,20 @@
+Probleme:
+
+Resistor footprint trotz neuem footprint + netlist immer noch nicht funktionierend
+	
+	Error: Component "R4" footprint "Resistor_Horizontal_RM10mm" was not found in any 		libraries in the footprint library table. 
+
+Buttonswitch footprints funktionieren nicht, wurden getauscht aber immer noch Fehlermeldung
+
+	Error: Component "SW3" pad "3" not found in footprint 		"Buttons_Switches_ThroughHole:SW_PUSH_6mm_h5mm"	
+
+P7, P8, P9 werfen Probleme auf weil die "Pad" nicht gefunden werden konnten
+
+	Component "P9" pad "15" not found in footprint "Connect:1pin" 
+
+Todo für mich:
+
+Footprints überprüfen -> austauschen
+PCB-Datei wires legen
+Kudel-Mudel mit P7/P8/P9 beheben versuchen
+

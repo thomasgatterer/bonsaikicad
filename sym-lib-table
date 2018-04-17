@@ -205,4 +205,5 @@
   (lib (name 2PinTerminalBlocktg)(type Legacy)(uri ${BON_LIB}/bonsaicomplib/pcbTerminalBlockstg/2PinTerminalBlocktg.lib)(options "")(descr ""))
   (lib (name 3PinTerminalBlocktg)(type Legacy)(uri ${BON_LIB}/bonsaicomplib/pcbTerminalBlockstg/3PinTerminalBlocktg.lib)(options "")(descr ""))
   (lib (name Befehle-rescue)(type Legacy)(uri ${KIPRJMOD}/Befehle-rescue.lib)(options "")(descr ""))
+  (lib (name Akku-rescue)(type Legacy)(uri ${KIPRJMOD}/Akku-rescue.lib)(options "")(descr ""))
 )
