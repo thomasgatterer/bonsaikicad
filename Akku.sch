@@ -125,7 +125,7 @@ U 1 1 57E94162
 P 8600 1200
 F 0 "R13" H 8670 1246 50  0000 L CNN
 F 1 "R" H 8670 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8530 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8530 1200 50  0000 C CNN
 F 3 "" H 8600 1200 50  0000 C CNN
 	1    8600 1200
 	1    0    0    -1  
@@ -136,7 +136,7 @@ U 1 1 57E942DE
 P 8700 1200
 F 0 "R15" H 8770 1246 50  0000 L CNN
 F 1 "R" H 8770 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8630 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8630 1200 50  0000 C CNN
 F 3 "" H 8700 1200 50  0000 C CNN
 	1    8700 1200
 	1    0    0    -1  
@@ -147,7 +147,7 @@ U 1 1 57E94316
 P 8800 1200
 F 0 "R16" H 8870 1246 50  0000 L CNN
 F 1 "R" H 8870 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8730 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8730 1200 50  0000 C CNN
 F 3 "" H 8800 1200 50  0000 C CNN
 	1    8800 1200
 	1    0    0    -1  
@@ -158,7 +158,7 @@ U 1 1 57E94362
 P 8900 1200
 F 0 "R17" H 8970 1246 50  0000 L CNN
 F 1 "R" H 8970 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8830 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8830 1200 50  0000 C CNN
 F 3 "" H 8900 1200 50  0000 C CNN
 	1    8900 1200
 	1    0    0    -1  
@@ -169,7 +169,7 @@ U 1 1 57E943BA
 P 9000 1200
 F 0 "R18" H 9070 1246 50  0000 L CNN
 F 1 "R" H 9070 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8930 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8930 1200 50  0000 C CNN
 F 3 "" H 9000 1200 50  0000 C CNN
 	1    9000 1200
 	1    0    0    -1  
@@ -180,7 +180,7 @@ U 1 1 57E94424
 P 9100 1200
 F 0 "R19" H 9170 1246 50  0000 L CNN
 F 1 "R" H 9170 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 9030 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9030 1200 50  0000 C CNN
 F 3 "" H 9100 1200 50  0000 C CNN
 	1    9100 1200
 	1    0    0    -1  
@@ -191,7 +191,7 @@ U 1 1 57E94464
 P 9200 1200
 F 0 "R20" H 9270 1246 50  0000 L CNN
 F 1 "R" H 9270 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 9130 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9130 1200 50  0000 C CNN
 F 3 "" H 9200 1200 50  0000 C CNN
 	1    9200 1200
 	1    0    0    -1  
@@ -202,7 +202,7 @@ U 1 1 57E944B7
 P 9300 1200
 F 0 "R21" H 9370 1246 50  0000 L CNN
 F 1 "R" H 9370 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 9230 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9230 1200 50  0000 C CNN
 F 3 "" H 9300 1200 50  0000 C CNN
 	1    9300 1200
 	1    0    0    -1  
@@ -248,7 +248,7 @@ U 1 1 57E98213
 P 8650 5850
 F 0 "R14" H 8720 5896 50  0000 L CNN
 F 1 "R" H 8720 5805 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8580 5850 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8580 5850 50  0000 C CNN
 F 3 "" H 8650 5850 50  0000 C CNN
 	1    8650 5850
 	1    0    0    -1  
@@ -270,7 +270,7 @@ U 1 1 57E9996F
 P 9500 4950
 F 0 "R22" H 9570 4996 50  0000 L CNN
 F 1 "R" H 9570 4905 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 9430 4950 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9430 4950 50  0000 C CNN
 F 3 "" H 9500 4950 50  0000 C CNN
 	1    9500 4950
 	1    0    0    -1  
@@ -292,7 +292,7 @@ U 1 1 57F2FBEB
 P 3500 2050
 F 0 "R9" H 3570 2096 50  0000 L CNN
 F 1 "R" H 3570 2005 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3430 2050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3430 2050 50  0000 C CNN
 F 3 "" H 3500 2050 50  0000 C CNN
 	1    3500 2050
 	0    1    -1   0   
@@ -320,7 +320,7 @@ U 1 1 57FC1E29
 P 8150 6200
 F 0 "R12" V 8230 6200 50  0000 C CNN
 F 1 "R" V 8150 6200 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8080 6200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 6200 50  0000 C CNN
 F 3 "" H 8150 6200 50  0000 C CNN
 	1    8150 6200
 	0    1    1    0   
@@ -331,7 +331,7 @@ U 1 1 57FC34DF
 P 7500 6200
 F 0 "SW3" H 7300 6350 50  0000 C CNN
 F 1 "CLR_Bonsai_SWITCH_INV" H 7350 6050 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm_h5mm" H 7500 6200 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx" H 7500 6200 50  0000 C CNN
 F 3 "" H 7500 6200 50  0000 C CNN
 	1    7500 6200
 	-1   0    0    -1  
@@ -386,7 +386,7 @@ U 1 1 58057A43
 P 50 1250
 F 0 "P7" H 50  1800 50  0000 C CNN
 F 1 "CONN_02X10" V 50  1250 50  0000 C CNN
-F 2 "Connect:IDC_Header_Straight_20pins" H 50  1250 50  0000 C CNN
+F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 50  1250 50  0000 C CNN
 F 3 "" H 50  50  50  0000 C CNN
 	1    50   1250
 	1    0    0    -1  
@@ -397,7 +397,7 @@ U 1 1 5805867B
 P 50 2350
 F 0 "P8" H 50  2900 50  0000 C CNN
 F 1 "CONN_02X10" V 50  2350 50  0000 C CNN
-F 2 "Connect:IDC_Header_Straight_20pins" H 50  2400 50  0000 C CNN
+F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 50  2400 50  0000 C CNN
 F 3 "" H 50  1150 50  0000 C CNN
 	1    50   2350
 	1    0    0    -1  
@@ -408,7 +408,7 @@ U 1 1 58058F42
 P 1050 1850
 F 0 "P9" H 1050 2400 50  0000 C CNN
 F 1 "CONN_02X10" V 1050 1850 50  0000 C CNN
-F 2 "Connect:IDC_Header_Straight_20pins" H 1050 1850 50  0000 C CNN
+F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 1050 1850 50  0000 C CNN
 F 3 "" H 1050 650 50  0000 C CNN
 	1    1050 1850
 	1    0    0    -1  
@@ -586,7 +586,7 @@ U 1 1 580F178A
 P 1700 2800
 F 0 "R2" H 1770 2846 50  0000 L CNN
 F 1 "R" H 1770 2755 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1630 2800 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1630 2800 50  0000 C CNN
 F 3 "" H 1700 2800 50  0000 C CNN
 	1    1700 2800
 	0    1    -1   0   
@@ -619,7 +619,7 @@ U 1 1 580F350E
 P 1700 3000
 F 0 "R3" H 1770 3046 50  0000 L CNN
 F 1 "R" H 1770 2955 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1630 3000 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1630 3000 50  0000 C CNN
 F 3 "" H 1700 3000 50  0000 C CNN
 	1    1700 3000
 	0    1    -1   0   
@@ -669,7 +669,7 @@ U 1 1 58100242
 P 1750 4100
 F 0 "R4" V 1830 4100 50  0000 C CNN
 F 1 "R" V 1750 4100 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1680 4100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1680 4100 50  0000 C CNN
 F 3 "" H 1750 4100 50  0000 C CNN
 	1    1750 4100
 	0    -1   -1   0   
@@ -691,7 +691,7 @@ U 1 1 58100CBF
 P 1400 4600
 F 0 "SW1" H 1200 4750 50  0000 C CNN
 F 1 "UP_Bonsai_SWITCH_INV" H 1250 4450 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm_h5mm" H 1400 4600 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx" H 1400 4600 50  0000 C CNN
 F 3 "" H 1400 4600 50  0000 C CNN
 	1    1400 4600
 	1    0    0    -1  
@@ -724,7 +724,7 @@ U 1 1 581018B2
 P 5850 3900
 F 0 "R11" V 5930 3900 50  0000 C CNN
 F 1 "R" V 5850 3900 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5780 3900 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5780 3900 50  0000 C CNN
 F 3 "" H 5850 3900 50  0000 C CNN
 	1    5850 3900
 	-1   0    0    1   
@@ -757,7 +757,7 @@ U 1 1 58102F06
 P 2000 5250
 F 0 "R5" V 2080 5250 50  0000 C CNN
 F 1 "R" V 2000 5250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1930 5250 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 5250 50  0000 C CNN
 F 3 "" H 2000 5250 50  0000 C CNN
 	1    2000 5250
 	-1   0    0    1   
@@ -779,7 +779,7 @@ U 1 1 5810367F
 P 2000 5700
 F 0 "R6" V 2080 5700 50  0000 C CNN
 F 1 "R" V 2000 5700 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1930 5700 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 5700 50  0000 C CNN
 F 3 "" H 2000 5700 50  0000 C CNN
 	1    2000 5700
 	-1   0    0    1   
@@ -812,7 +812,7 @@ U 1 1 58103EA9
 P 2000 7100
 F 0 "R7" V 2080 7100 50  0000 C CNN
 F 1 "R" V 2000 7100 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1930 7100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 7100 50  0000 C CNN
 F 3 "" H 2000 7100 50  0000 C CNN
 	1    2000 7100
 	1    0    0    1   
@@ -834,7 +834,7 @@ U 1 1 58103EB5
 P 1400 6350
 F 0 "SW2" H 1200 6500 50  0000 C CNN
 F 1 "DOWN_Bonsai_SWITCH_INV" H 1250 6200 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm_h5mm" H 1400 6350 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx" H 1400 6350 50  0000 C CNN
 F 3 "" H 1400 6350 50  0000 C CNN
 	1    1400 6350
 	1    0    0    1   
@@ -856,7 +856,7 @@ U 1 1 5810516E
 P 5650 6200
 F 0 "R10" V 5730 6200 50  0000 C CNN
 F 1 "R" V 5650 6200 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5580 6200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5580 6200 50  0000 C CNN
 F 3 "" H 5650 6200 50  0000 C CNN
 	1    5650 6200
 	-1   0    0    -1  
@@ -900,7 +900,7 @@ U 1 1 58107A43
 P 550 3800
 F 0 "R1" V 630 3800 50  0000 C CNN
 F 1 "R" V 550 3800 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 480 3800 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 480 3800 50  0000 C CNN
 F 3 "" H 550 3800 50  0000 C CNN
 	1    550  3800
 	-1   0    0    1   
@@ -922,7 +922,7 @@ U 1 1 58107FAF
 P 2600 7400
 F 0 "R8" V 2680 7400 50  0000 C CNN
 F 1 "R" V 2600 7400 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2530 7400 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2530 7400 50  0000 C CNN
 F 3 "" H 2600 7400 50  0000 C CNN
 	1    2600 7400
 	1    0    0    -1  
