@@ -1401,101 +1401,8 @@ Wire Wire Line
 Wire Wire Line
 	850  1350 850  1450
 Wire Wire Line
-	-150 1850 -150 1950
-Wire Wire Line
-	-150 750  -150 850 
-Wire Wire Line
-	-150 2850 -150 2950
-Wire Wire Line
-	850  2350 850  2450
-Wire Wire Line
-	-150 1750 -150 1850
-Wire Wire Line
-	-150 2850 -150 2750
-Connection ~ -150 2850
-Wire Wire Line
-	-150 2750 -150 2650
-Connection ~ -150 2750
-Wire Wire Line
-	-150 2650 -150 2550
-Connection ~ -150 2650
-Wire Wire Line
-	-150 2550 -150 2450
-Connection ~ -150 2550
-Wire Wire Line
-	-150 2450 -150 2350
-Connection ~ -150 2450
-Wire Wire Line
-	-150 2350 -150 2250
-Connection ~ -150 2350
-Wire Wire Line
-	-150 2250 -150 2150
-Connection ~ -150 2250
-Wire Wire Line
-	-150 2150 -150 2050
-Connection ~ -150 2150
-Wire Wire Line
-	-150 2050 -150 1950
-Connection ~ -150 2050
-Connection ~ -150 1950
-Wire Wire Line
-	-150 1750 -150 1650
-Connection ~ -150 1750
-Wire Wire Line
-	-150 1650 -150 1550
-Connection ~ -150 1650
-Wire Wire Line
-	-150 1550 -150 1450
-Connection ~ -150 1550
-Wire Wire Line
-	-150 1450 -150 1350
-Connection ~ -150 1450
-Wire Wire Line
-	-150 1350 -150 1250
-Connection ~ -150 1350
-Wire Wire Line
-	-150 1250 -150 1150
-Connection ~ -150 1250
-Wire Wire Line
-	-150 1150 -150 1050
-Connection ~ -150 1150
-Wire Wire Line
-	-150 1050 -150 950 
-Connection ~ -150 1050
-Wire Wire Line
-	-150 950  -150 850 
-Connection ~ -150 950 
-Connection ~ -150 850 
-Wire Wire Line
 	900  1450 850  1450
 Connection ~ 850  1450
-Wire Wire Line
-	850  1450 850  1550
-Wire Wire Line
-	850  1550 850  1650
-Connection ~ 850  1550
-Wire Wire Line
-	850  1650 850  1750
-Connection ~ 850  1650
-Wire Wire Line
-	850  1750 850  1850
-Connection ~ 850  1750
-Wire Wire Line
-	850  1850 850  1950
-Connection ~ 850  1850
-Wire Wire Line
-	850  1950 850  2050
-Connection ~ 850  1950
-Wire Wire Line
-	850  2050 850  2150
-Connection ~ 850  2050
-Wire Wire Line
-	850  2150 850  2250
-Connection ~ 850  2150
-Wire Wire Line
-	850  2350 850  2250
-Connection ~ 850  2350
-Connection ~ 850  2250
 Connection ~ 9200 650 
 Connection ~ 9100 650 
 Wire Wire Line
@@ -1710,7 +1617,12 @@ Wire Bus Line
 	450  1050 450  1750
 Wire Bus Line
 	450  2150 450  2850
+Wire Wire Line
+	-150 1850 -150 2950
+Wire Wire Line
+	-150 750  -150 1850
+Wire Wire Line
+	850  1450 850  2450
 Wire Bus Line
 	1450 850  1450 2350
-Connection ~ 4450 7150
 $EndSCHEMATC
