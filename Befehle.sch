@@ -312,7 +312,7 @@ F 3 "" V -4850 9300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74HCT02 U4
+L Befehle-rescue:74HCT02-RESCUE-Befehle U4
 U 1 1 57F2C440
 P -7700 4500
 F 0 "U4" H -7700 4550 50  0000 C CNN
@@ -323,7 +323,7 @@ F 3 "" H -7700 4500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74HCT02 U4
+L Befehle-rescue:74HCT02-RESCUE-Befehle U4
 U 2 1 57F2C605
 P -7700 5050
 F 0 "U4" H -7700 5100 50  0000 C CNN
@@ -334,7 +334,7 @@ F 3 "" H -7700 5050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74HCT02 U4
+L Befehle-rescue:74HCT02-RESCUE-Befehle U4
 U 3 1 57F2C694
 P -7700 5600
 F 0 "U4" H -7700 5650 50  0000 C CNN
@@ -345,7 +345,7 @@ F 3 "" H -7700 5600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74HCT02 U4
+L Befehle-rescue:74HCT02-RESCUE-Befehle U4
 U 4 1 57F2C76F
 P -7700 6150
 F 0 "U4" H -7700 6200 50  0000 C CNN
@@ -367,7 +367,7 @@ F 3 "" H -4050 1050 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xx:7400 U3
+L Befehle-rescue:7400-RESCUE-Befehle U3
 U 2 1 57F3278C
 P -8400 7250
 F 0 "U3" H -8400 7300 50  0000 C CNN
@@ -378,7 +378,7 @@ F 3 "" H -8400 7250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:7400 U3
+L Befehle-rescue:7400-RESCUE-Befehle U3
 U 3 1 57F32988
 P -8300 8450
 F 0 "U3" H -8300 8500 50  0000 C CNN
@@ -389,7 +389,7 @@ F 3 "" H -8300 8450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:7400 U3
+L Befehle-rescue:7400-RESCUE-Befehle U3
 U 4 1 57F32A39
 P -7650 8850
 F 0 "U3" H -7650 8900 50  0000 C CNN
@@ -400,7 +400,7 @@ F 3 "" H -7650 8850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:7400 U3
+L Befehle-rescue:7400-RESCUE-Befehle U3
 U 1 1 57F331B6
 P -8650 6050
 F 0 "U3" H -8650 6100 50  0000 C CNN
@@ -1333,7 +1333,7 @@ Wire Wire Line
 Wire Wire Line
 	-8200 3000 -8100 3000
 $Comp
-L 74xx:74LS14 U1
+L Befehle-rescue:74LS14-RESCUE-Befehle U1
 U 2 1 5A2A45AB
 P -8800 1400
 F 0 "U1" H -8650 1500 50  0000 C CNN
@@ -1344,7 +1344,7 @@ F 3 "" H -8800 1400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LS14 U1
+L Befehle-rescue:74LS14-RESCUE-Befehle U1
 U 1 1 5A2A5408
 P -9250 950
 F 0 "U1" H -9100 1050 50  0000 C CNN
@@ -1355,7 +1355,7 @@ F 3 "" H -9250 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS14 U1
+L Befehle-rescue:74LS14-RESCUE-Befehle U1
 U 3 1 5A2A55C6
 P -8300 950
 F 0 "U1" H -8150 1050 50  0000 C CNN
@@ -1972,14 +1972,10 @@ F 8 "3PinTerminalBlocktg" H -10750 7250 50  0001 L BNN "Field8"
 $EndComp
 Text GLabel -10350 7350 2    60   Input ~ 0
 upPC
-Text GLabel -10350 7250 2    60   Input ~ 0
-incPC
 Text GLabel -10350 7150 2    60   Input ~ 0
+incPC
+Text GLabel -10350 7250 2    60   Input ~ 0
 incPCz
-Wire Wire Line
-	-10350 7150 -10550 7150
-Wire Wire Line
-	-10550 7250 -10350 7250
 Wire Wire Line
 	-10350 7350 -10550 7350
 Text GLabel -10850 1800 2    60   Input ~ 0
@@ -2012,6 +2008,10 @@ Wire Wire Line
 	-6550 -1050 -5450 -1050
 Wire Wire Line
 	-6850 7400 -5650 7400
+Wire Wire Line
+	-10550 7150 -10350 7150
+Wire Wire Line
+	-10550 7250 -10350 7250
 Wire Bus Line
 	-6500 6800 -6300 6800
 Wire Bus Line

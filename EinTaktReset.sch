@@ -1723,10 +1723,6 @@ F 3 "" H 6900 13250 50  0000 C CNN
 	1    6900 13250
 	0    1    1    0   
 $EndComp
-Text Notes 50   12900 0    50   ~ 0
-Diode braucht footprint\n
-Text Notes 4150 5850 0    50   ~ 0
-fettes Teil braucht footprint
 $Comp
 L vco:74LS624 IC1
 U 1 1 5A96C7F1
