@@ -1052,12 +1052,12 @@ $Comp
 L speichermodul-rescue:CONN_02X10-RESCUE-speichermodul P9
 U 1 1 57D5C572
 P 9850 5250
-F 0 "P9" H 9850 5800 50  0000 C CNN
+F 0 "P9" H 9850 4650 50  0000 C CNN
 F 1 "CONN_02X10" V 9850 5250 50  0000 C CNN
 F 2 "Connect:IDC_Header_Straight_20pins" H 9850 4050 60  0001 C CNN
 F 3 "" H 9850 4050 60  0000 C CNN
 	1    9850 5250
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L speichermodul-rescue:GND-RESCUE-speichermodul #PWR023
@@ -1068,9 +1068,9 @@ F 1 "GND" H 9850 5650 50  0000 C CNN
 F 2 "" H 9850 5800 60  0000 C CNN
 F 3 "" H 9850 5800 60  0000 C CNN
 	1    9850 5800
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
-Text Notes 9650 4650 0    60   ~ 0
+Text Notes 10450 4800 0    60   ~ 0
 Datenbus
 Text Notes 10250 700  0    60   ~ 0
 Adressbus
@@ -1557,12 +1557,6 @@ Wire Wire Line
 	10200 700  10700 700 
 Wire Wire Line
 	10200 1850 10200 1750
-Wire Wire Line
-	10100 4800 10100 4650
-Wire Wire Line
-	10100 4650 9600 4650
-Wire Wire Line
-	10100 5800 10100 5700
 Wire Bus Line
 	10950 4850 10200 4850
 Wire Bus Line
@@ -1783,42 +1777,39 @@ Wire Wire Line
 Wire Wire Line
 	1300 4150 1300 4250
 Wire Wire Line
-	9600 5800 9850 5800
-Connection ~ 9850 5800
+	9600 4700 9850 4700
+Connection ~ 9850 4700
 Wire Wire Line
-	9850 5800 10100 5800
-Wire Wire Line
-	9600 4650 9600 4800
-Connection ~ 9600 5700
-Wire Wire Line
-	9600 5700 9600 5800
+	9850 4700 10100 4700
 Connection ~ 9600 4800
 Wire Wire Line
-	9600 4800 9600 4900
-Connection ~ 9600 4900
+	9600 4800 9600 4700
 Wire Wire Line
-	9600 4900 9600 5000
-Connection ~ 9600 5000
-Wire Wire Line
-	9600 5000 9600 5100
-Connection ~ 9600 5100
-Wire Wire Line
-	9600 5100 9600 5200
-Connection ~ 9600 5200
-Wire Wire Line
-	9600 5200 9600 5300
-Connection ~ 9600 5300
-Wire Wire Line
-	9600 5300 9600 5400
-Connection ~ 9600 5400
-Wire Wire Line
-	9600 5400 9600 5500
-Connection ~ 9600 5500
-Wire Wire Line
-	9600 5500 9600 5600
+	9600 5700 9600 5600
 Connection ~ 9600 5600
 Wire Wire Line
-	9600 5600 9600 5700
+	9600 5600 9600 5500
+Connection ~ 9600 5500
+Wire Wire Line
+	9600 5500 9600 5400
+Connection ~ 9600 5400
+Wire Wire Line
+	9600 5400 9600 5300
+Connection ~ 9600 5300
+Wire Wire Line
+	9600 5300 9600 5200
+Connection ~ 9600 5200
+Wire Wire Line
+	9600 5200 9600 5100
+Connection ~ 9600 5100
+Wire Wire Line
+	9600 5100 9600 5000
+Connection ~ 9600 5000
+Wire Wire Line
+	9600 5000 9600 4900
+Connection ~ 9600 4900
+Wire Wire Line
+	9600 4900 9600 4800
 Wire Wire Line
 	1300 2850 1300 2950
 Connection ~ 1300 2850
@@ -2042,6 +2033,14 @@ Wire Wire Line
 	75100 -27500 75100 -15100
 Wire Wire Line
 	75100 -15100 57050 -15100
+Wire Wire Line
+	10100 5800 10100 5700
+Wire Wire Line
+	10100 4700 10100 4800
+Wire Wire Line
+	10100 5800 9850 5800
+Wire Wire Line
+	9600 5800 9600 5700
 Wire Bus Line
 	9550 3350 9550 3550
 Wire Bus Line
@@ -2051,15 +2050,19 @@ Wire Bus Line
 Wire Bus Line
 	8100 1050 8100 1750
 Wire Bus Line
-	7300 5750 7300 6450
-Wire Bus Line
-	9350 1200 9350 1750
-Wire Bus Line
-	10100 850  10100 2500
-Wire Bus Line
-	9550 2500 9550 3250
+	10950 2750 10950 4850
 Wire Bus Line
 	10200 4850 10200 6450
 Wire Bus Line
-	10950 2750 10950 4850
+	9550 2500 9550 3250
+Wire Bus Line
+	10100 850  10100 2500
+Wire Bus Line
+	9350 1200 9350 1750
+Wire Bus Line
+	7300 5750 7300 6450
+Connection ~ 9600 5700
+Connection ~ 9850 5800
+Wire Wire Line
+	9850 5800 9600 5800
 $EndSCHEMATC
