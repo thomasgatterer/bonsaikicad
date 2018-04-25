@@ -6,8 +6,13 @@ DONE:
 -tg:done
 
 *LEDs zu groß (passen nicht hinein)
--tg:done, ausprobieren / plazieren 
+-tg:done, ausprobieren / plazieren
 
+*Libraries sind nicht da
+Lösung:Preferences--> configure Paths--> Add 
+Name:  BON_LIB 
+Value: /home/nwboxuser/Schreibtisch/bonsaikicad
+DONE
 -------------------------------
 To Do Liste Steuerwerk:
 
