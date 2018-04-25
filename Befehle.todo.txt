@@ -15,13 +15,17 @@ add project specifivic lib ${KIGITHUB}/Housings_DIP.pretty
 in Paths add KIGITHUB https://github.com/KiCad
 
 *bei P1 ist was falsch angeschlossen
+-fast done
 
 *tracks und vias legen
+- fast done
 
 *P2 lässt sich nicht mit gnd track verbinden; mehrere connectoren lassen sich 
  nicht mit tracks verbinden( U1 mit U5)
+- done
 
 *eingefügte Pins muss einmal ein 2Pin terminal getrennt werden (enIr, loadIr), 
  3 Terminal inczPC mit incPc umtauschen
+- done
 
-
+*footprint von P1 austauschen!!1! zu klein/kurz!1!
