@@ -16,21 +16,14 @@ Todo: Teil finden
 *Lösung: 
 IN Kicad -> preferences -> configure paths -> add name: BON_LIB 
 value: /Orte/1_Daten_Server/bonsaikicad
-------------
-TODO:
+
+
 für TG: Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal Foodprint local machen
 add project specifivic lib ${KIGITHUB}/Housings_DIP.pretty
 in Paths add KIGITHUB https://github.com/KiCad
 
-und folgende auch:
-Error: No footprint defined for symbol "C9". 
-Error: No footprint defined for symbol "C8". 
-Error: No footprint defined for symbol "C7". 
-Error: No footprint defined for symbol "C6". 
-Error: Cannot add new symbol "C6:/5AFEACE5" due to missing footprint "". 
-Error: Cannot add new symbol "C7:/5AFEABD4" due to missing footprint "". 
-Error: Cannot add new symbol "C8:/5AFEAAC4" due to missing footprint "". 
-Error: Cannot add new symbol "C9:/5AFD86A4" due to missing footprint "". 
-
-*Footprint für C6-9
-*footrpint von OR-Gate von 132 auf 32 umbenennen 
+------------
+TODO:
+*PCB kontrollieren, insbesondere Resistoren, Schalter
+*Footprint für Diode d3 kontrollieren (wirkt recht eng)
+*Grobplatzierung fertig machen, feinplatziern, Kabellegen;

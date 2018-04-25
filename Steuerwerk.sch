@@ -2880,50 +2880,50 @@ $EndComp
 $Comp
 L 2PinTerminalBlocktg:2PinTerminalBlocktg J9
 U 1 1 5AC6C811
-P 4700 7700
-F 0 "J9" V 4516 7765 50  0000 L CNN
-F 1 "2PinTerminalBlocktg" V 4607 7765 50  0000 L CNN
-F 2 "2PinTerminalBlocktg" H 4700 7700 50  0001 L BNN
-F 3 "None" H 4700 7700 50  0001 L BNN
-F 4 "Wurth Electronics" H 4700 7700 50  0001 L BNN "Field4"
-F 5 "None" H 4700 7700 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 4700 7700 50  0001 L BNN "Field6"
-F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 4700 7700 50  0001 L BNN "Field7"
-F 8 "2PinTerminalBlocktg" H 4700 7700 50  0001 L BNN "Field8"
-	1    4700 7700
-	0    1    1    0   
+P 4600 7700
+F 0 "J9" V 4416 7765 50  0000 L CNN
+F 1 "2PinTerminalBlocktg" V 4507 7765 50  0000 L CNN
+F 2 "2PinTerminalBlocktg" H 4600 7700 50  0001 L BNN
+F 3 "None" H 4600 7700 50  0001 L BNN
+F 4 "Wurth Electronics" H 4600 7700 50  0001 L BNN "Field4"
+F 5 "None" H 4600 7700 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 4600 7700 50  0001 L BNN "Field6"
+F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 4600 7700 50  0001 L BNN "Field7"
+F 8 "2PinTerminalBlocktg" H 4600 7700 50  0001 L BNN "Field8"
+	1    4600 7700
+	0    -1   1    0   
 $EndComp
 $Comp
 L 2PinTerminalBlocktg:2PinTerminalBlocktg J10
 U 1 1 5AC6CAD5
-P 5300 7700
-F 0 "J10" V 5116 7765 50  0000 L CNN
-F 1 "2PinTerminalBlocktg" V 5207 7765 50  0000 L CNN
-F 2 "2PinTerminalBlocktg" H 5300 7700 50  0001 L BNN
-F 3 "None" H 5300 7700 50  0001 L BNN
-F 4 "Wurth Electronics" H 5300 7700 50  0001 L BNN "Field4"
-F 5 "None" H 5300 7700 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 5300 7700 50  0001 L BNN "Field6"
-F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 5300 7700 50  0001 L BNN "Field7"
-F 8 "2PinTerminalBlocktg" H 5300 7700 50  0001 L BNN "Field8"
-	1    5300 7700
-	0    1    1    0   
+P 5200 7700
+F 0 "J10" V 5016 7765 50  0000 L CNN
+F 1 "2PinTerminalBlocktg" V 5107 7765 50  0000 L CNN
+F 2 "2PinTerminalBlocktg" H 5200 7700 50  0001 L BNN
+F 3 "None" H 5200 7700 50  0001 L BNN
+F 4 "Wurth Electronics" H 5200 7700 50  0001 L BNN "Field4"
+F 5 "None" H 5200 7700 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 5200 7700 50  0001 L BNN "Field6"
+F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 5200 7700 50  0001 L BNN "Field7"
+F 8 "2PinTerminalBlocktg" H 5200 7700 50  0001 L BNN "Field8"
+	1    5200 7700
+	0    -1   1    0   
 $EndComp
 $Comp
 L 2PinTerminalBlocktg:2PinTerminalBlocktg J11
 U 1 1 5AC6DC3D
-P 5900 7700
-F 0 "J11" V 5716 7765 50  0000 L CNN
-F 1 "2PinTerminalBlocktg" V 5807 7765 50  0000 L CNN
-F 2 "2PinTerminalBlocktg" H 5900 7700 50  0001 L BNN
-F 3 "None" H 5900 7700 50  0001 L BNN
-F 4 "Wurth Electronics" H 5900 7700 50  0001 L BNN "Field4"
-F 5 "None" H 5900 7700 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 5900 7700 50  0001 L BNN "Field6"
-F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 5900 7700 50  0001 L BNN "Field7"
-F 8 "2PinTerminalBlocktg" H 5900 7700 50  0001 L BNN "Field8"
-	1    5900 7700
-	0    1    1    0   
+P 5800 7700
+F 0 "J11" V 5616 7765 50  0000 L CNN
+F 1 "2PinTerminalBlocktg" V 5707 7765 50  0000 L CNN
+F 2 "2PinTerminalBlocktg" H 5800 7700 50  0001 L BNN
+F 3 "None" H 5800 7700 50  0001 L BNN
+F 4 "Wurth Electronics" H 5800 7700 50  0001 L BNN "Field4"
+F 5 "None" H 5800 7700 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 5800 7700 50  0001 L BNN "Field6"
+F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 5800 7700 50  0001 L BNN "Field7"
+F 8 "2PinTerminalBlocktg" H 5800 7700 50  0001 L BNN "Field8"
+	1    5800 7700
+	0    -1   1    0   
 $EndComp
 $Comp
 L 2PinTerminalBlocktg:2PinTerminalBlocktg J12
@@ -2939,12 +2939,8 @@ F 6 "Unavailable" H 6550 7700 50  0001 L BNN "Field6"
 F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 6550 7700 50  0001 L BNN "Field7"
 F 8 "2PinTerminalBlocktg" H 6550 7700 50  0001 L BNN "Field8"
 	1    6550 7700
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	6650 7500 6550 7500
-Wire Wire Line
-	6450 7500 6350 7500
 Wire Wire Line
 	6050 7500 5900 7500
 Wire Wire Line
@@ -3121,4 +3117,6 @@ Wire Wire Line
 	7550 1000 7550 1150
 Wire Wire Line
 	3050 7500 2950 7500
+Wire Wire Line
+	6350 7500 6550 7500
 $EndSCHEMATC
