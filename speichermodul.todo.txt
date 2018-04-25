@@ -1,3 +1,4 @@
 Teil 7400 mit pin nummer 5mit falschen anderen pin connected
 Buttons pcb layout neu machen stimmt nicht mit orginal überein
-
+Spiegelverkehrte Pin verbindung mit speicher und P9
+Untere Led reihe will mit falschem verbunden werden
