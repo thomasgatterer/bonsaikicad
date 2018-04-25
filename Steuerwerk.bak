@@ -2832,50 +2832,50 @@ Wire Wire Line
 $Comp
 L 2PinTerminalBlocktg:2PinTerminalBlocktg J6
 U 1 1 5AC6BD39
-P 2950 7700
-F 0 "J6" V 2766 7765 50  0000 L CNN
-F 1 "2PinTerminalBlocktg" V 2857 7765 50  0000 L CNN
-F 2 "2PinTerminalBlocktg" H 2950 7700 50  0001 L BNN
-F 3 "None" H 2950 7700 50  0001 L BNN
-F 4 "Wurth Electronics" H 2950 7700 50  0001 L BNN "Field4"
-F 5 "None" H 2950 7700 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 2950 7700 50  0001 L BNN "Field6"
-F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 2950 7700 50  0001 L BNN "Field7"
-F 8 "2PinTerminalBlocktg" H 2950 7700 50  0001 L BNN "Field8"
-	1    2950 7700
-	0    1    1    0   
+P 2850 7700
+F 0 "J6" V 2666 7765 50  0000 L CNN
+F 1 "2PinTerminalBlocktg" V 2757 7765 50  0000 L CNN
+F 2 "2PinTerminalBlocktg" H 2850 7700 50  0001 L BNN
+F 3 "None" H 2850 7700 50  0001 L BNN
+F 4 "Wurth Electronics" H 2850 7700 50  0001 L BNN "Field4"
+F 5 "None" H 2850 7700 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2850 7700 50  0001 L BNN "Field6"
+F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 2850 7700 50  0001 L BNN "Field7"
+F 8 "2PinTerminalBlocktg" H 2850 7700 50  0001 L BNN "Field8"
+	1    2850 7700
+	0    -1   1    0   
 $EndComp
 $Comp
 L 2PinTerminalBlocktg:2PinTerminalBlocktg J7
 U 1 1 5AC6C26F
-P 3500 7700
-F 0 "J7" V 3316 7765 50  0000 L CNN
-F 1 "2PinTerminalBlocktg" V 3407 7765 50  0000 L CNN
-F 2 "2PinTerminalBlocktg" H 3500 7700 50  0001 L BNN
-F 3 "None" H 3500 7700 50  0001 L BNN
-F 4 "Wurth Electronics" H 3500 7700 50  0001 L BNN "Field4"
-F 5 "None" H 3500 7700 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 3500 7700 50  0001 L BNN "Field6"
-F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 3500 7700 50  0001 L BNN "Field7"
-F 8 "2PinTerminalBlocktg" H 3500 7700 50  0001 L BNN "Field8"
-	1    3500 7700
-	0    1    1    0   
+P 3400 7700
+F 0 "J7" V 3216 7765 50  0000 L CNN
+F 1 "2PinTerminalBlocktg" V 3307 7765 50  0000 L CNN
+F 2 "2PinTerminalBlocktg" H 3400 7700 50  0001 L BNN
+F 3 "None" H 3400 7700 50  0001 L BNN
+F 4 "Wurth Electronics" H 3400 7700 50  0001 L BNN "Field4"
+F 5 "None" H 3400 7700 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3400 7700 50  0001 L BNN "Field6"
+F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 3400 7700 50  0001 L BNN "Field7"
+F 8 "2PinTerminalBlocktg" H 3400 7700 50  0001 L BNN "Field8"
+	1    3400 7700
+	0    -1   1    0   
 $EndComp
 $Comp
 L 2PinTerminalBlocktg:2PinTerminalBlocktg J8
 U 1 1 5AC6C549
-P 4100 7700
-F 0 "J8" V 3916 7765 50  0000 L CNN
-F 1 "2PinTerminalBlocktg" V 4007 7765 50  0000 L CNN
-F 2 "2PinTerminalBlocktg" H 4100 7700 50  0001 L BNN
-F 3 "None" H 4100 7700 50  0001 L BNN
-F 4 "Wurth Electronics" H 4100 7700 50  0001 L BNN "Field4"
-F 5 "None" H 4100 7700 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 4100 7700 50  0001 L BNN "Field6"
-F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 4100 7700 50  0001 L BNN "Field7"
-F 8 "2PinTerminalBlocktg" H 4100 7700 50  0001 L BNN "Field8"
-	1    4100 7700
-	0    1    1    0   
+P 4000 7700
+F 0 "J8" V 3816 7765 50  0000 L CNN
+F 1 "2PinTerminalBlocktg" V 3907 7765 50  0000 L CNN
+F 2 "2PinTerminalBlocktg" H 4000 7700 50  0001 L BNN
+F 3 "None" H 4000 7700 50  0001 L BNN
+F 4 "Wurth Electronics" H 4000 7700 50  0001 L BNN "Field4"
+F 5 "None" H 4000 7700 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 4000 7700 50  0001 L BNN "Field6"
+F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 4000 7700 50  0001 L BNN "Field7"
+F 8 "2PinTerminalBlocktg" H 4000 7700 50  0001 L BNN "Field8"
+	1    4000 7700
+	0    -1   1    0   
 $EndComp
 $Comp
 L 2PinTerminalBlocktg:2PinTerminalBlocktg J9
@@ -2965,8 +2965,6 @@ Wire Wire Line
 	3650 7500 3500 7500
 Wire Wire Line
 	3400 7500 3350 7500
-Wire Wire Line
-	3050 7500 2950 7500
 Wire Wire Line
 	2850 7500 2750 7500
 Connection ~ 7800 1350
@@ -3121,4 +3119,6 @@ Wire Wire Line
 	7100 1100 7550 1100
 Wire Wire Line
 	7550 1000 7550 1150
+Wire Wire Line
+	3050 7500 2950 7500
 $EndSCHEMATC

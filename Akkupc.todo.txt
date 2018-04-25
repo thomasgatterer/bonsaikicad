@@ -1,0 +1,11 @@
+Todo:
+
++ Button_Switch footprints zeichnen und oder footprint netlist Problem lösen 
++ Bus Connector footprint austauschen,  oder Problem finden (%"connector:1pin"%)
+
+In naher Ferne:
+
++ Resistorwerte und andere hinzufügen
++ Bauteile anordnen und verkabeln
+
+gez. Hermann
