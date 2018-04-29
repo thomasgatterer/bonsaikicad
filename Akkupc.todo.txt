@@ -1,7 +1,7 @@
 Todo:
 
-+ Button_Switch footprints zeichnen und oder footprint netlist Problem lösen 
-+ Bus Connector footprint austauschen,  oder Problem finden (%"connector:1pin"%)
++ oder Problem finden (%"connector:1pin"%)
+tg: connector:1pin gehören alle ausgetauscht!!! Haben wir besprochen warscheinlich in deiner Abwesenheit. Nachholen!! Stefan hat das seleb Problem. Bitte mit ihm besprechen! Von Steuerwerk übernehmen.
 
 In naher Ferne:
 
@@ -9,3 +9,13 @@ In naher Ferne:
 + Bauteile anordnen und verkabeln
 
 gez. Hermann
+
+ 
+DONE____________________________________________________
+
+
++ Button_Switch footprints zeichnen und oder footprint netlist Problem lösen
+tg: Switch wurde gezeichnet: siehe Speicher Platine. Von dort übernehmen.
+
++ Bus Connector footprint austauschen,
+tg: ausgetauscht

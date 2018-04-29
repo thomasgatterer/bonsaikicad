@@ -28,4 +28,7 @@ in Paths add KIGITHUB https://github.com/KiCad
  3 Terminal inczPC mit incPc umtauschen
 - done
 
+
+
 *footprint von P1 austauschen!!1! zu klein/kurz!1!
+tg: Bus Verbindungen PX ausgetauscht. Alte löschen und Netzliste neu einlesen, dann passt die Größe.
