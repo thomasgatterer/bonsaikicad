@@ -1057,7 +1057,7 @@ F 1 "CONN_02X10" V 9850 5250 50  0000 C CNN
 F 2 "Connect:IDC_Header_Straight_20pins" H 9850 4050 60  0001 C CNN
 F 3 "" H 9850 4050 60  0000 C CNN
 	1    9850 5250
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L speichermodul-rescue:GND-RESCUE-speichermodul #PWR023
@@ -1076,22 +1076,6 @@ Text Notes 10250 700  0    60   ~ 0
 Adressbus
 Entry Wire Line
 	10850 2650 10950 2750
-Text Label 10850 2650 0    60   ~ 0
-D0
-Text Label 10850 2750 0    60   ~ 0
-D1
-Text Label 10850 2850 0    60   ~ 0
-D2
-Text Label 10850 2950 0    60   ~ 0
-D3
-Text Label 10850 3050 0    60   ~ 0
-D4
-Text Label 10850 3150 0    60   ~ 0
-D5
-Text Label 10850 3250 0    60   ~ 0
-D6
-Text Label 10850 3350 0    60   ~ 0
-D7
 Entry Wire Line
 	10850 2750 10950 2850
 Entry Wire Line
@@ -1252,38 +1236,6 @@ Text Label 10200 1550 0    60   Italic 0
 A6
 Text Label 10200 1650 0    60   Italic 0
 A7
-Text Label 9650 2650 0    60   Italic 0
-A0
-Text Label 9650 2750 0    60   Italic 0
-A1
-Text Label 9650 2850 0    60   Italic 0
-A2
-Text Label 9650 2950 0    60   Italic 0
-A3
-Text Label 9650 3050 0    60   Italic 0
-A4
-Text Label 9650 3150 0    60   Italic 0
-A5
-Text Label 9650 3250 0    60   Italic 0
-A6
-Text Label 9650 3350 0    60   Italic 0
-A7
-Entry Wire Line
-	9550 2550 9650 2650
-Entry Wire Line
-	9550 2650 9650 2750
-Entry Wire Line
-	9550 2750 9650 2850
-Entry Wire Line
-	9550 2850 9650 2950
-Entry Wire Line
-	9550 2950 9650 3050
-Entry Wire Line
-	9550 3050 9650 3150
-Entry Wire Line
-	9550 3150 9650 3250
-Entry Wire Line
-	9550 3250 9650 3350
 Connection ~ 1150 4150
 Wire Wire Line
 	1150 3400 1150 4150
@@ -1716,35 +1668,6 @@ Wire Wire Line
 	1300 2600 1300 2850
 Wire Wire Line
 	1300 4150 1300 4250
-Connection ~ 9600 4800
-Wire Wire Line
-	9600 4800 9600 4700
-Wire Wire Line
-	9600 5700 9600 5600
-Connection ~ 9600 5600
-Wire Wire Line
-	9600 5600 9600 5500
-Connection ~ 9600 5500
-Wire Wire Line
-	9600 5500 9600 5400
-Connection ~ 9600 5400
-Wire Wire Line
-	9600 5400 9600 5300
-Connection ~ 9600 5300
-Wire Wire Line
-	9600 5300 9600 5200
-Connection ~ 9600 5200
-Wire Wire Line
-	9600 5200 9600 5100
-Connection ~ 9600 5100
-Wire Wire Line
-	9600 5100 9600 5000
-Connection ~ 9600 5000
-Wire Wire Line
-	9600 5000 9600 4900
-Connection ~ 9600 4900
-Wire Wire Line
-	9600 4900 9600 4800
 Wire Wire Line
 	1300 2850 1300 2950
 Connection ~ 1300 2850
@@ -1974,9 +1897,6 @@ Wire Wire Line
 	10100 4700 10100 4800
 Wire Wire Line
 	10100 5800 9850 5800
-Wire Wire Line
-	9600 5800 9600 5700
-Connection ~ 9600 5700
 Connection ~ 9850 5800
 Wire Wire Line
 	9850 5800 9600 5800
@@ -2000,6 +1920,70 @@ Wire Wire Line
 	9250 1400 9200 1400
 Wire Wire Line
 	9200 1450 9250 1450
+Entry Wire Line
+	9550 3250 9650 3350
+Entry Wire Line
+	9550 3150 9650 3250
+Entry Wire Line
+	9550 3050 9650 3150
+Entry Wire Line
+	9550 2950 9650 3050
+Entry Wire Line
+	9550 2850 9650 2950
+Entry Wire Line
+	9550 2750 9650 2850
+Entry Wire Line
+	9550 2650 9650 2750
+Entry Wire Line
+	9550 2550 9650 2650
+Text Label 9650 3350 0    50   ~ 0
+A0
+Text Label 9650 3250 0    50   ~ 0
+A1
+Text Label 9650 3150 0    50   ~ 0
+A2
+Text Label 9650 3050 0    50   ~ 0
+A3
+Text Label 9650 2950 0    50   ~ 0
+A4
+Text Label 9650 2850 0    50   ~ 0
+A5
+Text Label 9650 2750 0    50   ~ 0
+A6
+Text Label 9650 2650 0    50   ~ 0
+A7
+Wire Wire Line
+	9600 4700 9600 4800
+Wire Wire Line
+	9600 5700 9600 5800
+Wire Wire Line
+	9600 4800 9600 4900
+Connection ~ 9600 4800
+Connection ~ 9600 5700
+Connection ~ 9600 4900
+Wire Wire Line
+	9600 4900 9600 5000
+Connection ~ 9600 5000
+Wire Wire Line
+	9600 5000 9600 5100
+Connection ~ 9600 5100
+Wire Wire Line
+	9600 5100 9600 5200
+Connection ~ 9600 5200
+Wire Wire Line
+	9600 5200 9600 5300
+Connection ~ 9600 5300
+Wire Wire Line
+	9600 5300 9600 5400
+Connection ~ 9600 5400
+Wire Wire Line
+	9600 5400 9600 5500
+Connection ~ 9600 5500
+Wire Wire Line
+	9600 5500 9600 5600
+Connection ~ 9600 5600
+Wire Wire Line
+	9600 5600 9600 5700
 Wire Bus Line
 	9550 3350 9550 3550
 Wire Bus Line
@@ -2009,13 +1993,29 @@ Wire Bus Line
 Wire Bus Line
 	8100 1050 8100 1750
 Wire Bus Line
+	9550 2500 9550 3250
+Wire Bus Line
 	10950 2750 10950 4850
 Wire Bus Line
 	10200 4850 10200 6450
 Wire Bus Line
-	9550 2500 9550 3250
-Wire Bus Line
 	10100 850  10100 2500
 Wire Bus Line
 	9350 1200 9350 1750
+Text Label 10850 2650 0    50   ~ 0
+D7
+Text Label 10850 2750 0    50   ~ 0
+D6
+Text Label 10850 2850 0    50   ~ 0
+D5
+Text Label 10850 2950 0    50   ~ 0
+D4
+Text Label 10850 3050 0    50   ~ 0
+D3
+Text Label 10850 3150 0    50   ~ 0
+D2
+Text Label 10850 3250 0    50   ~ 0
+D1
+Text Label 10850 3350 0    50   ~ 0
+D0
 $EndSCHEMATC
