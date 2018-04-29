@@ -9,10 +9,14 @@ DONE:
 *100n capacitors einfügen
 -tg: done, bitte kontrollieren
 
-TODO:
-*für TG Housings_DIP:DIP-20_W7.62mm_Socket_LongPads Lokal anlegen
+*Housings_DIP:DIP-20_W7.62mm_Socket_LongPads Lokal anlegen
 add project specifivic lib ${KIGITHUB}/Housings_DIP.pretty
 in Paths add KIGITHUB https://github.com/KiCad
+
+*tg: Bus Verbindungen PX ausgetauscht. Alte löschen und Netzliste neu einlesen, dann passt die Größe.
+	
+-----------------------------------------------------------------
+TODO:
 
 *bei P1 ist was falsch angeschlossen
 -fast done
@@ -29,6 +33,3 @@ in Paths add KIGITHUB https://github.com/KiCad
 - done
 
 
-
-*footprint von P1 austauschen!!1! zu klein/kurz!1!
-tg: Bus Verbindungen PX ausgetauscht. Alte löschen und Netzliste neu einlesen, dann passt die Größe.

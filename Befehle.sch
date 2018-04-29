@@ -196,7 +196,7 @@ U 1 1 57E94D2E
 P -6400 4000
 F 0 "U6" H -6400 3234 50  0000 C CNN
 F 1 "74LS373" H -6400 3325 50  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" V -6400 4000 50  0000 C CNN
+F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" V -6400 4000 50  0000 C CNN
 F 3 "" H -6400 4000 50  0000 C CNN
 	1    -6400 4000
 	0    -1   -1   0   
@@ -207,7 +207,7 @@ U 1 1 57E94F18
 P -6400 1200
 F 0 "U5" H -6400 434 50  0000 C CNN
 F 1 "74LS541" H -6400 525 50  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" V -6200 1200 50  0000 C CNN
+F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" V -6200 1200 50  0000 C CNN
 F 3 "" H -6400 1200 50  0000 C CNN
 	1    -6400 1200
 	0    -1   -1   0   
@@ -218,7 +218,7 @@ U 1 1 57E9588C
 P -5000 6100
 F 0 "U7" V -4954 5657 50  0000 R CNN
 F 1 "74LS139" V -5045 5657 50  0000 R CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm_Socket_LongPads" H -5400 6100 50  0000 C CNN
+F 2 "tg_foodprint:DIP-16_W7.62mm_Socket_LongPadstg" H -5400 6100 50  0000 C CNN
 F 3 "" H -5000 6100 50  0000 C CNN
 	1    -5000 6100
 	1    0    0    -1  
@@ -317,7 +317,7 @@ U 1 1 57F2C440
 P -7700 4500
 F 0 "U4" H -7700 4550 50  0000 C CNN
 F 1 "74HCT02" H -7650 4450 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8250 4750 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 4750 50  0000 C CNN
 F 3 "" H -7700 4500 50  0000 C CNN
 	1    -7700 4500
 	-1   0    0    1   
@@ -328,7 +328,7 @@ U 2 1 57F2C605
 P -7700 5050
 F 0 "U4" H -7700 5100 50  0000 C CNN
 F 1 "74HCT02" H -7650 5000 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8250 5300 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 5300 50  0000 C CNN
 F 3 "" H -7700 5050 50  0000 C CNN
 	2    -7700 5050
 	-1   0    0    1   
@@ -339,7 +339,7 @@ U 3 1 57F2C694
 P -7700 5600
 F 0 "U4" H -7700 5650 50  0000 C CNN
 F 1 "74HCT02" H -7650 5550 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8250 5850 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 5850 50  0000 C CNN
 F 3 "" H -7700 5600 50  0000 C CNN
 	3    -7700 5600
 	-1   0    0    1   
@@ -350,7 +350,7 @@ U 4 1 57F2C76F
 P -7700 6150
 F 0 "U4" H -7700 6200 50  0000 C CNN
 F 1 "74HCT02" H -7650 6100 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8250 6450 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 6450 50  0000 C CNN
 F 3 "" H -7700 6150 50  0000 C CNN
 	4    -7700 6150
 	-1   0    0    1   
@@ -361,7 +361,7 @@ U 1 1 57E93AFB
 P -4050 1050
 F 0 "U8" H -4050 284 50  0000 C CNN
 F 1 "74LS540" H -4050 375 50  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" V -3850 1050 50  0000 C CNN
+F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" V -3850 1050 50  0000 C CNN
 F 3 "" H -4050 1050 50  0000 C CNN
 	1    -4050 1050
 	0    -1   -1   0   
@@ -372,7 +372,7 @@ U 2 1 57F3278C
 P -8400 7250
 F 0 "U3" H -8400 7300 50  0000 C CNN
 F 1 "7400" H -8400 7150 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8700 7500 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8700 7500 50  0000 C CNN
 F 3 "" H -8400 7250 50  0000 C CNN
 	2    -8400 7250
 	0    1    1    0   
@@ -383,7 +383,7 @@ U 3 1 57F32988
 P -8300 8450
 F 0 "U3" H -8300 8500 50  0000 C CNN
 F 1 "7400" H -8300 8350 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8650 8750 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8650 8750 50  0000 C CNN
 F 3 "" H -8300 8450 50  0000 C CNN
 	3    -8300 8450
 	0    1    1    0   
@@ -394,7 +394,7 @@ U 4 1 57F32A39
 P -7650 8850
 F 0 "U3" H -7650 8900 50  0000 C CNN
 F 1 "7400" H -7650 8750 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -7650 9100 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -7650 9100 50  0000 C CNN
 F 3 "" H -7650 8850 50  0000 C CNN
 	4    -7650 8850
 	0    1    1    0   
@@ -405,7 +405,7 @@ U 1 1 57F331B6
 P -8650 6050
 F 0 "U3" H -8650 6100 50  0000 C CNN
 F 1 "7400" H -8650 5950 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -8800 6300 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8800 6300 50  0000 C CNN
 F 3 "" H -8650 6050 50  0000 C CNN
 	1    -8650 6050
 	0    1    1    0   
@@ -981,7 +981,7 @@ U 2 1 5A2A45AB
 P -8300 950
 F 0 "U1" H -8150 1050 50  0000 C CNN
 F 1 "74LS14" H -8100 850 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -9900 950 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -9900 950 50  0000 C CNN
 F 3 "" H -8300 950 50  0000 C CNN
 	2    -8300 950 
 	1    0    0    -1  
@@ -992,7 +992,7 @@ U 1 1 5A2A5408
 P -9250 950
 F 0 "U1" H -9100 1050 50  0000 C CNN
 F 1 "74LS14" H -9050 850 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" V -9250 2100 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" V -9250 2100 50  0000 C CNN
 F 3 "" H -9250 950 50  0000 C CNN
 	1    -9250 950 
 	1    0    0    -1  
@@ -1003,7 +1003,7 @@ U 3 1 5A2A55C6
 P -8800 1400
 F 0 "U1" H -8650 1500 50  0000 C CNN
 F 1 "74LS14" H -8600 1300 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" V -8800 2550 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" V -8800 2550 50  0000 C CNN
 F 3 "" H -8800 1400 50  0000 C CNN
 	3    -8800 1400
 	0    1    1    0   
@@ -1025,7 +1025,7 @@ U 8 1 5A2905C7
 P -8950 4500
 F 0 "U2" H -8850 4600 60  0000 C CNN
 F 1 "74540" H -8800 4350 60  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -8800 4350 60  0001 C CNN
+F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -8800 4350 60  0001 C CNN
 F 3 "" H -8800 4350 60  0001 C CNN
 	8    -8950 4500
 	-1   0    0    1   
@@ -1036,7 +1036,7 @@ U 4 1 5A28303B
 P -4850 8350
 F 0 "U2" H -4750 8450 60  0000 C CNN
 F 1 "74540" H -4700 8200 60  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -4700 8200 60  0001 C CNN
+F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -4700 8200 60  0001 C CNN
 F 3 "" H -4700 8200 60  0001 C CNN
 	4    -4850 8350
 	0    1    1    0   
@@ -1047,7 +1047,7 @@ U 3 1 5A282F54
 P -4400 8350
 F 0 "U2" H -4300 8450 60  0000 C CNN
 F 1 "74540" H -4250 8200 60  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -4250 8200 60  0001 C CNN
+F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -4250 8200 60  0001 C CNN
 F 3 "" H -4250 8200 60  0001 C CNN
 	3    -4400 8350
 	0    1    1    0   
@@ -1069,7 +1069,7 @@ U 1 1 5A282C7C
 P -3350 8350
 F 0 "U2" H -3250 8450 60  0000 C CNN
 F 1 "74540" H -3200 8200 60  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -3200 8200 60  0000 C CNN
+F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -3200 8200 60  0000 C CNN
 F 3 "" H -3200 8200 60  0001 C CNN
 	1    -3350 8350
 	0    1    1    0   
@@ -1080,7 +1080,7 @@ U 7 1 5A287D96
 P -7750 3000
 F 0 "U2" H -7650 3100 60  0000 C CNN
 F 1 "74540" H -7600 2850 60  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -7600 2850 60  0001 C CNN
+F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -7600 2850 60  0001 C CNN
 F 3 "" H -7600 2850 60  0001 C CNN
 	7    -7750 3000
 	1    0    0    -1  
@@ -1868,7 +1868,7 @@ Wire Wire Line
 Connection ~ -6600 7400
 Connection ~ -6700 7400
 Entry Wire Line
-	-6900 6800 -6800 6700
+	-5900 6900 -5800 6800
 Entry Wire Line
 	-6400 6800 -6500 6900
 $Comp
@@ -1910,7 +1910,7 @@ U 6 1 5AD7DB58
 P -8400 200
 F 0 "U1" H -8250 300 50  0000 C CNN
 F 1 "74LS14" H -8200 100 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -10000 200 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -10000 200 50  0000 C CNN
 F 3 "" H -8400 200 50  0000 C CNN
 	6    -8400 200 
 	1    0    0    -1  
@@ -1921,7 +1921,7 @@ U 5 1 5AD7DCFA
 P -8400 -200
 F 0 "U1" H -8250 -100 50  0000 C CNN
 F 1 "74LS14" H -8200 -300 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -10000 -200 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -10000 -200 50  0000 C CNN
 F 3 "" H -8400 -200 50  0000 C CNN
 	5    -8400 -200
 	1    0    0    -1  
@@ -1932,7 +1932,7 @@ U 4 1 5AD7DDF7
 P -8400 -600
 F 0 "U1" H -8250 -500 50  0000 C CNN
 F 1 "74LS14" H -8200 -700 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H -10000 -600 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -10000 -600 50  0000 C CNN
 F 3 "" H -8400 -600 50  0000 C CNN
 	4    -8400 -600
 	1    0    0    -1  
@@ -2140,10 +2140,12 @@ Wire Wire Line
 Wire Wire Line
 	-6400 3200 -5250 3200
 Connection ~ -6500 3300
+Text Label -5900 6900 1    60   ~ 0
+d0
 Wire Bus Line
 	-6500 6800 -6300 6800
 Wire Bus Line
-	-6300 6800 -5900 6800
+	-6300 6800 -5800 6800
 Wire Bus Line
 	-4650 1950 -3950 1950
 Wire Bus Line
@@ -2152,6 +2154,4 @@ Wire Bus Line
 	-6300 4850 -6300 6800
 Wire Bus Line
 	-7050 4850 -6300 4850
-Text Label -5900 6900 1    60   ~ 0
-d2
 $EndSCHEMATC

@@ -2,10 +2,10 @@ TODO:
 
 tg: connector:1pin gehören alle ausgetauscht!!! Haben wir besprochen warscheinlich in deiner Abwesenheit? Nachholen!! Hermann hat das seleb Problem. Bitte mit ihm besprechen! Von Steuerwerk übernehmen.
 
-*tg: Buttons pcb layout überprüfen (Ausdruck) ob sie jetzt passen und Anschlüsse gegebnenfalls anpasssen
+*tg: Buttons pcb layout überprüfen (Ausdruck) ob sie jetzt passen und Anschlüsse gegebnenfalls anpasssen und verschieben
  
 *Teil 7400 mit pin nummer 5mit falschen anderen pin connected
-tg: Beide Punkte: genaues durchschauen der Netzte verrät die falschen Anschlüsse im .sch
+tg: genaues durchschauen der Netzte verrät die falschen Anschlüsse im .sch
 
 *tg: Bus Verbindungen PX ausgetauscht. Alte löschen und Netzliste neu einlesen, dann passt die Größe.
  
