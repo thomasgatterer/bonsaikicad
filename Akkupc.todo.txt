@@ -1,4 +1,4 @@
-Todo:
+Todo: (18,4,2018)
 
 + oder Problem finden (%"connector:1pin"%)
 tg: connector:1pin gehören alle ausgetauscht!!! Haben wir besprochen warscheinlich in deiner Abwesenheit. Nachholen!! Stefan hat das seleb Problem. Bitte mit ihm besprechen! Von Steuerwerk übernehmen.
@@ -19,3 +19,15 @@ tg: Switch wurde gezeichnet: siehe Speicher Platine. Von dort übernehmen.
 
 + Bus Connector footprint austauschen,
 tg: ausgetauscht
+
+
+
+Todo: (02,05,2018)
+
++ pcb mehr oder weniger finalisieren (anordnung, leiterbahnen legen)
++ libaries versuchen auf dauer zu fixen - footprint error 
+	Preferences--> configure Paths--> Add 
+	Name:  BON_LIB 
+	Value: /home/nwboxuser/Schreibtisch/bonsaikicad
+
+gez. Hermann
