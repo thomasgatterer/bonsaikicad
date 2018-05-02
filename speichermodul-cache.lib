@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# speichermodul-rescue:6116-RESCUE-speichermodul
+# speichermodul-rescue_6116-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:6116-RESCUE-speichermodul IC 0 40 Y Y 1 F N
+DEF speichermodul-rescue_6116-RESCUE-speichermodul IC 0 40 Y Y 1 F N
 F0 "IC" -400 800 40 H V C CNN
-F1 "speichermodul-rescue:6116-RESCUE-speichermodul" 350 -800 40 H V C CNN
+F1 "speichermodul-rescue_6116-RESCUE-speichermodul" 350 -800 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -41,11 +41,11 @@ X Q0 9 600 700 150 L 40 40 1 1 T
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:7400-RESCUE-speichermodul
+# speichermodul-rescue_7400-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:7400-RESCUE-speichermodul U 0 30 Y Y 4 F N
+DEF speichermodul-rescue_7400-RESCUE-speichermodul U 0 30 Y Y 4 F N
 F0 "U" 0 50 50 H V C CNN
-F1 "speichermodul-rescue:7400-RESCUE-speichermodul" 0 -100 50 H V C CNN
+F1 "speichermodul-rescue_7400-RESCUE-speichermodul" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -89,11 +89,11 @@ X ~ 13 -600 -100 370 R 50 50 4 2 I I
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:74LS08-RESCUE-speichermodul
+# speichermodul-rescue_74LS08-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:74LS08-RESCUE-speichermodul U 0 30 Y Y 4 F N
+DEF speichermodul-rescue_74LS08-RESCUE-speichermodul U 0 30 Y Y 4 F N
 F0 "U" 0 50 50 H V C CNN
-F1 "speichermodul-rescue:74LS08-RESCUE-speichermodul" 0 -50 50 H V C CNN
+F1 "speichermodul-rescue_74LS08-RESCUE-speichermodul" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -133,11 +133,11 @@ X ~ 13 -600 -100 370 R 50 50 4 2 I I
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:74LS14-RESCUE-speichermodul
+# speichermodul-rescue_74LS14-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:74LS14-RESCUE-speichermodul U 0 30 Y Y 6 F N
+DEF speichermodul-rescue_74LS14-RESCUE-speichermodul U 0 30 Y Y 6 F N
 F0 "U" 150 100 50 H V C CNN
-F1 "speichermodul-rescue:74LS14-RESCUE-speichermodul" 200 -100 50 H V C CNN
+F1 "speichermodul-rescue_74LS14-RESCUE-speichermodul" 200 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -171,11 +171,11 @@ X ~ 13 -450 0 300 R 50 50 6 2 I I
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:74LS540-RESCUE-speichermodul
+# speichermodul-rescue_74LS540-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:74LS540-RESCUE-speichermodul U 0 10 Y Y 1 F N
+DEF speichermodul-rescue_74LS540-RESCUE-speichermodul U 0 10 Y Y 1 F N
 F0 "U" 0 -200 50 H V C CNN
-F1 "speichermodul-rescue:74LS540-RESCUE-speichermodul" 0 -300 50 H V C CNN
+F1 "speichermodul-rescue_74LS540-RESCUE-speichermodul" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -209,11 +209,11 @@ X A7 9 -700 -200 300 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:C-RESCUE-speichermodul
+# speichermodul-rescue_C-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:C-RESCUE-speichermodul C 0 10 N Y 1 F N
+DEF speichermodul-rescue_C-RESCUE-speichermodul C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "speichermodul-rescue:C-RESCUE-speichermodul" 25 -100 50 H V L CNN
+F1 "speichermodul-rescue_C-RESCUE-speichermodul" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -227,11 +227,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:CONN_01X01-RESCUE-speichermodul
+# speichermodul-rescue_CONN_01X01-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:CONN_01X01-RESCUE-speichermodul P 0 40 Y N 1 F N
+DEF speichermodul-rescue_CONN_01X01-RESCUE-speichermodul P 0 40 Y N 1 F N
 F0 "P" 0 100 50 H V C CNN
-F1 "speichermodul-rescue:CONN_01X01-RESCUE-speichermodul" 100 0 50 V V C CNN
+F1 "speichermodul-rescue_CONN_01X01-RESCUE-speichermodul" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -247,11 +247,11 @@ X P1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:CONN_02X10-RESCUE-speichermodul
+# speichermodul-rescue_CONN_02X10-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:CONN_02X10-RESCUE-speichermodul P 0 1 Y N 1 F N
+DEF speichermodul-rescue_CONN_02X10-RESCUE-speichermodul P 0 1 Y N 1 F N
 F0 "P" 0 550 50 H V C CNN
-F1 "speichermodul-rescue:CONN_02X10-RESCUE-speichermodul" 0 0 50 V V C CNN
+F1 "speichermodul-rescue_CONN_02X10-RESCUE-speichermodul" 0 0 50 V V C CNN
 F2 "" 0 -1200 50 H V C CNN
 F3 "" 0 -1200 50 H V C CNN
 $FPLIST
@@ -305,11 +305,11 @@ X P9 9 -250 50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:CONN_3X2-RESCUE-speichermodul
+# speichermodul-rescue_CONN_3X2-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:CONN_3X2-RESCUE-speichermodul P 0 40 Y N 1 F N
+DEF speichermodul-rescue_CONN_3X2-RESCUE-speichermodul P 0 40 Y N 1 F N
 F0 "P" 0 250 50 H V C CNN
-F1 "speichermodul-rescue:CONN_3X2-RESCUE-speichermodul" 0 50 40 V V C CNN
+F1 "speichermodul-rescue_CONN_3X2-RESCUE-speichermodul" 0 50 40 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -323,11 +323,11 @@ X 6 6 400 -50 300 L 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:GND-RESCUE-speichermodul
+# speichermodul-rescue_GND-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:GND-RESCUE-speichermodul #PWR 0 0 Y Y 1 F P
+DEF speichermodul-rescue_GND-RESCUE-speichermodul #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "speichermodul-rescue:GND-RESCUE-speichermodul" 0 -150 50 H V C CNN
+F1 "speichermodul-rescue_GND-RESCUE-speichermodul" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -336,11 +336,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:LED-RESCUE-speichermodul
+# speichermodul-rescue_LED-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:LED-RESCUE-speichermodul D 0 40 Y N 1 F N
+DEF speichermodul-rescue_LED-RESCUE-speichermodul D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "speichermodul-rescue:LED-RESCUE-speichermodul" 0 -100 50 H V C CNN
+F1 "speichermodul-rescue_LED-RESCUE-speichermodul" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -357,11 +357,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:PWR_FLAG-RESCUE-speichermodul
+# speichermodul-rescue_PWR_FLAG-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:PWR_FLAG-RESCUE-speichermodul #FLG 0 0 N N 1 F P
+DEF speichermodul-rescue_PWR_FLAG-RESCUE-speichermodul #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "speichermodul-rescue:PWR_FLAG-RESCUE-speichermodul" 0 150 50 H V C CNN
+F1 "speichermodul-rescue_PWR_FLAG-RESCUE-speichermodul" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -370,11 +370,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:R-RESCUE-speichermodul
+# speichermodul-rescue_R-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:R-RESCUE-speichermodul R 0 0 N Y 1 F N
+DEF speichermodul-rescue_R-RESCUE-speichermodul R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "speichermodul-rescue:R-RESCUE-speichermodul" 0 0 50 V V C CNN
+F1 "speichermodul-rescue_R-RESCUE-speichermodul" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -388,11 +388,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:R_PACK4BUSSED-RESCUE-speichermodul
+# speichermodul-rescue_R_PACK4BUSSED-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:R_PACK4BUSSED-RESCUE-speichermodul RP 0 20 Y N 1 F N
+DEF speichermodul-rescue_R_PACK4BUSSED-RESCUE-speichermodul RP 0 20 Y N 1 F N
 F0 "RP" 0 300 50 H V C CNN
-F1 "speichermodul-rescue:R_PACK4BUSSED-RESCUE-speichermodul" 0 -300 50 H V C CNN
+F1 "speichermodul-rescue_R_PACK4BUSSED-RESCUE-speichermodul" 0 -300 50 H V C CNN
 F2 "" 0 -150 60 H V C CNN
 F3 "" 0 -150 60 H V C CNN
 DRAW
@@ -410,11 +410,11 @@ X P5 5 -200 -200 100 R 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:R_PACK8BUSSED-RESCUE-speichermodul
+# speichermodul-rescue_R_PACK8BUSSED-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:R_PACK8BUSSED-RESCUE-speichermodul RP 0 20 Y N 1 F N
+DEF speichermodul-rescue_R_PACK8BUSSED-RESCUE-speichermodul RP 0 20 Y N 1 F N
 F0 "RP" 0 300 50 H V C CNN
-F1 "speichermodul-rescue:R_PACK8BUSSED-RESCUE-speichermodul" 0 -300 50 H V C CNN
+F1 "speichermodul-rescue_R_PACK8BUSSED-RESCUE-speichermodul" 0 -300 50 H V C CNN
 F2 "" 0 50 60 H V C CNN
 F3 "" 0 50 60 H V C CNN
 DRAW
@@ -440,11 +440,11 @@ X P9 9 -200 -200 100 R 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:SW_PUSH-RESCUE-speichermodul
+# speichermodul-rescue_SW_PUSH-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:SW_PUSH-RESCUE-speichermodul SW 0 40 N N 1 F N
+DEF speichermodul-rescue_SW_PUSH-RESCUE-speichermodul SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "speichermodul-rescue:SW_PUSH-RESCUE-speichermodul" 0 -80 50 H V C CNN
+F1 "speichermodul-rescue_SW_PUSH-RESCUE-speichermodul" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -455,11 +455,11 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# speichermodul-rescue:VCC-RESCUE-speichermodul
+# speichermodul-rescue_VCC-RESCUE-speichermodul
 #
-DEF speichermodul-rescue:VCC-RESCUE-speichermodul #PWR 0 0 Y Y 1 F P
+DEF speichermodul-rescue_VCC-RESCUE-speichermodul #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "speichermodul-rescue:VCC-RESCUE-speichermodul" 0 150 50 H V C CNN
+F1 "speichermodul-rescue_VCC-RESCUE-speichermodul" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
