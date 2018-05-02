@@ -21,7 +21,7 @@ To Do Liste Steuerwerk:
 
 *U2 und U6 an den Terminal Blocks ausrichten (rechts passen sie schon) 
 
-
+tg: Bus Verbindungen PX ausgetauscht. Alte löschen und Netzliste neu einlesen, dann passt die Größe.
 
 
 
