@@ -880,33 +880,33 @@ Entry Wire Line
 Text Label -6200 4700 3    60   ~ 0
 d1
 Text Label -6300 4700 3    60   ~ 0
-d2
-Text Label -6400 4700 3    60   ~ 0
 d3
+Text Label -6400 4700 3    60   ~ 0
+d5
 Text Label -6500 4700 3    60   ~ 0
 d4
 Text Label -6600 4700 3    60   ~ 0
-d5
-Text Label -6700 4700 3    60   ~ 0
 d6
+Text Label -6700 4700 3    60   ~ 0
+d44
 Text Label -6800 4700 3    60   ~ 0
 d7
 Text Label -7100 4400 1    60   ~ 0
-d1
+d7
 Text Label -7100 4600 1    60   ~ 0
 d2
 Text Label -6950 5000 1    60   ~ 0
-d3
+d6
 Text Label -7050 5150 1    60   ~ 0
-d4
+d44
 Text Label -7100 5500 1    60   ~ 0
 d5
 Text Label -7100 5700 1    60   ~ 0
-d6
+d4
 Text Label -7100 6050 1    60   ~ 0
-d7
+d1
 Text Label -7100 6250 1    60   ~ 0
-d8
+d3
 Entry Wire Line
 	-5900 6800 -6000 6900
 Entry Wire Line
@@ -922,17 +922,17 @@ Entry Wire Line
 Text Label -6000 6900 1    60   ~ 0
 d1
 Text Label -6100 6900 1    60   ~ 0
-d2
+d7
 Text Label -6200 6900 1    60   ~ 0
 d3
 Text Label -6300 6900 1    60   ~ 0
-d4
+d44
 Text Label -6400 6900 1    60   ~ 0
 d5
 Text Label -6500 6900 1    60   ~ 0
 d6
 Text Label -6600 6900 1    60   ~ 0
-d7
+d4
 Text Label -6200 550  1    60   ~ 0
 y1
 Text Label -6300 550  1    60   ~ 0
@@ -971,8 +971,6 @@ F 3 "" H -6300 6000 50  0000 C CNN
 	1    -6300 7200
 	0    -1   -1   0   
 $EndComp
-Text Label -6950 6250 0    60   ~ 0
-11
 Text Label -6900 4700 1    60   ~ 0
 d2
 $Comp
@@ -1179,7 +1177,7 @@ U 1 1 5ABA7A1B
 P 2750 6900
 F 0 "D22" V 2841 6822 50  0000 R CNN
 F 1 "D" V 2750 6822 50  0000 R CNN
-F 2 "Diodes_ThroughHole:D_DO-41_SOD81_P10.16mm_Horizontal" V 2659 6822 50  0000 R CNN
+F 2 "Diodes_ThroughHole:D_DO-41_SOD81_P10.16mm_Horizontal" V 2650 6750 50  0000 R CNN
 F 3 "" H 2750 6900 50  0000 C CNN
 	1    2750 6900
 	0    1    1    0   
@@ -1494,7 +1492,6 @@ Wire Wire Line
 	-8100 9450 -8100 9350
 Wire Wire Line
 	-8700 7850 -8700 8100
-Connection ~ -8700 7850
 Wire Wire Line
 	-9350 5350 -9150 5350
 Wire Wire Line
@@ -1719,26 +1716,9 @@ Connection ~ -8300 5050
 Wire Bus Line
 	37900 55900 37900 44500
 Wire Bus Line
-	37900 44500 50200 44500
-Wire Bus Line
-	50200 44500 50200 20050
-Wire Bus Line
-	50200 20050 65050 20050
-Wire Bus Line
-	65050 45000 77600 45000
-Wire Bus Line
 	77600 45000 77600 54250
 Wire Bus Line
 	77600 54250 77700 54250
-Wire Bus Line
-	65050 20050 65050 45000
-Wire Bus Line
-	56650 20400 56650 27200
-Wire Bus Line
-	64850 27200 64850 26900
-Wire Bus Line
-	50250 27200 56650 27200
-Connection ~ 56650 27200
 Wire Bus Line
 	-54500 -26200 -54500 -18100
 Wire Bus Line
@@ -1993,8 +1973,6 @@ Wire Wire Line
 Wire Wire Line
 	-3900 5450 -3900 6050
 Wire Wire Line
-	-8700 7850 -8200 7850
-Wire Wire Line
 	-9150 5350 -8650 5350
 Wire Wire Line
 	-8650 5450 -8550 5450
@@ -2037,9 +2015,7 @@ Wire Wire Line
 Wire Wire Line
 	-5450 -800 -5450 -550
 Wire Wire Line
-	-8300 5050 -8300 6650
-Wire Bus Line
-	56650 27200 64850 27200
+	-8300 5050 -8300 5600
 Wire Bus Line
 	-54500 -18100 -40100 -18100
 Wire Bus Line
@@ -2141,11 +2117,30 @@ Wire Wire Line
 	-6400 3200 -5250 3200
 Connection ~ -6500 3300
 Text Label -5900 6900 1    60   ~ 0
-d0
+d2
+Connection ~ -8300 5600
+Wire Wire Line
+	-8300 5600 -8300 6150
+Connection ~ -8300 6150
+Wire Wire Line
+	-8300 6150 -8300 6650
+Text Label -8650 6650 0    50   ~ 0
+v1
+Text Label -8400 7850 0    50   ~ 0
+v1
+Connection ~ -8700 7850
+Wire Wire Line
+	-8700 7850 -8400 7850
+Wire Wire Line
+	-8400 7850 -8200 7850
+Text Label -8400 7850 0    50   ~ 0
+v2
+Text Label -8750 5450 0    50   ~ 0
+v2
+Wire Wire Line
+	-8300 6650 -8500 6650
 Wire Bus Line
 	-6500 6800 -6300 6800
-Wire Bus Line
-	-6300 6800 -5800 6800
 Wire Bus Line
 	-4650 1950 -3950 1950
 Wire Bus Line
@@ -2153,5 +2148,9 @@ Wire Bus Line
 Wire Bus Line
 	-6300 4850 -6300 6800
 Wire Bus Line
+	-6300 6800 -5800 6800
+Wire Bus Line
 	-7050 4850 -6300 4850
+Connection ~ -8300 6650
+Connection ~ -8500 6650
 $EndSCHEMATC
