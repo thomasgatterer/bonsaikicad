@@ -22,8 +22,12 @@ für TG: Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
 add project specifivic lib ${KIGITHUB}/Housings_DIP.pretty
 in Paths add KIGITHUB https://github.com/KiCad
 
-------------
-TODO:
 *PCB kontrollieren, insbesondere Resistoren, Schalter
 *Footprint für Diode d3 kontrollieren (wirkt recht eng)
-*Grobplatzierung fertig machen, feinplatziern, Kabellegen;
+------------
+TODO:
+
+*feinplatziern, Kabellegen;
+*Footprints für einige Resistoren anpassen, eventuell neue erstellen
+
+*tg: Bus Verbindungen PX ausgetauscht. Alte löschen und Netzliste neu einlesen, dann passt die Größe.
