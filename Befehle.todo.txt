@@ -9,19 +9,27 @@ DONE:
 *100n capacitors einfügen
 -tg: done, bitte kontrollieren
 
-TODO:
-*für TG Housings_DIP:DIP-20_W7.62mm_Socket_LongPads Lokal anlegen
+*Housings_DIP:DIP-20_W7.62mm_Socket_LongPads Lokal anlegen
 add project specifivic lib ${KIGITHUB}/Housings_DIP.pretty
 in Paths add KIGITHUB https://github.com/KiCad
 
+*tg: Bus Verbindungen PX ausgetauscht. Alte löschen und Netzliste neu einlesen, dann passt die Größe.
+	
+-----------------------------------------------------------------
+TODO:
+
 *bei P1 ist was falsch angeschlossen
+-fast done
 
 *tracks und vias legen
+- fast done
 
 *P2 lässt sich nicht mit gnd track verbinden; mehrere connectoren lassen sich 
  nicht mit tracks verbinden( U1 mit U5)
+- done
 
 *eingefügte Pins muss einmal ein 2Pin terminal getrennt werden (enIr, loadIr), 
  3 Terminal inczPC mit incPc umtauschen
+- done
 
 

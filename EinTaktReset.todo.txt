@@ -29,3 +29,5 @@ TODO:
 
 *feinplatziern, Kabellegen;
 *Footprints für einige Resistoren anpassen, eventuell neue erstellen
+
+*tg: Bus Verbindungen PX ausgetauscht. Alte löschen und Netzliste neu einlesen, dann passt die Größe.

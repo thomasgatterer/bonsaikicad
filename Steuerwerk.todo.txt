@@ -6,16 +6,22 @@ DONE:
 -tg:done
 
 *LEDs zu groß (passen nicht hinein)
--tg:done, ausprobieren / plazieren 
+-tg:done, ausprobieren / plazieren
 
+*Libraries sind nicht da
+Lösung:Preferences--> configure Paths--> Add 
+Name:  BON_LIB 
+Value: /home/nwboxuser/Schreibtisch/bonsaikicad
+DONE
+
+*ein IC ist zu viel
+DONE
 -------------------------------
 To Do Liste Steuerwerk:
 
-*ein IC ist zu viel
-
 *U2 und U6 an den Terminal Blocks ausrichten (rechts passen sie schon) 
 
-
+tg: Bus Verbindungen PX ausgetauscht. Alte löschen und Netzliste neu einlesen, dann passt die Größe.
 
 
 
