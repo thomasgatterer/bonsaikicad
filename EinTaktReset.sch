@@ -764,7 +764,7 @@ U 1 1 5A32DB4D
 P 4250 9600
 F 0 "SW6" H 4250 9925 50  0000 C CNN
 F 1 "SWITCH_INV" H 4250 9834 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx" H 4250 9600 50  0000 C CNN
+F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg" H 4250 9600 50  0000 C CNN
 F 3 "" H 4250 9600 50  0000 C CNN
 	1    4250 9600
 	-1   0    0    1   
@@ -2059,6 +2059,9 @@ Wire Wire Line
 	5250 3150 5450 3150
 Wire Wire Line
 	2350 5950 2500 5950
+Connection ~ 2500 5950
+Wire Wire Line
+	2500 5950 3000 5950
 Wire Bus Line
 	3100 1350 3100 1500
 Wire Bus Line
@@ -2069,7 +2072,4 @@ Wire Bus Line
 	3100 1500 3100 2050
 Wire Bus Line
 	3100 1500 6550 1500
-Connection ~ 2500 5950
-Wire Wire Line
-	2500 5950 3000 5950
 $EndSCHEMATC
