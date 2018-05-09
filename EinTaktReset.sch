@@ -141,7 +141,7 @@ U 1 1 57E94A96
 P 5550 4500
 F 0 "R7" H 5620 4546 50  0000 L CNN
 F 1 "330" H 5620 4455 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5480 4500 50  0000 C CNN
+F 2 "tg_foodprint:R_Axial_DIN0207_L6.3mm_D2.5mm_P21.59mm_Horizontaltg" V 5480 4500 50  0000 C CNN
 F 3 "" H 5550 4500 50  0000 C CNN
 	1    5550 4500
 	1    0    0    -1  
@@ -416,7 +416,7 @@ U 1 1 5845E8F5
 P 1550 7300
 F 0 "SW2" H 1550 7625 50  0000 C CNN
 F 1 "SWITCH_INV" H 1550 7534 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx" H 1550 7300 50  0000 C CNN
+F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg" H 1550 7300 50  0000 C CNN
 F 3 "" H 1550 7300 50  0000 C CNN
 	1    1550 7300
 	1    0    0    -1  
@@ -863,7 +863,7 @@ U 1 1 5A335A17
 P 7850 13850
 F 0 "R9" H 7900 13900 39  0000 L CNN
 F 1 "2,2k" H 7920 13805 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7780 13850 50  0000 C CNN
+F 2 "tg_foodprint:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.7mm_Horizontaltg" V 7780 13850 50  0000 C CNN
 F 3 "" H 7850 13850 50  0000 C CNN
 	1    7850 13850
 	-1   0    0    1   
@@ -896,7 +896,7 @@ U 1 1 5A33749E
 P 8650 11200
 F 0 "R12" H 8700 11250 39  0000 L CNN
 F 1 "1,8k" H 8720 11155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8580 11200 50  0000 C CNN
+F 2 "tg_foodprint:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.7mm_Horizontaltg" V 8580 11200 50  0000 C CNN
 F 3 "" H 8650 11200 50  0000 C CNN
 	1    8650 11200
 	-1   0    0    1   
@@ -1031,7 +1031,7 @@ U 1 1 5A3A7CF2
 P 1850 10800
 F 0 "R3" H 1900 10850 39  0000 L CNN
 F 1 "10k" H 1920 10755 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1780 10800 50  0000 C CNN
+F 2 "tg_foodprint:R_Axial_DIN0207_L6.3mm_D2.5mm_P17.7mm_Horizontaltg" V 1780 10800 50  0000 C CNN
 F 3 "" H 1850 10800 50  0000 C CNN
 	1    1850 10800
 	1    0    0    -1  
