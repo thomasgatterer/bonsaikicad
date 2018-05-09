@@ -1868,7 +1868,7 @@ Wire Wire Line
 Connection ~ -6600 7400
 Connection ~ -6700 7400
 Entry Wire Line
-	-6900 6800 -6800 6700
+	-5900 6900 -5800 6800
 Entry Wire Line
 	-6400 6800 -6500 6900
 $Comp
@@ -2141,11 +2141,11 @@ Wire Wire Line
 	-6400 3200 -5250 3200
 Connection ~ -6500 3300
 Text Label -5900 6900 1    60   ~ 0
-d2
+d0
 Wire Bus Line
 	-6500 6800 -6300 6800
 Wire Bus Line
-	-6300 6800 -5900 6800
+	-6300 6800 -5800 6800
 Wire Bus Line
 	-4650 1950 -3950 1950
 Wire Bus Line
