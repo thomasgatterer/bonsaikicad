@@ -1,3 +1,12 @@
+-----------------------------------------------------------------
+TODO:
+*U2 footprints korrekt festlegen
+
+* "stecker" an der rechtenseite mitte richtige footprints festlegen und verkabeln
+
+
+
+------------------------------------------------------------------
 DONE:
 *Connectors_Samtec:SDL-120-X-XX_2x10 mit vorhandenem tauschen
 -tg:war da Connect:IDC_Header_Straight_20pins gemeint? Ich kann nur die finden.
@@ -14,10 +23,6 @@ add project specifivic lib ${KIGITHUB}/Housings_DIP.pretty
 in Paths add KIGITHUB https://github.com/KiCad
 
 *tg: Bus Verbindungen PX ausgetauscht. Alte löschen und Netzliste neu einlesen, dann passt die Größe.
-	
------------------------------------------------------------------
-TODO:
-
 *bei P1 ist was falsch angeschlossen
 -fast done
 
@@ -31,5 +36,12 @@ TODO:
 *eingefügte Pins muss einmal ein 2Pin terminal getrennt werden (enIr, loadIr), 
  3 Terminal inczPC mit incPc umtauschen
 - done
+
+
+	
+
+
+
+
 
 
