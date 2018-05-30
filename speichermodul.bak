@@ -300,39 +300,6 @@ F 3 "" H 2150 6700 60  0000 C CNN
 	1    2150 6700
 	-1   0    0    1   
 $EndComp
-$Comp
-L speichermodul-rescue:GND-RESCUE-speichermodul #PWR02
-U 1 1 57D2DA6D
-P 1650 1300
-F 0 "#PWR02" H 1650 1300 30  0001 C CNN
-F 1 "GND" H 1650 1230 30  0001 C CNN
-F 2 "" H 1650 1300 60  0000 C CNN
-F 3 "" H 1650 1300 60  0000 C CNN
-	1    1650 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L speichermodul-rescue:PWR_FLAG-RESCUE-speichermodul #FLG03
-U 1 1 57D2DF47
-P 1650 1150
-F 0 "#FLG03" H 1650 1245 30  0001 C CNN
-F 1 "PWR_FLAG" H 1650 1330 30  0000 C CNN
-F 2 "" H 1650 1150 60  0000 C CNN
-F 3 "" H 1650 1150 60  0000 C CNN
-	1    1650 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L speichermodul-rescue:PWR_FLAG-RESCUE-speichermodul #FLG04
-U 1 1 57D2DF69
-P 950 1150
-F 0 "#FLG04" H 950 1245 30  0001 C CNN
-F 1 "PWR_FLAG" H 950 1330 30  0000 C CNN
-F 2 "" H 950 1150 60  0000 C CNN
-F 3 "" H 950 1150 60  0000 C CNN
-	1    950  1150
-	1    0    0    -1  
-$EndComp
 Text Label 4350 5150 1    60   ~ 0
 EN-IN
 $Comp
@@ -989,32 +956,6 @@ $EndComp
 Text Label 6750 2500 0    60   ~ 0
 _RD
 $Comp
-L speichermodul-rescue:CONN_01X01-RESCUE-speichermodul P4
-U 1 1 57D5BE45
-P 1900 1200
-F 0 "P4" H 1900 1300 50  0000 C CNN
-F 1 "CONN_01X01" V 2000 1200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 1900 1200 60  0001 C CNN
-F 3 "" H 1900 1200 60  0000 C CNN
-	1    1900 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L speichermodul-rescue:CONN_01X01-RESCUE-speichermodul P3
-U 1 1 57D5BE54
-P 1200 1200
-F 0 "P3" H 1200 1300 50  0000 C CNN
-F 1 "CONN_01X01" V 1300 1200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 1200 1200 60  0001 C CNN
-F 3 "" H 1200 1200 60  0000 C CNN
-	1    1200 1200
-	1    0    0    -1  
-$EndComp
-Text Label 750  1200 0    60   ~ 0
-VCC
-Text Label 1450 1200 0    60   ~ 0
-GND
-$Comp
 L speichermodul-rescue:GND-RESCUE-speichermodul #PWR020
 U 1 1 57D5BF9D
 P 8000 2050
@@ -1076,22 +1017,6 @@ Text Notes 10250 700  0    60   ~ 0
 Adressbus
 Entry Wire Line
 	10850 2650 10950 2750
-Text Label 10850 2650 0    60   ~ 0
-D0
-Text Label 10850 2750 0    60   ~ 0
-D1
-Text Label 10850 2850 0    60   ~ 0
-D2
-Text Label 10850 2950 0    60   ~ 0
-D3
-Text Label 10850 3050 0    60   ~ 0
-D4
-Text Label 10850 3150 0    60   ~ 0
-D5
-Text Label 10850 3250 0    60   ~ 0
-D6
-Text Label 10850 3350 0    60   ~ 0
-D7
 Entry Wire Line
 	10850 2750 10950 2850
 Entry Wire Line
@@ -1275,10 +1200,6 @@ Wire Wire Line
 	2650 3950 2650 3750
 Wire Wire Line
 	4250 5000 4250 4700
-Wire Wire Line
-	1650 1150 1650 1200
-Wire Wire Line
-	950  1150 950  1200
 Wire Wire Line
 	1000 2350 1000 2100
 Wire Wire Line
@@ -1515,11 +1436,6 @@ Wire Wire Line
 	6550 1650 6600 1650
 Connection ~ 6650 2550
 Wire Wire Line
-	1700 1200 1650 1200
-Connection ~ 1650 1200
-Wire Wire Line
-	1000 1200 950  1200
-Wire Wire Line
 	10200 850  10200 700 
 Wire Wire Line
 	10200 700  10700 700 
@@ -1679,8 +1595,6 @@ Wire Wire Line
 Wire Wire Line
 	6650 2550 6850 2550
 Wire Wire Line
-	1650 1200 1650 1300
-Wire Wire Line
 	1300 2600 1300 2850
 Wire Wire Line
 	1300 4150 1300 4250
@@ -1739,18 +1653,6 @@ Connection ~ 8000 1950
 Wire Wire Line
 	8000 1950 8000 2050
 Connection ~ 2150 6350
-$Comp
-L speichermodul-rescue:VCC-RESCUE-speichermodul #PWR03
-U 1 1 5ABDCBFC
-P 950 1200
-F 0 "#PWR03" H 950 1300 30  0001 C CNN
-F 1 "VCC" H 950 1300 30  0000 C CNN
-F 2 "" H 950 1200 60  0000 C CNN
-F 3 "" H 950 1200 60  0000 C CNN
-	1    950  1200
-	-1   0    0    1   
-$EndComp
-Connection ~ 950  1200
 Wire Wire Line
 	2150 6350 2150 6700
 $Comp
@@ -1974,24 +1876,6 @@ Wire Wire Line
 	9600 5700 9600 5800
 Wire Wire Line
 	9600 4800 9600 4900
-Wire Bus Line
-	9550 3350 9550 3550
-Wire Bus Line
-	9150 2650 9150 3050
-Wire Bus Line
-	4450 5750 4450 6450
-Wire Bus Line
-	8100 1050 8100 1750
-Wire Bus Line
-	9550 2500 9550 3250
-Wire Bus Line
-	10950 2750 10950 4850
-Wire Bus Line
-	10200 4850 10200 6450
-Wire Bus Line
-	10100 850  10100 2500
-Wire Bus Line
-	9350 1200 9350 1750
 Connection ~ 9600 4800
 Connection ~ 9600 5700
 Connection ~ 9600 4900
@@ -2018,4 +1902,264 @@ Wire Wire Line
 Connection ~ 9600 5600
 Wire Wire Line
 	9600 5600 9600 5700
+Text Label 10850 2650 0    50   ~ 0
+D7
+Text Label 10850 2750 0    50   ~ 0
+D6
+Text Label 10850 2850 0    50   ~ 0
+D5
+Text Label 10850 2950 0    50   ~ 0
+D4
+Text Label 10850 3050 0    50   ~ 0
+D3
+Text Label 10850 3150 0    50   ~ 0
+D2
+Text Label 10850 3250 0    50   ~ 0
+D1
+Text Label 10850 3350 0    50   ~ 0
+D0
+Wire Wire Line
+	950  1650 1450 1650
+Wire Wire Line
+	1050 800  1050 1500
+Wire Wire Line
+	1050 1500 950  1500
+$Comp
+L power:VCC #PWR?
+U 1 1 5B136D3D
+P 1300 800
+F 0 "#PWR?" H 1300 650 50  0001 C CNN
+F 1 "VCC" H 1317 973 50  0000 C CNN
+F 2 "" H 1300 800 50  0000 C CNN
+F 3 "" H 1300 800 50  0000 C CNN
+	1    1300 800 
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 800 
+Wire Wire Line
+	1300 800  1050 800 
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5B136F43
+P 1700 800
+F 0 "#FLG?" H 1700 895 50  0001 C CNN
+F 1 "PWR_FLAG" H 1700 1024 50  0000 C CNN
+F 2 "" H 1700 800 50  0000 C CNN
+F 3 "" H 1700 800 50  0000 C CNN
+	1    1700 800 
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 800 
+Wire Wire Line
+	1700 800  1450 800 
+Wire Wire Line
+	1900 800  1900 1100
+Connection ~ 1900 800 
+Wire Wire Line
+	1900 800  1700 800 
+Wire Wire Line
+	1900 1650 1900 1400
+Connection ~ 1900 1650
+Wire Wire Line
+	1900 1650 2100 1650
+Wire Wire Line
+	2350 800  2350 1050
+Connection ~ 2350 800 
+Wire Wire Line
+	2350 800  2100 800 
+Connection ~ 2350 1650
+Wire Wire Line
+	2350 1650 2550 1650
+Wire Wire Line
+	2100 800  2100 1050
+Connection ~ 2100 800 
+Wire Wire Line
+	2100 800  1900 800 
+$Comp
+L bonsai:C C2
+U 1 1 5B1B19CB
+P 1900 1250
+F 0 "C2" H 2015 1326 50  0000 L CNN
+F 1 "100n" H 2015 1235 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 2015 1159 30  0000 L CNN
+F 3 "" H 1900 1250 60  0000 C CNN
+	1    1900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bonsai:C C3
+U 1 1 5B1B1AC6
+P 2100 1200
+F 0 "C3" H 2215 1276 50  0000 L CNN
+F 1 "100n" H 2215 1185 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 2215 1109 30  0000 L CNN
+F 3 "" H 2100 1200 60  0000 C CNN
+	1    2100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bonsai:C C4
+U 1 1 5B1B1CE2
+P 2350 1200
+F 0 "C4" H 2465 1276 50  0000 L CNN
+F 1 "100n" H 2465 1185 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 2465 1109 30  0000 L CNN
+F 3 "" H 2350 1200 60  0000 C CNN
+	1    2350 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1350 2350 1650
+Wire Wire Line
+	2100 1350 2100 1650
+Connection ~ 2100 1650
+Wire Wire Line
+	2100 1650 2350 1650
+Wire Wire Line
+	2550 800  2550 1050
+Connection ~ 2550 800 
+Wire Wire Line
+	2550 800  2350 800 
+Wire Wire Line
+	2550 1350 2550 1650
+Connection ~ 2550 1650
+Wire Wire Line
+	2550 1650 2750 1650
+Wire Wire Line
+	2750 1350 2750 1650
+Connection ~ 2750 1650
+Wire Wire Line
+	2750 1650 2950 1650
+Wire Wire Line
+	2750 1050 2750 800 
+Connection ~ 2750 800 
+Wire Wire Line
+	2750 800  2550 800 
+Wire Wire Line
+	2950 800  2950 1050
+Connection ~ 2950 800 
+Wire Wire Line
+	2950 800  2750 800 
+Wire Wire Line
+	2950 1350 2950 1650
+Connection ~ 2950 1650
+Wire Wire Line
+	1450 1650 1450 1350
+Connection ~ 1450 1650
+Wire Wire Line
+	1450 1650 1650 1650
+Wire Wire Line
+	1450 1050 1450 800 
+Connection ~ 1450 800 
+Wire Wire Line
+	1450 800  1300 800 
+$Comp
+L bonsai:C C1
+U 1 1 5B2AC913
+P 1450 1200
+F 0 "C1" H 1565 1276 50  0000 L CNN
+F 1 "100n" H 1565 1185 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 1565 1109 30  0000 L CNN
+F 3 "" H 1450 1200 60  0000 C CNN
+	1    1450 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bonsai:C C7
+U 1 1 5B2AC9E5
+P 2550 1200
+F 0 "C7" H 2665 1276 50  0000 L CNN
+F 1 "100n" H 2665 1185 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 2665 1109 30  0000 L CNN
+F 3 "" H 2550 1200 60  0000 C CNN
+	1    2550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bonsai:C C5
+U 1 1 5B2ACAC7
+P 2750 1200
+F 0 "C5" H 2865 1276 50  0000 L CNN
+F 1 "100n" H 2865 1185 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 2865 1109 30  0000 L CNN
+F 3 "" H 2750 1200 60  0000 C CNN
+	1    2750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bonsai:C C6
+U 1 1 5B2ACB77
+P 2950 1200
+F 0 "C6" H 3065 1276 50  0000 L CNN
+F 1 "100n" H 3065 1185 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 3065 1109 30  0000 L CNN
+F 3 "" H 2950 1200 60  0000 C CNN
+	1    2950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5B2ACD0A
+P 1650 1650
+F 0 "#FLG?" H 1650 1745 50  0001 C CNN
+F 1 "PWR_FLAG" H 1650 1873 50  0000 C CNN
+F 2 "" H 1650 1650 50  0000 C CNN
+F 3 "" H 1650 1650 50  0000 C CNN
+	1    1650 1650
+	-1   0    0    1   
+$EndComp
+Connection ~ 1650 1650
+Wire Wire Line
+	1650 1650 1800 1650
+$Comp
+L power:GND #PWR?
+U 1 1 5B2ACED5
+P 1800 1650
+F 0 "#PWR?" H 1800 1400 50  0001 C CNN
+F 1 "GND" H 1805 1477 50  0000 C CNN
+F 2 "" H 1800 1650 50  0000 C CNN
+F 3 "" H 1800 1650 50  0000 C CNN
+	1    1800 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 1800 1650
+Wire Wire Line
+	1800 1650 1900 1650
+$Comp
+L bonsai:D D36
+U 1 1 5B2AD0AE
+P 3200 1250
+F 0 "D36" V 3101 1328 50  0000 L CNN
+F 1 "D" V 3192 1328 50  0000 L CNN
+F 2 "Diodes_ThroughHole:D_DO-41_SOD81_P10.16mm_Horizontal" V 3291 1328 60  0000 L CNN
+F 3 "" H 3200 1250 60  0000 C CNN
+	1    3200 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 1650 3200 1400
+Wire Wire Line
+	2950 1650 3200 1650
+Wire Wire Line
+	3200 1100 3200 800 
+Wire Wire Line
+	2950 800  3200 800 
+Wire Bus Line
+	9550 3350 9550 3550
+Wire Bus Line
+	9150 2650 9150 3050
+Wire Bus Line
+	4450 5750 4450 6450
+Wire Bus Line
+	8100 1050 8100 1750
+Wire Bus Line
+	9550 2500 9550 3250
+Wire Bus Line
+	10950 2750 10950 4850
+Wire Bus Line
+	10200 4850 10200 6450
+Wire Bus Line
+	10100 850  10100 2500
+Wire Bus Line
+	9350 1200 9350 1750
 $EndSCHEMATC
