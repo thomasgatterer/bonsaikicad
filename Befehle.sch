@@ -558,7 +558,7 @@ U 1 1 580EAA2D
 P -3950 5550
 F 0 "D15" H -4000 5675 50  0000 L CNN
 F 1 "Led_Small" V -4050 5950 50  0000 L CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" V -3950 6250 50  0000 C CNN
+F 2 "tg_foodprint:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUptglwmp" V -3950 6250 50  0000 C CNN
 F 3 "" V -3950 5550 50  0000 C CNN
 	1    -3950 5550
 	0    1    1    0   
@@ -569,7 +569,7 @@ U 1 1 580EAB66
 P -4100 5550
 F 0 "D11" H -4150 5675 50  0000 L CNN
 F 1 "Led_Small" V -4200 5000 50  0000 L CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" V -4100 5100 50  0000 C CNN
+F 2 "tg_foodprint:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUptglwmp" V -4100 5100 50  0000 C CNN
 F 3 "" V -4100 5550 50  0000 C CNN
 	1    -4100 5550
 	0    1    1    0   
@@ -580,7 +580,7 @@ U 1 1 580EABEB
 P -4100 5900
 F 0 "D12" V -4050 5800 50  0000 L CNN
 F 1 "Led_Small" V -4150 6000 50  0000 L CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H -3750 5900 50  0000 C CNN
+F 2 "tg_foodprint:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUptglwmp" H -3750 5900 50  0000 C CNN
 F 3 "" V -4100 5900 50  0000 C CNN
 	1    -4100 5900
 	0    1    1    0   
@@ -591,7 +591,7 @@ U 1 1 580EAC8E
 P -3950 6150
 F 0 "D16" V -3900 6050 50  0000 L CNN
 F 1 "Led_Small" V -4000 6200 50  0000 L CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H -3550 6150 50  0000 C CNN
+F 2 "tg_foodprint:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUptglwmp" H -3550 6150 50  0000 C CNN
 F 3 "" V -3950 6150 50  0000 C CNN
 	1    -3950 6150
 	0    1    1    0   
@@ -602,7 +602,7 @@ U 1 1 580EAD43
 P -3650 6400
 F 0 "D20" V -3600 6350 50  0000 L CNN
 F 1 "Led_Small" V -3700 6500 50  0000 L CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H -3250 6400 50  0000 C CNN
+F 2 "tg_foodprint:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUptglwmp" H -3250 6400 50  0000 C CNN
 F 3 "" V -3650 6400 50  0000 C CNN
 	1    -3650 6400
 	0    1    1    0   
@@ -613,7 +613,7 @@ U 1 1 580EAE00
 P -3850 6400
 F 0 "D19" V -3800 6300 50  0000 L CNN
 F 1 "Led_Small" V -3800 6700 50  0000 L CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H -3450 6400 50  0000 C CNN
+F 2 "tg_foodprint:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUptglwmp" H -3450 6400 50  0000 C CNN
 F 3 "" V -3850 6400 50  0000 C CNN
 	1    -3850 6400
 	0    1    1    0   
@@ -966,7 +966,7 @@ U 1 1 5A1624C1
 P -6300 7200
 F 0 "P1" V -6254 6662 50  0000 R CNN
 F 1 "CONN_02X10" V -6345 6662 50  0000 R CNN
-F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H -6300 6000 50  0000 C CNN
+F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" V -6650 7100 50  0000 C CNN
 F 3 "" H -6300 6000 50  0000 C CNN
 	1    -6300 7200
 	0    -1   -1   0   
@@ -1030,46 +1030,46 @@ F 3 "" H -8800 4350 60  0001 C CNN
 $EndComp
 $Comp
 L 74540:74540 U2
-U 4 1 5A28303B
+U 1 1 5A28303B
 P -4850 8350
 F 0 "U2" H -4750 8450 60  0000 C CNN
 F 1 "74540" H -4700 8200 60  0000 C CNN
 F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -4700 8200 60  0001 C CNN
 F 3 "" H -4700 8200 60  0001 C CNN
-	4    -4850 8350
+	1    -4850 8350
 	0    1    1    0   
 $EndComp
 $Comp
 L 74540:74540 U2
-U 3 1 5A282F54
+U 2 1 5A282F54
 P -4400 8350
 F 0 "U2" H -4300 8450 60  0000 C CNN
 F 1 "74540" H -4250 8200 60  0000 C CNN
 F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -4250 8200 60  0001 C CNN
 F 3 "" H -4250 8200 60  0001 C CNN
-	3    -4400 8350
+	2    -4400 8350
 	0    1    1    0   
 $EndComp
 $Comp
 L 74540:74540 U2
-U 2 1 5A282E5F
+U 3 1 5A282E5F
 P -3900 8350
 F 0 "U2" H -3800 8450 60  0000 C CNN
 F 1 "74540" H -3750 8200 60  0000 C CNN
 F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -3750 8200 60  0001 C CNN
 F 3 "" H -3750 8200 60  0001 C CNN
-	2    -3900 8350
+	3    -3900 8350
 	0    1    1    0   
 $EndComp
 $Comp
 L 74540:74540 U2
-U 1 1 5A282C7C
+U 4 1 5A282C7C
 P -3350 8350
 F 0 "U2" H -3250 8450 60  0000 C CNN
 F 1 "74540" H -3200 8200 60  0000 C CNN
-F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -3200 8200 60  0000 C CNN
+F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -3250 9150 60  0000 C CNN
 F 3 "" H -3200 8200 60  0001 C CNN
-	1    -3350 8350
+	4    -3350 8350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2139,6 +2139,19 @@ Text Label -8750 5450 0    50   ~ 0
 v2
 Wire Wire Line
 	-8300 6650 -8500 6650
+Connection ~ -8300 6650
+Connection ~ -8500 6650
+$Comp
+L power:VCC #PWR019
+U 1 1 5AF5D5F2
+P -3200 9450
+F 0 "#PWR019" H -3200 9300 50  0001 C CNN
+F 1 "VCC" H -3200 9600 50  0000 C CNN
+F 2 "" H -3200 9450 50  0000 C CNN
+F 3 "" H -3200 9450 50  0000 C CNN
+	1    -3200 9450
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	-6500 6800 -6300 6800
 Wire Bus Line
@@ -2151,6 +2164,4 @@ Wire Bus Line
 	-6300 6800 -5800 6800
 Wire Bus Line
 	-7050 4850 -6300 4850
-Connection ~ -8300 6650
-Connection ~ -8500 6650
 $EndSCHEMATC
