@@ -24,10 +24,21 @@ in Paths add KIGITHUB https://github.com/KiCad
 
 *PCB kontrollieren, insbesondere Resistoren, Schalter
 *Footprint für Diode d3 kontrollieren (wirkt recht eng)
-------------
-TODO:
-
-*feinplatziern, Kabellegen;
+*Library für switches geadded
+tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg   Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx
 *Footprints für einige Resistoren anpassen, eventuell neue erstellen
 
 *tg: Bus Verbindungen PX ausgetauscht. Alte löschen und Netzliste neu einlesen, dann passt die Größe.
+erledigt, überprüfen: tg.
+
+*SW6 verbindungen ändern, passen noch nicht!
+erledigt, überprüfen: tg.
+
+------------
+
+TODO:
+
+*feinplatziern, Kabellegen;
+
+
+
