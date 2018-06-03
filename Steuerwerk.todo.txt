@@ -28,7 +28,9 @@ To Do Liste Steuerwerk:
 *U2 und U6 an den Terminal Blocks ausrichten (rechts passen sie schon) 
 
 *Wiederstände oberhalb des Leitungsrasters 2x 1k 8 pin abändern von einzelnen Wiederständen zu Wiederstands array (schon im Schaltplan und pcb)
- 
 
+*Die Terminal Blocks müssen genau unter dem entsprechenden Anzeige LEDs sein 
+
+*Rote Querverbindung mit Beschriftung VCC Stimmt nicht! Bitte ändern.
 
 
