@@ -1,6 +1,6 @@
 (sym_lib_table
   (lib (name speichermodul-rescue)(type Legacy)(uri ${KIPRJMOD}/speichermodul-rescue.lib)(options "")(descr ""))
-  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr "")(disabled))
+  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
   (lib (name device)(type Legacy)(uri ${BON_LIB}/bonsaicomplib/device.lib)(options "")(descr ""))
   (lib (name transistors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/transistors.lib)(options "")(descr "")(disabled))
   (lib (name conn)(type Legacy)(uri ${BON_LIB}/bonsaicomplib/Connector_Generic.lib)(options "")(descr ""))

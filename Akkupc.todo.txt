@@ -31,3 +31,10 @@ Todo: (02,05,2018)
 	Value: /home/nwboxuser/Schreibtisch/bonsaikicad
 
 gez. Hermann
+
+Todo: (30.05.2018)
+
++ resistor array anlegen für die pins
++ pcb dann neu anordnen wie bereits begonnen
+
+gez. Hermann
