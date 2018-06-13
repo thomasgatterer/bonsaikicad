@@ -514,13 +514,13 @@ $EndComp
 $Comp
 L power:VCC #PWR06
 U 1 1 57FC686E
-P -4350 5250
-F 0 "#PWR06" H -4350 5100 50  0001 C CNN
-F 1 "VCC" H -4350 5400 50  0000 C CNN
-F 2 "" H -4350 5250 50  0000 C CNN
-F 3 "" H -4350 5250 50  0000 C CNN
-	1    -4350 5250
-	1    0    0    -1  
+P -4150 5250
+F 0 "#PWR06" H -4150 5100 50  0001 C CNN
+F 1 "VCC" H -4150 5400 50  0000 C CNN
+F 2 "" H -4150 5250 50  0000 C CNN
+F 3 "" H -4150 5250 50  0000 C CNN
+	1    -4150 5250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:VCC #PWR07
@@ -533,13 +533,13 @@ F 3 "" H -2900 8500 50  0000 C CNN
 	1    -2900 8500
 	1    0    0    -1  
 $EndComp
-Text GLabel -4600 6800 0    60   Input ~ 0
-0
-Text GLabel -4550 7050 0    60   Input ~ 0
-1
-Text GLabel -4450 7250 0    60   Input ~ 0
-2
 Text GLabel -4300 7450 0    60   Input ~ 0
+0
+Text GLabel -4450 7250 0    60   Input ~ 0
+1
+Text GLabel -4550 7050 0    60   Input ~ 0
+2
+Text GLabel -4600 6800 0    60   Input ~ 0
 3
 $Comp
 L power:VCC #PWR08
@@ -556,9 +556,9 @@ $Comp
 L bonsai:Led_Small D15
 U 1 1 580EAA2D
 P -3950 5550
-F 0 "D15" H -4000 5675 50  0000 L CNN
-F 1 "Led_Small" V -4050 5950 50  0000 L CNN
-F 2 "tg_foodprint:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUptglwmp" V -3950 6250 50  0000 C CNN
+F 0 "D15" V -3950 5650 50  0000 L CNN
+F 1 "Led_Small" V -4000 6750 50  0000 L CNN
+F 2 "tg_foodprint:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" V -3900 7100 50  0000 C CNN
 F 3 "" V -3950 5550 50  0000 C CNN
 	1    -3950 5550
 	0    1    1    0   
@@ -567,9 +567,9 @@ $Comp
 L bonsai:Led_Small D11
 U 1 1 580EAB66
 P -4100 5550
-F 0 "D11" H -4150 5675 50  0000 L CNN
-F 1 "Led_Small" V -4200 5000 50  0000 L CNN
-F 2 "tg_foodprint:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUptglwmp" V -4100 5100 50  0000 C CNN
+F 0 "D11" V -4100 5350 50  0000 L CNN
+F 1 "Led_Small" V -4250 6900 50  0000 L CNN
+F 2 "tg_foodprint:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" V -4100 4300 50  0000 C CNN
 F 3 "" V -4100 5550 50  0000 C CNN
 	1    -4100 5550
 	0    1    1    0   
@@ -578,9 +578,9 @@ $Comp
 L bonsai:Led_Small D12
 U 1 1 580EABEB
 P -4100 5900
-F 0 "D12" V -4050 5800 50  0000 L CNN
-F 1 "Led_Small" V -4150 6000 50  0000 L CNN
-F 2 "tg_foodprint:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUptglwmp" H -3750 5900 50  0000 C CNN
+F 0 "D12" V -4100 5700 50  0000 L CNN
+F 1 "Led_Small" V -4050 7150 50  0000 L CNN
+F 2 "tg_foodprint:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" H -2500 5900 50  0000 C CNN
 F 3 "" V -4100 5900 50  0000 C CNN
 	1    -4100 5900
 	0    1    1    0   
@@ -589,9 +589,9 @@ $Comp
 L bonsai:Led_Small D16
 U 1 1 580EAC8E
 P -3950 6150
-F 0 "D16" V -3900 6050 50  0000 L CNN
-F 1 "Led_Small" V -4000 6200 50  0000 L CNN
-F 2 "tg_foodprint:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUptglwmp" H -3550 6150 50  0000 C CNN
+F 0 "D16" V -3950 5950 50  0000 L CNN
+F 1 "Led_Small" V -3950 7200 50  0000 L CNN
+F 2 "tg_foodprint:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" H -2600 6150 50  0000 C CNN
 F 3 "" V -3950 6150 50  0000 C CNN
 	1    -3950 6150
 	0    1    1    0   
@@ -600,9 +600,9 @@ $Comp
 L bonsai:Led_Small D20
 U 1 1 580EAD43
 P -3650 6400
-F 0 "D20" V -3600 6350 50  0000 L CNN
-F 1 "Led_Small" V -3700 6500 50  0000 L CNN
-F 2 "tg_foodprint:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUptglwmp" H -3250 6400 50  0000 C CNN
+F 0 "D20" V -3650 6500 50  0000 L CNN
+F 1 "Led_Small" V -3750 7100 50  0000 L CNN
+F 2 "tg_foodprint:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" H -2550 6400 50  0000 C CNN
 F 3 "" V -3650 6400 50  0000 C CNN
 	1    -3650 6400
 	0    1    1    0   
@@ -611,9 +611,9 @@ $Comp
 L bonsai:Led_Small D19
 U 1 1 580EAE00
 P -3850 6400
-F 0 "D19" V -3800 6300 50  0000 L CNN
-F 1 "Led_Small" V -3800 6700 50  0000 L CNN
-F 2 "tg_foodprint:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUptglwmp" H -3450 6400 50  0000 C CNN
+F 0 "D19" V -3850 6200 50  0000 L CNN
+F 1 "Led_Small" V -3850 7250 50  0000 L CNN
+F 2 "tg_foodprint:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" H -2750 6400 50  0000 C CNN
 F 3 "" V -3850 6400 50  0000 C CNN
 	1    -3850 6400
 	0    1    1    0   
@@ -1100,7 +1100,7 @@ U 1 1 5A5FCAF2
 P -3950 5050
 F 0 "RP1" V -3960 4772 50  0000 R CNN
 F 1 "R_PACK4BUSSED" V -4051 4772 50  0000 R CNN
-F 2 "Resistors_ThroughHole:R_Array_SIP5" H -3950 4900 60  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Array_SIP5" H -2950 5000 60  0000 C CNN
 F 3 "" H -3950 4900 60  0000 C CNN
 	1    -3950 5050
 	0    -1   -1   0   
@@ -1396,9 +1396,7 @@ Wire Wire Line
 Wire Wire Line
 	-6100 5250 -5350 5250
 Wire Wire Line
-	-3900 5400 -3900 5450
-Wire Wire Line
-	-3750 5400 -3750 6300
+	-3750 5400 -3750 5450
 Wire Wire Line
 	-3600 7700 -3350 7700
 Wire Wire Line
@@ -1468,24 +1466,6 @@ Wire Wire Line
 	-4150 6200 -4100 6200
 Wire Wire Line
 	-4100 6200 -4100 6250
-Wire Wire Line
-	-3650 6300 -3600 6300
-Connection ~ -3600 6300
-Wire Wire Line
-	-3750 6300 -3850 6300
-Connection ~ -3750 6300
-Wire Wire Line
-	-3900 6050 -3950 6050
-Connection ~ -3900 6050
-Wire Wire Line
-	-4050 5800 -4100 5800
-Connection ~ -4050 5800
-Wire Wire Line
-	-4100 5450 -4050 5450
-Connection ~ -4050 5450
-Wire Wire Line
-	-3900 5450 -3950 5450
-Connection ~ -3900 5450
 Wire Wire Line
 	-7650 9450 -8100 9450
 Wire Wire Line
@@ -1622,9 +1602,7 @@ Wire Wire Line
 Wire Wire Line
 	-8200 3000 -8100 3000
 Wire Wire Line
-	-4050 5250 -4050 5450
-Wire Wire Line
-	-3600 5350 -3600 6300
+	-3600 5350 -3600 5800
 Wire Bus Line
 	-55650 10350 -53450 8200
 Wire Bus Line
@@ -1645,8 +1623,6 @@ Connection ~ -3000 8550
 Wire Wire Line
 	-3200 8550 -3100 8550
 Wire Wire Line
-	-4150 5250 -4350 5250
-Wire Wire Line
 	-3950 5250 -3950 5400
 Wire Wire Line
 	-3950 5400 -3900 5400
@@ -1655,7 +1631,7 @@ Wire Wire Line
 Wire Wire Line
 	-3850 5400 -3750 5400
 Wire Wire Line
-	-3750 5250 -3750 5350
+	-3750 5250 -3750 5300
 Wire Wire Line
 	-3750 5350 -3600 5350
 Wire Wire Line
@@ -1961,18 +1937,6 @@ Wire Wire Line
 Wire Wire Line
 	-3600 6800 -3600 7700
 Wire Wire Line
-	-3600 6300 -3600 6800
-Wire Wire Line
-	-3750 6300 -3750 7050
-Wire Wire Line
-	-3900 6050 -3900 7250
-Wire Wire Line
-	-4050 5800 -4050 7450
-Wire Wire Line
-	-4050 5450 -4050 5800
-Wire Wire Line
-	-3900 5450 -3900 6050
-Wire Wire Line
 	-9150 5350 -8650 5350
 Wire Wire Line
 	-8650 5450 -8550 5450
@@ -2152,6 +2116,43 @@ F 3 "" H -3200 9450 50  0000 C CNN
 	1    -3200 9450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	-3650 5250 -3450 5250
+Wire Wire Line
+	-3950 6050 -3750 6050
+Connection ~ -3750 6050
+Wire Wire Line
+	-4100 5800 -3600 5800
+Connection ~ -3600 5800
+Wire Wire Line
+	-3600 5800 -3600 6800
+Wire Wire Line
+	-3650 6300 -3650 6150
+Wire Wire Line
+	-3650 6150 -4050 6150
+Connection ~ -4050 6150
+Wire Wire Line
+	-4050 6150 -4050 7450
+Wire Wire Line
+	-3750 6050 -3750 7050
+Wire Wire Line
+	-3850 6300 -3900 6300
+Connection ~ -3900 6300
+Wire Wire Line
+	-3900 6300 -3900 7250
+Wire Wire Line
+	-3900 5400 -3900 6300
+Wire Wire Line
+	-3950 5450 -3750 5450
+Connection ~ -3750 5450
+Wire Wire Line
+	-3750 5450 -3750 6050
+Wire Wire Line
+	-4050 5250 -4050 6150
+Wire Wire Line
+	-4100 5450 -4100 5300
+Wire Wire Line
+	-4100 5300 -3750 5300
 Wire Bus Line
 	-6500 6800 -6300 6800
 Wire Bus Line
@@ -2164,4 +2165,7 @@ Wire Bus Line
 	-6300 6800 -5800 6800
 Wire Bus Line
 	-7050 4850 -6300 4850
+Connection ~ -3750 5300
+Wire Wire Line
+	-3750 5300 -3750 5350
 $EndSCHEMATC
