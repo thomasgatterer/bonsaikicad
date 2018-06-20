@@ -314,45 +314,45 @@ $EndComp
 $Comp
 L Befehle-rescue:74HCT02-RESCUE-Befehle U4
 U 1 1 57F2C440
-P -7700 4500
-F 0 "U4" H -7700 4550 50  0000 C CNN
-F 1 "74HCT02" H -7650 4450 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 4750 50  0000 C CNN
-F 3 "" H -7700 4500 50  0000 C CNN
-	1    -7700 4500
+P -7650 4500
+F 0 "U4" H -7650 4550 50  0000 C CNN
+F 1 "74HCT02" H -7600 4450 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8200 4750 50  0000 C CNN
+F 3 "" H -7650 4500 50  0000 C CNN
+	1    -7650 4500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Befehle-rescue:74HCT02-RESCUE-Befehle U4
 U 2 1 57F2C605
-P -7700 5050
-F 0 "U4" H -7700 5100 50  0000 C CNN
-F 1 "74HCT02" H -7650 5000 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 5300 50  0000 C CNN
-F 3 "" H -7700 5050 50  0000 C CNN
-	2    -7700 5050
+P -7650 5050
+F 0 "U4" H -7650 5100 50  0000 C CNN
+F 1 "74HCT02" H -7600 5000 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8200 5300 50  0000 C CNN
+F 3 "" H -7650 5050 50  0000 C CNN
+	2    -7650 5050
 	-1   0    0    1   
 $EndComp
 $Comp
 L Befehle-rescue:74HCT02-RESCUE-Befehle U4
 U 3 1 57F2C694
-P -7700 5600
-F 0 "U4" H -7700 5650 50  0000 C CNN
-F 1 "74HCT02" H -7650 5550 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 5850 50  0000 C CNN
-F 3 "" H -7700 5600 50  0000 C CNN
-	3    -7700 5600
+P -7650 5600
+F 0 "U4" H -7650 5650 50  0000 C CNN
+F 1 "74HCT02" H -7600 5550 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8200 5850 50  0000 C CNN
+F 3 "" H -7650 5600 50  0000 C CNN
+	3    -7650 5600
 	-1   0    0    1   
 $EndComp
 $Comp
 L Befehle-rescue:74HCT02-RESCUE-Befehle U4
 U 4 1 57F2C76F
-P -7700 6150
-F 0 "U4" H -7700 6200 50  0000 C CNN
-F 1 "74HCT02" H -7650 6100 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 6450 50  0000 C CNN
-F 3 "" H -7700 6150 50  0000 C CNN
-	4    -7700 6150
+P -7650 6150
+F 0 "U4" H -7650 6200 50  0000 C CNN
+F 1 "74HCT02" H -7600 6100 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8200 6450 50  0000 C CNN
+F 3 "" H -7650 6150 50  0000 C CNN
+	4    -7650 6150
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -368,46 +368,24 @@ F 3 "" H -4050 1050 50  0000 C CNN
 $EndComp
 $Comp
 L Befehle-rescue:7400-RESCUE-Befehle U3
-U 2 1 57F3278C
-P -8400 7250
-F 0 "U3" H -8400 7300 50  0000 C CNN
-F 1 "7400" H -8400 7150 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8700 7500 50  0000 C CNN
-F 3 "" H -8400 7250 50  0000 C CNN
-	2    -8400 7250
-	0    1    1    0   
-$EndComp
-$Comp
-L Befehle-rescue:7400-RESCUE-Befehle U3
 U 3 1 57F32988
-P -8300 8450
-F 0 "U3" H -8300 8500 50  0000 C CNN
-F 1 "7400" H -8300 8350 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8650 8750 50  0000 C CNN
-F 3 "" H -8300 8450 50  0000 C CNN
-	3    -8300 8450
-	0    1    1    0   
+P -8300 8550
+F 0 "U3" H -8300 8600 50  0000 C CNN
+F 1 "7400" H -8300 8450 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8650 8850 50  0000 C CNN
+F 3 "" H -8300 8550 50  0000 C CNN
+	3    -8300 8550
+	0    -1   1    0   
 $EndComp
 $Comp
 L Befehle-rescue:7400-RESCUE-Befehle U3
 U 4 1 57F32A39
-P -7650 8850
-F 0 "U3" H -7650 8900 50  0000 C CNN
-F 1 "7400" H -7650 8750 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -7650 9100 50  0000 C CNN
-F 3 "" H -7650 8850 50  0000 C CNN
-	4    -7650 8850
-	0    1    1    0   
-$EndComp
-$Comp
-L Befehle-rescue:7400-RESCUE-Befehle U3
-U 1 1 57F331B6
-P -8650 6050
-F 0 "U3" H -8650 6100 50  0000 C CNN
-F 1 "7400" H -8650 5950 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8800 6300 50  0000 C CNN
-F 3 "" H -8650 6050 50  0000 C CNN
-	1    -8650 6050
+P -7650 8950
+F 0 "U3" H -7650 9000 50  0000 C CNN
+F 1 "7400" H -7650 8850 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -7650 9200 50  0000 C CNN
+F 3 "" H -7650 8950 50  0000 C CNN
+	4    -7650 8950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -525,12 +503,12 @@ $EndComp
 $Comp
 L power:VCC #PWR07
 U 1 1 57FC839A
-P -2900 8500
-F 0 "#PWR07" H -2900 8350 50  0001 C CNN
-F 1 "VCC" H -2900 8650 50  0000 C CNN
-F 2 "" H -2900 8500 50  0000 C CNN
-F 3 "" H -2900 8500 50  0000 C CNN
-	1    -2900 8500
+P -2900 8400
+F 0 "#PWR07" H -2900 8250 50  0001 C CNN
+F 1 "VCC" H -2900 8550 50  0000 C CNN
+F 2 "" H -2900 8400 50  0000 C CNN
+F 3 "" H -2900 8400 50  0000 C CNN
+	1    -2900 8400
 	1    0    0    -1  
 $EndComp
 Text GLabel -4300 7450 0    60   Input ~ 0
@@ -629,7 +607,7 @@ F 3 "" H -5850 6350 50  0000 C CNN
 	1    -5850 6350
 	0    1    1    0   
 $EndComp
-Text GLabel -8850 9350 0    60   Input ~ 0
+Text GLabel -8850 9450 0    60   Input ~ 0
 upPC
 Text GLabel -8900 7850 0    60   Input ~ 0
 incPC
@@ -1031,45 +1009,34 @@ $EndComp
 $Comp
 L 74540:74540 U2
 U 1 1 5A28303B
-P -4850 8350
-F 0 "U2" H -4750 8450 60  0000 C CNN
-F 1 "74540" H -4700 8200 60  0000 C CNN
-F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -4700 8200 60  0001 C CNN
-F 3 "" H -4700 8200 60  0001 C CNN
-	1    -4850 8350
+P -5050 8250
+F 0 "U2" H -4950 8350 60  0000 C CNN
+F 1 "74540" H -4900 8100 60  0000 C CNN
+F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -4900 8100 60  0001 C CNN
+F 3 "" H -4900 8100 60  0001 C CNN
+	1    -5050 8250
 	0    1    1    0   
 $EndComp
 $Comp
 L 74540:74540 U2
 U 2 1 5A282F54
-P -4400 8350
-F 0 "U2" H -4300 8450 60  0000 C CNN
-F 1 "74540" H -4250 8200 60  0000 C CNN
-F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -4250 8200 60  0001 C CNN
-F 3 "" H -4250 8200 60  0001 C CNN
-	2    -4400 8350
-	0    1    1    0   
-$EndComp
-$Comp
-L 74540:74540 U2
-U 3 1 5A282E5F
-P -3900 8350
-F 0 "U2" H -3800 8450 60  0000 C CNN
-F 1 "74540" H -3750 8200 60  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -3750 8200 60  0001 C CNN
-F 3 "" H -3750 8200 60  0001 C CNN
-	3    -3900 8350
+P -4400 8250
+F 0 "U2" H -4300 8350 60  0000 C CNN
+F 1 "74540" H -4250 8100 60  0000 C CNN
+F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -4250 8100 60  0001 C CNN
+F 3 "" H -4250 8100 60  0001 C CNN
+	2    -4400 8250
 	0    1    1    0   
 $EndComp
 $Comp
 L 74540:74540 U2
 U 4 1 5A282C7C
-P -3350 8350
-F 0 "U2" H -3250 8450 60  0000 C CNN
-F 1 "74540" H -3200 8200 60  0000 C CNN
-F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -3250 9150 60  0000 C CNN
-F 3 "" H -3200 8200 60  0001 C CNN
-	4    -3350 8350
+P -3350 8250
+F 0 "U2" H -3250 8350 60  0000 C CNN
+F 1 "74540" H -3200 8100 60  0000 C CNN
+F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -3250 9050 60  0000 C CNN
+F 3 "" H -3200 8100 60  0001 C CNN
+	4    -3350 8250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1086,12 +1053,12 @@ $EndComp
 $Comp
 L power:GND #PWR016
 U 1 1 5A57D7FB
-P -2800 8550
-F 0 "#PWR016" H -2800 8300 50  0001 C CNN
-F 1 "GND" H -2795 8377 50  0000 C CNN
-F 2 "" H -2800 8550 50  0001 C CNN
-F 3 "" H -2800 8550 50  0001 C CNN
-	1    -2800 8550
+P -2800 8450
+F 0 "#PWR016" H -2800 8200 50  0001 C CNN
+F 1 "GND" H -2795 8277 50  0000 C CNN
+F 2 "" H -2800 8450 50  0001 C CNN
+F 3 "" H -2800 8450 50  0001 C CNN
+	1    -2800 8450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1303,20 +1270,20 @@ Text GLabel -2200 7150 0    60   Input ~ 0
 Text GLabel -2200 7250 0    60   Input ~ 0
 3
 Wire Wire Line
-	-8100 9350 -8850 9350
+	-8100 9450 -8850 9450
 Wire Wire Line
 	-9800 950  -9700 950 
-Connection ~ -7650 8250
+Connection ~ -7650 8350
 Wire Wire Line
-	-7750 8250 -7650 8250
+	-7750 8350 -7650 8350
 Wire Wire Line
-	-7650 8250 -7650 8150
+	-7650 8350 -7650 8250
 Wire Wire Line
-	-7650 8150 -7950 8150
+	-7650 8250 -7950 8250
 Wire Wire Line
-	-7950 8150 -7950 9050
+	-7950 8250 -7950 9150
 Wire Wire Line
-	-7950 9050 -8300 9050
+	-7950 9150 -8300 9150
 Wire Wire Line
 	-6900 -400 -6900 500 
 Wire Wire Line
@@ -1354,17 +1321,13 @@ Wire Wire Line
 Wire Wire Line
 	-7050 4600 -7100 4600
 Wire Wire Line
-	-7100 5000 -6400 5000
+	-7100 5500 -7050 5500
 Wire Wire Line
-	-7100 5000 -7100 4950
+	-6400 5700 -7050 5700
 Wire Wire Line
-	-7100 5500 -6400 5500
+	-7100 6050 -7050 6050
 Wire Wire Line
-	-6400 5700 -7100 5700
-Wire Wire Line
-	-7100 6050 -6400 6050
-Wire Wire Line
-	-6400 6250 -7100 6250
+	-6400 6250 -7050 6250
 Wire Wire Line
 	-7350 3000 -7250 3000
 Wire Wire Line
@@ -1400,15 +1363,7 @@ Wire Wire Line
 Wire Wire Line
 	-3600 7700 -3350 7700
 Wire Wire Line
-	-3350 7700 -3350 8000
-Wire Wire Line
 	-4050 7700 -4850 7700
-Wire Wire Line
-	-4850 7700 -4850 8000
-Wire Wire Line
-	-3750 8000 -3900 8000
-Wire Wire Line
-	-4400 7800 -4400 8000
 Wire Wire Line
 	-3900 7800 -4400 7800
 Wire Wire Line
@@ -1426,8 +1381,6 @@ Wire Wire Line
 Connection ~ -4400 9450
 Wire Wire Line
 	-8300 4000 -8300 4500
-Wire Wire Line
-	-8500 6650 -8650 6650
 Wire Wire Line
 	-8900 7850 -8700 7850
 Connection ~ -8300 4500
@@ -1456,7 +1409,6 @@ Wire Wire Line
 Connection ~ -3900 7250
 Wire Wire Line
 	-3750 7050 -4550 7050
-Connection ~ -3750 7050
 Wire Wire Line
 	-3600 6800 -4600 6800
 Connection ~ -3600 6800
@@ -1467,9 +1419,9 @@ Wire Wire Line
 Wire Wire Line
 	-4100 6200 -4100 6250
 Wire Wire Line
-	-7650 9450 -8100 9450
+	-7650 9550 -8100 9550
 Wire Wire Line
-	-8100 9450 -8100 9350
+	-8100 9550 -8100 9450
 Wire Wire Line
 	-8700 7850 -8700 8100
 Wire Wire Line
@@ -1592,14 +1544,6 @@ Wire Wire Line
 	-53650 48450 -56350 48450
 Connection ~ -53650 40500
 Wire Wire Line
-	-3350 8750 -3350 8900
-Wire Wire Line
-	-3900 8750 -3900 8900
-Wire Wire Line
-	-4400 8750 -4400 8900
-Wire Wire Line
-	-4850 8750 -4850 8900
-Wire Wire Line
 	-8200 3000 -8100 3000
 Wire Wire Line
 	-3600 5350 -3600 5800
@@ -1614,14 +1558,12 @@ Wire Bus Line
 Wire Bus Line
 	-45800 8700 -45000 10500
 Wire Wire Line
-	-3200 8600 -3200 8550
+	-3100 8500 -3100 8450
 Wire Wire Line
-	-3100 8600 -3100 8550
+	-3000 8450 -3000 8500
+Connection ~ -3000 8450
 Wire Wire Line
-	-3000 8550 -3000 8600
-Connection ~ -3000 8550
-Wire Wire Line
-	-3200 8550 -3100 8550
+	-3200 8450 -3100 8450
 Wire Wire Line
 	-3950 5250 -3950 5400
 Wire Wire Line
@@ -1682,13 +1624,10 @@ Wire Wire Line
 Wire Wire Line
 	-6550 -550 -6550 -1050
 Connection ~ -5450 -800
-Wire Wire Line
-	-7100 5150 -6400 5150
 Wire Bus Line
 	-7050 4850 -7050 4400
 Wire Wire Line
 	-8300 5050 -8250 5050
-Connection ~ -8300 5050
 Wire Bus Line
 	37900 55900 37900 44500
 Wire Bus Line
@@ -1771,9 +1710,7 @@ Wire Wire Line
 Connection ~ 1950 7300
 Wire Wire Line
 	-5650 6900 -5800 6900
-Connection ~ -3100 8550
-Wire Wire Line
-	-2900 8500 -2900 8750
+Connection ~ -3100 8450
 Wire Wire Line
 	950  7300 1550 7300
 Connection ~ 1150 6550
@@ -1917,7 +1854,7 @@ F 3 "" H -8850 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	-7650 8250 -7550 8250
+	-7650 8350 -7550 8350
 Wire Wire Line
 	-3350 9450 -3200 9450
 Wire Wire Line
@@ -1933,8 +1870,6 @@ Wire Wire Line
 Wire Wire Line
 	-3900 7250 -3900 7800
 Wire Wire Line
-	-3750 7050 -3750 8000
-Wire Wire Line
 	-3600 6800 -3600 7700
 Wire Wire Line
 	-9150 5350 -8650 5350
@@ -1945,7 +1880,7 @@ Wire Wire Line
 Wire Wire Line
 	-53650 40500 -42900 40500
 Wire Wire Line
-	-3000 8550 -2800 8550
+	-3000 8450 -2800 8450
 Wire Wire Line
 	-4450 -150 -4350 -150
 Wire Wire Line
@@ -1978,8 +1913,6 @@ Wire Wire Line
 	-3600 1750 -3550 1750
 Wire Wire Line
 	-5450 -800 -5450 -550
-Wire Wire Line
-	-8300 5050 -8300 5600
 Wire Bus Line
 	-54500 -18100 -40100 -18100
 Wire Bus Line
@@ -1993,7 +1926,7 @@ Wire Bus Line
 Wire Wire Line
 	1950 7300 2200 7300
 Wire Wire Line
-	-3100 8550 -3000 8550
+	-3100 8450 -3000 8450
 Wire Wire Line
 	1150 6550 1300 6550
 Wire Wire Line
@@ -2082,45 +2015,10 @@ Wire Wire Line
 Connection ~ -6500 3300
 Text Label -5900 6900 1    60   ~ 0
 d2
-Connection ~ -8300 5600
-Wire Wire Line
-	-8300 5600 -8300 6150
-Connection ~ -8300 6150
-Wire Wire Line
-	-8300 6150 -8300 6650
-Text Label -8650 6650 0    50   ~ 0
-v1
-Text Label -8400 7850 0    50   ~ 0
-v1
-Connection ~ -8700 7850
-Wire Wire Line
-	-8700 7850 -8400 7850
-Wire Wire Line
-	-8400 7850 -8200 7850
-Text Label -8400 7850 0    50   ~ 0
-v2
-Text Label -8750 5450 0    50   ~ 0
-v2
-Wire Wire Line
-	-8300 6650 -8500 6650
-Connection ~ -8300 6650
-Connection ~ -8500 6650
-$Comp
-L power:VCC #PWR019
-U 1 1 5AF5D5F2
-P -3200 9450
-F 0 "#PWR019" H -3200 9300 50  0001 C CNN
-F 1 "VCC" H -3200 9600 50  0000 C CNN
-F 2 "" H -3200 9450 50  0000 C CNN
-F 3 "" H -3200 9450 50  0000 C CNN
-	1    -3200 9450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	-3650 5250 -3450 5250
 Wire Wire Line
 	-3950 6050 -3750 6050
-Connection ~ -3750 6050
 Wire Wire Line
 	-4100 5800 -3600 5800
 Connection ~ -3600 5800
@@ -2153,19 +2051,162 @@ Wire Wire Line
 	-4100 5450 -4100 5300
 Wire Wire Line
 	-4100 5300 -3750 5300
-Wire Bus Line
-	-6500 6800 -6300 6800
-Wire Bus Line
-	-4650 1950 -3950 1950
-Wire Bus Line
-	-6900 2650 -3950 2650
-Wire Bus Line
-	-6300 4850 -6300 6800
-Wire Bus Line
-	-6300 6800 -5800 6800
-Wire Bus Line
-	-7050 4850 -6300 4850
 Connection ~ -3750 5300
 Wire Wire Line
 	-3750 5300 -3750 5350
+Wire Wire Line
+	-3350 8850 -4850 8850
+Wire Wire Line
+	-4850 8850 -4850 8900
+Wire Wire Line
+	-4850 8800 -3300 8800
+Wire Wire Line
+	-3300 8800 -3300 8900
+Wire Wire Line
+	-3300 8900 -3350 8900
+Wire Wire Line
+	-3900 8900 -4200 8900
+Wire Wire Line
+	-4400 8900 -4250 8900
+Wire Wire Line
+	-4250 8900 -4250 9000
+Wire Wire Line
+	-4100 9000 -4100 8750
+$Comp
+L power:VCC #PWR019
+U 1 1 5AF5D5F2
+P -3200 9450
+F 0 "#PWR019" H -3200 9300 50  0001 C CNN
+F 1 "VCC" H -3200 9600 50  0000 C CNN
+F 2 "" H -3200 9450 50  0000 C CNN
+F 3 "" H -3200 9450 50  0000 C CNN
+	1    -3200 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74540:74540 U2
+U 3 1 5A282E5F
+P -3900 8250
+F 0 "U2" H -3800 8350 60  0000 C CNN
+F 1 "74540" H -3750 8100 60  0000 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H -3750 8100 60  0001 C CNN
+F 3 "" H -3750 8100 60  0001 C CNN
+	3    -3900 8250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4100 8750 -3900 8750
+Wire Wire Line
+	-4400 7800 -4400 7900
+Wire Wire Line
+	-4850 7700 -5050 7900
+Wire Wire Line
+	-3900 8750 -3900 8650
+Wire Wire Line
+	-4100 9000 -4250 9000
+Wire Wire Line
+	-2900 8400 -2900 8650
+Wire Wire Line
+	-3900 7900 -3750 7900
+Wire Wire Line
+	-3750 7900 -3750 7050
+Connection ~ -3750 7050
+Wire Wire Line
+	-3350 7700 -3350 7900
+Wire Wire Line
+	-3200 8450 -3200 8500
+Wire Wire Line
+	-3350 8650 -3350 8850
+Wire Wire Line
+	-5050 8650 -4850 8800
+Wire Wire Line
+	-4200 8900 -4200 8750
+Wire Wire Line
+	-4200 8750 -4400 8750
+Wire Wire Line
+	-7050 5150 -6400 5150
+Connection ~ -7050 5500
+Wire Wire Line
+	-7050 5500 -6400 5500
+Connection ~ -7050 5700
+Wire Wire Line
+	-7050 5700 -7100 5700
+Connection ~ -7050 6050
+Wire Wire Line
+	-7050 6050 -6400 6050
+Connection ~ -7050 6250
+Wire Wire Line
+	-7050 6250 -7100 6250
+Wire Wire Line
+	-7050 4950 -7050 5000
+Wire Wire Line
+	-7050 5000 -6400 5000
+Wire Wire Line
+	-8250 6150 -8300 6150
+Wire Wire Line
+	-8250 5600 -8300 5600
+Wire Wire Line
+	-8300 5600 -8300 6150
+Wire Wire Line
+	-8250 4500 -8300 4500
+Connection ~ -8300 5600
+Connection ~ -8300 5050
+Wire Wire Line
+	-8300 5050 -8300 5600
+Wire Wire Line
+	-8650 6650 -8500 6650
+Wire Wire Line
+	-8300 6150 -8300 6650
+Connection ~ -8300 6150
+Wire Wire Line
+	-4400 8750 -4400 8650
+Wire Wire Line
+	-8300 6650 -8500 6650
+Connection ~ -8500 6650
+Connection ~ -8300 6650
+$Comp
+L Befehle-rescue:7400-RESCUE-Befehle U3
+U 1 1 57F3278C
+P -8400 7250
+F 0 "U3" H -8400 7300 50  0000 C CNN
+F 1 "7400" H -8400 7150 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8700 7500 50  0000 C CNN
+F 3 "" H -8400 7250 50  0000 C CNN
+	1    -8400 7250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-8400 7950 -8500 7950
+Wire Wire Line
+	-8500 7950 -8500 7850
+Wire Wire Line
+	-8500 7850 -8700 7850
+Connection ~ -8700 7850
+Wire Wire Line
+	-8200 7950 -8200 7850
+Wire Wire Line
+	-8200 7850 -8400 7850
+Wire Bus Line
+	-7050 4850 -6300 4850
+Wire Bus Line
+	-6300 6800 -5800 6800
+Wire Bus Line
+	-6300 4850 -6300 6800
+Wire Bus Line
+	-6900 2650 -3950 2650
+Wire Bus Line
+	-4650 1950 -3950 1950
+Wire Bus Line
+	-6500 6800 -6300 6800
+$Comp
+L Befehle-rescue:7400-RESCUE-Befehle U3
+U 2 1 57F331B6
+P -8650 6050
+F 0 "U3" H -8650 6100 50  0000 C CNN
+F 1 "7400" H -8650 5950 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8800 6300 50  0000 C CNN
+F 3 "" H -8650 6050 50  0000 C CNN
+	2    -8650 6050
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
