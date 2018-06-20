@@ -797,28 +797,6 @@ F 3 "" H 2650 6750 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R7
-U 1 1 58103EA9
-P 2000 7100
-F 0 "R7" V 2080 7100 50  0000 C CNN
-F 1 "R" V 2000 7100 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 7100 50  0000 C CNN
-F 3 "" H 2000 7100 50  0000 C CNN
-	1    2000 7100
-	1    0    0    1   
-$EndComp
-$Comp
-L power:VCC #PWR010
-U 1 1 58103EAF
-P 2000 7250
-F 0 "#PWR010" H 2000 7100 50  0001 C CNN
-F 1 "VCC" H 2000 7400 50  0000 C CNN
-F 2 "" H 2000 7250 50  0000 C CNN
-F 3 "" H 2000 7250 50  0000 C CNN
-	1    2000 7250
-	1    0    0    1   
-$EndComp
-$Comp
 L bonsai:SWITCH_INV SW2
 U 1 1 58103EB5
 P 1400 6350
@@ -839,39 +817,6 @@ F 2 "" H 900 6350 50  0000 C CNN
 F 3 "" H 900 6350 50  0000 C CNN
 	1    900  6350
 	1    0    0    -1  
-$EndComp
-$Comp
-L device:R R10
-U 1 1 5810516E
-P 5650 6200
-F 0 "R10" V 5730 6200 50  0000 C CNN
-F 1 "R" V 5650 6200 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5580 6200 50  0000 C CNN
-F 3 "" H 5650 6200 50  0000 C CNN
-	1    5650 6200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L bonsai:LED D2
-U 1 1 58105174
-P 5650 6550
-F 0 "D2" H 5650 6650 50  0000 C CNN
-F 1 "LED" H 5650 6450 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm_FlatTop" H 5650 6550 50  0000 C CNN
-F 3 "" H 5650 6550 50  0000 C CNN
-	1    5650 6550
-	0    1    -1   0   
-$EndComp
-$Comp
-L power:GND #PWR017
-U 1 1 5810517A
-P 5650 6750
-F 0 "#PWR017" H 5650 6500 50  0001 C CNN
-F 1 "GND" H 5650 6600 50  0000 C CNN
-F 2 "" H 5650 6750 50  0000 C CNN
-F 3 "" H 5650 6750 50  0000 C CNN
-	1    5650 6750
-	0    1    -1   0   
 $EndComp
 $Comp
 L 74xx:74LS08 U4
@@ -906,28 +851,6 @@ F 3 "" H 550 3950 50  0000 C CNN
 	1    550  3950
 	-1   0    0    1   
 $EndComp
-$Comp
-L device:R R8
-U 1 1 58107FAF
-P 2600 7400
-F 0 "R8" V 2680 7400 50  0000 C CNN
-F 1 "R" V 2600 7400 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2530 7400 50  0000 C CNN
-F 3 "" H 2600 7400 50  0000 C CNN
-	1    2600 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR012
-U 1 1 58107FB5
-P 2600 7250
-F 0 "#PWR012" H 2600 7100 50  0001 C CNN
-F 1 "VCC" H 2600 7400 50  0000 C CNN
-F 2 "" H 2600 7250 50  0000 C CNN
-F 3 "" H 2600 7250 50  0000 C CNN
-	1    2600 7250
-	1    0    0    -1  
-$EndComp
 Connection ~ 6800 2800
 Wire Wire Line
 	7750 3550 7750 3750
@@ -957,10 +880,7 @@ Wire Wire Line
 	6900 2700 6900 2850
 Wire Wire Line
 	8300 4550 8300 5100
-Connection ~ 2600 7550
 Connection ~ 550  3650
-Wire Wire Line
-	1500 7550 2600 7550
 Wire Wire Line
 	3400 7550 3400 6150
 Wire Wire Line
@@ -1279,8 +1199,6 @@ Wire Wire Line
 Wire Wire Line
 	2000 5100 2050 5100
 Wire Wire Line
-	2600 7550 3400 7550
-Wire Wire Line
 	4650 6050 4750 6050
 Wire Wire Line
 	2000 5850 2050 5850
@@ -1575,10 +1493,123 @@ Wire Wire Line
 Connection ~ 10900 1750
 Wire Wire Line
 	10900 1750 10900 1800
+$Comp
+L bonsai:R_PACK4BUSSED RPA
+U 1 1 5B220C3D
+P 13200 450
+F 0 "RPA" H 13327 549 50  0000 L CNN
+F 1 "R_PACK4BUSSED" H 13327 458 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Array_SIP5" H 13327 359 60  0000 L CNN
+F 3 "" H 13200 300 60  0000 C CNN
+	1    13200 450 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13000 250  13000 100 
+Wire Wire Line
+	13000 100  13200 100 
+$Comp
+L power:VCC #PWR?
+U 1 1 5B22DB58
+P 13200 100
+F 0 "#PWR?" H 13200 -50 50  0001 C CNN
+F 1 "VCC" V 13217 228 50  0000 L CNN
+F 2 "" H 13200 100 50  0000 C CNN
+F 3 "" H 13200 100 50  0000 C CNN
+	1    13200 100 
+	0    1    1    0   
+$EndComp
+$Comp
+L bonsai:R_PACK4BUSSED RPB?
+U 1 1 5B22DE13
+P 13200 1650
+F 0 "RPB?" H 13327 1749 50  0000 L CNN
+F 1 "R_PACK4BUSSED" H 13327 1658 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Array_SIP5" H 13327 1559 60  0000 L CNN
+F 3 "" H 13200 1500 60  0000 C CNN
+	1    13200 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 12800 350  0    50   Input ~ 0
+RPA1
+Text GLabel 12750 450  0    50   Input ~ 0
+RPA2
+Text GLabel 12700 550  0    50   Input ~ 0
+RPA3
+Text GLabel 12650 650  0    50   Input ~ 0
+RPA4
+Text GLabel 12800 1550 0    50   Input ~ 0
+RPB
+Wire Wire Line
+	12800 1550 13000 1550
+Wire Wire Line
+	13000 1650 12750 1650
+Wire Wire Line
+	12700 1750 13000 1750
+Wire Wire Line
+	13000 1850 12650 1850
+Wire Wire Line
+	13000 350  12800 350 
+Wire Wire Line
+	12750 450  13000 450 
+Wire Wire Line
+	13000 550  12700 550 
+Wire Wire Line
+	12650 650  13000 650 
+Text GLabel 12750 1650 0    50   Input ~ 0
+RPB
+Text GLabel 12700 1750 0    50   Input ~ 0
+RPB
+Text GLabel 12650 1850 0    50   Input ~ 0
+RPB
+Wire Wire Line
+	1500 7550 2550 7550
+Wire Wire Line
+	2550 7550 2550 7350
 Wire Bus Line
 	450  1050 450  1750
 Wire Bus Line
 	450  2150 450  2850
 Wire Bus Line
 	1450 850  1450 2350
+Connection ~ 2550 7550
+Wire Wire Line
+	2550 7550 3400 7550
+Text GLabel 2550 7350 1    50   Input ~ 0
+RPAVCC
+$Comp
+L power:GND #PWR017
+U 1 1 5810517A
+P 5650 6750
+F 0 "#PWR017" H 5650 6500 50  0001 C CNN
+F 1 "GND" H 5650 6600 50  0000 C CNN
+F 2 "" H 5650 6750 50  0000 C CNN
+F 3 "" H 5650 6750 50  0000 C CNN
+	1    5650 6750
+	0    1    -1   0   
+$EndComp
+$Comp
+L device:R R10
+U 1 1 5810516E
+P 5650 6200
+F 0 "R10" V 5730 6200 50  0000 C CNN
+F 1 "R" V 5650 6200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5580 6200 50  0000 C CNN
+F 3 "" H 5650 6200 50  0000 C CNN
+	1    5650 6200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bonsai:LED D2
+U 1 1 58105174
+P 5650 6550
+F 0 "D2" H 5650 6650 50  0000 C CNN
+F 1 "LED" H 5650 6450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm_FlatTop" H 5650 6550 50  0000 C CNN
+F 3 "" H 5650 6550 50  0000 C CNN
+	1    5650 6550
+	0    1    -1   0   
+$EndComp
+Text GLabel 2000 6950 3    50   Input ~ 0
+RPA2
 $EndSCHEMATC
