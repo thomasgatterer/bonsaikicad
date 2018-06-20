@@ -38,3 +38,10 @@ Todo: (30.05.2018)
 + pcb dann neu anordnen wie bereits begonnen
 
 gez. Hermann
+
+Todo: 13.06.2018
+
++ Resistor Array fertig be"flaggen"
++ pcb dann neu... siehe 30.05.2018
+
+gez. Hermann
