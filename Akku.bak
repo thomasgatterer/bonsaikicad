@@ -1480,7 +1480,7 @@ L 2PinTerminalBlocktg:2PinTerminalBlocktg J1
 U 1 1 5AECBED9
 P 11200 1500
 F 0 "J1" H 11165 1490 50  0000 L CNN
-F 1 "2PinTerminalBlocktg" H 11165 1399 50  0000 L CNN
+F 1 "+/- Stecker" H 11165 1399 50  0000 L CNN
 F 2 "2PinTerminalBlocktg" H 11200 1500 50  0001 L BNN
 F 3 "None" H 11200 1500 50  0001 L BNN
 F 4 "Wurth Electronics" H 11200 1500 50  0001 L BNN "Field4"
@@ -1496,7 +1496,7 @@ L 2PinTerminalBlocktg:2PinTerminalBlocktg J2
 U 1 1 5AECC155
 P 13400 5450
 F 0 "J2" H 13365 5440 50  0000 L CNN
-F 1 "2PinTerminalBlocktg" H 13365 5349 50  0000 L CNN
+F 1 "load/up" H 13365 5349 50  0000 L CNN
 F 2 "2PinTerminalBlocktg" H 13400 5450 50  0001 L BNN
 F 3 "None" H 13400 5450 50  0001 L BNN
 F 4 "Wurth Electronics" H 13400 5450 50  0001 L BNN "Field4"
@@ -1512,7 +1512,7 @@ L 3PinTerminalBlocktg:3PinTerminalBlocktg J3
 U 1 1 5AECC360
 P 13400 5800
 F 0 "J3" H 13365 5840 50  0000 L CNN
-F 1 "3PinTerminalBlocktg" H 13365 5749 50  0000 L CNN
+F 1 "down/en/clear" H 13365 5749 50  0000 L CNN
 F 2 "3PinTerminalBlocktg" H 13400 5800 50  0001 L BNN
 F 3 "1.12 USD" H 13400 5800 50  0001 L BNN
 F 4 "Warning" H 13400 5800 50  0001 L BNN "Field4"
@@ -1572,13 +1572,13 @@ Wire Wire Line
 	10900 1600 10900 1750
 Wire Wire Line
 	10900 1750 11050 1750
+Connection ~ 10900 1750
+Wire Wire Line
+	10900 1750 10900 1800
 Wire Bus Line
 	450  1050 450  1750
 Wire Bus Line
 	450  2150 450  2850
 Wire Bus Line
 	1450 850  1450 2350
-Connection ~ 10900 1750
-Wire Wire Line
-	10900 1750 10900 1800
 $EndSCHEMATC
