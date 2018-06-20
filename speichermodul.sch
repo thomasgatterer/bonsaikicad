@@ -1909,7 +1909,7 @@ U 1 1 5B1B19CB
 P 1900 1250
 F 0 "C2" H 2015 1326 50  0000 L CNN
 F 1 "100n" H 2015 1235 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 2015 1159 30  0000 L CNN
+F 2 "tg_foodprint:yyDisc_D10.0mm_W2.5mm_P.00mm" H 2015 1159 30  0000 L CNN
 F 3 "" H 1900 1250 60  0000 C CNN
 	1    1900 1250
 	1    0    0    -1  
@@ -1920,7 +1920,7 @@ U 1 1 5B1B1AC6
 P 2100 1200
 F 0 "C3" H 2215 1276 50  0000 L CNN
 F 1 "100n" H 2215 1185 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 2215 1109 30  0000 L CNN
+F 2 "tg_foodprint:yyDisc_D10.0mm_W2.5mm_P.00mm" H 2215 1109 30  0000 L CNN
 F 3 "" H 2100 1200 60  0000 C CNN
 	1    2100 1200
 	1    0    0    -1  
@@ -1931,7 +1931,7 @@ U 1 1 5B1B1CE2
 P 2350 1200
 F 0 "C4" H 2465 1276 50  0000 L CNN
 F 1 "100n" H 2465 1185 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 2465 1109 30  0000 L CNN
+F 2 "tg_foodprint:yyDisc_D10.0mm_W2.5mm_P.00mm" H 2465 1109 30  0000 L CNN
 F 3 "" H 2350 1200 60  0000 C CNN
 	1    2350 1200
 	1    0    0    -1  
@@ -2009,7 +2009,7 @@ U 1 1 5B2ACAC7
 P 2750 1200
 F 0 "C5" H 2865 1276 50  0000 L CNN
 F 1 "100n" H 2865 1185 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 2865 1109 30  0000 L CNN
+F 2 "tg_foodprint:yyDisc_D10.0mm_W2.5mm_P.00mm" H 2865 1109 30  0000 L CNN
 F 3 "" H 2750 1200 60  0000 C CNN
 	1    2750 1200
 	1    0    0    -1  
@@ -2148,6 +2148,16 @@ F 8 "2PinTerminalBlocktg" H 7300 6000 50  0001 L BNN "Field8"
 	1    7300 6000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5950 5300 5700 5300
+Wire Bus Line
+	9550 3350 9550 3550
+Wire Bus Line
+	9150 2650 9150 3050
+Wire Bus Line
+	4450 5750 4450 6450
+Wire Bus Line
+	8100 1050 8100 1750
 Wire Bus Line
 	9350 1200 9350 1750
 Wire Bus Line
@@ -2158,14 +2168,4 @@ Wire Bus Line
 	10950 2750 10950 4850
 Wire Bus Line
 	9550 2500 9550 3250
-Wire Bus Line
-	8100 1050 8100 1750
-Wire Bus Line
-	4450 5750 4450 6450
-Wire Bus Line
-	9150 2650 9150 3050
-Wire Bus Line
-	9550 3350 9550 3550
-Wire Wire Line
-	5950 5300 5700 5300
 $EndSCHEMATC
