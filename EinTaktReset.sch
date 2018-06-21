@@ -1127,9 +1127,9 @@ F 3 "" H 3950 3050 50  0000 C CNN
 $EndComp
 Text GLabel 8200 2450 2    60   Input ~ 0
 en-ln2
-Text GLabel 10650 13500 2    60   Input ~ 0
-clrPC
 Text GLabel 10650 13000 2    60   Input ~ 0
+clrPC
+Text GLabel 10650 13500 2    60   Input ~ 0
 clrAkku
 Text GLabel 10650 12500 2    60   Input ~ 0
 loadIR

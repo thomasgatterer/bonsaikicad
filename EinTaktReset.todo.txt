@@ -1,4 +1,4 @@
-DONE:
+﻿DONE:
 *Libraryprobleme
 -tg:done bitte testen
 
@@ -39,6 +39,6 @@ erledigt, überprüfen: tg.
 TODO:
 
 *feinplatziern, Kabellegen;
-
-
+*U2 (74540En) Pin 20 verbinden mit VCC (vermutlich über hidden pins in .sch Datei
+*ACHTUNG: Bus-Connector links (CONN_02X10) ist um 180° verdreht, da Kabellegen sonst nicht funktioniert. BEIM ANSTECKEN BEACHTEN!
 
