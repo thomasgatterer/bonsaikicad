@@ -469,23 +469,23 @@ $EndComp
 $Comp
 L device:R R4
 U 1 1 5846192F
-P 4050 8400
-F 0 "R4" V 3843 8400 50  0000 C CNN
-F 1 "150" V 3934 8400 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3980 8400 50  0000 C CNN
-F 3 "" H 4050 8400 50  0000 C CNN
-	1    4050 8400
+P 3750 8400
+F 0 "R4" V 3543 8400 50  0000 C CNN
+F 1 "150" V 3634 8400 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3680 8400 50  0000 C CNN
+F 3 "" H 3750 8400 50  0000 C CNN
+	1    3750 8400
 	0    1    1    0   
 $EndComp
 $Comp
 L bonsai:Led_Small DROT1
 U 1 1 584626CA
-P 3700 8400
-F 0 "DROT1" H 3700 8705 50  0000 C CNN
-F 1 "LED" H 3700 8614 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm" H 3700 8523 50  0000 C CNN
-F 3 "" H 3700 8400 50  0000 C CNN
-	1    3700 8400
+P 4050 8400
+F 0 "DROT1" H 4050 8705 50  0000 C CNN
+F 1 "LED" H 4050 8614 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 4050 8523 50  0000 C CNN
+F 3 "" H 4050 8400 50  0000 C CNN
+	1    4050 8400
 	1    0    0    -1  
 $EndComp
 Text GLabel 8200 2650 2    60   Input ~ 0
@@ -1158,6 +1158,260 @@ F 3 "" H 3650 3450 60  0000 C CNN
 $EndComp
 Text GLabel 12500 13500 0    60   Input ~ 0
 clrPC
+Text GLabel 12500 13600 0    60   Input ~ 0
+clrAkku
+Text GLabel 12500 13400 0    60   Input ~ 0
+loadIR
+Text GLabel 12500 13300 0    60   Input ~ 0
+enAkku
+Text GLabel 12500 13200 0    60   Input ~ 0
+clrMPC
+Text GLabel 12500 12050 0    60   Input ~ 0
+enDEC
+Text GLabel 12500 12150 0    60   Input ~ 0
+enSTW
+Text GLabel 12500 12650 0    60   Input ~ 0
+auto
+Text GLabel 12500 11950 0    60   Input ~ 0
+CLK
+Text GLabel 12500 12550 0    60   Input ~ 0
+en-ln2
+Text GLabel 12500 12450 0    60   Input ~ 0
+en-ln1
+$Comp
+L power:VCC #PWR033
+U 1 1 5A6BF626
+P -200 12550
+F 0 "#PWR033" H -200 12400 50  0001 C CNN
+F 1 "+5V" V -185 12678 50  0000 L CNN
+F 2 "" H -200 12550 50  0000 C CNN
+F 3 "" H -200 12550 50  0000 C CNN
+	1    -200 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 5A6CD1C3
+P -800 14700
+F 0 "#PWR034" H -800 14450 50  0001 C CNN
+F 1 "GND" H -800 14550 50  0000 C CNN
+F 2 "" H -800 14700 50  0000 C CNN
+F 3 "" H -800 14700 50  0000 C CNN
+	1    -800 14700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR035
+U 1 1 5A6DB2EB
+P 4550 14450
+F 0 "#PWR035" H 4550 14300 50  0001 C CNN
+F 1 "VDD" H 4567 14623 50  0000 C CNN
+F 2 "" H 4550 14450 50  0001 C CNN
+F 3 "" H 4550 14450 50  0001 C CNN
+	1    4550 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bonsai:POT RV1
+U 1 1 5A3F8DE9
+P 2600 6350
+F 0 "RV1" V 2554 6272 50  0000 R CNN
+F 1 "POT" V 2645 6272 50  0000 R CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm" H 2600 6350 60  0000 C CNN
+F 3 "" H 2600 6350 60  0000 C CNN
+	1    2600 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR036
+U 1 1 5A3F91C5
+P 2600 6600
+F 0 "#PWR036" H 2600 6350 50  0001 C CNN
+F 1 "GND" H 2600 6450 50  0000 C CNN
+F 2 "" H 2600 6600 50  0000 C CNN
+F 3 "" H 2600 6600 50  0000 C CNN
+	1    2600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR037
+U 1 1 5A4CDB00
+P 4150 5500
+F 0 "#PWR037" H 4150 5250 50  0001 C CNN
+F 1 "GND" H 4150 5350 50  0000 C CNN
+F 2 "" H 4150 5500 50  0000 C CNN
+F 3 "" H 4150 5500 50  0000 C CNN
+	1    4150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG038
+U 1 1 5A515F9D
+P 4750 14450
+F 0 "#FLG038" H 4750 14525 50  0001 C CNN
+F 1 "PWR_FLAG" H 4750 14624 50  0000 C CNN
+F 2 "" H 4750 14450 50  0001 C CNN
+F 3 "" H 4750 14450 50  0001 C CNN
+	1    4750 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L vco:74LS624 IC1
+U 1 1 5A96C7F1
+P 3650 5950
+F 0 "IC1" H 3600 6000 60  0000 R CNN
+F 1 "74LS624" H 3750 5950 60  0000 R CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3650 5950 60  0001 C CNN
+F 3 "" H 3650 5950 60  0001 C CNN
+	1    3650 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bonsai:D D3
+U 1 1 5AA50448
+P 4900 15050
+F 0 "D3" H 4900 14835 50  0000 C CNN
+F 1 "D" H 4900 14926 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P10.16mm_Horizontal" H 4900 15050 60  0000 C CNN
+F 3 "" H 4900 15050 60  0000 C CNN
+	1    4900 15050
+	0    1    1    0   
+$EndComp
+$Comp
+L 3PinTerminalBlocktg:3PinTerminalBlocktg J2
+U 1 1 5ABEE025
+P 12800 12050
+F 0 "J2" H 12765 12090 50  0000 L CNN
+F 1 "3PinTerminalBlocktg" H 12765 11999 50  0000 L CNN
+F 2 "3PinTerminalBlocktg" H 12800 12050 50  0001 L BNN
+F 3 "1.12 USD" H 12800 12050 50  0001 L BNN
+F 4 "Warning" H 12800 12050 50  0001 L BNN "Field4"
+F 5 "Wurth Electronics" H 12800 12050 50  0001 L BNN "Field5"
+F 6 "TERM BLK 5MM HORZ ENTRY MOD 3P" H 12800 12050 50  0001 L BNN "Field6"
+F 7 "None" H 12800 12050 50  0001 L BNN "Field7"
+F 8 "3PinTerminalBlocktg" H 12800 12050 50  0001 L BNN "Field8"
+	1    12800 12050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3PinTerminalBlocktg:3PinTerminalBlocktg J1
+U 1 1 5ABEE293
+P 12800 12550
+F 0 "J1" H 12765 12590 50  0000 L CNN
+F 1 "3PinTerminalBlocktg" H 12765 12499 50  0000 L CNN
+F 2 "3PinTerminalBlocktg" H 12800 12550 50  0001 L BNN
+F 3 "1.12 USD" H 12800 12550 50  0001 L BNN
+F 4 "Warning" H 12800 12550 50  0001 L BNN "Field4"
+F 5 "Wurth Electronics" H 12800 12550 50  0001 L BNN "Field5"
+F 6 "TERM BLK 5MM HORZ ENTRY MOD 3P" H 12800 12550 50  0001 L BNN "Field6"
+F 7 "None" H 12800 12550 50  0001 L BNN "Field7"
+F 8 "3PinTerminalBlocktg" H 12800 12550 50  0001 L BNN "Field8"
+	1    12800 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2PinTerminalBlocktg:2PinTerminalBlocktg J5
+U 1 1 5AC4DB91
+P 12800 13500
+F 0 "J5" H 12765 13490 50  0000 L CNN
+F 1 "2PinTerminalBlocktg" H 12765 13399 50  0000 L CNN
+F 2 "2PinTerminalBlocktg" H 12800 13500 50  0001 L BNN
+F 3 "None" H 12800 13500 50  0001 L BNN
+F 4 "Wurth Electronics" H 12800 13500 50  0001 L BNN "Field4"
+F 5 "None" H 12800 13500 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 12800 13500 50  0001 L BNN "Field6"
+F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 12800 13500 50  0001 L BNN "Field7"
+F 8 "2PinTerminalBlocktg" H 12800 13500 50  0001 L BNN "Field8"
+	1    12800 13500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3PinTerminalBlocktg:3PinTerminalBlocktg J4
+U 1 1 5AC4DD64
+P 12800 13300
+F 0 "J4" H 12765 13340 50  0000 L CNN
+F 1 "3PinTerminalBlocktg" H 12765 13249 50  0000 L CNN
+F 2 "3PinTerminalBlocktg" H 12800 13300 50  0001 L BNN
+F 3 "1.12 USD" H 12800 13300 50  0001 L BNN
+F 4 "Warning" H 12800 13300 50  0001 L BNN "Field4"
+F 5 "Wurth Electronics" H 12800 13300 50  0001 L BNN "Field5"
+F 6 "TERM BLK 5MM HORZ ENTRY MOD 3P" H 12800 13300 50  0001 L BNN "Field6"
+F 7 "None" H 12800 13300 50  0001 L BNN "Field7"
+F 8 "3PinTerminalBlocktg" H 12800 13300 50  0001 L BNN "Field8"
+	1    12800 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2PinTerminalBlocktg:2PinTerminalBlocktg J3
+U 1 1 5ADB7E0E
+P 2950 15500
+F 0 "J3" V 2858 15323 50  0000 R CNN
+F 1 "2PinTerminalBlocktg" V 2767 15323 50  0000 R CNN
+F 2 "2PinTerminalBlocktg" H 2950 15500 50  0001 L BNN
+F 3 "None" H 2950 15500 50  0001 L BNN
+F 4 "Wurth Electronics" H 2950 15500 50  0001 L BNN "Field4"
+F 5 "None" H 2950 15500 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2950 15500 50  0001 L BNN "Field6"
+F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 2950 15500 50  0001 L BNN "Field7"
+F 8 "2PinTerminalBlocktg" H 2950 15500 50  0001 L BNN "Field8"
+	1    2950 15500
+	-1   0    0    1   
+$EndComp
+$Comp
+L bonsai:C C9
+U 1 1 5AFD86A4
+P 4300 15050
+F 0 "C9" H 4415 15096 50  0000 L CNN
+F 1 "100n" H 4415 15005 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 4338 14900 30  0000 C CNN
+F 3 "" H 4300 15050 60  0000 C CNN
+	1    4300 15050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bonsai:C C8
+U 1 1 5AFEAAC4
+P 4000 15050
+F 0 "C8" H 4115 15096 50  0000 L CNN
+F 1 "100n" H 4115 15005 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 4038 14900 30  0000 C CNN
+F 3 "" H 4000 15050 60  0000 C CNN
+	1    4000 15050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bonsai:C C7
+U 1 1 5AFEABD4
+P 3650 15050
+F 0 "C7" H 3765 15096 50  0000 L CNN
+F 1 "100n" H 3765 15005 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 3688 14900 30  0000 C CNN
+F 3 "" H 3650 15050 60  0000 C CNN
+	1    3650 15050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bonsai:C C6
+U 1 1 5AFEACE5
+P 3350 15050
+F 0 "C6" H 3465 15096 50  0000 L CNN
+F 1 "100n" H 3465 15005 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 3388 14900 30  0000 C CNN
+F 3 "" H 3350 15050 60  0000 C CNN
+	1    3350 15050
+	1    0    0    -1  
+$EndComp
+$Comp
+L bonsai:SWITCH_INV SW1
+U 1 1 5B074053
+P -800 14200
+F 0 "SW1" H -800 14525 50  0000 C CNN
+F 1 "SWITCH_INV" H -800 14434 50  0000 C CNN
+F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg" H -800 14200 50  0000 C CNN
+F 3 "" H -800 14200 50  0000 C CNN
+	1    -800 14200
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	3150 3850 3350 3850
 Wire Wire Line
@@ -1455,26 +1709,6 @@ Connection ~ 4650 3450
 Connection ~ 4750 3500
 Connection ~ 4850 3550
 Connection ~ 4950 3600
-Text GLabel 12500 13600 0    60   Input ~ 0
-clrAkku
-Text GLabel 12500 13400 0    60   Input ~ 0
-loadIR
-Text GLabel 12500 13300 0    60   Input ~ 0
-enAkku
-Text GLabel 12500 13200 0    60   Input ~ 0
-clrMPC
-Text GLabel 12500 12050 0    60   Input ~ 0
-enDEC
-Text GLabel 12500 12150 0    60   Input ~ 0
-enSTW
-Text GLabel 12500 12650 0    60   Input ~ 0
-auto
-Text GLabel 12500 11950 0    60   Input ~ 0
-CLK
-Text GLabel 12500 12550 0    60   Input ~ 0
-en-ln2
-Text GLabel 12500 12450 0    60   Input ~ 0
-en-ln1
 Connection ~ 4550 3400
 Connection ~ 4350 3300
 Wire Wire Line
@@ -1493,42 +1727,9 @@ Wire Wire Line
 Wire Wire Line
 	-700 13300 -700 13700
 Wire Wire Line
-	4350 14450 4350 14600
-$Comp
-L power:VCC #PWR033
-U 1 1 5A6BF626
-P -200 12550
-F 0 "#PWR033" H -200 12400 50  0001 C CNN
-F 1 "+5V" V -185 12678 50  0000 L CNN
-F 2 "" H -200 12550 50  0000 C CNN
-F 3 "" H -200 12550 50  0000 C CNN
-	1    -200 12550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR034
-U 1 1 5A6CD1C3
-P -800 14700
-F 0 "#PWR034" H -800 14450 50  0001 C CNN
-F 1 "GND" H -800 14550 50  0000 C CNN
-F 2 "" H -800 14700 50  0000 C CNN
-F 3 "" H -800 14700 50  0000 C CNN
-	1    -800 14700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR035
-U 1 1 5A6DB2EB
-P 4550 14450
-F 0 "#PWR035" H 4550 14300 50  0001 C CNN
-F 1 "VDD" H 4567 14623 50  0000 C CNN
-F 2 "" H 4550 14450 50  0001 C CNN
-F 3 "" H 4550 14450 50  0001 C CNN
-	1    4550 14450
-	1    0    0    -1  
-$EndComp
+	4350 14600 4350 14450
 Wire Wire Line
-	4550 14450 4550 14600
+	4550 14600 4550 14450
 Wire Wire Line
 	3750 7300 3750 7700
 Wire Wire Line
@@ -1538,13 +1739,11 @@ Wire Wire Line
 Wire Wire Line
 	3600 8400 3500 8400
 Wire Wire Line
-	3800 8400 3900 8400
-Wire Wire Line
 	4850 7300 5650 7300
 Wire Wire Line
-	3250 5450 3400 5450
+	3250 5450 3500 5450
 Wire Wire Line
-	3950 5450 4150 5450
+	3850 5450 4150 5450
 Wire Wire Line
 	3950 4650 3950 5200
 Connection ~ 3950 4950
@@ -1554,28 +1753,6 @@ Wire Wire Line
 	3150 4950 3150 4650
 Wire Wire Line
 	1850 10650 1850 10600
-$Comp
-L bonsai:POT RV1
-U 1 1 5A3F8DE9
-P 2600 6350
-F 0 "RV1" V 2554 6272 50  0000 R CNN
-F 1 "POT" V 2645 6272 50  0000 R CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm" H 2600 6350 60  0000 C CNN
-F 3 "" H 2600 6350 60  0000 C CNN
-	1    2600 6350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR036
-U 1 1 5A3F91C5
-P 2600 6600
-F 0 "#PWR036" H 2600 6350 50  0001 C CNN
-F 1 "GND" H 2600 6450 50  0000 C CNN
-F 2 "" H 2600 6600 50  0000 C CNN
-F 3 "" H 2600 6600 50  0000 C CNN
-	1    2600 6600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2750 6350 3050 6350
 Wire Wire Line
@@ -1585,93 +1762,17 @@ Wire Wire Line
 Wire Wire Line
 	3500 8400 3500 8300
 Connection ~ 3750 7700
-$Comp
-L power:GND #PWR037
-U 1 1 5A4CDB00
-P 4150 5500
-F 0 "#PWR037" H 4150 5250 50  0001 C CNN
-F 1 "GND" H 4150 5350 50  0000 C CNN
-F 2 "" H 4150 5500 50  0000 C CNN
-F 3 "" H 4150 5500 50  0000 C CNN
-	1    4150 5500
-	1    0    0    -1  
-$EndComp
 Connection ~ 3650 4950
 Wire Wire Line
 	5500 2450 5500 2500
-$Comp
-L power:PWR_FLAG #FLG038
-U 1 1 5A515F9D
-P 4750 14450
-F 0 "#FLG038" H 4750 14525 50  0001 C CNN
-F 1 "PWR_FLAG" H 4750 14624 50  0000 C CNN
-F 2 "" H 4750 14450 50  0001 C CNN
-F 3 "" H 4750 14450 50  0001 C CNN
-	1    4750 14450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4750 14450 4750 14600
+	4750 14600 4750 14450
 Connection ~ 2600 2200
 Connection ~ 3100 1500
 Connection ~ 6550 1500
 Connection ~ 7000 2200
-$Comp
-L vco:74LS624 IC1
-U 1 1 5A96C7F1
-P 3650 5950
-F 0 "IC1" H 3600 6000 60  0000 R CNN
-F 1 "74LS624" H 3750 5950 60  0000 R CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3650 5950 60  0001 C CNN
-F 3 "" H 3650 5950 60  0001 C CNN
-	1    3650 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L bonsai:D D3
-U 1 1 5AA50448
-P 4900 15050
-F 0 "D3" H 4900 14835 50  0000 C CNN
-F 1 "D" H 4900 14926 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-35_SOD27_P10.16mm_Horizontal" H 4900 15050 60  0000 C CNN
-F 3 "" H 4900 15050 60  0000 C CNN
-	1    4900 15050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5400 8500 5800 8500
-$Comp
-L 3PinTerminalBlocktg:3PinTerminalBlocktg J2
-U 1 1 5ABEE025
-P 12800 12050
-F 0 "J2" H 12765 12090 50  0000 L CNN
-F 1 "3PinTerminalBlocktg" H 12765 11999 50  0000 L CNN
-F 2 "3PinTerminalBlocktg" H 12800 12050 50  0001 L BNN
-F 3 "1.12 USD" H 12800 12050 50  0001 L BNN
-F 4 "Warning" H 12800 12050 50  0001 L BNN "Field4"
-F 5 "Wurth Electronics" H 12800 12050 50  0001 L BNN "Field5"
-F 6 "TERM BLK 5MM HORZ ENTRY MOD 3P" H 12800 12050 50  0001 L BNN "Field6"
-F 7 "None" H 12800 12050 50  0001 L BNN "Field7"
-F 8 "3PinTerminalBlocktg" H 12800 12050 50  0001 L BNN "Field8"
-	1    12800 12050
-	1    0    0    -1  
-$EndComp
-$Comp
-L 3PinTerminalBlocktg:3PinTerminalBlocktg J1
-U 1 1 5ABEE293
-P 12800 12550
-F 0 "J1" H 12765 12590 50  0000 L CNN
-F 1 "3PinTerminalBlocktg" H 12765 12499 50  0000 L CNN
-F 2 "3PinTerminalBlocktg" H 12800 12550 50  0001 L BNN
-F 3 "1.12 USD" H 12800 12550 50  0001 L BNN
-F 4 "Warning" H 12800 12550 50  0001 L BNN "Field4"
-F 5 "Wurth Electronics" H 12800 12550 50  0001 L BNN "Field5"
-F 6 "TERM BLK 5MM HORZ ENTRY MOD 3P" H 12800 12550 50  0001 L BNN "Field6"
-F 7 "None" H 12800 12550 50  0001 L BNN "Field7"
-F 8 "3PinTerminalBlocktg" H 12800 12550 50  0001 L BNN "Field8"
-	1    12800 12550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7300 1000 7300 2200
 Connection ~ 7300 1150
@@ -1697,9 +1798,6 @@ Connection ~ 2350 1750
 Connection ~ 2350 1850
 Connection ~ 2350 1950
 Wire Wire Line
-	5150 3150 5450 3150
-Connection ~ 5250 3150
-Wire Wire Line
 	6850 2450 6850 2650
 Connection ~ 6850 2550
 Wire Wire Line
@@ -1717,38 +1815,6 @@ Connection ~ 5400 8500
 Connection ~ 5750 8500
 Wire Wire Line
 	5750 8500 10650 8500
-$Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J5
-U 1 1 5AC4DB91
-P 12800 13500
-F 0 "J5" H 12765 13490 50  0000 L CNN
-F 1 "2PinTerminalBlocktg" H 12765 13399 50  0000 L CNN
-F 2 "2PinTerminalBlocktg" H 12800 13500 50  0001 L BNN
-F 3 "None" H 12800 13500 50  0001 L BNN
-F 4 "Wurth Electronics" H 12800 13500 50  0001 L BNN "Field4"
-F 5 "None" H 12800 13500 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 12800 13500 50  0001 L BNN "Field6"
-F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 12800 13500 50  0001 L BNN "Field7"
-F 8 "2PinTerminalBlocktg" H 12800 13500 50  0001 L BNN "Field8"
-	1    12800 13500
-	1    0    0    -1  
-$EndComp
-$Comp
-L 3PinTerminalBlocktg:3PinTerminalBlocktg J4
-U 1 1 5AC4DD64
-P 12800 13300
-F 0 "J4" H 12765 13340 50  0000 L CNN
-F 1 "3PinTerminalBlocktg" H 12765 13249 50  0000 L CNN
-F 2 "3PinTerminalBlocktg" H 12800 13300 50  0001 L BNN
-F 3 "1.12 USD" H 12800 13300 50  0001 L BNN
-F 4 "Warning" H 12800 13300 50  0001 L BNN "Field4"
-F 5 "Wurth Electronics" H 12800 13300 50  0001 L BNN "Field5"
-F 6 "TERM BLK 5MM HORZ ENTRY MOD 3P" H 12800 13300 50  0001 L BNN "Field6"
-F 7 "None" H 12800 13300 50  0001 L BNN "Field7"
-F 8 "3PinTerminalBlocktg" H 12800 13300 50  0001 L BNN "Field8"
-	1    12800 13300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12600 11950 12500 11950
 Wire Wire Line
@@ -1771,22 +1837,6 @@ Wire Wire Line
 	12500 13500 12600 13500
 Wire Wire Line
 	12600 13600 12500 13600
-$Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J3
-U 1 1 5ADB7E0E
-P 2950 15500
-F 0 "J3" V 2858 15323 50  0000 R CNN
-F 1 "2PinTerminalBlocktg" V 2767 15323 50  0000 R CNN
-F 2 "2PinTerminalBlocktg" H 2950 15500 50  0001 L BNN
-F 3 "None" H 2950 15500 50  0001 L BNN
-F 4 "Wurth Electronics" H 2950 15500 50  0001 L BNN "Field4"
-F 5 "None" H 2950 15500 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 2950 15500 50  0001 L BNN "Field6"
-F 7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" H 2950 15500 50  0001 L BNN "Field7"
-F 8 "2PinTerminalBlocktg" H 2950 15500 50  0001 L BNN "Field8"
-	1    2950 15500
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3150 15400 3200 15400
 Wire Wire Line
@@ -1802,50 +1852,6 @@ Wire Wire Line
 	4900 14600 4900 14900
 Wire Wire Line
 	4900 15500 4900 15200
-$Comp
-L bonsai:C C9
-U 1 1 5AFD86A4
-P 4300 15050
-F 0 "C9" H 4415 15096 50  0000 L CNN
-F 1 "100n" H 4415 15005 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 4338 14900 30  0000 C CNN
-F 3 "" H 4300 15050 60  0000 C CNN
-	1    4300 15050
-	1    0    0    -1  
-$EndComp
-$Comp
-L bonsai:C C8
-U 1 1 5AFEAAC4
-P 4000 15050
-F 0 "C8" H 4115 15096 50  0000 L CNN
-F 1 "100n" H 4115 15005 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 4038 14900 30  0000 C CNN
-F 3 "" H 4000 15050 60  0000 C CNN
-	1    4000 15050
-	1    0    0    -1  
-$EndComp
-$Comp
-L bonsai:C C7
-U 1 1 5AFEABD4
-P 3650 15050
-F 0 "C7" H 3765 15096 50  0000 L CNN
-F 1 "100n" H 3765 15005 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 3688 14900 30  0000 C CNN
-F 3 "" H 3650 15050 60  0000 C CNN
-	1    3650 15050
-	1    0    0    -1  
-$EndComp
-$Comp
-L bonsai:C C6
-U 1 1 5AFEACE5
-P 3350 15050
-F 0 "C6" H 3465 15096 50  0000 L CNN
-F 1 "100n" H 3465 15005 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 3388 14900 30  0000 C CNN
-F 3 "" H 3350 15050 60  0000 C CNN
-	1    3350 15050
-	1    0    0    -1  
-$EndComp
 Connection ~ 4550 15500
 Wire Wire Line
 	4300 15200 4300 15500
@@ -1877,17 +1883,6 @@ Connection ~ 8050 2650
 Wire Wire Line
 	2350 5950 3000 5950
 Connection ~ 2500 5950
-$Comp
-L bonsai:SWITCH_INV SW1
-U 1 1 5B074053
-P -800 14200
-F 0 "SW1" H -800 14525 50  0000 C CNN
-F 1 "SWITCH_INV" H -800 14434 50  0000 C CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg" H -800 14200 50  0000 C CNN
-F 3 "" H -800 14200 50  0000 C CNN
-	1    -800 14200
-	0    -1   -1   0   
-$EndComp
 Wire Bus Line
 	3100 1350 3100 2050
 Wire Bus Line
@@ -1899,4 +1894,25 @@ Wire Wire Line
 Wire Wire Line
 	6700 13250 6700 13300
 Connection ~ 6650 13300
+Wire Wire Line
+	4200 8400 4150 8400
+Wire Wire Line
+	3900 8400 3950 8400
+Wire Wire Line
+	5450 3150 5350 3150
+Wire Wire Line
+	5350 2950 5350 3200
+Wire Wire Line
+	5350 3200 5150 3200
+Wire Wire Line
+	5150 3200 5150 3150
+Wire Wire Line
+	5250 3200 5250 3150
+Connection ~ 5250 3200
+Wire Wire Line
+	5650 2950 5350 2950
+Connection ~ 5350 3150
+Connection ~ 5650 2950
+Connection ~ 3400 5450
+Connection ~ 3950 5450
 $EndSCHEMATC

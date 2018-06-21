@@ -34,11 +34,19 @@ erledigt, überprüfen: tg.
 *SW6 verbindungen ändern, passen noch nicht!
 erledigt, überprüfen: tg.
 
+*Position von DROT1 und R4 getauscht (Schaltplan auf Website stimmt nicht mit Kabellayout zusammen)
+
+*74LS00 pin 8 mit 74LS541 pin 1 und pin 19 verbunden (in .sch)
+
+*74LS624 pin 9 mit +5V verbunden
+
+*74LS624 pin 7 mit GND verbunden
 ------------
 
 TODO:
 
 *feinplatziern, Kabellegen;
-*U2 (74540En) Pin 20 verbinden mit VCC (vermutlich über hidden pins in .sch Datei
-*ACHTUNG: Bus-Connector links (CONN_02X10) ist um 180° verdreht, da Kabellegen sonst nicht funktioniert. BEIM ANSTECKEN BEACHTEN!
+*U2 (74540En) Pin 20 verbinden mit VCC (vermutlich über hidden pins in .sch Datei)
+*C5 hat in Schaltplan auf Website Wert 10n (derzeit auch in .sch), aber auf Bauteilplan Wert 330p.
+*SW6 pin 1 und pin 0 sind vertauscht. in pcb muss links vcc, rechts gnd und in der mitte auto sein.
 
