@@ -41,12 +41,20 @@ erledigt, überprüfen: tg.
 *74LS624 pin 9 mit +5V verbunden
 
 *74LS624 pin 7 mit GND verbunden
+
+*U2 (74540En) Pin 20 verbinden mit VCC (vermutlich über hidden pins in .sch Datei) -> neuer hidden pin erstellt
+(gibt noch Fehlermeldung, funktioniert aber in PCB)
+
+*SW6 neu verbunden
+
+*feinplatziern, Kabellegen;
 ------------
 
 TODO:
 
-*feinplatziern, Kabellegen;
-*U2 (74540En) Pin 20 verbinden mit VCC (vermutlich über hidden pins in .sch Datei)
+*U2 (74540En) Pin 20 Verbindung checken (neuer Pin in library erstellt, gibt "keine Verbindung"-Fehlermeldung in .sch)
+(scheint zu funktionieren, besser allerdings noch überprufen)
 *C5 hat in Schaltplan auf Website Wert 10n (derzeit auch in .sch), aber auf Bauteilplan Wert 330p.
-*SW6 pin 1 und pin 0 sind vertauscht. in pcb muss links vcc, rechts gnd und in der mitte auto sein.
+*SW6 neu verbunden (done, prüfen ob fehlerfrei)
+*IC1 Fehlermeldung (in .sch): Pin 1 und Pin 7 verbunden.
 
