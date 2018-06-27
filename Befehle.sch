@@ -314,45 +314,45 @@ $EndComp
 $Comp
 L Befehle-rescue:74HCT02-RESCUE-Befehle U4
 U 1 1 57F2C440
-P -7650 4500
-F 0 "U4" H -7650 4550 50  0000 C CNN
-F 1 "74HCT02" H -7600 4450 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8200 4750 50  0000 C CNN
-F 3 "" H -7650 4500 50  0000 C CNN
-	1    -7650 4500
+P -7700 4500
+F 0 "U4" H -7700 4550 50  0000 C CNN
+F 1 "74HCT02" H -7650 4450 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 4750 50  0000 C CNN
+F 3 "" H -7700 4500 50  0000 C CNN
+	1    -7700 4500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Befehle-rescue:74HCT02-RESCUE-Befehle U4
 U 2 1 57F2C605
-P -7650 5050
-F 0 "U4" H -7650 5100 50  0000 C CNN
-F 1 "74HCT02" H -7600 5000 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8200 5300 50  0000 C CNN
-F 3 "" H -7650 5050 50  0000 C CNN
-	2    -7650 5050
+P -7700 5050
+F 0 "U4" H -7700 5100 50  0000 C CNN
+F 1 "74HCT02" H -7650 5000 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 5300 50  0000 C CNN
+F 3 "" H -7700 5050 50  0000 C CNN
+	2    -7700 5050
 	-1   0    0    1   
 $EndComp
 $Comp
 L Befehle-rescue:74HCT02-RESCUE-Befehle U4
 U 3 1 57F2C694
-P -7650 5600
-F 0 "U4" H -7650 5650 50  0000 C CNN
-F 1 "74HCT02" H -7600 5550 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8200 5850 50  0000 C CNN
-F 3 "" H -7650 5600 50  0000 C CNN
-	3    -7650 5600
+P -7700 5600
+F 0 "U4" H -7700 5650 50  0000 C CNN
+F 1 "74HCT02" H -7650 5550 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 5850 50  0000 C CNN
+F 3 "" H -7700 5600 50  0000 C CNN
+	3    -7700 5600
 	-1   0    0    1   
 $EndComp
 $Comp
 L Befehle-rescue:74HCT02-RESCUE-Befehle U4
 U 4 1 57F2C76F
-P -7650 6150
-F 0 "U4" H -7650 6200 50  0000 C CNN
-F 1 "74HCT02" H -7600 6100 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8200 6450 50  0000 C CNN
-F 3 "" H -7650 6150 50  0000 C CNN
-	4    -7650 6150
+P -7700 6150
+F 0 "U4" H -7700 6200 50  0000 C CNN
+F 1 "74HCT02" H -7650 6100 50  0000 C CNN
+F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 6450 50  0000 C CNN
+F 3 "" H -7700 6150 50  0000 C CNN
+	4    -7700 6150
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1321,14 +1321,6 @@ Wire Wire Line
 Wire Wire Line
 	-7050 4600 -7100 4600
 Wire Wire Line
-	-7100 5500 -7050 5500
-Wire Wire Line
-	-6400 5700 -7050 5700
-Wire Wire Line
-	-7100 6050 -7050 6050
-Wire Wire Line
-	-6400 6250 -7050 6250
-Wire Wire Line
 	-7350 3000 -7250 3000
 Wire Wire Line
 	-6900 1900 -6900 2550
@@ -1380,12 +1372,7 @@ Wire Wire Line
 	-4400 9450 -4400 9400
 Connection ~ -4400 9450
 Wire Wire Line
-	-8300 4000 -8300 4500
-Wire Wire Line
 	-8900 7850 -8700 7850
-Connection ~ -8300 4500
-Wire Wire Line
-	-8300 4500 -8600 4500
 Wire Wire Line
 	-8750 950  -8800 950 
 Wire Wire Line
@@ -1626,8 +1613,6 @@ Wire Wire Line
 Connection ~ -5450 -800
 Wire Bus Line
 	-7050 4850 -7050 4400
-Wire Wire Line
-	-8300 5050 -8250 5050
 Wire Bus Line
 	37900 55900 37900 44500
 Wire Bus Line
@@ -1749,8 +1734,6 @@ Wire Wire Line
 Wire Wire Line
 	-2200 7250 -2050 7250
 Wire Wire Line
-	-6550 -1050 -5450 -1050
-Wire Wire Line
 	-6850 7400 -6700 7400
 Wire Wire Line
 	-10550 7150 -10350 7150
@@ -1861,8 +1844,6 @@ Wire Wire Line
 	-3900 9450 -3350 9450
 Wire Wire Line
 	-4400 9450 -3900 9450
-Wire Wire Line
-	-8300 4500 -8300 5050
 Wire Wire Line
 	-6000 2350 -5900 2350
 Wire Wire Line
@@ -1998,21 +1979,6 @@ Wire Wire Line
 	-5950 5400 -5250 5400
 Wire Wire Line
 	-5250 5400 -5250 3200
-Wire Wire Line
-	-6400 3300 -6400 3200
-Wire Wire Line
-	-6500 2750 -6500 3300
-Wire Wire Line
-	-6450 3200 -6450 3300
-Wire Wire Line
-	-6450 3300 -6500 3300
-Wire Wire Line
-	-6450 3200 -6400 3200
-Wire Wire Line
-	-6400 3200 -6400 2750
-Wire Wire Line
-	-6400 3200 -5250 3200
-Connection ~ -6500 3300
 Text Label -5900 6900 1    60   ~ 0
 d2
 Wire Wire Line
@@ -2124,46 +2090,11 @@ Wire Wire Line
 Wire Wire Line
 	-4200 8750 -4400 8750
 Wire Wire Line
-	-7050 5150 -6400 5150
-Connection ~ -7050 5500
-Wire Wire Line
-	-7050 5500 -6400 5500
-Connection ~ -7050 5700
-Wire Wire Line
-	-7050 5700 -7100 5700
-Connection ~ -7050 6050
-Wire Wire Line
-	-7050 6050 -6400 6050
-Connection ~ -7050 6250
-Wire Wire Line
-	-7050 6250 -7100 6250
-Wire Wire Line
 	-7050 4950 -7050 5000
 Wire Wire Line
 	-7050 5000 -6400 5000
 Wire Wire Line
-	-8250 6150 -8300 6150
-Wire Wire Line
-	-8250 5600 -8300 5600
-Wire Wire Line
-	-8300 5600 -8300 6150
-Wire Wire Line
-	-8250 4500 -8300 4500
-Connection ~ -8300 5600
-Connection ~ -8300 5050
-Wire Wire Line
-	-8300 5050 -8300 5600
-Wire Wire Line
-	-8650 6650 -8500 6650
-Wire Wire Line
-	-8300 6150 -8300 6650
-Connection ~ -8300 6150
-Wire Wire Line
 	-4400 8750 -4400 8650
-Wire Wire Line
-	-8300 6650 -8500 6650
-Connection ~ -8500 6650
-Connection ~ -8300 6650
 $Comp
 L Befehle-rescue:7400-RESCUE-Befehle U3
 U 1 1 57F3278C
@@ -2186,18 +2117,6 @@ Wire Wire Line
 	-8200 7950 -8200 7850
 Wire Wire Line
 	-8200 7850 -8400 7850
-Wire Bus Line
-	-7050 4850 -6300 4850
-Wire Bus Line
-	-6300 6800 -5800 6800
-Wire Bus Line
-	-6300 4850 -6300 6800
-Wire Bus Line
-	-6900 2650 -3950 2650
-Wire Bus Line
-	-4650 1950 -3950 1950
-Wire Bus Line
-	-6500 6800 -6300 6800
 $Comp
 L Befehle-rescue:7400-RESCUE-Befehle U3
 U 2 1 57F331B6
@@ -2209,4 +2128,87 @@ F 3 "" H -8650 6050 50  0000 C CNN
 	2    -8650 6050
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	-7100 5500 -6400 5500
+Wire Wire Line
+	-7100 5700 -6400 5700
+Wire Wire Line
+	-7100 6050 -6400 6050
+Wire Wire Line
+	-7100 6250 -6400 6250
+Wire Wire Line
+	-7050 4950 -7100 4950
+Wire Wire Line
+	-7100 5150 -6400 5150
+Wire Wire Line
+	-8300 4000 -8300 4500
+Wire Wire Line
+	-8600 4500 -8300 4500
+Connection ~ -8300 4500
+Wire Wire Line
+	-8300 4500 -8300 5050
+Wire Wire Line
+	-8300 5050 -8300 5600
+Wire Wire Line
+	-8650 6650 -8500 6650
+Connection ~ -8300 5600
+Wire Wire Line
+	-8300 5600 -8300 6150
+Connection ~ -8300 6150
+Wire Wire Line
+	-8300 6150 -8300 6650
+Connection ~ -8300 5050
+Wire Wire Line
+	-6550 -1050 -6250 -1050
+Connection ~ -5550 -1050
+Wire Wire Line
+	-5550 -1050 -5450 -1050
+Connection ~ -6250 -1050
+Wire Wire Line
+	-6250 -1050 -6150 -1050
+Connection ~ -6150 -1050
+Wire Wire Line
+	-6150 -1050 -6050 -1050
+Connection ~ -6050 -1050
+Wire Wire Line
+	-6050 -1050 -5950 -1050
+Connection ~ -5950 -1050
+Wire Wire Line
+	-5950 -1050 -5850 -1050
+Connection ~ -5850 -1050
+Wire Wire Line
+	-5850 -1050 -5750 -1050
+Connection ~ -5750 -1050
+Wire Wire Line
+	-5750 -1050 -5650 -1050
+Connection ~ -5650 -1050
+Wire Wire Line
+	-5650 -1050 -5550 -1050
+Wire Wire Line
+	-5250 3200 -6350 3200
+Wire Wire Line
+	-6500 3300 -6450 3300
+Wire Wire Line
+	-6450 3300 -6450 3350
+Wire Wire Line
+	-6450 3350 -6350 3350
+Wire Wire Line
+	-6350 3350 -6350 3200
+Connection ~ -6500 3300
+Wire Wire Line
+	-6500 2750 -6500 3300
+Wire Wire Line
+	-6400 2750 -6400 3300
+Wire Bus Line
+	-6500 6800 -6300 6800
+Wire Bus Line
+	-4650 1950 -3950 1950
+Wire Bus Line
+	-6900 2650 -3950 2650
+Wire Bus Line
+	-6300 4850 -6300 6800
+Wire Bus Line
+	-6300 6800 -5800 6800
+Wire Bus Line
+	-7050 4850 -6300 4850
 $EndSCHEMATC
