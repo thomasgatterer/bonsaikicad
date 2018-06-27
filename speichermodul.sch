@@ -2150,6 +2150,23 @@ F 8 "2PinTerminalBlocktg" H 7300 6000 50  0001 L BNN "Field8"
 $EndComp
 Wire Wire Line
 	5950 5300 5700 5300
+Wire Wire Line
+	5750 3000 5750 3050
+$Comp
+L speichermodul-rescue:74LS08-RESCUE-speichermodul U3
+U 3 1 5B429867
+P 4050 2300
+F 0 "U3" H 4050 2350 60  0000 C CNN
+F 1 "74LS08" H 4050 2250 60  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 4050 2300 60  0000 C CNN
+F 3 "~" H 4050 2300 60  0000 C CNN
+	3    4050 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2400 3450 2200
+Wire Wire Line
+	3450 2200 3450 2100
 Wire Bus Line
 	9550 3350 9550 3550
 Wire Bus Line
@@ -2168,4 +2185,16 @@ Wire Bus Line
 	10950 2750 10950 4850
 Wire Bus Line
 	9550 2500 9550 3250
+Connection ~ 3450 2200
+$Comp
+L power:GND #PWR010
+U 1 1 5B495F27
+P 3450 2100
+F 0 "#PWR010" H 3450 1850 50  0001 C CNN
+F 1 "GND" H 3455 1927 50  0000 C CNN
+F 2 "" H 3450 2100 50  0000 C CNN
+F 3 "" H 3450 2100 50  0000 C CNN
+	1    3450 2100
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
