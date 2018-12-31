@@ -97,7 +97,7 @@ U 1 1 57B9FF8D
 P 1300 4850
 F 0 "R2" V 1380 4850 40  0000 C CNN
 F 1 "4,7k" V 1307 4851 40  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 4850 30  0000 C CNN
+F 2 "tg_bonsai_proj_spec_libs:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 4850 30  0000 C CNN
 F 3 "~" H 1300 4850 30  0000 C CNN
 	1    1300 4850
 	1    0    0    -1  
@@ -250,8 +250,8 @@ L speichermodul-rescue:R-RESCUE-speichermodul R5
 U 1 1 57D2D84E
 P 6300 5300
 F 0 "R5" V 6380 5300 40  0000 C CNN
-F 1 "0" V 6307 5301 40  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 6230 5300 30  0001 C CNN
+F 1 "100" V 6307 5301 40  0000 C CNN
+F 2 "tg_bonsai_proj_spec_libs:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6230 5300 30  0001 C CNN
 F 3 "~" H 6300 5300 30  0000 C CNN
 	1    6300 5300
 	0    -1   -1   0   

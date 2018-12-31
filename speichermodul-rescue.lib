@@ -1,6 +1,26 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 2PinTerminalBlocktg-2PinTerminalBlocktg
+#
+DEF 2PinTerminalBlocktg-2PinTerminalBlocktg J 0 40 Y N 1 L N
+F0 "J" 50 9 50 H V L BNN
+F1 "2PinTerminalBlocktg-2PinTerminalBlocktg" 50 -100 50 H V L BNN
+F2 "2PinTerminalBlocktg" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "Wurth Electronics" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "Unavailable" 0 0 50 H I L BNN
+F7 "TERM BLOCK 2POS HORIZ 5.08MM T/H" 0 0 50 H I L BNN
+F8 "2PinTerminalBlocktg" 0 0 50 H I L BNN
+DRAW
+A -65 -100 35 -900 900 0 0 10 N -65 -65 -65 -135
+A -65 0 35 -900 900 0 0 10 N -65 35 -65 -35
+X 1 1 -200 0 100 R 40 40 0 0 P
+X 2 2 -200 -100 100 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
 # 6116-RESCUE-speichermodul
 #
 DEF 6116-RESCUE-speichermodul IC 0 40 Y Y 1 F N

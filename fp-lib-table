@@ -4,4 +4,5 @@
   (lib (name Pin_Headers)(type KiCad)(uri "$(KIPRJMOD)/tg_foodprint.pretty")(options "")(descr ""))
   (lib (name 3)(type KiCad)(uri "$(KIGITHUB)/Housings_DIP.pretty")(options "")(descr ""))
   (lib (name tg_foodprint)(type KiCad)(uri "$(KIPRJMOD)/tg_foodprint.pretty")(options "")(descr ""))
+  (lib (name tg_bonsai_proj_spec_libs)(type KiCad)(uri "$(KIPRJMOD)/tg_common.pretty")(options "")(descr ""))
 )
