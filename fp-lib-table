@@ -8,4 +8,5 @@
   (lib (name github)(type KiCad)(uri ${KIGITHUB}/Housings_DIP.pretty)(options "")(descr ""))
   (lib (name locallibstg)(type KiCad)(uri /home/tomm/devTomm/bonsaikicad/tg_locallibs)(options "")(descr ""))
   (lib (name tg_locallibs)(type KiCad)(uri ${BONLIB}/tg_locallibs.pretty)(options "")(descr ""))
+  (lib (name bonsaicomplib)(type KiCad)(uri ${KIPRJMOD}/bonsaicomplib.pretty)(options "")(descr ""))
 )

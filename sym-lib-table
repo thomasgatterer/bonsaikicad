@@ -206,4 +206,5 @@
   (lib (name 3PinTerminalBlocktg)(type Legacy)(uri ${KIPRJMOD}/bonsaicomplib/pcbTerminalBlockstg/3PinTerminalBlocktg.lib)(options "")(descr ""))
   (lib (name Befehle-rescue)(type Legacy)(uri ${KIPRJMOD}/Befehle-rescue.lib)(options "")(descr ""))
   (lib (name Akku-rescue)(type Legacy)(uri ${KIPRJMOD}/Akku-rescue.lib)(options "")(descr ""))
+  (lib (name Steuerwerk-rescue)(type Legacy)(uri ${KIPRJMOD}/Steuerwerk-rescue.lib)(options "")(descr ""))
 )
