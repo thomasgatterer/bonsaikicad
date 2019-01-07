@@ -3008,24 +3008,11 @@ Wire Wire Line
 	3350 3200 3350 2450
 Connection ~ 3200 2950
 Wire Wire Line
-	3350 1800 3550 1800
-Wire Wire Line
 	3350 700  3550 700 
 Wire Wire Line
 	3100 700  3350 700 
 Connection ~ 3350 700 
-Wire Wire Line
-	3350 700  3350 1800
 Connection ~ 3350 2450
-Wire Wire Line
-	3350 1800 3350 2450
-Wire Wire Line
-	3200 1000 3200 1800
-Wire Wire Line
-	3200 1800 3200 2950
-Connection ~ 3200 1800
-Wire Wire Line
-	3350 1800 3200 1800
 Connection ~ 1600 6700
 Wire Wire Line
 	850  6700 1600 6700
@@ -3137,9 +3124,18 @@ F 3 "" H 2500 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 6700 2550 6700
+Connection ~ 2550 6700
+Wire Wire Line
+	3200 1000 3200 1800
+Wire Wire Line
+	3350 700  3350 2450
+Wire Wire Line
+	3550 1800 3200 1800
 Wire Bus Line
 	4850 900  6600 900 
 Wire Bus Line
 	6950 900  8700 900 
-Connection ~ 2550 6700
+Connection ~ 3200 1800
+Wire Wire Line
+	3200 1800 3200 2950
 $EndSCHEMATC
