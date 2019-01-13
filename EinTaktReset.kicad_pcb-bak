@@ -3718,7 +3718,7 @@
   (segment (start 55.88 58.42) (end 59.69 58.42) (width 1) (layer B.Cu) (net 32) (tstamp 5B2C15E8))
   (segment (start 48.26 58.42) (end 50.8 58.42) (width 1) (layer B.Cu) (net 32))
   (segment (start 74.93 80.01) (end 74.93 82.55) (width 1) (layer B.Cu) (net 33))
-  (segment (start 57.15 82.55) (end 57.15 88.9) (width 0.5) (layer B.Cu) (net 33) (tstamp 5B2C2079))
+  (segment (start 57.15 82.55) (end 57.15 88.9) (width 1) (layer B.Cu) (net 33) (tstamp 5B2C2079))
   (segment (start 74.93 82.55) (end 57.15 82.55) (width 1) (layer B.Cu) (net 33) (tstamp 5B2C2077))
   (segment (start 74.93 80.01) (end 74.93 76.2) (width 1) (layer B.Cu) (net 33))
   (segment (start 95.25 68.58) (end 95.25 66.04) (width 1) (layer B.Cu) (net 34))
