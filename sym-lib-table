@@ -207,4 +207,5 @@
   (lib (name Befehle-rescue)(type Legacy)(uri ${KIPRJMOD}/Befehle-rescue.lib)(options "")(descr ""))
   (lib (name Akku-rescue)(type Legacy)(uri ${KIPRJMOD}/Akku-rescue.lib)(options "")(descr ""))
   (lib (name Steuerwerk-rescue)(type Legacy)(uri ${KIPRJMOD}/Steuerwerk-rescue.lib)(options "")(descr ""))
+  (lib (name switchlibtg)(type Legacy)(uri "/home/tomm/devTomm/bonsaikicad/bonsaicomplib/switch with altered pin nums.lib")(options "")(descr ""))
 )

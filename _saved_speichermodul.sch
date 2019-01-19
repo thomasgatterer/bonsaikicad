@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:speichermodul-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -97,7 +97,7 @@ U 1 1 57B9FF8D
 P 1300 4850
 F 0 "R2" V 1380 4850 40  0000 C CNN
 F 1 "4,7k" V 1307 4851 40  0000 C CNN
-F 2 "tg_bonsai_proj_spec_libs:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 4850 30  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 4850 30  0000 C CNN
 F 3 "~" H 1300 4850 30  0000 C CNN
 	1    1300 4850
 	1    0    0    -1  
@@ -250,8 +250,8 @@ L speichermodul-rescue:R-RESCUE-speichermodul R5
 U 1 1 57D2D84E
 P 6300 5300
 F 0 "R5" V 6380 5300 40  0000 C CNN
-F 1 "100" V 6307 5301 40  0000 C CNN
-F 2 "tg_bonsai_proj_spec_libs:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6230 5300 30  0001 C CNN
+F 1 "0" V 6307 5301 40  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 6230 5300 30  0001 C CNN
 F 3 "~" H 6300 5300 30  0000 C CNN
 	1    6300 5300
 	0    -1   -1   0   
@@ -292,28 +292,6 @@ $EndComp
 Text Label 4350 5150 1    60   ~ 0
 EN-IN
 $Comp
-L speichermodul-rescue:GND-RESCUE-speichermodul #PWR05
-U 1 1 57D2EBFB
-P 1300 5350
-F 0 "#PWR05" H 1300 5350 30  0001 C CNN
-F 1 "GND" H 1300 5280 30  0001 C CNN
-F 2 "" H 1300 5350 60  0000 C CNN
-F 3 "" H 1300 5350 60  0000 C CNN
-	1    1300 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L speichermodul-rescue:SW_PUSH-RESCUE-speichermodul SW2
-U 1 1 57D2F144
-P 1000 4850
-F 0 "SW2" H 1150 4960 50  0000 C CNN
-F 1 "SW_PUSH" H 1000 4770 50  0000 C CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg" H 1000 4850 60  0001 C CNN
-F 3 "~" H 1000 4850 60  0000 C CNN
-	1    1000 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
 L speichermodul-rescue:GND-RESCUE-speichermodul #PWR06
 U 1 1 57D2F177
 P 1000 5350
@@ -323,17 +301,6 @@ F 2 "" H 1000 5350 60  0000 C CNN
 F 3 "" H 1000 5350 60  0000 C CNN
 	1    1000 5350
 	1    0    0    -1  
-$EndComp
-$Comp
-L speichermodul-rescue:SW_PUSH-RESCUE-speichermodul SW1
-U 1 1 57D2F1B1
-P 1000 2650
-F 0 "SW1" H 1150 2760 50  0000 C CNN
-F 1 "SW_PUSH" H 1000 2570 50  0000 C CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg" H 1000 2650 60  0001 C CNN
-F 3 "~" H 1000 2650 60  0000 C CNN
-	1    1000 2650
-	0    -1   -1   0   
 $EndComp
 $Comp
 L speichermodul-rescue:GND-RESCUE-speichermodul #PWR07
@@ -1111,11 +1078,11 @@ Text Label 10200 1550 0    60   Italic 0
 A6
 Text Label 10200 1650 0    60   Italic 0
 A7
-Connection ~ 1150 4150
+Connection ~ 1200 4150
 Wire Wire Line
-	1150 3400 1150 4150
+	1200 3400 1200 4150
 Wire Wire Line
-	2650 3400 1150 3400
+	2650 3400 1200 3400
 Wire Wire Line
 	2650 3150 2650 3400
 Wire Wire Line
@@ -1127,7 +1094,6 @@ Wire Wire Line
 Wire Wire Line
 	1300 4050 1300 4150
 Connection ~ 1300 4150
-Connection ~ 1300 2950
 Wire Wire Line
 	2800 3950 2650 3950
 Wire Wire Line
@@ -1135,27 +1101,17 @@ Wire Wire Line
 Wire Wire Line
 	4250 5000 4250 4700
 Wire Wire Line
-	1000 2350 1000 2100
-Wire Wire Line
-	1000 2100 700  2100
+	1100 2100 700  2100
 Wire Wire Line
 	700  2100 700  2250
 Wire Wire Line
 	1300 2000 1300 2300
 Wire Wire Line
-	1000 2950 1300 2950
+	2650 3750 1100 3750
 Wire Wire Line
-	2650 3750 1000 3750
-Wire Wire Line
-	1000 3750 1000 2950
-Wire Wire Line
-	1000 4150 1150 4150
+	1000 4150 1200 4150
 Wire Wire Line
 	1300 5000 1300 5350
-Wire Wire Line
-	1000 5150 1000 5350
-Wire Wire Line
-	1000 4550 1000 4150
 Wire Wire Line
 	700  2850 700  3150
 Wire Wire Line
@@ -1481,9 +1437,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 1650 5850 1650
 Wire Wire Line
-	1150 4150 1300 4150
-Wire Wire Line
-	1300 2950 1300 3050
+	1200 4150 1300 4150
 Wire Wire Line
 	4050 3550 4050 3850
 Wire Wire Line
@@ -1526,10 +1480,7 @@ Wire Wire Line
 	1300 2600 1300 2850
 Wire Wire Line
 	1300 4150 1300 4250
-Wire Wire Line
-	1300 2850 1300 2950
 Connection ~ 1300 2850
-Connection ~ 1000 2950
 Connection ~ 1300 4250
 Wire Wire Line
 	1300 4250 1300 4700
@@ -2179,8 +2130,64 @@ F 3 "" H 3450 2100 50  0000 C CNN
 	1    3450 2100
 	-1   0    0    1   
 $EndComp
+$Comp
+L switchlibtg:SW_PUSH-tg SW2
+U 1 1 5C46F53B
+P 1000 4900
+F 0 "SW2" V 1099 4742 50  0000 R CNN
+F 1 "SW_PUSH-tg" V 1008 4742 50  0000 R CNN
+F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg" V 909 4742 60  0000 R CNN
+F 3 "" H 970 4920 60  0000 C CNN
+	1    1000 4900
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1000 4150 1000 4650
+Wire Wire Line
+	1100 2100 1100 2450
+Wire Wire Line
+	1300 2850 1300 2950
+$Comp
+L switchlibtg:SW_PUSH-tg SW1
+U 1 1 5C4723DE
+P 1100 2700
+F 0 "SW1" V 1001 2542 50  0000 R CNN
+F 1 "SW_PUSH-tg" V 1092 2542 50  0000 R CNN
+F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg" V 1191 2542 60  0000 R CNN
+F 3 "" H 1070 2720 60  0000 C CNN
+	1    1100 2700
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1100 2950 1300 2950
+Connection ~ 1300 2950
+Wire Wire Line
+	1300 2950 1300 3050
+Wire Wire Line
+	1100 5150 1100 5250
+Wire Wire Line
+	1100 5250 1000 5250
+Wire Wire Line
+	1000 5250 1000 5350
+Wire Wire Line
+	1100 2950 1100 3750
+Connection ~ 1100 2950
+$Comp
+L speichermodul-rescue:VCC-RESCUE-speichermodul #PWR0101
+U 1 1 5C5ACD54
+P 1300 5350
+F 0 "#PWR0101" H 1300 5450 30  0001 C CNN
+F 1 "VCC" H 1300 5450 30  0000 C CNN
+F 2 "" H 1300 5350 60  0000 C CNN
+F 3 "" H 1300 5350 60  0000 C CNN
+	1    1300 5350
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
 	1100 5150 1000 5150
+Connection ~ 1100 5150
+Wire Wire Line
+	1000 2450 1100 2450
 Wire Bus Line
 	9550 3350 9550 3550
 Wire Bus Line
@@ -2199,5 +2206,5 @@ Wire Bus Line
 	10950 2750 10950 4850
 Wire Bus Line
 	9550 2500 9550 3250
-Connection ~ 1000 5150
+Connection ~ 1100 2450
 $EndSCHEMATC
