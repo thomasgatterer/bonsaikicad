@@ -2176,8 +2176,14 @@ Wire Wire Line
 Connection ~ 1300 2950
 Wire Wire Line
 	1300 2950 1300 3050
+Wire Wire Line
+	1100 5150 1100 5250
+Wire Wire Line
+	1100 5250 1000 5250
 Wire Bus Line
 	9550 3350 9550 3550
+Wire Wire Line
+	1000 5250 1000 5350
 Wire Bus Line
 	9150 2650 9150 3050
 Wire Bus Line
