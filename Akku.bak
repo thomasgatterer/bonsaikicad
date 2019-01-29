@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Akku-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -21,7 +21,7 @@ Dezember 2017
 Text Notes 7050 6850 0    197  ~ 0
 Akkumulator
 $Comp
-L 74xx:74LS540 U8
+L Akku-rescue:74LS540-74xx U8
 U 1 1 57E93AAD
 P 9100 2050
 F 0 "U8" V 9146 1422 50  0000 R CNN
@@ -120,7 +120,7 @@ F 3 "" H 8600 850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R13
+L Akku-rescue:R-device R13
 U 1 1 57E94162
 P 8600 1200
 F 0 "R13" H 8670 1246 50  0000 L CNN
@@ -131,7 +131,7 @@ F 3 "" H 8600 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R15
+L Akku-rescue:R-device R15
 U 1 1 57E942DE
 P 8700 1200
 F 0 "R15" H 8770 1246 50  0000 L CNN
@@ -142,7 +142,7 @@ F 3 "" H 8700 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R16
+L Akku-rescue:R-device R16
 U 1 1 57E94316
 P 8800 1200
 F 0 "R16" H 8870 1246 50  0000 L CNN
@@ -153,7 +153,7 @@ F 3 "" H 8800 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R17
+L Akku-rescue:R-device R17
 U 1 1 57E94362
 P 8900 1200
 F 0 "R17" H 8970 1246 50  0000 L CNN
@@ -164,7 +164,7 @@ F 3 "" H 8900 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R18
+L Akku-rescue:R-device R18
 U 1 1 57E943BA
 P 9000 1200
 F 0 "R18" H 9070 1246 50  0000 L CNN
@@ -175,7 +175,7 @@ F 3 "" H 9000 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R19
+L Akku-rescue:R-device R19
 U 1 1 57E94424
 P 9100 1200
 F 0 "R19" H 9170 1246 50  0000 L CNN
@@ -186,7 +186,7 @@ F 3 "" H 9100 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R20
+L Akku-rescue:R-device R20
 U 1 1 57E94464
 P 9200 1200
 F 0 "R20" H 9270 1246 50  0000 L CNN
@@ -197,7 +197,7 @@ F 3 "" H 9200 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R21
+L Akku-rescue:R-device R21
 U 1 1 57E944B7
 P 9300 1200
 F 0 "R21" H 9370 1246 50  0000 L CNN
@@ -241,7 +241,7 @@ F 3 "" H 9000 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R14
+L Akku-rescue:R-device R14
 U 1 1 57E98213
 P 8650 5850
 F 0 "R14" H 8720 5896 50  0000 L CNN
@@ -263,7 +263,7 @@ F 3 "" H 9050 6000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R22
+L Akku-rescue:R-device R22
 U 1 1 57E9996F
 P 9500 4950
 F 0 "R22" H 9570 4996 50  0000 L CNN
@@ -285,7 +285,7 @@ F 3 "" H 9500 5100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R9
+L Akku-rescue:R-device R9
 U 1 1 57F2FBEB
 P 3500 2050
 F 0 "R9" H 3570 2096 50  0000 L CNN
@@ -307,7 +307,7 @@ F 3 "" H 8850 6000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R12
+L Akku-rescue:R-device R12
 U 1 1 57FC1E29
 P 8150 6200
 F 0 "R12" V 8230 6200 50  0000 C CNN
@@ -362,7 +362,7 @@ F 3 "" H 9700 2750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xx:74LS541 U6
+L Akku-rescue:74LS541-74xx U6
 U 1 1 57E939A0
 P 7200 2000
 F 0 "U6" V 7246 1371 50  0000 R CNN
@@ -373,7 +373,7 @@ F 3 "" H 7200 2000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn:Conn_02x10_Counter_Clockwise P7
+L Akku-rescue:Conn_02x10_Counter_Clockwise-conn P7
 U 1 1 58057A43
 P 50 1250
 F 0 "P7" H 50  1800 50  0000 C CNN
@@ -384,7 +384,7 @@ F 3 "" H 50  50  50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_02x10_Counter_Clockwise P8
+L Akku-rescue:Conn_02x10_Counter_Clockwise-conn P8
 U 1 1 5805867B
 P 50 2350
 F 0 "P8" H 50  2900 50  0000 C CNN
@@ -395,7 +395,7 @@ F 3 "" H 50  1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_02x10_Counter_Clockwise P9
+L Akku-rescue:Conn_02x10_Counter_Clockwise-conn P9
 U 1 1 58058F42
 P 1050 1850
 F 0 "P9" H 1050 2400 50  0000 C CNN
@@ -562,7 +562,7 @@ F 3 "" H 3650 2250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L cmos4000:4069 U1
+L Akku-rescue:4069-cmos4000 U1
 U 2 1 580F11C5
 P 3000 3350
 F 0 "U1" V 2954 3528 50  0000 L CNN
@@ -573,7 +573,7 @@ F 3 "" H 3000 3350 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R2
+L Akku-rescue:R-device R2
 U 1 1 580F178A
 P 1700 2800
 F 0 "R2" H 1770 2846 50  0000 L CNN
@@ -606,7 +606,7 @@ F 3 "" H 1850 3000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R3
+L Akku-rescue:R-device R3
 U 1 1 580F350E
 P 1700 3000
 F 0 "R3" H 1770 3046 50  0000 L CNN
@@ -621,7 +621,7 @@ Text Notes 2150 2850 0    60   ~ 0
 Text Notes 2150 3050 0    60   ~ 0
 (PC)
 $Comp
-L 74xx:74LS08 U4
+L Akku-rescue:74LS08-74xx U4
 U 1 1 580F517F
 P 4150 4050
 F 0 "U4" H 4150 4100 50  0000 C CNN
@@ -654,7 +654,7 @@ F 3 "" H 2650 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R4
+L Akku-rescue:R-device R4
 U 1 1 58100242
 P 1750 4100
 F 0 "R4" V 1830 4100 50  0000 C CNN
@@ -681,7 +681,7 @@ U 1 1 58100CBF
 P 1400 4600
 F 0 "SW1" H 1200 4750 50  0000 C CNN
 F 1 "UP_Bonsai_SWITCH_INV" H 1250 4450 50  0000 C CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg" H 1400 4600 50  0000 C CNN
+F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H 1400 4600 50  0000 C CNN
 F 3 "" H 1400 4600 50  0000 C CNN
 	1    1400 4600
 	1    0    0    -1  
@@ -698,7 +698,7 @@ F 3 "" H 900 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cmos4000:4069 U1
+L Akku-rescue:4069-cmos4000 U1
 U 5 1 581014B6
 P 5400 4050
 F 0 "U1" V 5354 4228 50  0000 L CNN
@@ -709,7 +709,7 @@ F 3 "" H 5400 4050 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R11
+L Akku-rescue:R-device R11
 U 1 1 581018B2
 P 5850 3900
 F 0 "R11" V 5930 3900 50  0000 C CNN
@@ -742,7 +742,7 @@ F 3 "" H 5850 3350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R5
+L Akku-rescue:R-device R5
 U 1 1 58102F06
 P 2000 5250
 F 0 "R5" V 2080 5250 50  0000 C CNN
@@ -764,7 +764,7 @@ F 3 "" H 2050 5450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R6
+L Akku-rescue:R-device R6
 U 1 1 5810367F
 P 2000 5700
 F 0 "R6" V 2080 5700 50  0000 C CNN
@@ -819,7 +819,7 @@ F 3 "" H 900 6350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS08 U4
+L Akku-rescue:74LS08-74xx U4
 U 4 1 581052DF
 P 4000 6050
 F 0 "U4" H 4000 6100 50  0000 C CNN
@@ -830,7 +830,7 @@ F 3 "" H 4000 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R1
+L Akku-rescue:R-device R1
 U 1 1 58107A43
 P 550 3800
 F 0 "R1" V 630 3800 50  0000 C CNN
@@ -1394,7 +1394,7 @@ Wire Wire Line
 Wire Wire Line
 	850  1450 850  2450
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J1
+L Akku-rescue:2PinTerminalBlocktg-2PinTerminalBlocktg J1
 U 1 1 5AECBED9
 P 11200 1500
 F 0 "J1" H 11165 1490 50  0000 L CNN
@@ -1410,7 +1410,7 @@ F 8 "2PinTerminalBlocktg" H 11200 1500 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J2
+L Akku-rescue:2PinTerminalBlocktg-2PinTerminalBlocktg J2
 U 1 1 5AECC155
 P 13400 5450
 F 0 "J2" H 13365 5440 50  0000 L CNN
@@ -1426,7 +1426,7 @@ F 8 "2PinTerminalBlocktg" H 13400 5450 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3PinTerminalBlocktg:3PinTerminalBlocktg J3
+L Akku-rescue:3PinTerminalBlocktg-3PinTerminalBlocktg J3
 U 1 1 5AECC360
 P 13400 5800
 F 0 "J3" H 13365 5840 50  0000 L CNN
@@ -1566,12 +1566,6 @@ Wire Wire Line
 	1500 7550 2550 7550
 Wire Wire Line
 	2550 7550 2550 7350
-Wire Bus Line
-	450  1050 450  1750
-Wire Bus Line
-	450  2150 450  2850
-Wire Bus Line
-	1450 850  1450 2350
 Connection ~ 2550 7550
 Wire Wire Line
 	2550 7550 3400 7550
@@ -1589,7 +1583,7 @@ F 3 "" H 5650 6750 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:R R10
+L Akku-rescue:R-device R10
 U 1 1 5810516E
 P 5650 6200
 F 0 "R10" V 5730 6200 50  0000 C CNN
@@ -1612,4 +1606,10 @@ F 3 "" H 5650 6550 50  0000 C CNN
 $EndComp
 Text GLabel 2000 6950 3    50   Input ~ 0
 RPA2
+Wire Bus Line
+	450  1050 450  1750
+Wire Bus Line
+	450  2150 450  2850
+Wire Bus Line
+	1450 850  1450 2350
 $EndSCHEMATC

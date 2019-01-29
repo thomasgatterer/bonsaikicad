@@ -1,4 +1,4 @@
-301555052392186
+304655490604186
 2PinTerminalBlocktg
 2PinTerminalBlocktg
 <b>WR-TBL Serie 2165 - 5.08mm Horizontal Entry Modular with Rising Cage Clamp - 3.5mm2 Wires, 2 Pins
@@ -425,7 +425,14 @@ Switch with LCD screen E3 SAxxxx
 switch normally-open pushbutton push-button LCD
 0
 6
+5
+Pin_Headers
+SW_PUSH_LCD_E3_SAxxxx_tg_V2
+Switch with LCD screen E3 SAxxxx
+switch normally-open pushbutton push-button LCD
+0
 6
+5
 Pin_Headers
 SW_SP3T_PCM13
 Ultraminiature Surface Mount Slide Switch
@@ -1097,7 +1104,14 @@ Switch with LCD screen E3 SAxxxx
 switch normally-open pushbutton push-button LCD
 0
 6
+5
+tg_foodprint
+SW_PUSH_LCD_E3_SAxxxx_tg_V2
+Switch with LCD screen E3 SAxxxx
+switch normally-open pushbutton push-button LCD
+0
 6
+5
 tg_foodprint
 SW_SP3T_PCM13
 Ultraminiature Surface Mount Slide Switch

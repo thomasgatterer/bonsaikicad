@@ -67,7 +67,7 @@
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
-      (excludeedgelayer true)
+      (excludeedgelayer false)
       (linewidth 0.100000)
       (plotframeref false)
       (viasonmask false)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 2)
       (scaleselection 1)
-      (outputdirectory "pincheck/"))
+      (outputdirectory "../../Schreibtisch/tmp sandbox loschen ohne schauen/bonsai/"))
   )
 
   (net 0 "")
