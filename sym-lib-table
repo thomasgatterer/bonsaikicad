@@ -208,4 +208,5 @@
   (lib (name Akku-rescue)(type Legacy)(uri ${KIPRJMOD}/Akku-rescue.lib)(options "")(descr ""))
   (lib (name Steuerwerk-rescue)(type Legacy)(uri ${KIPRJMOD}/Steuerwerk-rescue.lib)(options "")(descr ""))
   (lib (name switchlibtg)(type Legacy)(uri "/home/tomm/devTomm/bonsaikicad/bonsaicomplib/switch with altered pin nums.lib")(options "")(descr ""))
+  (lib (name kgithub)(type Legacy)(uri https://github.com/KiCad/kicad-footprints)(options "")(descr ""))
 )
