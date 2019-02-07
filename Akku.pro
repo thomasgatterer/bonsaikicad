@@ -1,4 +1,4 @@
-update=Di 29 Jän 2019 01:01:21 CET
+update=Di 05 Feb 2019 19:56:29 CET
 version=1
 last_client=pcbnew
 [general]
@@ -27,7 +27,10 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.4
+TrackWidth1=0.6
+TrackWidth2=0.4
+TrackWidth3=0.6
+TrackWidth4=1.2
 ViaDiameter1=0.6
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -56,4 +59,27 @@ OthersTextUpright=1
 SolderMaskClearance=0.2
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
+[pcbnew/Netclasses]
+[pcbnew/Netclasses/1]
+Name=Power
+Clearance=0.4
+TrackWidth=1.2
+ViaDiameter=0.6
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=smal
+Clearance=0.2
+TrackWidth=0.4
+ViaDiameter=0.6
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25

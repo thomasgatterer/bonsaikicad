@@ -1,4 +1,4 @@
-306204213219186
+303109048288186
 2PinTerminalBlocktg
 2PinTerminalBlocktg
 <b>WR-TBL Serie 2165 - 5.08mm Horizontal Entry Modular with Rising Cage Clamp - 3.5mm2 Wires, 2 Pins
@@ -1371,17 +1371,3 @@ C Disc series Radial pin pitch 5.00mm  diameter 10mm width 2.5mm Capacitor
 0
 2
 2
-tg_locallibs
-EuroBoard160mmX100mm_holes
-Outline, Eurocard, 100x160mm, with holes 3,5mm,
-Outline, Eurocard, 100x160mm, with holes 3,5mm,
-0
-0
-0
-tg_locallibs
-R_Array_SIP5
-5-pin Resistor SIP pack
-R
-0
-5
-5

@@ -26,7 +26,7 @@ U 1 1 57E93AAD
 P 9100 2050
 F 0 "U8" V 9146 1422 50  0000 R CNN
 F 1 "74LS540" V 9055 1422 50  0000 R CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_LongPads" H 9100 2050 50  0000 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm_LongPads" H 9100 2050 50  0001 C CNN
 F 3 "" H 9100 2050 50  0000 C CNN
 	1    9100 2050
 	0    -1   -1   0   
@@ -37,7 +37,7 @@ U 1 1 57E93BF0
 P 9300 850
 F 0 "D12" V 9346 742 50  0000 R CNN
 F 1 "LED" V 9255 742 50  0000 R CNN
-F 2 "LEDs:LED-3MM" H 9300 850 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 9300 850 50  0001 C CNN
 F 3 "" H 9300 850 50  0000 C CNN
 	1    9300 850 
 	0    -1   -1   0   
@@ -48,7 +48,7 @@ U 1 1 57E93CED
 P 9200 850
 F 0 "D11" V 9246 742 50  0000 R CNN
 F 1 "LED" V 9155 742 50  0000 R CNN
-F 2 "LEDs:LED-3MM" H 9200 850 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 9200 850 50  0001 C CNN
 F 3 "" H 9200 850 50  0000 C CNN
 	1    9200 850 
 	0    -1   -1   0   
@@ -59,7 +59,7 @@ U 1 1 57E93ED1
 P 9100 850
 F 0 "D10" V 9146 742 50  0000 R CNN
 F 1 "LED" V 9055 742 50  0000 R CNN
-F 2 "LEDs:LED-3MM" H 9100 850 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 9100 850 50  0001 C CNN
 F 3 "" H 9100 850 50  0000 C CNN
 	1    9100 850 
 	0    -1   -1   0   
@@ -70,7 +70,7 @@ U 1 1 57E93F38
 P 9000 850
 F 0 "D9" V 9046 742 50  0000 R CNN
 F 1 "LED" V 8955 742 50  0000 R CNN
-F 2 "LEDs:LED-3MM" H 9000 850 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 9000 850 50  0001 C CNN
 F 3 "" H 9000 850 50  0000 C CNN
 	1    9000 850 
 	0    -1   -1   0   
@@ -81,7 +81,7 @@ U 1 1 57E93F7E
 P 8900 850
 F 0 "D8" V 8946 742 50  0000 R CNN
 F 1 "LED" V 8855 742 50  0000 R CNN
-F 2 "LEDs:LED-3MM" H 8900 850 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 8900 850 50  0001 C CNN
 F 3 "" H 8900 850 50  0000 C CNN
 	1    8900 850 
 	0    -1   -1   0   
@@ -92,7 +92,7 @@ U 1 1 57E93FA3
 P 8800 850
 F 0 "D6" V 8846 742 50  0000 R CNN
 F 1 "LED" V 8755 742 50  0000 R CNN
-F 2 "LEDs:LED-3MM" H 8800 850 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 8800 850 50  0001 C CNN
 F 3 "" H 8800 850 50  0000 C CNN
 	1    8800 850 
 	0    -1   -1   0   
@@ -103,7 +103,7 @@ U 1 1 57E93FCF
 P 8700 850
 F 0 "D5" V 8746 742 50  0000 R CNN
 F 1 "LED" V 8655 742 50  0000 R CNN
-F 2 "LEDs:LED-3MM" H 8700 850 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 8700 850 50  0001 C CNN
 F 3 "" H 8700 850 50  0000 C CNN
 	1    8700 850 
 	0    -1   -1   0   
@@ -114,7 +114,7 @@ U 1 1 57E93FFA
 P 8600 850
 F 0 "D4" V 8646 742 50  0000 R CNN
 F 1 "LED" V 8555 742 50  0000 R CNN
-F 2 "LEDs:LED-3MM" H 8600 850 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 8600 850 50  0001 C CNN
 F 3 "" H 8600 850 50  0000 C CNN
 	1    8600 850 
 	0    -1   -1   0   
@@ -125,7 +125,7 @@ U 1 1 57E94162
 P 8600 1200
 F 0 "R13" H 8670 1246 50  0000 L CNN
 F 1 "R" H 8670 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8530 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8530 1200 50  0001 C CNN
 F 3 "" H 8600 1200 50  0000 C CNN
 	1    8600 1200
 	1    0    0    -1  
@@ -136,7 +136,7 @@ U 1 1 57E942DE
 P 8700 1200
 F 0 "R15" H 8770 1246 50  0000 L CNN
 F 1 "R" H 8770 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8630 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8630 1200 50  0001 C CNN
 F 3 "" H 8700 1200 50  0000 C CNN
 	1    8700 1200
 	1    0    0    -1  
@@ -147,7 +147,7 @@ U 1 1 57E94316
 P 8800 1200
 F 0 "R16" H 8870 1246 50  0000 L CNN
 F 1 "R" H 8870 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8730 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8730 1200 50  0001 C CNN
 F 3 "" H 8800 1200 50  0000 C CNN
 	1    8800 1200
 	1    0    0    -1  
@@ -158,7 +158,7 @@ U 1 1 57E94362
 P 8900 1200
 F 0 "R17" H 8970 1246 50  0000 L CNN
 F 1 "R" H 8970 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8830 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8830 1200 50  0001 C CNN
 F 3 "" H 8900 1200 50  0000 C CNN
 	1    8900 1200
 	1    0    0    -1  
@@ -169,7 +169,7 @@ U 1 1 57E943BA
 P 9000 1200
 F 0 "R18" H 9070 1246 50  0000 L CNN
 F 1 "R" H 9070 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8930 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8930 1200 50  0001 C CNN
 F 3 "" H 9000 1200 50  0000 C CNN
 	1    9000 1200
 	1    0    0    -1  
@@ -180,7 +180,7 @@ U 1 1 57E94424
 P 9100 1200
 F 0 "R19" H 9170 1246 50  0000 L CNN
 F 1 "R" H 9170 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9030 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9030 1200 50  0001 C CNN
 F 3 "" H 9100 1200 50  0000 C CNN
 	1    9100 1200
 	1    0    0    -1  
@@ -191,7 +191,7 @@ U 1 1 57E94464
 P 9200 1200
 F 0 "R20" H 9270 1246 50  0000 L CNN
 F 1 "R" H 9270 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9130 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9130 1200 50  0001 C CNN
 F 3 "" H 9200 1200 50  0000 C CNN
 	1    9200 1200
 	1    0    0    -1  
@@ -202,7 +202,7 @@ U 1 1 57E944B7
 P 9300 1200
 F 0 "R21" H 9370 1246 50  0000 L CNN
 F 1 "R" H 9370 1155 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9230 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9230 1200 50  0001 C CNN
 F 3 "" H 9300 1200 50  0000 C CNN
 	1    9300 1200
 	1    0    0    -1  
@@ -224,7 +224,7 @@ U 1 1 57E9530E
 P 7050 4150
 F 0 "U5" H 7050 4775 50  0000 C CNN
 F 1 "74LS193" H 7050 4684 50  0000 C CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 7050 4150 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 7050 4150 50  0001 C CNN
 F 3 "" H 7050 4150 50  0000 C CNN
 	1    7050 4150
 	1    0    0    -1  
@@ -235,7 +235,7 @@ U 1 1 57E95727
 P 9000 4150
 F 0 "U7" H 9000 4775 50  0000 C CNN
 F 1 "74LS193" H 9000 4684 50  0000 C CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 9000 4150 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 9000 4150 50  0001 C CNN
 F 3 "" H 9000 4150 50  0000 C CNN
 	1    9000 4150
 	1    0    0    -1  
@@ -246,7 +246,7 @@ U 1 1 57E98213
 P 8650 5850
 F 0 "R14" H 8720 5896 50  0000 L CNN
 F 1 "R" H 8720 5805 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8580 5850 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8580 5850 50  0001 C CNN
 F 3 "" H 8650 5850 50  0000 C CNN
 	1    8650 5850
 	1    0    0    -1  
@@ -263,37 +263,15 @@ F 3 "" H 9050 6000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:R-device R22
-U 1 1 57E9996F
-P 9500 4950
-F 0 "R22" H 9570 4996 50  0000 L CNN
-F 1 "R" H 9570 4905 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9430 4950 50  0000 C CNN
-F 3 "" H 9500 4950 50  0000 C CNN
-	1    9500 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR022
-U 1 1 57E99A6C
-P 9500 5100
-F 0 "#PWR022" H 9500 4950 50  0001 C CNN
-F 1 "VCC" H 9518 5273 50  0000 C CNN
-F 2 "" H 9500 5100 50  0000 C CNN
-F 3 "" H 9500 5100 50  0000 C CNN
-	1    9500 5100
-	-1   0    0    1   
-$EndComp
-$Comp
 L Akku-rescue:R-device R9
 U 1 1 57F2FBEB
-P 3500 2050
-F 0 "R9" H 3570 2096 50  0000 L CNN
-F 1 "R" H 3570 2005 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3430 2050 50  0000 C CNN
-F 3 "" H 3500 2050 50  0000 C CNN
-	1    3500 2050
-	0    1    -1   0   
+P 3650 2250
+F 0 "R9" H 3720 2296 50  0000 L CNN
+F 1 "R" H 3720 2205 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3580 2250 50  0001 C CNN
+F 3 "" H 3650 2250 50  0000 C CNN
+	1    3650 2250
+	-1   0    0    -1  
 $EndComp
 $Comp
 L bonsai:LED D7
@@ -301,7 +279,7 @@ U 1 1 57FBC65C
 P 8850 6000
 F 0 "D7" H 8850 6100 50  0000 C CNN
 F 1 "LED" H 8850 5900 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm_FlatTop" H 8850 6000 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm_FlatTop" H 8850 6000 50  0001 C CNN
 F 3 "" H 8850 6000 50  0000 C CNN
 	1    8850 6000
 	-1   0    0    1   
@@ -312,7 +290,7 @@ U 1 1 57FC1E29
 P 8150 6200
 F 0 "R12" V 8230 6200 50  0000 C CNN
 F 1 "R" V 8150 6200 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 6200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 6200 50  0001 C CNN
 F 3 "" H 8150 6200 50  0000 C CNN
 	1    8150 6200
 	0    1    1    0   
@@ -323,7 +301,7 @@ U 1 1 57FC34DF
 P 7500 6200
 F 0 "SW3" H 7300 6350 50  0000 C CNN
 F 1 "CLR_Bonsai_SWITCH_INV" H 7350 6050 50  0000 C CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H 7500 6200 50  0000 C CNN
+F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H 7500 6200 50  0001 C CNN
 F 3 "" H 7500 6200 50  0000 C CNN
 	1    7500 6200
 	-1   0    0    -1  
@@ -367,7 +345,7 @@ U 1 1 57E939A0
 P 7200 2000
 F 0 "U6" V 7246 1371 50  0000 R CNN
 F 1 "74LS541" V 7155 1371 50  0000 R CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_LongPads" H 7200 2000 50  0000 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm_LongPads" H 7200 2000 50  0001 C CNN
 F 3 "" H 7200 2000 50  0000 C CNN
 	1    7200 2000
 	0    -1   -1   0   
@@ -378,7 +356,7 @@ U 1 1 58057A43
 P 50 1250
 F 0 "P7" H 50  1800 50  0000 C CNN
 F 1 "CONN_02X10" V 50  1250 50  0000 C CNN
-F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 50  1250 50  0000 C CNN
+F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 50  1250 50  0001 C CNN
 F 3 "" H 50  50  50  0000 C CNN
 	1    50   1250
 	1    0    0    -1  
@@ -389,7 +367,7 @@ U 1 1 5805867B
 P 50 2350
 F 0 "P8" H 50  2900 50  0000 C CNN
 F 1 "CONN_02X10" V 50  2350 50  0000 C CNN
-F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 50  2400 50  0000 C CNN
+F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 50  2400 50  0001 C CNN
 F 3 "" H 50  1150 50  0000 C CNN
 	1    50   2350
 	1    0    0    -1  
@@ -400,7 +378,7 @@ U 1 1 58058F42
 P 1050 1850
 F 0 "P9" H 1050 2400 50  0000 C CNN
 F 1 "CONN_02X10" V 1050 1850 50  0000 C CNN
-F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 1050 1850 50  0000 C CNN
+F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 1050 1850 50  0001 C CNN
 F 3 "" H 1050 650 50  0000 C CNN
 	1    1050 1850
 	1    0    0    -1  
@@ -501,22 +479,6 @@ Text Label 350  2650 0    60   ~ 0
 a6
 Text Label 350  2750 0    60   ~ 0
 a7
-Text Label 6650 700  0    60   ~ 0
-a0
-Text Label 6750 700  0    60   ~ 0
-a1
-Text Label 6850 700  0    60   ~ 0
-a2
-Text Label 6950 700  0    60   ~ 0
-a3
-Text Label 7050 700  0    60   ~ 0
-a4
-Text Label 7150 700  0    60   ~ 0
-a5
-Text Label 7250 700  0    60   ~ 0
-a6
-Text Label 7350 700  0    60   ~ 0
-a7
 $Comp
 L power:GND #PWR02
 U 1 1 5805E8D5
@@ -542,24 +504,24 @@ $EndComp
 $Comp
 L power:GND #PWR013
 U 1 1 57F2FBF1
-P 3350 2050
-F 0 "#PWR013" H 3350 1800 50  0001 C CNN
-F 1 "GND" H 3355 1877 50  0000 C CNN
-F 2 "" H 3350 2050 50  0000 C CNN
-F 3 "" H 3350 2050 50  0000 C CNN
-	1    3350 2050
+P 3250 2050
+F 0 "#PWR013" H 3250 1800 50  0001 C CNN
+F 1 "GND" H 3255 1877 50  0000 C CNN
+F 2 "" H 3250 2050 50  0000 C CNN
+F 3 "" H 3250 2050 50  0000 C CNN
+	1    3250 2050
 	0    1    -1   0   
 $EndComp
 $Comp
 L bonsai:LED D1
 U 1 1 580EE5C2
-P 3650 2250
-F 0 "D1" H 3650 2350 50  0000 C CNN
-F 1 "LED" H 3650 2150 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm_FlatTop" H 3650 2250 50  0000 C CNN
-F 3 "" H 3650 2250 50  0000 C CNN
-	1    3650 2250
-	0    1    1    0   
+P 3450 2050
+F 0 "D1" H 3450 2150 50  0000 C CNN
+F 1 "LED" H 3450 1950 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm_FlatTop" H 3450 2050 50  0001 C CNN
+F 3 "" H 3450 2050 50  0000 C CNN
+	1    3450 2050
+	1    0    0    -1  
 $EndComp
 $Comp
 L Akku-rescue:4069-cmos4000 U1
@@ -567,7 +529,7 @@ U 2 1 580F11C5
 P 3000 3350
 F 0 "U1" V 2954 3528 50  0000 L CNN
 F 1 "74HC14" V 3045 3528 50  0000 L CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 3000 3350 60  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 3000 3350 60  0001 C CNN
 F 3 "" H 3000 3350 60  0001 C CNN
 	2    3000 3350
 	1    0    0    1   
@@ -578,7 +540,7 @@ U 1 1 580F178A
 P 1700 2800
 F 0 "R2" H 1770 2846 50  0000 L CNN
 F 1 "R" H 1770 2755 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1630 2800 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1630 2800 50  0001 C CNN
 F 3 "" H 1700 2800 50  0000 C CNN
 	1    1700 2800
 	0    1    -1   0   
@@ -611,7 +573,7 @@ U 1 1 580F350E
 P 1700 3000
 F 0 "R3" H 1770 3046 50  0000 L CNN
 F 1 "R" H 1770 2955 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1630 3000 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1630 3000 50  0001 C CNN
 F 3 "" H 1700 3000 50  0000 C CNN
 	1    1700 3000
 	0    1    -1   0   
@@ -622,24 +584,24 @@ Text Notes 2150 3050 0    60   ~ 0
 (PC)
 $Comp
 L Akku-rescue:74LS08-74xx U4
-U 1 1 580F517F
+U 4 1 580F517F
 P 4150 4050
 F 0 "U4" H 4150 4100 50  0000 C CNN
 F 1 "7408" H 4150 3950 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 4150 4050 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 4150 4050 50  0001 C CNN
 F 3 "" H 4150 4050 50  0000 C CNN
-	1    4150 4050
+	4    4150 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Akku-rescue:7400-RESCUE-Akku U2
-U 2 1 580F5956
+U 4 1 580F5956
 P 2650 5000
 F 0 "U2" H 2650 5050 50  0000 C CNN
 F 1 "7400" H 2650 4900 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 2650 5000 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 2650 5000 50  0001 C CNN
 F 3 "" H 2650 5000 50  0000 C CNN
-	2    2650 5000
+	4    2650 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -648,7 +610,7 @@ U 1 1 580F5818
 P 2650 4200
 F 0 "U2" H 2650 4250 50  0000 C CNN
 F 1 "7400" H 2650 4100 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 2650 4200 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 2650 4200 50  0001 C CNN
 F 3 "" H 2650 4200 50  0000 C CNN
 	1    2650 4200
 	1    0    0    -1  
@@ -659,10 +621,10 @@ U 1 1 58100CBF
 P 1400 4600
 F 0 "SW1" H 1200 4750 50  0000 C CNN
 F 1 "UP_Bonsai_SWITCH_INV" H 1250 4450 50  0000 C CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H 1400 4600 50  0000 C CNN
+F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H 1400 4600 50  0001 C CNN
 F 3 "" H 1400 4600 50  0000 C CNN
 	1    1400 4600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR04
@@ -681,7 +643,7 @@ U 5 1 581014B6
 P 5400 4050
 F 0 "U1" V 5354 4228 50  0000 L CNN
 F 1 "74HC14" V 5445 4228 50  0000 L CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5400 4050 60  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5400 4050 60  0001 C CNN
 F 3 "" H 5400 4050 60  0001 C CNN
 	5    5400 4050
 	1    0    0    1   
@@ -692,7 +654,7 @@ U 1 1 581018B2
 P 5850 3900
 F 0 "R11" V 5930 3900 50  0000 C CNN
 F 1 "R" V 5850 3900 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5780 3900 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5780 3900 50  0001 C CNN
 F 3 "" H 5850 3900 50  0000 C CNN
 	1    5850 3900
 	-1   0    0    1   
@@ -703,7 +665,7 @@ U 1 1 58101E2D
 P 5850 3550
 F 0 "D3" H 5850 3650 50  0000 C CNN
 F 1 "LED" H 5850 3450 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm_FlatTop" H 5850 3550 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm_FlatTop" H 5850 3550 50  0001 C CNN
 F 3 "" H 5850 3550 50  0000 C CNN
 	1    5850 3550
 	0    1    1    0   
@@ -725,20 +687,20 @@ U 3 1 58103E9D
 P 2650 5950
 F 0 "U2" H 2650 6000 50  0000 C CNN
 F 1 "7400" H 2650 5850 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 2650 5950 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 2650 5950 50  0001 C CNN
 F 3 "" H 2650 5950 50  0000 C CNN
 	3    2650 5950
 	1    0    0    1   
 $EndComp
 $Comp
 L Akku-rescue:7400-RESCUE-Akku U2
-U 4 1 58103EA3
+U 2 1 58103EA3
 P 2650 6750
 F 0 "U2" H 2650 6800 50  0000 C CNN
 F 1 "7400" H 2650 6650 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 2650 6750 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 2650 6750 50  0001 C CNN
 F 3 "" H 2650 6750 50  0000 C CNN
-	4    2650 6750
+	2    2650 6750
 	1    0    0    1   
 $EndComp
 $Comp
@@ -747,10 +709,10 @@ U 1 1 58103EB5
 P 1400 6350
 F 0 "SW2" H 1200 6500 50  0000 C CNN
 F 1 "DOWN_Bonsai_SWITCH_INV" H 1250 6200 50  0000 C CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H 1400 6350 50  0000 C CNN
+F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H 1400 6350 50  0001 C CNN
 F 3 "" H 1400 6350 50  0000 C CNN
 	1    1400 6350
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
@@ -765,20 +727,15 @@ F 3 "" H 900 6350 50  0000 C CNN
 $EndComp
 $Comp
 L Akku-rescue:74LS08-74xx U4
-U 4 1 581052DF
+U 1 1 581052DF
 P 4000 6050
 F 0 "U4" H 4000 6100 50  0000 C CNN
 F 1 "7408" H 4000 5950 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 4000 6050 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 4000 6050 50  0001 C CNN
 F 3 "" H 4000 6050 50  0000 C CNN
-	4    4000 6050
+	1    4000 6050
 	1    0    0    -1  
 $EndComp
-Connection ~ 6800 2800
-Wire Wire Line
-	7750 3550 7750 3750
-Wire Wire Line
-	6800 3550 7750 3550
 Wire Wire Line
 	6800 2700 6800 2800
 Wire Wire Line
@@ -790,14 +747,7 @@ Wire Wire Line
 	8900 2900 7000 2900
 Wire Wire Line
 	7000 2700 7000 2900
-Wire Wire Line
-	7000 3400 7800 3400
-Wire Wire Line
-	7800 3400 7800 3950
-Wire Wire Line
-	7800 3950 7750 3950
 Connection ~ 350  1850
-Connection ~ 9500 4800
 Wire Wire Line
 	6900 2700 6900 2850
 Wire Wire Line
@@ -884,30 +834,10 @@ Wire Bus Line
 	600  1750 600  850 
 Wire Bus Line
 	450  1750 600  1750
-Connection ~ 7400 1200
-Connection ~ 7300 1150
-Connection ~ 7200 1100
-Wire Wire Line
-	7100 600  7100 1050
-Wire Wire Line
-	7000 600  7000 1050
-Connection ~ 7100 1050
-Connection ~ 7000 1050
-Connection ~ 6900 1100
-Connection ~ 6800 1150
-Connection ~ 6700 1200
 Wire Wire Line
 	8100 4050 8300 4050
 Wire Wire Line
 	8100 1200 8100 4050
-Wire Wire Line
-	7400 1200 8100 1200
-Wire Wire Line
-	7400 600  7400 1200
-Wire Wire Line
-	7300 600  7300 1150
-Wire Wire Line
-	8150 1150 7300 1150
 Wire Wire Line
 	8150 1150 8150 3950
 Wire Wire Line
@@ -917,72 +847,27 @@ Wire Wire Line
 Wire Wire Line
 	8200 1100 8200 3850
 Wire Wire Line
-	7200 1100 8200 1100
-Wire Wire Line
-	7200 600  7200 1100
-Wire Wire Line
-	8300 1050 8300 3750
-Wire Wire Line
-	7100 1050 8300 1050
+	8250 1050 8250 3750
 Wire Wire Line
 	6200 4050 6350 4050
 Wire Wire Line
 	6200 1050 6200 4050
 Wire Wire Line
-	7000 1050 6200 1050
-Wire Wire Line
 	6250 3950 6350 3950
 Wire Wire Line
 	6250 1100 6250 3950
 Wire Wire Line
-	6900 1100 6250 1100
-Wire Wire Line
-	6900 600  6900 1100
-Wire Wire Line
 	6300 3850 6350 3850
-Wire Wire Line
-	6300 1150 6300 3850
-Wire Wire Line
-	6800 1150 6300 1150
-Wire Wire Line
-	6800 600  6800 1150
-Wire Wire Line
-	6350 1200 6350 3750
-Wire Wire Line
-	6700 1200 6350 1200
-Wire Wire Line
-	6700 600  6700 1200
 Wire Wire Line
 	7700 3100 7700 2700
 Wire Wire Line
 	7600 3100 7600 2700
 Connection ~ 7400 3150
 Wire Wire Line
-	10150 3950 9700 3950
-Wire Wire Line
-	10150 3200 10150 3950
-Wire Wire Line
-	7400 3200 10150 3200
+	7400 3200 9700 3200
 Connection ~ 7200 3000
-Wire Wire Line
-	7200 3300 9700 3300
-Wire Wire Line
-	9700 3300 9700 3750
 Connection ~ 7100 2950
-Wire Wire Line
-	7100 3350 10000 3350
-Connection ~ 6900 2850
-Wire Wire Line
-	7900 4050 7750 4050
-Wire Wire Line
-	7900 3500 7900 4050
-Wire Wire Line
-	6900 3500 7900 3500
 Connection ~ 6700 2750
-Wire Wire Line
-	6700 3450 8000 3450
-Wire Wire Line
-	8000 3450 8000 3850
 Wire Wire Line
 	7400 2700 7400 3150
 Wire Wire Line
@@ -1023,12 +908,6 @@ Wire Wire Line
 Wire Wire Line
 	6250 4800 6250 4200
 Wire Wire Line
-	8000 3850 7750 3850
-Wire Wire Line
-	10000 3350 10000 3850
-Wire Wire Line
-	10000 3850 9700 3850
-Wire Wire Line
 	8800 2850 8800 2750
 Wire Wire Line
 	8300 4200 7850 4200
@@ -1043,11 +922,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 3050 7300 3050
 Wire Wire Line
-	7300 3250 9850 3250
-Wire Wire Line
-	9850 3250 9850 4050
-Wire Wire Line
-	9850 4050 9700 4050
+	7300 3250 9750 3250
 Connection ~ 7300 3050
 Wire Wire Line
 	7300 2700 7300 3050
@@ -1061,7 +936,7 @@ U 1 1 5A159C74
 P 2100 3350
 F 0 "U1" H 2250 3450 50  0000 C CNN
 F 1 "74HC14" H 2300 3250 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 2100 3350 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 2100 3350 50  0001 C CNN
 F 3 "" H 2100 3350 50  0000 C CNN
 	1    2100 3350
 	1    0    0    -1  
@@ -1072,7 +947,7 @@ U 3 1 5A159ED2
 P 3650 2900
 F 0 "U1" H 3800 3000 50  0000 C CNN
 F 1 "74HC14" H 3850 2800 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 3650 2900 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 3650 2900 50  0001 C CNN
 F 3 "" H 3650 2900 50  0000 C CNN
 	3    3650 2900
 	0    -1   -1   0   
@@ -1083,7 +958,7 @@ U 6 1 5A15A24E
 P 5200 6050
 F 0 "U1" H 5350 6150 50  0000 C CNN
 F 1 "74HC14" H 5400 5950 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5200 6050 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 5200 6050 50  0001 C CNN
 F 3 "" H 5200 6050 50  0000 C CNN
 	6    5200 6050
 	1    0    0    -1  
@@ -1094,13 +969,11 @@ U 4 1 5A15A4DE
 P 8650 5250
 F 0 "U1" H 8800 5350 50  0000 C CNN
 F 1 "74HC14" H 8850 5150 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 8650 5250 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 8650 5250 50  0001 C CNN
 F 3 "" H 8650 5250 50  0000 C CNN
 	4    8650 5250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6800 2800 6800 3550
 Wire Wire Line
 	7000 2900 7000 3400
 Wire Wire Line
@@ -1118,22 +991,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 3100 7700 3100
 Wire Wire Line
-	7400 1200 7400 1300
-Wire Wire Line
-	7300 1150 7300 1300
-Wire Wire Line
-	7200 1100 7200 1300
-Wire Wire Line
-	7100 1050 7100 1300
-Wire Wire Line
-	7000 1050 7000 1300
-Wire Wire Line
-	6900 1100 6900 1300
-Wire Wire Line
-	6800 1150 6800 1300
-Wire Wire Line
-	6700 1200 6700 1300
-Wire Wire Line
 	9600 2750 9700 2750
 Wire Wire Line
 	7400 3150 7400 3200
@@ -1142,15 +999,9 @@ Wire Wire Line
 Wire Wire Line
 	7100 2950 7100 3350
 Wire Wire Line
-	6900 2850 6900 3500
-Wire Wire Line
-	6700 2750 6700 3450
-Wire Wire Line
 	8300 5100 8300 6200
 Wire Wire Line
 	7850 4800 8650 4800
-Wire Wire Line
-	8650 4800 9500 4800
 Wire Wire Line
 	7300 3050 7300 3250
 Wire Wire Line
@@ -1227,8 +1078,6 @@ Wire Wire Line
 	9500 2750 9600 2750
 Connection ~ 9600 2750
 Wire Bus Line
-	7400 600  5350 600 
-Wire Bus Line
 	5350 600  5350 850 
 Wire Wire Line
 	6350 4350 4850 4350
@@ -1287,12 +1136,6 @@ Wire Wire Line
 	10500 1500 10650 1500
 Wire Wire Line
 	10650 1500 10650 1450
-Wire Wire Line
-	-150 1850 -150 2950
-Wire Wire Line
-	-150 750  -150 1850
-Wire Wire Line
-	850  1450 850  2450
 $Comp
 L Akku-rescue:2PinTerminalBlocktg-2PinTerminalBlocktg J1
 U 1 1 5AECBED9
@@ -1380,8 +1223,6 @@ Wire Wire Line
 Wire Wire Line
 	13200 4800 13200 5450
 Wire Wire Line
-	9500 4800 13200 4800
-Wire Wire Line
 	10650 1500 11000 1500
 Connection ~ 10650 1500
 Wire Wire Line
@@ -1399,7 +1240,7 @@ U 1 1 5B220C3D
 P 13200 450
 F 0 "RPA1" H 13327 549 50  0000 L CNN
 F 1 "R_PACK4BUSSED" H 13327 458 50  0000 L CNN
-F 2 "tg_locallibs:R_Array_SIP5" H 13327 359 60  0000 L CNN
+F 2 "tg_locallibs:R_Array_SIP5" H 13327 359 60  0001 L CNN
 F 3 "" H 13200 300 60  0000 C CNN
 	1    13200 450 
 	1    0    0    -1  
@@ -1477,7 +1318,7 @@ U 1 1 5810516E
 P 5650 6200
 F 0 "R10" V 5730 6200 50  0000 C CNN
 F 1 "R" V 5650 6200 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5580 6200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5580 6200 50  0001 C CNN
 F 3 "" H 5650 6200 50  0000 C CNN
 	1    5650 6200
 	-1   0    0    -1  
@@ -1488,7 +1329,7 @@ U 1 1 58105174
 P 5650 6550
 F 0 "D2" H 5650 6650 50  0000 C CNN
 F 1 "LED" H 5650 6450 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm_FlatTop" H 5650 6550 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm_FlatTop" H 5650 6550 50  0001 C CNN
 F 3 "" H 5650 6550 50  0000 C CNN
 	1    5650 6550
 	0    1    -1   0   
@@ -1501,7 +1342,7 @@ U 1 1 5B22DE13
 P 13200 1650
 F 0 "RPB1" H 13327 1749 50  0000 L CNN
 F 1 "R_PACK4BUSSED" H 13327 1658 50  0000 L CNN
-F 2 "tg_locallibs:R_Array_SIP5" H 13327 1559 60  0000 L CNN
+F 2 "tg_locallibs:R_Array_SIP5" H 13327 1559 60  0001 L CNN
 F 3 "" H 13200 1500 60  0000 C CNN
 	1    13200 1650
 	1    0    0    -1  
@@ -1511,10 +1352,10 @@ Wire Wire Line
 Wire Wire Line
 	13000 1300 13200 1300
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0102
 U 1 1 5C598A1C
 P 13200 1300
-F 0 "#PWR?" H 13200 1150 50  0001 C CNN
+F 0 "#PWR0102" H 13200 1150 50  0001 C CNN
 F 1 "VCC" V 13217 1428 50  0000 L CNN
 F 2 "" H 13200 1300 50  0000 C CNN
 F 3 "" H 13200 1300 50  0000 C CNN
@@ -1535,10 +1376,263 @@ Wire Wire Line
 	-550 3650 2950 3650
 Text GLabel 2950 3800 0    50   Input ~ 0
 RPB3
+Wire Wire Line
+	8650 4800 13200 4800
+Text GLabel 9050 4800 3    50   Input ~ 0
+RPB4
+Wire Wire Line
+	3650 2100 3650 2050
+Wire Wire Line
+	3650 2450 3650 2400
+Wire Wire Line
+	-150 1850 -150 1950
+Connection ~ -150 1950
+Wire Wire Line
+	-150 1950 -150 2050
+Connection ~ -150 2050
+Wire Wire Line
+	-150 2050 -150 2150
+Connection ~ -150 2150
+Wire Wire Line
+	-150 2150 -150 2250
+Connection ~ -150 2250
+Wire Wire Line
+	-150 2250 -150 2350
+Connection ~ -150 2350
+Wire Wire Line
+	-150 2350 -150 2450
+Connection ~ -150 2450
+Wire Wire Line
+	-150 2450 -150 2550
+Connection ~ -150 2550
+Wire Wire Line
+	-150 2550 -150 2650
+Connection ~ -150 2650
+Wire Wire Line
+	-150 2650 -150 2750
+Connection ~ -150 2750
+Wire Wire Line
+	-150 2750 -150 2850
+Connection ~ -150 2850
+Wire Wire Line
+	-150 2850 -150 2950
+Connection ~ 850  2350
+Wire Wire Line
+	850  2350 850  2450
+Connection ~ 850  2250
+Wire Wire Line
+	850  2250 850  2350
+Connection ~ 850  2150
+Wire Wire Line
+	850  2150 850  2250
+Connection ~ 850  2050
+Wire Wire Line
+	850  2050 850  2150
+Connection ~ 850  1950
+Wire Wire Line
+	850  1950 850  2050
+Connection ~ 850  1850
+Wire Wire Line
+	850  1850 850  1950
+Wire Wire Line
+	850  1450 850  1550
+Connection ~ 850  1750
+Wire Wire Line
+	850  1750 850  1850
+Connection ~ 850  1650
+Wire Wire Line
+	850  1650 850  1750
+Connection ~ 850  1550
+Wire Wire Line
+	850  1550 850  1650
+Wire Wire Line
+	-150 750  -150 850 
+Connection ~ -150 850 
+Wire Wire Line
+	-150 850  -150 950 
+Connection ~ -150 950 
+Wire Wire Line
+	-150 950  -150 1050
+Connection ~ -150 1050
+Wire Wire Line
+	-150 1050 -150 1150
+Connection ~ -150 1150
+Wire Wire Line
+	-150 1150 -150 1250
+Connection ~ -150 1250
+Wire Wire Line
+	-150 1250 -150 1350
+Connection ~ -150 1350
+Wire Wire Line
+	-150 1350 -150 1450
+Connection ~ -150 1450
+Wire Wire Line
+	-150 1450 -150 1550
+Connection ~ -150 1550
+Wire Wire Line
+	-150 1550 -150 1650
+Connection ~ -150 1650
+Wire Wire Line
+	-150 1650 -150 1750
+Connection ~ -150 1750
+Wire Wire Line
+	-150 1750 -150 1850
+Entry Wire Line
+	6600 600  6700 700 
+Entry Wire Line
+	6700 600  6800 700 
+Entry Wire Line
+	6800 600  6900 700 
+Entry Wire Line
+	6900 600  7000 700 
+Entry Wire Line
+	7000 600  7100 700 
+Entry Wire Line
+	7100 600  7200 700 
+Entry Wire Line
+	7200 600  7300 700 
+Entry Wire Line
+	7300 600  7400 700 
+Text Label 6700 700  0    50   ~ 0
+a0
+Text Label 6800 700  0    50   ~ 0
+a1
+Text Label 6900 700  0    50   ~ 0
+a2
+Text Label 7000 700  0    50   ~ 0
+a3
+Text Label 7100 700  0    50   ~ 0
+a4
+Text Label 7200 700  0    50   ~ 0
+a5
+Text Label 7300 700  0    50   ~ 0
+a6
+Text Label 7400 700  0    50   ~ 0
+a7
+Wire Wire Line
+	6700 2750 6700 3550
+Wire Wire Line
+	7750 3850 7800 3850
+Wire Wire Line
+	6800 3500 6800 2800
+Connection ~ 6800 2800
+Wire Wire Line
+	6900 2850 6900 3450
+Wire Wire Line
+	7850 3950 7750 3950
+Connection ~ 6900 2850
+Wire Wire Line
+	7900 4050 7750 4050
+Wire Wire Line
+	9700 3850 9750 3850
+Wire Wire Line
+	9700 3950 9800 3950
+Wire Wire Line
+	9700 4050 9850 4050
+Wire Wire Line
+	8250 3750 8300 3750
+Wire Wire Line
+	6800 700  6800 1100
+Wire Wire Line
+	6700 700  6700 1050
+Wire Wire Line
+	6900 700  6900 1150
+Wire Wire Line
+	7000 700  7000 1200
+Wire Wire Line
+	6350 3750 6350 1200
+Wire Wire Line
+	6350 1200 7000 1200
+Connection ~ 7000 1200
+Wire Wire Line
+	7000 1200 7000 1300
+Wire Wire Line
+	6300 1150 6900 1150
+Wire Wire Line
+	6300 1150 6300 3850
+Connection ~ 6900 1150
+Wire Wire Line
+	6900 1150 6900 1300
+Wire Wire Line
+	6250 1100 6800 1100
+Connection ~ 6800 1100
+Wire Wire Line
+	6800 1100 6800 1300
+Wire Wire Line
+	6200 1050 6700 1050
+Connection ~ 6700 1050
+Wire Wire Line
+	6700 1050 6700 1300
+Wire Wire Line
+	7400 700  7400 1050
+Connection ~ 7100 1200
+Wire Wire Line
+	7100 1200 7100 1300
+Connection ~ 7200 1150
+Wire Wire Line
+	7200 1150 7200 1200
+Wire Wire Line
+	7200 1200 7200 1300
+Wire Wire Line
+	7200 700  7200 1150
+Wire Wire Line
+	7100 1200 8100 1200
+Wire Wire Line
+	8200 1100 7300 1100
+Wire Wire Line
+	7300 700  7300 1100
+Connection ~ 7300 1100
+Wire Wire Line
+	7300 1100 7300 1150
+Wire Wire Line
+	7300 1150 7300 1300
+Wire Wire Line
+	7200 1150 8150 1150
+Wire Wire Line
+	7100 700  7100 1200
+Wire Wire Line
+	8250 1050 7400 1050
+Connection ~ 7400 1050
+Wire Wire Line
+	7400 1050 7400 1300
+Wire Wire Line
+	7000 3400 7750 3400
+Wire Wire Line
+	7750 3400 7750 3750
+Wire Wire Line
+	6900 3450 7800 3450
+Wire Wire Line
+	7800 3450 7800 3850
+Wire Wire Line
+	6800 3500 7850 3500
+Wire Wire Line
+	7850 3500 7850 3950
+Wire Wire Line
+	6700 3550 7900 3550
+Wire Wire Line
+	7900 3550 7900 4050
+Wire Wire Line
+	9700 3200 9700 3750
+Wire Wire Line
+	9750 3250 9750 3850
+Wire Wire Line
+	9800 3950 9800 3300
+Wire Wire Line
+	9800 3300 7200 3300
+Wire Wire Line
+	9850 4050 9850 3350
+Wire Wire Line
+	9850 3350 7100 3350
 Wire Bus Line
 	450  1050 450  1750
 Wire Bus Line
 	450  2150 450  2850
 Wire Bus Line
 	1450 850  1450 2350
+Wire Bus Line
+	5350 600  7400 600 
+Text GLabel 8400 6200 3    50   Input ~ 0
+CLR
+Text GLabel 9250 4800 3    50   Input ~ 0
+^load
 $EndSCHEMATC
