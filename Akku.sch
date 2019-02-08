@@ -1679,6 +1679,17 @@ Wire Wire Line
 	850  1600 850  1800
 Connection ~ 850  1600
 Connection ~ 1150 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5CDAAA47
+P 8000 5950
+F 0 "#PWR?" H 8000 5700 50  0001 C CNN
+F 1 "GND" H 8000 5800 50  0000 C CNN
+F 2 "" H 8000 5950 50  0000 C CNN
+F 3 "" H 8000 5950 50  0000 C CNN
+	1    8000 5950
+	0    -1   -1   0   
+$EndComp
 Wire Bus Line
 	5250 600  5250 2100
 Wire Bus Line
