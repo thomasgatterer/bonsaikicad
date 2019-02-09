@@ -751,11 +751,7 @@ Wire Wire Line
 	6900 2700 6900 2850
 Wire Wire Line
 	8300 4550 8300 5100
-Wire Wire Line
-	4650 4450 6350 4450
 Connection ~ 4650 6050
-Wire Wire Line
-	4650 4450 4650 6050
 Wire Wire Line
 	4600 6050 4650 6050
 Wire Wire Line
@@ -884,10 +880,6 @@ Wire Wire Line
 Wire Wire Line
 	8300 5100 6350 5100
 Wire Wire Line
-	7750 4350 7750 4250
-Wire Wire Line
-	8300 4350 7750 4350
-Wire Wire Line
 	6250 4200 6350 4200
 Wire Wire Line
 	6250 4800 6250 4200
@@ -910,10 +902,6 @@ Wire Wire Line
 Connection ~ 7300 3050
 Wire Wire Line
 	7300 2700 7300 3050
-Wire Wire Line
-	7750 4450 8300 4450
-NoConn ~ 9700 4250
-NoConn ~ 9700 4450
 $Comp
 L Akku-rescue:74HC14-RESCUE-Akku U1
 U 1 1 5A159C74
@@ -1047,9 +1035,7 @@ Wire Wire Line
 	9500 2750 9600 2750
 Connection ~ 9600 2750
 Wire Wire Line
-	6350 4350 4850 4350
-Wire Wire Line
-	4850 4350 4850 4050
+	6350 4350 6050 4350
 Connection ~ 4850 4050
 Wire Wire Line
 	4850 4050 4750 4050
@@ -1618,7 +1604,7 @@ U 1 1 5CBF3D2E
 P 1000 1400
 F 0 "C1" V 688 1400 50  0000 C CNN
 F 1 "C" V 779 1400 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" V 855 1400 30  0000 C CNN
+F 2 "tg_foodprint:C_Disc_D10.0mm_W2.5mm_P5.00mm" V 855 1400 30  0000 C CNN
 F 3 "" H 1000 1400 60  0000 C CNN
 	1    1000 1400
 	0    1    1    0   
@@ -1629,7 +1615,7 @@ U 1 1 5CBF52E5
 P 1000 1600
 F 0 "C2" V 688 1600 50  0000 C CNN
 F 1 "C" V 779 1600 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" V 855 1600 30  0000 C CNN
+F 2 "tg_foodprint:C_Disc_D10.0mm_W2.5mm_P5.00mm" V 855 1600 30  0000 C CNN
 F 3 "" H 1000 1600 60  0000 C CNN
 	1    1000 1600
 	0    1    1    0   
@@ -1640,7 +1626,7 @@ U 1 1 5CC05CEA
 P 1000 1250
 F 0 "D13" H 1000 929 50  0000 C CNN
 F 1 "D" H 1000 1020 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_A-405_P10.16mm_Horizontal" H 1000 1119 60  0000 C CNN
+F 2 "Pin_Headers:D_DO-41_SOD81_P10.16mm_Horizontal" H 1000 1119 60  0000 C CNN
 F 3 "" H 1000 1250 60  0000 C CNN
 	1    1000 1250
 	-1   0    0    1   
@@ -1668,7 +1654,7 @@ U 1 1 5CC7F388
 P 1000 1800
 F 0 "C3" V 688 1800 50  0000 C CNN
 F 1 "C" V 779 1800 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D10.0mm_W2.5mm_P5.00mm" V 855 1800 30  0000 C CNN
+F 2 "tg_foodprint:C_Disc_D10.0mm_W2.5mm_P5.00mm" V 855 1800 30  0000 C CNN
 F 3 "" H 1000 1800 60  0000 C CNN
 	1    1000 1800
 	0    1    1    0   
@@ -1680,22 +1666,56 @@ Wire Wire Line
 Connection ~ 850  1600
 Connection ~ 1150 1600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 5CDAAA47
 P 8000 5950
-F 0 "#PWR?" H 8000 5700 50  0001 C CNN
+F 0 "#PWR0104" H 8000 5700 50  0001 C CNN
 F 1 "GND" H 8000 5800 50  0000 C CNN
 F 2 "" H 8000 5950 50  0000 C CNN
 F 3 "" H 8000 5950 50  0000 C CNN
 	1    8000 5950
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	9700 4450 9700 4650
+Wire Wire Line
+	9700 4650 6100 4650
+Wire Wire Line
+	6100 4650 6100 4450
+Wire Wire Line
+	9700 4250 9800 4250
+Wire Wire Line
+	9800 4250 9800 4700
+Wire Wire Line
+	8300 4450 8150 4450
+Wire Wire Line
+	8150 4450 8150 5350
+Wire Wire Line
+	8150 5350 4650 5350
+Wire Wire Line
+	4650 5350 4650 6050
+Wire Wire Line
+	6050 4700 6050 4350
+Wire Wire Line
+	9800 4700 6050 4700
+Wire Wire Line
+	8300 4350 8100 4350
+Wire Wire Line
+	8100 4350 8100 5250
+Wire Wire Line
+	8100 5250 4850 5250
+Wire Wire Line
+	4850 4050 4850 5250
+NoConn ~ 7750 4250
+NoConn ~ 7750 4450
+Wire Wire Line
+	6350 4450 6100 4450
 Wire Bus Line
-	5250 600  5250 2100
+	6000 600  7400 600 
 Wire Bus Line
 	4500 600  4500 2100
 Wire Bus Line
-	6000 600  6000 2100
+	5250 600  5250 2100
 Wire Bus Line
-	6000 600  7400 600 
+	6000 600  6000 2100
 $EndSCHEMATC
