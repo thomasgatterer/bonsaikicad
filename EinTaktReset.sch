@@ -383,7 +383,7 @@ U 1 1 5845E30F
 P 2150 7950
 F 0 "R15" H 2200 8000 39  0000 L CNN
 F 1 "4,7k" H 2220 7905 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2080 7950 50  0000 C CNN
+F 2 "tg_bonsai_proj_spec_libs:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2080 7950 50  0000 C CNN
 F 3 "" H 2150 7950 50  0000 C CNN
 	1    2150 7950
 	1    0    0    -1  
@@ -427,7 +427,7 @@ U 1 1 5845F8A9
 P 2100 6750
 F 0 "R14" H 2150 6800 39  0000 L CNN
 F 1 "4,7k" H 2170 6705 50  0000 L CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" V 2030 6750 50  0000 C CNN
+F 2 "tg_bonsai_proj_spec_libs:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2030 6750 50  0000 C CNN
 F 3 "" H 2100 6750 50  0000 C CNN
 	1    2100 6750
 	1    0    0    -1  

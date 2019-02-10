@@ -1,13 +1,16 @@
 
-update=Sa 09 Feb 2019 16:41:38 CET
+update=So 10 Feb 2019 02:17:10 CET
 
 version=1
-last_client=eeschema
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -25,6 +28,9 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=1
+TrackWidth2=0.4
+TrackWidth3=0.6
+TrackWidth4=1.2
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -53,7 +59,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.2
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=0,3 mm
@@ -77,6 +83,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[eeschema]
-version=1
-LibDir=
