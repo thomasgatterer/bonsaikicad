@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name EinTaktReset-rescue)(type Legacy)(uri ${KIPRJMOD}/EinTaktReset-rescue.lib)(options "")(descr ""))
-)
