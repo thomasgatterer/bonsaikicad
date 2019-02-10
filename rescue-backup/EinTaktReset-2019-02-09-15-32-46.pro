@@ -1,13 +1,16 @@
 
-update=Sa 09 Feb 2019 16:41:38 CET
+update=Sa 09 Feb 2019 08:05:47 CET
 
 version=1
-last_client=eeschema
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -77,6 +80,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[eeschema]
-version=1
-LibDir=

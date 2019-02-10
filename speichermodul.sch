@@ -2136,7 +2136,7 @@ U 1 1 5C46F53B
 P 1000 4900
 F 0 "SW2" V 1099 4742 50  0000 R CNN
 F 1 "SW_PUSH-tg" V 1008 4742 50  0000 R CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg" V 909 4742 60  0000 R CNN
+F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" V 909 4742 60  0000 R CNN
 F 3 "" H 970 4920 60  0000 C CNN
 	1    1000 4900
 	0    -1   1    0   
@@ -2153,7 +2153,7 @@ U 1 1 5C4723DE
 P 1100 2700
 F 0 "SW1" V 1001 2542 50  0000 R CNN
 F 1 "SW_PUSH-tg" V 1092 2542 50  0000 R CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg" V 1191 2542 60  0000 R CNN
+F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" V 1191 2542 60  0000 R CNN
 F 3 "" H 1070 2720 60  0000 C CNN
 	1    1100 2700
 	0    1    -1   0   
@@ -2188,6 +2188,7 @@ Wire Wire Line
 Connection ~ 1100 5150
 Wire Wire Line
 	1000 2450 1100 2450
+Connection ~ 1100 2450
 Wire Bus Line
 	9550 3350 9550 3550
 Wire Bus Line
@@ -2206,5 +2207,4 @@ Wire Bus Line
 	10950 2750 10950 4850
 Wire Bus Line
 	9550 2500 9550 3250
-Connection ~ 1100 2450
 $EndSCHEMATC

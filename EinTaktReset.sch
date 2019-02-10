@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
+EESchema Schematic File Version 4
 LIBS:EinTaktReset-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:VCC #PWR01
+L 74540_pin_20_added:power_VCC #PWR01
 U 1 1 57E93C42
 P 4000 2450
 F 0 "#PWR01" H 4000 2300 50  0001 C CNN
@@ -27,7 +26,7 @@ F 3 "" H 4000 2450 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VCC #PWR02
+L 74540_pin_20_added:power_VCC #PWR02
 U 1 1 57E93F73
 P 8050 2150
 F 0 "#PWR02" H 8050 2000 50  0001 C CNN
@@ -38,7 +37,7 @@ F 3 "" H 8050 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:SW_PUSH SW5
+L 74540_pin_20_added:bonsai_SW_PUSH SW5
 U 1 1 57E93F95
 P 4250 4200
 F 0 "SW5" H 4250 4465 50  0000 C CNN
@@ -49,7 +48,7 @@ F 3 "" H 4250 4200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:SW_PUSH SW7
+L 74540_pin_20_added:bonsai_SW_PUSH SW7
 U 1 1 57E94003
 P 4350 4200
 F 0 "SW7" H 4350 4465 50  0000 C CNN
@@ -60,7 +59,7 @@ F 3 "" H 4350 4200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:SW_PUSH SW8
+L 74540_pin_20_added:bonsai_SW_PUSH SW8
 U 1 1 57E9403B
 P 4450 4200
 F 0 "SW8" H 4450 4465 50  0000 C CNN
@@ -71,7 +70,7 @@ F 3 "" H 4450 4200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:SW_PUSH SW9
+L 74540_pin_20_added:bonsai_SW_PUSH SW9
 U 1 1 57E94073
 P 4550 4200
 F 0 "SW9" H 4550 4465 50  0000 C CNN
@@ -82,7 +81,7 @@ F 3 "" H 4550 4200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:SW_PUSH SW10
+L 74540_pin_20_added:bonsai_SW_PUSH SW10
 U 1 1 57E940A9
 P 4650 4200
 F 0 "SW10" H 4650 4465 50  0000 C CNN
@@ -93,7 +92,7 @@ F 3 "" H 4650 4200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:SW_PUSH SW11
+L 74540_pin_20_added:bonsai_SW_PUSH SW11
 U 1 1 57E940E3
 P 4750 4200
 F 0 "SW11" H 4750 4465 50  0000 C CNN
@@ -104,7 +103,7 @@ F 3 "" H 4750 4200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:SW_PUSH SW12
+L 74540_pin_20_added:bonsai_SW_PUSH SW12
 U 1 1 57E9412D
 P 4850 4200
 F 0 "SW12" H 4850 4465 50  0000 C CNN
@@ -115,7 +114,7 @@ F 3 "" H 4850 4200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:SW_PUSH SW13
+L 74540_pin_20_added:bonsai_SW_PUSH SW13
 U 1 1 57E94163
 P 4950 4200
 F 0 "SW13" H 4950 4465 50  0000 C CNN
@@ -126,7 +125,7 @@ F 3 "" H 4950 4200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xx:74LS32 U4
+L 74540_pin_20_added:74xx_74LS32 U4
 U 1 1 57E94702
 P 5550 3750
 F 0 "U4" V 5504 3979 50  0000 L CNN
@@ -137,7 +136,7 @@ F 3 "" H 5550 3750 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L device:R R7
+L 74540_pin_20_added:device_R R7
 U 1 1 57E94A96
 P 5550 4500
 F 0 "R7" H 5620 4546 50  0000 L CNN
@@ -148,7 +147,7 @@ F 3 "" H 5550 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:LED D2
+L 74540_pin_20_added:bonsai_LED D2
 U 1 1 57E94B39
 P 5550 4850
 F 0 "D2" V 5504 4928 50  0000 L CNN
@@ -159,7 +158,7 @@ F 3 "" H 5550 4850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VCC #PWR03
+L 74540_pin_20_added:power_VCC #PWR03
 U 1 1 57E94C95
 P 5550 5050
 F 0 "#PWR03" H 5550 4900 50  0001 C CNN
@@ -170,7 +169,7 @@ F 3 "" H 5550 5050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS00 U5
+L 74540_pin_20_added:74xx_74LS00 U5
 U 3 1 57E954F3
 P 6250 2550
 F 0 "U5" V 6296 2301 50  0000 R CNN
@@ -181,7 +180,7 @@ F 3 "" H 6250 2550 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS00 U5
+L 74540_pin_20_added:74xx_74LS00 U5
 U 4 1 57E9566C
 P 7450 2550
 F 0 "U5" V 7496 2301 50  0000 R CNN
@@ -192,7 +191,7 @@ F 3 "" H 7450 2550 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R R11
+L 74540_pin_20_added:device_R R11
 U 1 1 57E961BB
 P 8050 2800
 F 0 "R11" V 7843 2800 50  0000 C CNN
@@ -203,7 +202,7 @@ F 3 "" H 8050 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR04
+L 74540_pin_20_added:power_VCC #PWR04
 U 1 1 57E96287
 P 8050 2950
 F 0 "#PWR04" H 8050 2800 50  0001 C CNN
@@ -214,7 +213,7 @@ F 3 "" H 8050 2950 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R10
+L 74540_pin_20_added:device_R R10
 U 1 1 57E96601
 P 8050 2300
 F 0 "R10" V 7843 2300 50  0000 C CNN
@@ -225,7 +224,7 @@ F 3 "" H 8050 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:CP C4
+L 74540_pin_20_added:bonsai_CP C4
 U 1 1 57E96FB7
 P 3800 4650
 F 0 "C4" H 3918 4696 50  0000 L CNN
@@ -236,7 +235,7 @@ F 3 "" H 3800 4650 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:CP C3
+L 74540_pin_20_added:bonsai_CP C3
 U 1 1 57E970CE
 P 3500 4650
 F 0 "C3" H 3382 4604 50  0000 R CNN
@@ -247,7 +246,7 @@ F 3 "" H 3500 4650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L bonsai:C C5
+L 74540_pin_20_added:bonsai_C C5
 U 1 1 57E97853
 P 3800 4950
 F 0 "C5" V 3548 4950 50  0000 C CNN
@@ -258,7 +257,7 @@ F 3 "" H 3800 4950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L bonsai:SW_PUSH SW4
+L 74540_pin_20_added:bonsai_SW_PUSH SW4
 U 1 1 57E97A95
 P 3150 4350
 F 0 "SW4" V 3128 4478 50  0000 L CNN
@@ -269,7 +268,7 @@ F 3 "" H 3150 4350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R16
+L 74540_pin_20_added:device_R R16
 U 1 1 5845B97A
 P 2500 5800
 F 0 "R16" H 2550 5850 39  0000 L CNN
@@ -280,7 +279,7 @@ F 3 "" H 2500 5800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:SW_PUSH SW3
+L 74540_pin_20_added:bonsai_SW_PUSH SW3
 U 1 1 5845BEEF
 P 2050 5950
 F 0 "SW3" H 2050 6215 50  0000 C CNN
@@ -291,7 +290,7 @@ F 3 "" H 2050 5950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS00 U5
+L 74540_pin_20_added:74xx_74LS00 U5
 U 1 1 5845CB68
 P 5050 6100
 F 0 "U5" V 5096 5851 50  0000 R CNN
@@ -302,7 +301,7 @@ F 3 "" H 5050 6100 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS00 U5
+L 74540_pin_20_added:74xx_74LS00 U5
 U 2 1 5845CDF7
 P 5850 6700
 F 0 "U5" V 5896 6451 50  0000 R CNN
@@ -313,7 +312,7 @@ F 3 "" H 5850 6700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R17
+L 74540_pin_20_added:device_R R17
 U 1 1 5845CFFB
 P 3850 6700
 F 0 "R17" H 3900 6750 39  0000 L CNN
@@ -324,7 +323,7 @@ F 3 "" H 3850 6700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR05
+L 74540_pin_20_added:power_VCC #PWR05
 U 1 1 5845DB56
 P 2600 6100
 F 0 "#PWR05" H 2600 5950 50  0001 C CNN
@@ -335,7 +334,7 @@ F 3 "" H 2600 6100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR06
+L 74540_pin_20_added:power_VCC #PWR06
 U 1 1 5845DBA0
 P 2500 5650
 F 0 "#PWR06" H 2500 5500 50  0001 C CNN
@@ -346,7 +345,7 @@ F 3 "" H 2500 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR07
+L 74540_pin_20_added:power_VCC #PWR07
 U 1 1 5845DBEA
 P 3250 5450
 F 0 "#PWR07" H 3250 5300 50  0001 C CNN
@@ -357,7 +356,7 @@ F 3 "" H 3250 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR08
+L 74540_pin_20_added:power_VCC #PWR08
 U 1 1 5845DC34
 P 3850 6850
 F 0 "#PWR08" H 3850 6700 50  0001 C CNN
@@ -368,7 +367,7 @@ F 3 "" H 3850 6850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR09
+L 74540_pin_20_added:power_VCC #PWR09
 U 1 1 5845DD2A
 P 2150 8100
 F 0 "#PWR09" H 2150 7950 50  0001 C CNN
@@ -379,7 +378,7 @@ F 3 "" H 2150 8100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R15
+L 74540_pin_20_added:device_R R15
 U 1 1 5845E30F
 P 2150 7950
 F 0 "R15" H 2200 8000 39  0000 L CNN
@@ -390,7 +389,7 @@ F 3 "" H 2150 7950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS132 U1
+L 74540_pin_20_added:74xx_74LS132 U1
 U 3 1 5845E5BA
 P 2950 7700
 F 0 "U1" V 2996 7451 50  0000 R CNN
@@ -401,7 +400,7 @@ F 3 "" H 2950 7700 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS132 U1
+L 74540_pin_20_added:74xx_74LS132 U1
 U 4 1 5845E6D2
 P 2950 7000
 F 0 "U1" V 2996 6751 50  0000 R CNN
@@ -412,29 +411,29 @@ F 3 "" H 2950 7000 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L bonsai:SWITCH_INV SW2
+L 74540_pin_20_added:bonsai_SWITCH_INV SW2
 U 1 1 5845E8F5
 P 1550 7300
 F 0 "SW2" H 1550 7625 50  0000 C CNN
 F 1 "SWITCH_INV" H 1550 7534 50  0000 C CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg" H 1550 7300 50  0000 C CNN
+F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H 1550 7300 50  0000 C CNN
 F 3 "" H 1550 7300 50  0000 C CNN
 	1    1550 7300
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R14
+L 74540_pin_20_added:device_R R14
 U 1 1 5845F8A9
 P 2100 6750
 F 0 "R14" H 2150 6800 39  0000 L CNN
 F 1 "4,7k" H 2170 6705 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2030 6750 50  0000 C CNN
+F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" V 2030 6750 50  0000 C CNN
 F 3 "" H 2100 6750 50  0000 C CNN
 	1    2100 6750
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR010
+L 74540_pin_20_added:power_VCC #PWR010
 U 1 1 5845F9DD
 P 2100 6600
 F 0 "#PWR010" H 2100 6450 50  0001 C CNN
@@ -445,7 +444,7 @@ F 3 "" H 2100 6600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS32 U4
+L 74540_pin_20_added:74xx_74LS32 U4
 U 4 1 584605A7
 P 5750 7900
 F 0 "U4" V 5796 7651 50  0000 R CNN
@@ -456,7 +455,7 @@ F 3 "" H 5750 7900 60  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L 74xx:74LS32 U4
+L 74540_pin_20_added:74xx_74LS32 U4
 U 3 1 58460B85
 P 4800 8400
 F 0 "U4" V 4846 8151 50  0000 R CNN
@@ -467,7 +466,7 @@ F 3 "" H 4800 8400 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R4
+L 74540_pin_20_added:device_R R4
 U 1 1 5846192F
 P 3750 8400
 F 0 "R4" V 3543 8400 50  0000 C CNN
@@ -478,7 +477,7 @@ F 3 "" H 3750 8400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L bonsai:Led_Small DROT1
+L 74540_pin_20_added:bonsai_Led_Small DROT1
 U 1 1 584626CA
 P 4050 8400
 F 0 "DROT1" H 4050 8705 50  0000 C CNN
@@ -491,7 +490,7 @@ $EndComp
 Text GLabel 8200 2650 2    60   Input ~ 0
 en-ln1
 $Comp
-L 74xx:74HCT541_PWR U3
+L 74540_pin_20_added:74xx_74HCT541_PWR U3
 U 1 1 57E935F2
 P 4750 2450
 F 0 "U3" H 4750 3378 50  0000 C CNN
@@ -518,7 +517,7 @@ Entry Wire Line
 Entry Wire Line
 	4850 1500 4950 1600
 $Comp
-L power:GND #PWR011
+L 74540_pin_20_added:power_GND #PWR011
 U 1 1 5A1F5918
 P 5500 2500
 F 0 "#PWR011" H 5500 2250 50  0001 C CNN
@@ -529,7 +528,7 @@ F 3 "" H 5500 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L 74540_pin_20_added:power_GND #PWR012
 U 1 1 5A1F5B7B
 P 1050 7300
 F 0 "#PWR012" H 1050 7050 50  0001 C CNN
@@ -540,7 +539,7 @@ F 3 "" H 1050 7300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR013
+L 74540_pin_20_added:power_GND #PWR013
 U 1 1 5A1F96D3
 P 1550 5950
 F 0 "#PWR013" H 1550 5700 50  0001 C CNN
@@ -551,7 +550,7 @@ F 3 "" H 1550 5950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
+L 74540_pin_20_added:power_GND #PWR014
 U 1 1 5A1FB827
 P 4600 4700
 F 0 "#PWR014" H 4600 4450 50  0001 C CNN
@@ -562,7 +561,7 @@ F 3 "" H 4600 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_02x10_Counter_Clockwise P4
+L 74540_pin_20_added:conn_Conn_02x10_Counter_Clockwise P4
 U 1 1 5A28337D
 P 7000 1550
 F 0 "P4" H 7000 2100 50  0000 C CNN
@@ -573,7 +572,7 @@ F 3 "" H 7000 350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_02x10_Counter_Clockwise P1
+L 74540_pin_20_added:conn_Conn_02x10_Counter_Clockwise P1
 U 1 1 5A2833E0
 P 2650 1550
 F 0 "P1" H 2650 2100 50  0000 C CNN
@@ -584,7 +583,7 @@ F 3 "" H 2650 350 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L 74540_pin_20_added:power_GND #PWR015
 U 1 1 5A285B78
 P 3500 8300
 F 0 "#PWR015" H 3500 8050 50  0001 C CNN
@@ -595,7 +594,7 @@ F 3 "" H 3500 8300 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR016
+L 74540_pin_20_added:power_VCC #PWR016
 U 1 1 5A314781
 P 1850 10600
 F 0 "#PWR016" H 1850 10450 50  0001 C CNN
@@ -606,7 +605,7 @@ F 3 "" H 1850 10600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:CP C2
+L 74540_pin_20_added:bonsai_CP C2
 U 1 1 5A315184
 P 1850 11200
 F 0 "C2" H 1875 11300 50  0000 L CNN
@@ -617,7 +616,7 @@ F 3 "" H 1850 11200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
+L 74540_pin_20_added:power_GND #PWR017
 U 1 1 5A31526B
 P 1850 11350
 F 0 "#PWR017" H 1850 11100 50  0001 C CNN
@@ -628,7 +627,7 @@ F 3 "" H 1850 11350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS132 U1
+L 74540_pin_20_added:74xx_74LS132 U1
 U 2 1 5A31755C
 P 2650 13300
 F 0 "U1" V 2696 13051 50  0000 R CNN
@@ -639,7 +638,7 @@ F 3 "" H 2650 13300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS132 U1
+L 74540_pin_20_added:74xx_74LS132 U1
 U 1 1 5A317BD1
 P 1200 13300
 F 0 "U1" V 1246 13051 50  0000 R CNN
@@ -650,7 +649,7 @@ F 3 "" H 1200 13300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR018
+L 74540_pin_20_added:power_VCC #PWR018
 U 1 1 57E966CE
 P -600 12550
 F 0 "#PWR018" H -600 12400 50  0001 C CNN
@@ -661,7 +660,7 @@ F 3 "" H -600 12550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR019
+L 74540_pin_20_added:power_VCC #PWR019
 U 1 1 5A318CCB
 P 4350 14450
 F 0 "#PWR019" H 4350 14300 50  0001 C CNN
@@ -672,7 +671,7 @@ F 3 "" H 4350 14450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R1
+L 74540_pin_20_added:device_R R1
 U 1 1 5A318D8E
 P -600 12700
 F 0 "R1" H -550 12750 39  0000 L CNN
@@ -683,7 +682,7 @@ F 3 "" H -600 12700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:CP C1
+L 74540_pin_20_added:bonsai_CP C1
 U 1 1 5A319373
 P -200 13950
 F 0 "C1" H -175 14050 50  0000 L CNN
@@ -694,7 +693,7 @@ F 3 "" H -200 13950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R2
+L 74540_pin_20_added:device_R R2
 U 1 1 5A31AE8F
 P -200 13650
 F 0 "R2" H -150 13700 39  0000 L CNN
@@ -705,7 +704,7 @@ F 3 "" H -200 13650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR020
+L 74540_pin_20_added:power_GND #PWR020
 U 1 1 5A31B31B
 P -200 14100
 F 0 "#PWR020" H -200 13850 50  0001 C CNN
@@ -716,7 +715,7 @@ F 3 "" H -200 14100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L 74540_pin_20_added:power_GND #PWR021
 U 1 1 5A31BD75
 P 4550 15500
 F 0 "#PWR021" H 4550 15250 50  0001 C CNN
@@ -727,7 +726,7 @@ F 3 "" H 4550 15500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:D D1
+L 74540_pin_20_added:bonsai_D D1
 U 1 1 5A32A9C2
 P -200 12900
 F 0 "D1" H -200 13000 50  0000 C CNN
@@ -738,7 +737,7 @@ F 3 "" H -200 12900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LS32 U4
+L 74540_pin_20_added:74xx_74LS32 U4
 U 2 1 5A32CD74
 P 5500 9700
 F 0 "U4" V 5546 9451 50  0000 R CNN
@@ -749,7 +748,7 @@ F 3 "" H 5500 9700 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L bonsai:SWITCH_INV SW6
+L 74540_pin_20_added:bonsai_SWITCH_INV SW6
 U 1 1 5A32DB4D
 P 4250 9500
 F 0 "SW6" H 4250 9825 50  0000 C CNN
@@ -760,7 +759,7 @@ F 3 "" H 4250 9500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR022
+L 74540_pin_20_added:power_GND #PWR022
 U 1 1 5A32DC55
 P 4750 9300
 F 0 "#PWR022" H 4750 9050 50  0001 C CNN
@@ -771,7 +770,7 @@ F 3 "" H 4750 9300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR023
+L 74540_pin_20_added:power_VCC #PWR023
 U 1 1 5A32DEFD
 P 3750 9350
 F 0 "#PWR023" H 3750 9200 50  0001 C CNN
@@ -782,7 +781,7 @@ F 3 "" H 3750 9350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R5
+L 74540_pin_20_added:device_R R5
 U 1 1 5A332DED
 P 5250 13250
 F 0 "R5" H 5300 13300 39  0000 L CNN
@@ -793,7 +792,7 @@ F 3 "" H 5250 13250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR024
+L 74540_pin_20_added:power_GND #PWR024
 U 1 1 5A333841
 P 4900 13250
 F 0 "#PWR024" H 4900 13000 50  0001 C CNN
@@ -804,7 +803,7 @@ F 3 "" H 4900 13250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R6
+L 74540_pin_20_added:device_R R6
 U 1 1 5A3343E3
 P 5300 12000
 F 0 "R6" H 5350 12050 39  0000 L CNN
@@ -815,7 +814,7 @@ F 3 "" H 5300 12000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VCC #PWR025
+L 74540_pin_20_added:power_VCC #PWR025
 U 1 1 5A3344D9
 P 5000 12000
 F 0 "#PWR025" H 5000 11850 50  0001 C CNN
@@ -826,7 +825,7 @@ F 3 "" H 5000 12000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR026
+L 74540_pin_20_added:power_GND #PWR026
 U 1 1 5A33585D
 P 7850 14100
 F 0 "#PWR026" H 7850 13850 50  0001 C CNN
@@ -837,7 +836,7 @@ F 3 "" H 7850 14100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR027
+L 74540_pin_20_added:power_GND #PWR027
 U 1 1 5A335958
 P 8650 14100
 F 0 "#PWR027" H 8650 13850 50  0001 C CNN
@@ -848,7 +847,7 @@ F 3 "" H 8650 14100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R9
+L 74540_pin_20_added:device_R R9
 U 1 1 5A335A17
 P 7850 13850
 F 0 "R9" H 7900 13900 39  0000 L CNN
@@ -859,7 +858,7 @@ F 3 "" H 7850 13850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R13
+L 74540_pin_20_added:device_R R13
 U 1 1 5A335CA1
 P 8650 13850
 F 0 "R13" H 8700 13900 39  0000 L CNN
@@ -870,7 +869,7 @@ F 3 "" H 8650 13850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R8
+L 74540_pin_20_added:device_R R8
 U 1 1 5A3370F6
 P 7850 11200
 F 0 "R8" H 7900 11250 39  0000 L CNN
@@ -881,7 +880,7 @@ F 3 "" H 7850 11200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R12
+L 74540_pin_20_added:device_R R12
 U 1 1 5A33749E
 P 8650 11200
 F 0 "R12" H 8700 11250 39  0000 L CNN
@@ -892,7 +891,7 @@ F 3 "" H 8650 11200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR028
+L 74540_pin_20_added:power_VCC #PWR028
 U 1 1 5A337716
 P 7850 10850
 F 0 "#PWR028" H 7850 10700 50  0001 C CNN
@@ -903,7 +902,7 @@ F 3 "" H 7850 10850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR029
+L 74540_pin_20_added:power_VCC #PWR029
 U 1 1 5A337F21
 P 8650 10850
 F 0 "#PWR029" H 8650 10700 50  0001 C CNN
@@ -962,7 +961,7 @@ a6
 Text Label 2950 1950 2    60   ~ 0
 a7
 $Comp
-L power:GND #PWR030
+L 74540_pin_20_added:power_GND #PWR030
 U 1 1 5A384C6C
 P 2600 2200
 F 0 "#PWR030" H 2600 1950 50  0001 C CNN
@@ -1005,7 +1004,7 @@ a6
 Text Label 6700 1950 0    60   ~ 0
 a7
 $Comp
-L power:GND #PWR031
+L 74540_pin_20_added:power_GND #PWR031
 U 1 1 5A389DC9
 P 7000 2200
 F 0 "#PWR031" H 7000 1950 50  0001 C CNN
@@ -1016,7 +1015,7 @@ F 3 "" H 7000 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R3
+L 74540_pin_20_added:device_R R3
 U 1 1 5A3A7CF2
 P 1850 10800
 F 0 "R3" H 1900 10850 39  0000 L CNN
@@ -1027,7 +1026,7 @@ F 3 "" H 1850 10800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74540:74540En U2
+L 74540_pin_20_added:74540_74540En U2
 U 5 1 5A3A8709
 P 6650 13500
 F 0 "U2" H 6750 13600 60  0000 C CNN
@@ -1038,7 +1037,7 @@ F 3 "" H 6800 13350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74540:74540En U2
+L 74540_pin_20_added:74540_74540En U2
 U 4 1 5A3A9FA6
 P 6650 13000
 F 0 "U2" H 6750 13100 60  0000 C CNN
@@ -1049,7 +1048,7 @@ F 3 "" H 6800 12850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74540:74540En U2
+L 74540_pin_20_added:74540_74540En U2
 U 3 1 5A3AA103
 P 6650 12500
 F 0 "U2" H 6750 12600 60  0000 C CNN
@@ -1060,7 +1059,7 @@ F 3 "" H 6800 12350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74540:74540En U2
+L 74540_pin_20_added:74540_74540En U2
 U 2 1 5A3AA1DD
 P 6650 12000
 F 0 "U2" H 6750 12100 60  0000 C CNN
@@ -1071,7 +1070,7 @@ F 3 "" H 6800 11850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74540:74540En U2
+L 74540_pin_20_added:74540_74540En U2
 U 1 1 5A3AA2BE
 P 6650 11500
 F 0 "U2" H 6750 11600 60  0000 C CNN
@@ -1082,7 +1081,7 @@ F 3 "" H 6800 11350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74540:74540En U2
+L 74540_pin_20_added:74540_74540En U2
 U 6 1 5A3AC79E
 P 2350 8800
 F 0 "U2" H 2450 8900 60  0000 C CNN
@@ -1093,7 +1092,7 @@ F 3 "" H 2500 8650 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74540:74540En U2
+L 74540_pin_20_added:74540_74540En U2
 U 7 1 5A3AD552
 P 2350 9650
 F 0 "U2" H 2450 9750 60  0000 C CNN
@@ -1104,7 +1103,7 @@ F 3 "" H 2500 9500 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74540:74540En U2
+L 74540_pin_20_added:74540_74540En U2
 U 8 1 5A3AD641
 P 2350 10500
 F 0 "U2" H 2450 10600 60  0000 C CNN
@@ -1115,7 +1114,7 @@ F 3 "" H 2500 10350 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VCC #PWR032
+L 74540_pin_20_added:power_VCC #PWR032
 U 1 1 5A3B07F1
 P 3950 3050
 F 0 "#PWR032" H 3950 2900 50  0001 C CNN
@@ -1146,7 +1145,7 @@ auto
 Text GLabel 10650 8500 2    60   Input ~ 0
 CLK
 $Comp
-L bonsai:R_PACK8BUSSED RP1
+L 74540_pin_20_added:bonsai_R_PACK8BUSSED RP1
 U 1 1 5A3C2E43
 P 3650 3400
 F 0 "RP1" H 3650 3700 50  0000 C CNN
@@ -1179,7 +1178,7 @@ en-ln2
 Text GLabel 12500 12450 0    60   Input ~ 0
 en-ln1
 $Comp
-L power:VCC #PWR033
+L 74540_pin_20_added:power_VCC #PWR033
 U 1 1 5A6BF626
 P -200 12550
 F 0 "#PWR033" H -200 12400 50  0001 C CNN
@@ -1190,7 +1189,7 @@ F 3 "" H -200 12550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR034
+L 74540_pin_20_added:power_GND #PWR034
 U 1 1 5A6CD1C3
 P -800 14700
 F 0 "#PWR034" H -800 14450 50  0001 C CNN
@@ -1201,7 +1200,7 @@ F 3 "" H -800 14700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR035
+L 74540_pin_20_added:power_VDD #PWR035
 U 1 1 5A6DB2EB
 P 4550 14450
 F 0 "#PWR035" H 4550 14300 50  0001 C CNN
@@ -1212,7 +1211,7 @@ F 3 "" H 4550 14450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:POT RV1
+L 74540_pin_20_added:bonsai_POT RV1
 U 1 1 5A3F8DE9
 P 2600 6350
 F 0 "RV1" V 2554 6272 50  0000 R CNN
@@ -1223,7 +1222,7 @@ F 3 "" H 2600 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR036
+L 74540_pin_20_added:power_GND #PWR036
 U 1 1 5A3F91C5
 P 2600 6600
 F 0 "#PWR036" H 2600 6350 50  0001 C CNN
@@ -1234,7 +1233,7 @@ F 3 "" H 2600 6600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR037
+L 74540_pin_20_added:power_GND #PWR037
 U 1 1 5A4CDB00
 P 4150 5450
 F 0 "#PWR037" H 4150 5200 50  0001 C CNN
@@ -1245,7 +1244,7 @@ F 3 "" H 4150 5450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG038
+L 74540_pin_20_added:power_PWR_FLAG #FLG038
 U 1 1 5A515F9D
 P 4750 14450
 F 0 "#FLG038" H 4750 14525 50  0001 C CNN
@@ -1256,7 +1255,7 @@ F 3 "" H 4750 14450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vco:74LS624 IC1
+L 74540_pin_20_added:vco_74LS624 IC1
 U 1 1 5A96C7F1
 P 3650 5950
 F 0 "IC1" H 3600 6000 60  0000 R CNN
@@ -1267,7 +1266,7 @@ F 3 "" H 3650 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:D D3
+L 74540_pin_20_added:bonsai_D D3
 U 1 1 5AA50448
 P 4900 15050
 F 0 "D3" H 4900 14835 50  0000 C CNN
@@ -1278,7 +1277,7 @@ F 3 "" H 4900 15050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 3PinTerminalBlocktg:3PinTerminalBlocktg J2
+L 74540_pin_20_added:3PinTerminalBlocktg_3PinTerminalBlocktg J2
 U 1 1 5ABEE025
 P 12800 12050
 F 0 "J2" H 12765 12090 50  0000 L CNN
@@ -1294,7 +1293,7 @@ F 8 "3PinTerminalBlocktg" H 12800 12050 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3PinTerminalBlocktg:3PinTerminalBlocktg J1
+L 74540_pin_20_added:3PinTerminalBlocktg_3PinTerminalBlocktg J1
 U 1 1 5ABEE293
 P 12800 12550
 F 0 "J1" H 12765 12590 50  0000 L CNN
@@ -1310,7 +1309,7 @@ F 8 "3PinTerminalBlocktg" H 12800 12550 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J5
+L 74540_pin_20_added:2PinTerminalBlocktg_2PinTerminalBlocktg J5
 U 1 1 5AC4DB91
 P 12800 13500
 F 0 "J5" H 12765 13490 50  0000 L CNN
@@ -1326,7 +1325,7 @@ F 8 "2PinTerminalBlocktg" H 12800 13500 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3PinTerminalBlocktg:3PinTerminalBlocktg J4
+L 74540_pin_20_added:3PinTerminalBlocktg_3PinTerminalBlocktg J4
 U 1 1 5AC4DD64
 P 12800 13300
 F 0 "J4" H 12765 13340 50  0000 L CNN
@@ -1342,7 +1341,7 @@ F 8 "3PinTerminalBlocktg" H 12800 13300 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J3
+L 74540_pin_20_added:2PinTerminalBlocktg_2PinTerminalBlocktg J3
 U 1 1 5ADB7E0E
 P 2950 15500
 F 0 "J3" V 2858 15323 50  0000 R CNN
@@ -1358,7 +1357,7 @@ F 8 "2PinTerminalBlocktg" H 2950 15500 50  0001 L BNN "Field8"
 	-1   0    0    1   
 $EndComp
 $Comp
-L bonsai:C C9
+L 74540_pin_20_added:bonsai_C C9
 U 1 1 5AFD86A4
 P 4300 15050
 F 0 "C9" H 4415 15096 50  0000 L CNN
@@ -1369,7 +1368,7 @@ F 3 "" H 4300 15050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:C C8
+L 74540_pin_20_added:bonsai_C C8
 U 1 1 5AFEAAC4
 P 4000 15050
 F 0 "C8" H 4115 15096 50  0000 L CNN
@@ -1380,7 +1379,7 @@ F 3 "" H 4000 15050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:C C7
+L 74540_pin_20_added:bonsai_C C7
 U 1 1 5AFEABD4
 P 3650 15050
 F 0 "C7" H 3765 15096 50  0000 L CNN
@@ -1391,7 +1390,7 @@ F 3 "" H 3650 15050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:C C6
+L 74540_pin_20_added:bonsai_C C6
 U 1 1 5AFEACE5
 P 3350 15050
 F 0 "C6" H 3465 15096 50  0000 L CNN
@@ -1402,12 +1401,12 @@ F 3 "" H 3350 15050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:SWITCH_INV SW1
+L 74540_pin_20_added:bonsai_SWITCH_INV SW1
 U 1 1 5B074053
 P -800 14200
 F 0 "SW1" H -800 14525 50  0000 C CNN
 F 1 "SWITCH_INV" H -800 14434 50  0000 C CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg" H -800 14200 50  0000 C CNN
+F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H -800 14200 50  0000 C CNN
 F 3 "" H -800 14200 50  0000 C CNN
 	1    -800 14200
 	0    -1   -1   0   
@@ -1429,7 +1428,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 7700 4850 7300
 Wire Wire Line
-	5650 2550 5650 3150
+	5650 2550 5650 2950
 Wire Wire Line
 	8050 2450 8200 2450
 Wire Wire Line
@@ -1479,7 +1478,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 11000 1850 11000
 Wire Wire Line
-	1850 10950 1850 11050
+	1850 10950 1850 11000
 Connection ~ 1850 11000
 Wire Wire Line
 	4450 6200 4200 6200
@@ -1488,26 +1487,26 @@ Wire Wire Line
 Wire Wire Line
 	4200 7950 3250 7950
 Wire Wire Line
-	3250 7950 3250 13300
+	3250 7950 3250 10800
 Wire Wire Line
-	2700 8800 2700 10800
+	2700 8800 2700 9650
 Wire Wire Line
 	2700 10800 3250 10800
 Connection ~ 3250 10800
 Connection ~ 2700 10500
 Connection ~ 2700 9650
 Wire Wire Line
-	1800 13300 2050 13300
+	1800 13300 1900 13300
 Wire Wire Line
-	2050 13200 2050 13400
+	2050 13200 2050 13300
 Connection ~ 2050 13300
 Wire Wire Line
-	600  13200 600  13400
+	600  13200 600  13300
 Wire Wire Line
-	-700 13300 600  13300
+	-700 13300 -600 13300
 Connection ~ 600  13300
 Wire Wire Line
-	-200 13050 -200 13500
+	-200 13050 -200 13300
 Connection ~ -200 13300
 Wire Wire Line
 	-600 13300 -600 12850
@@ -1522,12 +1521,12 @@ Wire Wire Line
 Wire Wire Line
 	3650 12350 3650 10250
 Wire Wire Line
-	3650 10250 10650 10250
+	3650 10250 4900 10250
 Wire Wire Line
 	4900 10250 4900 9800
 Connection ~ 4900 10250
 Wire Wire Line
-	4750 9600 4900 9600
+	4750 9600 4850 9600
 Wire Wire Line
 	4750 9300 4750 9400
 Wire Wire Line
@@ -1540,15 +1539,15 @@ Connection ~ 4850 9600
 Wire Wire Line
 	6100 9700 10650 9700
 Wire Wire Line
-	3250 12800 6650 12800
+	3250 12800 6000 12800
 Connection ~ 3250 12800
 Wire Wire Line
-	6000 11800 6000 13800
+	6000 11800 6000 12300
 Connection ~ 6000 12800
 Wire Wire Line
 	6300 13000 5600 13000
 Wire Wire Line
-	5600 13000 5600 13500
+	5600 13000 5600 13250
 Wire Wire Line
 	5600 13500 6300 13500
 Wire Wire Line
@@ -1559,11 +1558,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 12500 6300 12500
 Wire Wire Line
-	5650 11500 5650 12500
+	5650 11500 5650 12000
 Wire Wire Line
 	5650 11500 6300 11500
 Wire Wire Line
-	5450 12000 6300 12000
+	5450 12000 5650 12000
 Connection ~ 5650 12000
 Wire Wire Line
 	5000 12000 5150 12000
@@ -1572,9 +1571,9 @@ Wire Wire Line
 Wire Wire Line
 	7050 13000 10650 13000
 Wire Wire Line
-	7050 12500 10650 12500
+	7050 12500 8650 12500
 Wire Wire Line
-	7050 12000 10650 12000
+	7050 12000 7850 12000
 Wire Wire Line
 	7050 11500 10650 11500
 Wire Wire Line
@@ -1586,9 +1585,9 @@ Wire Wire Line
 Wire Wire Line
 	8650 10850 8650 11050
 Wire Wire Line
-	7850 11350 7850 13700
+	7850 11350 7850 12000
 Wire Wire Line
-	8650 11350 8650 13700
+	8650 11350 8650 12500
 Connection ~ 7850 12000
 Connection ~ 8650 12500
 Wire Wire Line
@@ -1618,7 +1617,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 2050 2950 2200
 Wire Wire Line
-	2950 2200 2350 2200
+	2950 2200 2600 2200
 Wire Wire Line
 	6800 1150 6650 1150
 Wire Wire Line
@@ -1644,13 +1643,13 @@ Wire Wire Line
 Wire Wire Line
 	6800 2050 6650 2050
 Wire Wire Line
-	7300 2200 6650 2200
+	7300 2200 7000 2200
 Wire Wire Line
 	6650 2200 6650 2050
 Wire Wire Line
 	6000 13800 6650 13800
 Wire Wire Line
-	6000 13300 6700 13300
+	6000 13300 6650 13300
 Connection ~ 6000 13300
 Wire Wire Line
 	6000 12300 6650 12300
@@ -1666,21 +1665,21 @@ Wire Wire Line
 Wire Wire Line
 	2350 10000 2350 10100
 Wire Wire Line
-	4250 3150 4250 3900
+	4250 3150 4250 3250
 Wire Wire Line
-	4350 3150 4350 3900
+	4350 3150 4350 3300
 Wire Wire Line
-	4450 3150 4450 3900
+	4450 3150 4450 3350
 Wire Wire Line
-	4550 3150 4550 3900
+	4550 3150 4550 3400
 Wire Wire Line
-	4650 3150 4650 3900
+	4650 3150 4650 3450
 Wire Wire Line
-	4750 3150 4750 3900
+	4750 3150 4750 3500
 Wire Wire Line
-	4850 3150 4850 3900
+	4850 3150 4850 3550
 Wire Wire Line
-	4950 3150 4950 3900
+	4950 3150 4950 3600
 Wire Wire Line
 	3850 3200 3950 3200
 Wire Wire Line
@@ -1712,7 +1711,7 @@ Connection ~ 4350 3300
 Wire Wire Line
 	4600 4500 4600 4700
 Wire Wire Line
-	4250 4500 4950 4500
+	4250 4500 4350 4500
 Connection ~ 4350 4500
 Connection ~ 4450 4500
 Connection ~ 4550 4500
@@ -1733,17 +1732,17 @@ Wire Wire Line
 Wire Wire Line
 	2350 7300 3750 7300
 Wire Wire Line
-	3550 7700 4850 7700
+	3550 7700 3750 7700
 Wire Wire Line
 	3600 8400 3500 8400
 Wire Wire Line
 	4850 7300 5650 7300
 Wire Wire Line
-	3250 5450 3500 5450
+	3250 5450 3400 5450
 Wire Wire Line
-	3850 5450 4150 5450
+	3850 5450 3950 5450
 Wire Wire Line
-	3950 4650 3950 5200
+	3950 4650 3950 4950
 Connection ~ 3950 4950
 Wire Wire Line
 	3150 3850 3150 4050
@@ -1770,9 +1769,9 @@ Connection ~ 3100 1500
 Connection ~ 6550 1500
 Connection ~ 7000 2200
 Wire Wire Line
-	5400 8500 5800 8500
+	5400 8500 5750 8500
 Wire Wire Line
-	7300 1000 7300 2200
+	7300 1000 7300 1150
 Connection ~ 7300 1150
 Connection ~ 7300 1250
 Connection ~ 7300 1350
@@ -1784,7 +1783,7 @@ Connection ~ 7300 1850
 Connection ~ 7300 1950
 Connection ~ 7300 2050
 Wire Wire Line
-	2350 2200 2350 1000
+	2350 2200 2350 2050
 Connection ~ 2350 2050
 Connection ~ 2350 1150
 Connection ~ 2350 1250
@@ -1796,16 +1795,16 @@ Connection ~ 2350 1750
 Connection ~ 2350 1850
 Connection ~ 2350 1950
 Wire Wire Line
-	6850 2450 6850 2650
+	6850 2450 6850 2550
 Connection ~ 6850 2550
 Wire Wire Line
-	5650 6100 5950 6100
+	5650 6100 5750 6100
 Connection ~ 5750 6100
 Wire Wire Line
-	2050 6900 2350 6900
+	2050 6900 2100 6900
 Connection ~ 2100 6900
 Wire Wire Line
-	2050 7800 2350 7800
+	2050 7800 2150 7800
 Connection ~ 2150 7800
 Wire Wire Line
 	5400 8300 5400 8500
@@ -1838,13 +1837,13 @@ Wire Wire Line
 Wire Wire Line
 	3150 15400 3200 15400
 Wire Wire Line
-	3150 15500 4900 15500
+	3150 15500 3350 15500
 Wire Wire Line
 	3200 15400 3200 14600
 Connection ~ 4350 14600
 Connection ~ 4550 14600
 Wire Wire Line
-	3200 14600 4900 14600
+	3200 14600 3350 14600
 Connection ~ 4750 14600
 Wire Wire Line
 	4900 14600 4900 14900
@@ -1879,14 +1878,8 @@ Connection ~ 2350 7800
 Connection ~ 8050 2450
 Connection ~ 8050 2650
 Wire Wire Line
-	2350 5950 3000 5950
+	2350 5950 2500 5950
 Connection ~ 2500 5950
-Wire Bus Line
-	3100 1350 3100 2050
-Wire Bus Line
-	6550 1150 6550 1850
-Wire Bus Line
-	3100 1500 6550 1500
 Wire Wire Line
 	6900 13250 6700 13250
 Wire Wire Line
@@ -1899,9 +1892,9 @@ Wire Wire Line
 Wire Wire Line
 	5450 3150 5350 3150
 Wire Wire Line
-	5350 3200 5350 2950
+	5350 3200 5350 3150
 Wire Wire Line
-	5150 3200 5350 3200
+	5150 3200 5250 3200
 Wire Wire Line
 	5150 3200 5150 3150
 Wire Wire Line
@@ -1915,4 +1908,188 @@ Connection ~ 3400 5450
 Connection ~ 3950 5450
 NoConn ~ 4300 6100
 NoConn ~ -900 13700
+Wire Wire Line
+	1850 11000 1850 11050
+Wire Wire Line
+	3250 10800 3250 12800
+Wire Wire Line
+	2700 10500 2700 10800
+Wire Wire Line
+	2700 9650 2700 10500
+Wire Wire Line
+	2050 13300 2050 13400
+Wire Wire Line
+	600  13300 600  13400
+Wire Wire Line
+	-200 13300 600  13300
+Wire Wire Line
+	-200 13300 -200 13500
+Wire Wire Line
+	-600 13300 -200 13300
+Wire Wire Line
+	1900 13300 2050 13300
+Wire Wire Line
+	4900 10250 10650 10250
+Wire Wire Line
+	4850 9600 4900 9600
+Wire Wire Line
+	3250 12800 3250 13300
+Wire Wire Line
+	6000 12800 6650 12800
+Wire Wire Line
+	6000 12800 6000 13300
+Wire Wire Line
+	5600 13250 5600 13500
+Wire Wire Line
+	5650 12000 5650 12500
+Wire Wire Line
+	5650 12000 6300 12000
+Wire Wire Line
+	7850 12000 10650 12000
+Wire Wire Line
+	7850 12000 7850 13700
+Wire Wire Line
+	8650 12500 10650 12500
+Wire Wire Line
+	8650 12500 8650 13700
+Wire Wire Line
+	6000 13300 6000 13800
+Wire Wire Line
+	6000 12300 6000 12800
+Wire Wire Line
+	4250 3250 4250 3900
+Wire Wire Line
+	4450 3350 4450 3900
+Wire Wire Line
+	4650 3450 4650 3900
+Wire Wire Line
+	4750 3500 4750 3900
+Wire Wire Line
+	4850 3550 4850 3900
+Wire Wire Line
+	4950 3600 4950 3900
+Wire Wire Line
+	4550 3400 4550 3900
+Wire Wire Line
+	4350 3300 4350 3900
+Wire Wire Line
+	4350 4500 4450 4500
+Wire Wire Line
+	4450 4500 4550 4500
+Wire Wire Line
+	4550 4500 4600 4500
+Wire Wire Line
+	4650 4500 4750 4500
+Wire Wire Line
+	4750 4500 4850 4500
+Wire Wire Line
+	4850 4500 4950 4500
+Wire Wire Line
+	4600 4500 4650 4500
+Wire Wire Line
+	3950 4950 3950 5200
+Wire Wire Line
+	3750 7700 4850 7700
+Wire Wire Line
+	2600 2200 2350 2200
+Wire Wire Line
+	7000 2200 6650 2200
+Wire Wire Line
+	7300 1150 7300 1250
+Wire Wire Line
+	7300 1250 7300 1350
+Wire Wire Line
+	7300 1350 7300 1450
+Wire Wire Line
+	7300 1450 7300 1550
+Wire Wire Line
+	7300 1550 7300 1650
+Wire Wire Line
+	7300 1650 7300 1750
+Wire Wire Line
+	7300 1750 7300 1850
+Wire Wire Line
+	7300 1850 7300 1950
+Wire Wire Line
+	7300 1950 7300 2050
+Wire Wire Line
+	7300 2050 7300 2200
+Wire Wire Line
+	2350 2050 2350 1950
+Wire Wire Line
+	2350 1150 2350 1000
+Wire Wire Line
+	2350 1250 2350 1150
+Wire Wire Line
+	2350 1350 2350 1250
+Wire Wire Line
+	2350 1450 2350 1350
+Wire Wire Line
+	2350 1550 2350 1450
+Wire Wire Line
+	2350 1650 2350 1550
+Wire Wire Line
+	2350 1750 2350 1650
+Wire Wire Line
+	2350 1850 2350 1750
+Wire Wire Line
+	2350 1950 2350 1850
+Wire Wire Line
+	6850 2550 6850 2650
+Wire Wire Line
+	5750 6100 5950 6100
+Wire Wire Line
+	2100 6900 2350 6900
+Wire Wire Line
+	2150 7800 2350 7800
+Wire Wire Line
+	5750 8500 5800 8500
+Wire Wire Line
+	4350 14600 4550 14600
+Wire Wire Line
+	4550 14600 4750 14600
+Wire Wire Line
+	4750 14600 4900 14600
+Wire Wire Line
+	4550 15500 4900 15500
+Wire Wire Line
+	3350 14600 3650 14600
+Wire Wire Line
+	3350 15500 3650 15500
+Wire Wire Line
+	3650 14600 4000 14600
+Wire Wire Line
+	3650 15500 4000 15500
+Wire Wire Line
+	4000 14600 4300 14600
+Wire Wire Line
+	4000 15500 4300 15500
+Wire Wire Line
+	4300 14600 4350 14600
+Wire Wire Line
+	4300 15500 4550 15500
+Wire Wire Line
+	2500 5950 3000 5950
+Wire Wire Line
+	6650 13300 6700 13300
+Wire Wire Line
+	5250 3200 5350 3200
+Wire Wire Line
+	5350 3150 5350 2950
+Wire Wire Line
+	5650 2950 5650 3150
+Wire Wire Line
+	3400 5450 3500 5450
+Wire Wire Line
+	3950 5450 4150 5450
+Wire Bus Line
+	3100 1350 3100 1500
+Wire Bus Line
+	6550 1500 6550 1850
+Wire Bus Line
+	6550 1150 6550 1500
+Wire Bus Line
+	3100 1500 3100 2050
+Wire Bus Line
+	3100 1500 6550 1500
 $EndSCHEMATC

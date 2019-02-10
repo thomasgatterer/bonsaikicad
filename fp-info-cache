@@ -1,4 +1,4 @@
-309307632770186
+303109048288186
 2PinTerminalBlocktg
 2PinTerminalBlocktg
 <b>WR-TBL Serie 2165 - 5.08mm Horizontal Entry Modular with Rising Cage Clamp - 3.5mm2 Wires, 2 Pins
@@ -20,13 +20,6 @@ Outline, Eurocard, 100x160mm, with holes 3,5mm,
 0
 0
 0
-Pin_Headers
-C_Disc_D10.0mm_W2.5mm_P5.00mm
-C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=10*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
-C Disc series Radial pin pitch 5.00mm  diameter 10mm width 2.5mm Capacitor
-0
-2
-2
 Pin_Headers
 C_Disc_D10.0mm_W2.5mm_P25.00mm
 C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=10*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
@@ -66,13 +59,6 @@ Pin_Headers
 D_DO-35_SOD27_P2.54mm_Vertical_KathodeUptglwmp
 LED, Round,  Rectangular size 3.3x2.4mm^2 diameter 1.8mm, 2 pins
 LED Round  Rectangular size 3.3x2.4mm^2 diameter 1.8mm 2 pins
-0
-2
-2
-Pin_Headers
-D_DO-41_SOD81_P10.16mm_Horizontal
-D, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf
-D DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm
 0
 2
 2
@@ -714,13 +700,6 @@ Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W le
 2
 2
 tg_foodprint
-C_Disc_D10.0mm_W2.5mm_P5.00mm
-C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=10*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
-C Disc series Radial pin pitch 5.00mm  diameter 10mm width 2.5mm Capacitor
-0
-2
-2
-tg_foodprint
 C_Disc_D10.0mm_W2.5mm_P25.00mm
 C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=10*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
 C Disc series Radial pin pitch 5.00mm  diameter 10mm width 2.5mm Capacitor
@@ -759,13 +738,6 @@ tg_foodprint
 D_DO-35_SOD27_P2.54mm_Vertical_KathodeUptglwmp
 LED, Round,  Rectangular size 3.3x2.4mm^2 diameter 1.8mm, 2 pins
 LED Round  Rectangular size 3.3x2.4mm^2 diameter 1.8mm 2 pins
-0
-2
-2
-tg_foodprint
-D_DO-41_SOD81_P10.16mm_Horizontal
-D, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf
-D DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm
 0
 2
 2
