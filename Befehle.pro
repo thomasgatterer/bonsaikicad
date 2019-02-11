@@ -1,4 +1,4 @@
-update=Mo 11 Feb 2019 12:01:05 CET
+update=Mo 11 Feb 2019 13:56:49 CET
 last_client=pcbnew
 [schematic_editor]
 version=1
@@ -27,10 +27,9 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=1
-TrackWidth2=0.15
-TrackWidth3=0.2
-TrackWidth4=0.5
-TrackWidth5=0.8
+TrackWidth2=0.4
+TrackWidth3=0.6
+TrackWidth4=1.2
 ViaDiameter1=0.6
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -59,7 +58,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.2
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=2
