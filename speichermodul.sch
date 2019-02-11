@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L speichermodul-rescue:7400-RESCUE-speichermodul U1
+L allBonsaiSymbolLibs:7400 U1
 U 1 1 57B9FEAF
 P 1900 2950
 F 0 "U1" H 1900 3000 60  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "~" H 1900 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:7400-RESCUE-speichermodul U1
+L allBonsaiSymbolLibs:7400 U1
 U 2 1 57B9FECD
 P 5950 3850
 F 0 "U1" H 5950 3900 60  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "~" H 5950 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:74LS08-RESCUE-speichermodul U2
+L allBonsaiSymbolLibs:74LS08 U2
 U 1 1 57B9FEDC
 P 3400 3050
 F 0 "U2" H 3400 3100 60  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "~" H 3400 3050 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:74LS08-RESCUE-speichermodul U2
+L allBonsaiSymbolLibs:74LS08 U2
 U 2 1 57B9FEEB
 P 3400 4050
 F 0 "U2" H 3400 4100 60  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "~" H 3400 4050 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:74LS08-RESCUE-speichermodul U2
+L allBonsaiSymbolLibs:74LS08 U2
 U 4 1 57B9FEFA
 P 4650 3150
 F 0 "U2" H 4650 3200 60  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "~" H 4650 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:74LS08-RESCUE-speichermodul U2
+L allBonsaiSymbolLibs:74LS08 U2
 U 3 1 57B9FF09
 P 4650 3950
 F 0 "U2" H 4650 4000 60  0000 C CNN
@@ -81,7 +81,7 @@ F 3 "~" H 4650 3950 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R1
+L allBonsaiSymbolLibs:R R1
 U 1 1 57B9FF7E
 P 1300 2450
 F 0 "R1" V 1380 2450 40  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "~" H 1300 2450 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R2
+L allBonsaiSymbolLibs:R R2
 U 1 1 57B9FF8D
 P 1300 4850
 F 0 "R2" V 1380 4850 40  0000 C CNN
@@ -103,7 +103,7 @@ F 3 "~" H 1300 4850 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R3
+L allBonsaiSymbolLibs:R R3
 U 1 1 57B9FF9C
 P 700 3300
 F 0 "R3" V 780 3300 40  0000 C CNN
@@ -114,7 +114,7 @@ F 3 "~" H 700 3300 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:7400-RESCUE-speichermodul U1
+L allBonsaiSymbolLibs:7400 U1
 U 3 1 57BB7384
 P 5950 3250
 F 0 "U1" H 5950 3300 60  0000 C CNN
@@ -125,7 +125,7 @@ F 3 "~" H 5950 3250 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:6116-RESCUE-speichermodul IC1
+L allBonsaiSymbolLibs:6116 IC1
 U 1 1 57D2A745
 P 10250 3350
 F 0 "IC1" H 9850 4150 40  0000 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 10250 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:7400-RESCUE-speichermodul U1
+L allBonsaiSymbolLibs:7400 U1
 U 4 1 57D2D4D1
 P 1900 4150
 F 0 "U1" H 1900 4200 60  0000 C CNN
@@ -147,7 +147,7 @@ F 3 "~" H 1900 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:74LS08-RESCUE-speichermodul U3
+L allBonsaiSymbolLibs:74LS08 U3
 U 1 1 57D2D5B3
 P 7250 3150
 F 0 "U3" H 7250 3200 60  0000 C CNN
@@ -158,7 +158,7 @@ F 3 "~" H 7250 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:74LS08-RESCUE-speichermodul U3
+L allBonsaiSymbolLibs:74LS08 U3
 U 2 1 57D2D5C2
 P 8650 3250
 F 0 "U3" H 8650 3300 60  0000 C CNN
@@ -169,7 +169,7 @@ F 3 "~" H 8650 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:74LS08-RESCUE-speichermodul U3
+L allBonsaiSymbolLibs:74LS08 U3
 U 4 1 57D2D6B9
 P 7250 3950
 F 0 "U3" H 7250 4000 60  0000 C CNN
@@ -180,7 +180,7 @@ F 3 "~" H 7250 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:74LS14-RESCUE-speichermodul U4
+L allBonsaiSymbolLibs:74LS14 U4
 U 1 1 57D2D7E5
 P 6550 4850
 F 0 "U4" H 6700 4950 40  0000 C CNN
@@ -191,7 +191,7 @@ F 3 "~" H 6550 4850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L speichermodul-rescue:74LS14-RESCUE-speichermodul U4
+L allBonsaiSymbolLibs:74LS14 U4
 U 6 1 57D2D7F4
 P 5300 4700
 F 0 "U4" H 5450 4800 40  0000 C CNN
@@ -202,7 +202,7 @@ F 3 "~" H 5300 4700 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:74LS14-RESCUE-speichermodul U4
+L allBonsaiSymbolLibs:74LS14 U4
 U 2 1 57D2D803
 P 7950 4500
 F 0 "U4" H 8100 4600 40  0000 C CNN
@@ -213,7 +213,7 @@ F 3 "~" H 7950 4500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L speichermodul-rescue:74LS14-RESCUE-speichermodul U4
+L allBonsaiSymbolLibs:74LS14 U4
 U 3 1 57D2D812
 P 8450 4500
 F 0 "U4" H 8600 4600 40  0000 C CNN
@@ -224,7 +224,7 @@ F 3 "~" H 8450 4500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R7
+L allBonsaiSymbolLibs:R R7
 U 1 1 57D2D821
 P 7950 5150
 F 0 "R7" V 8030 5150 40  0000 C CNN
@@ -235,7 +235,7 @@ F 3 "~" H 7950 5150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R8
+L allBonsaiSymbolLibs:R R8
 U 1 1 57D2D830
 P 8450 5150
 F 0 "R8" V 8530 5150 40  0000 C CNN
@@ -246,7 +246,7 @@ F 3 "~" H 8450 5150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R5
+L allBonsaiSymbolLibs:R R5
 U 1 1 57D2D84E
 P 6300 5300
 F 0 "R5" V 6380 5300 40  0000 C CNN
@@ -257,7 +257,7 @@ F 3 "~" H 6300 5300 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D1
+L allBonsaiSymbolLibs:LED D1
 U 1 1 57D2D86C
 P 7950 5550
 F 0 "D1" H 7950 5650 50  0000 C CNN
@@ -268,7 +268,7 @@ F 3 "~" H 7950 5550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D2
+L allBonsaiSymbolLibs:LED D2
 U 1 1 57D2D87B
 P 8450 5550
 F 0 "D2" H 8450 5650 50  0000 C CNN
@@ -279,7 +279,7 @@ F 3 "~" H 8450 5550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L speichermodul-rescue:VCC-RESCUE-speichermodul #PWR01
+L allBonsaiSymbolLibs:VCC #PWR01
 U 1 1 57D2DA5E
 P 2150 6700
 F 0 "#PWR01" H 2150 6800 30  0001 C CNN
@@ -292,7 +292,7 @@ $EndComp
 Text Label 4350 5150 1    60   ~ 0
 EN-IN
 $Comp
-L speichermodul-rescue:GND-RESCUE-speichermodul #PWR06
+L allBonsaiSymbolLibs:GND #PWR06
 U 1 1 57D2F177
 P 1000 5350
 F 0 "#PWR06" H 1000 5350 30  0001 C CNN
@@ -303,7 +303,7 @@ F 3 "" H 1000 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:GND-RESCUE-speichermodul #PWR07
+L allBonsaiSymbolLibs:GND #PWR07
 U 1 1 57D2F1DF
 P 700 2250
 F 0 "#PWR07" H 700 2250 30  0001 C CNN
@@ -314,7 +314,7 @@ F 3 "" H 700 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:VCC-RESCUE-speichermodul #PWR08
+L allBonsaiSymbolLibs:VCC #PWR08
 U 1 1 57D2F640
 P 1300 2000
 F 0 "#PWR08" H 1300 2100 30  0001 C CNN
@@ -325,7 +325,7 @@ F 3 "" H 1300 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:VCC-RESCUE-speichermodul #PWR09
+L allBonsaiSymbolLibs:VCC #PWR09
 U 1 1 57D2F751
 P 700 2850
 F 0 "#PWR09" H 700 2950 30  0001 C CNN
@@ -338,7 +338,7 @@ $EndComp
 Text Label 700  3850 0    60   ~ 0
 _auto
 $Comp
-L speichermodul-rescue:GND-RESCUE-speichermodul #PWR011
+L allBonsaiSymbolLibs:GND #PWR011
 U 1 1 57D2FC2D
 P 7950 5800
 F 0 "#PWR011" H 7950 5800 30  0001 C CNN
@@ -349,7 +349,7 @@ F 3 "" H 7950 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:GND-RESCUE-speichermodul #PWR012
+L allBonsaiSymbolLibs:GND #PWR012
 U 1 1 57D2FC3C
 P 8450 5800
 F 0 "#PWR012" H 8450 5800 30  0001 C CNN
@@ -360,7 +360,7 @@ F 3 "" H 8450 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:CONN_3X2-RESCUE-speichermodul P1
+L allBonsaiSymbolLibs:CONN_3X2 P1
 U 1 1 57D30104
 P 8650 2700
 F 0 "P1" H 8650 2950 50  0000 C CNN
@@ -371,7 +371,7 @@ F 3 "" H 8650 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R24
+L allBonsaiSymbolLibs:R R24
 U 1 1 57D39944
 P 6400 2550
 F 0 "R24" V 6480 2550 40  0000 C CNN
@@ -382,7 +382,7 @@ F 3 "~" H 6400 2550 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:VCC-RESCUE-speichermodul #PWR013
+L allBonsaiSymbolLibs:VCC #PWR013
 U 1 1 57D39958
 P 5950 2550
 F 0 "#PWR013" H 5950 2650 30  0001 C CNN
@@ -407,7 +407,7 @@ Entry Wire Line
 Entry Wire Line
 	9050 2750 9150 2850
 $Comp
-L speichermodul-rescue:GND-RESCUE-speichermodul #PWR014
+L allBonsaiSymbolLibs:GND #PWR014
 U 1 1 57D39B92
 P 8150 2850
 F 0 "#PWR014" H 8150 2850 30  0001 C CNN
@@ -418,7 +418,7 @@ F 3 "" H 8150 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R25
+L allBonsaiSymbolLibs:R R25
 U 1 1 57D39F23
 P 7200 4500
 F 0 "R25" V 7280 4500 40  0000 C CNN
@@ -429,7 +429,7 @@ F 3 "~" H 7200 4500 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:VCC-RESCUE-speichermodul #PWR015
+L allBonsaiSymbolLibs:VCC #PWR015
 U 1 1 57D39F37
 P 7550 4450
 F 0 "#PWR015" H 7550 4550 30  0001 C CNN
@@ -442,7 +442,7 @@ $EndComp
 Text Label 6750 4600 0    60   ~ 0
 _WR
 $Comp
-L speichermodul-rescue:R_PACK4BUSSED-RESCUE-speichermodul RP1
+L allBonsaiSymbolLibs:R_PACK4BUSSED RP1
 U 1 1 57D5A283
 P 9350 2150
 F 0 "RP1" H 9350 2450 50  0000 C CNN
@@ -459,7 +459,7 @@ Entry Wire Line
 Entry Wire Line
 	9150 2850 9250 2950
 $Comp
-L speichermodul-rescue:VCC-RESCUE-speichermodul #PWR016
+L allBonsaiSymbolLibs:VCC #PWR016
 U 1 1 57D5A5FD
 P 8900 2300
 F 0 "#PWR016" H 8900 2150 50  0001 C CNN
@@ -470,7 +470,7 @@ F 3 "" H 8900 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:GND-RESCUE-speichermodul #PWR017
+L allBonsaiSymbolLibs:GND #PWR017
 U 1 1 57D5AD73
 P 9450 4150
 F 0 "#PWR017" H 9450 3900 50  0001 C CNN
@@ -481,7 +481,7 @@ F 3 "" H 9450 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:CONN_02X10-RESCUE-speichermodul P8
+L allBonsaiSymbolLibs:CONN_02X10 P8
 U 1 1 57D5AF6C
 P 10450 1300
 F 0 "P8" H 10450 1850 50  0000 C CNN
@@ -492,7 +492,7 @@ F 3 "" H 10450 100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:74LS540-RESCUE-speichermodul U6
+L allBonsaiSymbolLibs:74LS540 U6
 U 1 1 57D5B167
 P 7300 1450
 F 0 "U6" H 7300 1250 60  0000 C CNN
@@ -503,7 +503,7 @@ F 3 "" H 7300 1450 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:74LS540-RESCUE-speichermodul U5
+L allBonsaiSymbolLibs:74LS540 U5
 U 1 1 57D5B176
 P 3650 6150
 F 0 "U5" H 3650 5950 60  0000 C CNN
@@ -514,7 +514,7 @@ F 3 "" H 3650 6150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R4
+L allBonsaiSymbolLibs:R R4
 U 1 1 57D5B859
 P 2750 5650
 F 0 "R4" V 2830 5650 50  0000 C CNN
@@ -525,7 +525,7 @@ F 3 "" H 2750 5650 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R9
+L allBonsaiSymbolLibs:R R9
 U 1 1 57D5B85F
 P 2750 5750
 F 0 "R9" V 2830 5750 50  0000 C CNN
@@ -536,7 +536,7 @@ F 3 "" H 2750 5750 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R10
+L allBonsaiSymbolLibs:R R10
 U 1 1 57D5B865
 P 2750 5850
 F 0 "R10" V 2830 5850 50  0000 C CNN
@@ -547,7 +547,7 @@ F 3 "" H 2750 5850 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R11
+L allBonsaiSymbolLibs:R R11
 U 1 1 57D5B86B
 P 2750 5950
 F 0 "R11" V 2830 5950 50  0000 C CNN
@@ -558,7 +558,7 @@ F 3 "" H 2750 5950 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R12
+L allBonsaiSymbolLibs:R R12
 U 1 1 57D5B871
 P 2750 6050
 F 0 "R12" V 2830 6050 50  0000 C CNN
@@ -569,7 +569,7 @@ F 3 "" H 2750 6050 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R13
+L allBonsaiSymbolLibs:R R13
 U 1 1 57D5B877
 P 2750 6150
 F 0 "R13" V 2830 6150 50  0000 C CNN
@@ -580,7 +580,7 @@ F 3 "" H 2750 6150 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R14
+L allBonsaiSymbolLibs:R R14
 U 1 1 57D5B87D
 P 2750 6250
 F 0 "R14" V 2830 6250 50  0000 C CNN
@@ -591,7 +591,7 @@ F 3 "" H 2750 6250 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R15
+L allBonsaiSymbolLibs:R R15
 U 1 1 57D5B883
 P 2750 6350
 F 0 "R15" V 2830 6350 50  0000 C CNN
@@ -602,7 +602,7 @@ F 3 "" H 2750 6350 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D3
+L allBonsaiSymbolLibs:LED D3
 U 1 1 57D5B88B
 P 2350 6350
 F 0 "D3" H 2350 6450 50  0000 C CNN
@@ -613,7 +613,7 @@ F 3 "" H 2350 6350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D4
+L allBonsaiSymbolLibs:LED D4
 U 1 1 57D5B898
 P 2350 6250
 F 0 "D4" H 2350 6350 50  0000 C CNN
@@ -624,7 +624,7 @@ F 3 "" H 2350 6250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D5
+L allBonsaiSymbolLibs:LED D5
 U 1 1 57D5B89E
 P 2350 6150
 F 0 "D5" H 2350 6250 50  0000 C CNN
@@ -635,7 +635,7 @@ F 3 "" H 2350 6150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D6
+L allBonsaiSymbolLibs:LED D6
 U 1 1 57D5B8A4
 P 2350 6050
 F 0 "D6" H 2350 6150 50  0000 C CNN
@@ -646,7 +646,7 @@ F 3 "" H 2350 6050 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D7
+L allBonsaiSymbolLibs:LED D7
 U 1 1 57D5B8AC
 P 2350 5950
 F 0 "D7" H 2350 6050 50  0000 C CNN
@@ -657,7 +657,7 @@ F 3 "" H 2350 5950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D8
+L allBonsaiSymbolLibs:LED D8
 U 1 1 57D5B8B9
 P 2350 5850
 F 0 "D8" H 2350 5950 50  0000 C CNN
@@ -668,7 +668,7 @@ F 3 "" H 2350 5850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D9
+L allBonsaiSymbolLibs:LED D9
 U 1 1 57D5B8BF
 P 2350 5750
 F 0 "D9" H 2350 5850 50  0000 C CNN
@@ -679,7 +679,7 @@ F 3 "" H 2350 5750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D10
+L allBonsaiSymbolLibs:LED D10
 U 1 1 57D5B8D6
 P 2350 5650
 F 0 "D10" H 2350 5750 50  0000 C CNN
@@ -690,7 +690,7 @@ F 3 "" H 2350 5650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R16
+L allBonsaiSymbolLibs:R R16
 U 1 1 57D5BB9A
 P 6400 950
 F 0 "R16" V 6480 950 50  0000 C CNN
@@ -701,7 +701,7 @@ F 3 "" H 6400 950 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R17
+L allBonsaiSymbolLibs:R R17
 U 1 1 57D5BBA0
 P 6400 1050
 F 0 "R17" V 6480 1050 50  0000 C CNN
@@ -712,7 +712,7 @@ F 3 "" H 6400 1050 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R18
+L allBonsaiSymbolLibs:R R18
 U 1 1 57D5BBA6
 P 6400 1150
 F 0 "R18" V 6480 1150 50  0000 C CNN
@@ -723,7 +723,7 @@ F 3 "" H 6400 1150 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R19
+L allBonsaiSymbolLibs:R R19
 U 1 1 57D5BBAC
 P 6400 1250
 F 0 "R19" V 6480 1250 50  0000 C CNN
@@ -734,7 +734,7 @@ F 3 "" H 6400 1250 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R20
+L allBonsaiSymbolLibs:R R20
 U 1 1 57D5BBB2
 P 6400 1350
 F 0 "R20" V 6480 1350 50  0000 C CNN
@@ -745,7 +745,7 @@ F 3 "" H 6400 1350 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R22
+L allBonsaiSymbolLibs:R R22
 U 1 1 57D5BBBE
 P 6400 1550
 F 0 "R22" V 6480 1550 50  0000 C CNN
@@ -756,7 +756,7 @@ F 3 "" H 6400 1550 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R23
+L allBonsaiSymbolLibs:R R23
 U 1 1 57D5BBC4
 P 6400 1650
 F 0 "R23" V 6480 1650 50  0000 C CNN
@@ -767,7 +767,7 @@ F 3 "" H 6400 1650 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D11
+L allBonsaiSymbolLibs:LED D11
 U 1 1 57D5BBCA
 P 6000 1650
 F 0 "D11" H 6000 1750 50  0000 C CNN
@@ -778,7 +778,7 @@ F 3 "" H 6000 1650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D12
+L allBonsaiSymbolLibs:LED D12
 U 1 1 57D5BBD0
 P 6000 1550
 F 0 "D12" H 6000 1650 50  0000 C CNN
@@ -789,7 +789,7 @@ F 3 "" H 6000 1550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D13
+L allBonsaiSymbolLibs:LED D13
 U 1 1 57D5BBD6
 P 6000 1450
 F 0 "D13" H 6000 1550 50  0000 C CNN
@@ -800,7 +800,7 @@ F 3 "" H 6000 1450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D14
+L allBonsaiSymbolLibs:LED D14
 U 1 1 57D5BBDC
 P 6000 1350
 F 0 "D14" H 6000 1450 50  0000 C CNN
@@ -811,7 +811,7 @@ F 3 "" H 6000 1350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D15
+L allBonsaiSymbolLibs:LED D15
 U 1 1 57D5BBE2
 P 6000 1250
 F 0 "D15" H 6000 1350 50  0000 C CNN
@@ -822,7 +822,7 @@ F 3 "" H 6000 1250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D16
+L allBonsaiSymbolLibs:LED D16
 U 1 1 57D5BBE8
 P 6000 1150
 F 0 "D16" H 6000 1250 50  0000 C CNN
@@ -833,7 +833,7 @@ F 3 "" H 6000 1150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D17
+L allBonsaiSymbolLibs:LED D17
 U 1 1 57D5BBEE
 P 6000 1050
 F 0 "D17" H 6000 1150 50  0000 C CNN
@@ -844,7 +844,7 @@ F 3 "" H 6000 1050 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L speichermodul-rescue:LED-RESCUE-speichermodul D18
+L allBonsaiSymbolLibs:LED D18
 U 1 1 57D5BBF4
 P 6000 950
 F 0 "D18" H 6000 1050 50  0000 C CNN
@@ -857,7 +857,7 @@ $EndComp
 Text Label 6750 2500 0    60   ~ 0
 _RD
 $Comp
-L speichermodul-rescue:GND-RESCUE-speichermodul #PWR020
+L allBonsaiSymbolLibs:GND #PWR020
 U 1 1 57D5BF9D
 P 8000 2050
 F 0 "#PWR020" H 8000 1800 50  0001 C CNN
@@ -868,7 +868,7 @@ F 3 "" H 8000 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:GND-RESCUE-speichermodul #PWR021
+L allBonsaiSymbolLibs:GND #PWR021
 U 1 1 57D5C0ED
 P 4350 6750
 F 0 "#PWR021" H 4350 6500 50  0001 C CNN
@@ -880,7 +880,7 @@ F 3 "" H 4350 6750 60  0000 C CNN
 $EndComp
 NoConn ~ 9550 2350
 $Comp
-L speichermodul-rescue:GND-RESCUE-speichermodul #PWR022
+L allBonsaiSymbolLibs:GND #PWR022
 U 1 1 57D5C565
 P 10450 1850
 F 0 "#PWR022" H 10450 1600 50  0001 C CNN
@@ -891,7 +891,7 @@ F 3 "" H 10450 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:CONN_02X10-RESCUE-speichermodul P9
+L allBonsaiSymbolLibs:CONN_02X10 P9
 U 1 1 57D5C572
 P 9850 5250
 F 0 "P9" H 9850 4650 50  0000 C CNN
@@ -902,7 +902,7 @@ F 3 "" H 9850 4050 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:GND-RESCUE-speichermodul #PWR023
+L allBonsaiSymbolLibs:GND #PWR023
 U 1 1 57D5C587
 P 9850 5800
 F 0 "#PWR023" H 9850 5550 50  0001 C CNN
@@ -1336,7 +1336,7 @@ Wire Bus Line
 Wire Bus Line
 	9150 3050 9550 3350
 $Comp
-L speichermodul-rescue:R_PACK8BUSSED-RESCUE-speichermodul RP2
+L allBonsaiSymbolLibs:R_PACK8BUSSED RP2
 U 1 1 57D77728
 P 9000 1250
 F 0 "RP2" H 9000 1550 50  0000 C CNN
@@ -1347,7 +1347,7 @@ F 3 "~" H 9000 1300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L speichermodul-rescue:VCC-RESCUE-speichermodul #PWR024
+L allBonsaiSymbolLibs:VCC #PWR024
 U 1 1 57D778D3
 P 9350 1000
 F 0 "#PWR024" H 9350 850 50  0001 C CNN
@@ -1394,7 +1394,7 @@ A6
 Text Label 9250 1450 0    60   ~ 0
 A7
 $Comp
-L speichermodul-rescue:R-RESCUE-speichermodul R21
+L allBonsaiSymbolLibs:R R21
 U 1 1 57D5BBB8
 P 6400 1450
 F 0 "R21" V 6480 1450 50  0000 C CNN
@@ -1535,7 +1535,7 @@ Connection ~ 2150 6350
 Wire Wire Line
 	2150 6350 2150 6700
 $Comp
-L speichermodul-rescue:VCC-RESCUE-speichermodul #PWR04
+L allBonsaiSymbolLibs:VCC #PWR04
 U 1 1 5AC59048
 P 5800 1850
 F 0 "#PWR04" H 5800 1950 30  0001 C CNN
@@ -1855,7 +1855,7 @@ Connection ~ 2100 800
 Wire Wire Line
 	2100 800  1900 800 
 $Comp
-L bonsai:C C2
+L allBonsaiSymbolLibs:C C2
 U 1 1 5B1B19CB
 P 1900 1250
 F 0 "C2" H 2015 1326 50  0000 L CNN
@@ -1866,7 +1866,7 @@ F 3 "" H 1900 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:C C3
+L allBonsaiSymbolLibs:C C3
 U 1 1 5B1B1AC6
 P 2100 1200
 F 0 "C3" H 2215 1276 50  0000 L CNN
@@ -1877,7 +1877,7 @@ F 3 "" H 2100 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:C C4
+L allBonsaiSymbolLibs:C C4
 U 1 1 5B1B1CE2
 P 2350 1200
 F 0 "C4" H 2465 1276 50  0000 L CNN
@@ -1933,7 +1933,7 @@ Connection ~ 1450 800
 Wire Wire Line
 	1450 800  1300 800 
 $Comp
-L bonsai:C C1
+L allBonsaiSymbolLibs:C C1
 U 1 1 5B2AC913
 P 1450 1200
 F 0 "C1" H 1565 1276 50  0000 L CNN
@@ -1944,7 +1944,7 @@ F 3 "" H 1450 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:C C7
+L allBonsaiSymbolLibs:C C7
 U 1 1 5B2AC9E5
 P 2550 1200
 F 0 "C7" H 2665 1276 50  0000 L CNN
@@ -1955,7 +1955,7 @@ F 3 "" H 2550 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:C C5
+L allBonsaiSymbolLibs:C C5
 U 1 1 5B2ACAC7
 P 2750 1200
 F 0 "C5" H 2865 1276 50  0000 L CNN
@@ -1966,7 +1966,7 @@ F 3 "" H 2750 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:C C6
+L allBonsaiSymbolLibs:C C6
 U 1 1 5B2ACB77
 P 2950 1200
 F 0 "C6" H 3065 1276 50  0000 L CNN
@@ -2005,7 +2005,7 @@ Connection ~ 1800 1650
 Wire Wire Line
 	1800 1650 1900 1650
 $Comp
-L bonsai:D D36
+L allBonsaiSymbolLibs:D D36
 U 1 1 5B2AD0AE
 P 3200 1250
 F 0 "D36" V 3101 1328 50  0000 L CNN
@@ -2024,7 +2024,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 800  3200 800 
 $Comp
-L speichermodul-rescue:2PinTerminalBlocktg-2PinTerminalBlocktg J1
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J1
 U 1 1 5B2FCDDB
 P 750 1600
 F 0 "J1" H 612 1286 50  0000 C CNN
@@ -2050,7 +2050,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 5700 7050 5700
 $Comp
-L speichermodul-rescue:2PinTerminalBlocktg-2PinTerminalBlocktg J2
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J2
 U 1 1 5B34D2D3
 P 7250 5700
 F 0 "J2" H 7215 5690 50  0000 L CNN
@@ -2084,7 +2084,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 6100 7100 6100
 $Comp
-L speichermodul-rescue:2PinTerminalBlocktg-2PinTerminalBlocktg J3
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J3
 U 1 1 5B3EE388
 P 7300 6000
 F 0 "J3" H 7265 5990 50  0000 L CNN
@@ -2104,7 +2104,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 3000 5750 3050
 $Comp
-L speichermodul-rescue:74LS08-RESCUE-speichermodul U3
+L allBonsaiSymbolLibs:74LS08 U3
 U 3 1 5B429867
 P 4050 2300
 F 0 "U3" H 4050 2350 60  0000 C CNN
@@ -2131,7 +2131,7 @@ F 3 "" H 3450 2100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L switchlibtg:SW_PUSH-tg SW2
+L allBonsaiSymbolLibs:SW_PUSH-tg-switchlibtg SW2
 U 1 1 5C46F53B
 P 1000 4900
 F 0 "SW2" V 1099 4742 50  0000 R CNN
@@ -2148,7 +2148,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 2850 1300 2950
 $Comp
-L switchlibtg:SW_PUSH-tg SW1
+L allBonsaiSymbolLibs:SW_PUSH-tg-switchlibtg SW1
 U 1 1 5C4723DE
 P 1100 2700
 F 0 "SW1" V 1001 2542 50  0000 R CNN
@@ -2173,7 +2173,7 @@ Wire Wire Line
 	1100 2950 1100 3750
 Connection ~ 1100 2950
 $Comp
-L speichermodul-rescue:VCC-RESCUE-speichermodul #PWR0101
+L allBonsaiSymbolLibs:VCC #PWR0101
 U 1 1 5C5ACD54
 P 1300 5350
 F 0 "#PWR0101" H 1300 5450 30  0001 C CNN

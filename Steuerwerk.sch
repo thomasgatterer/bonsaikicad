@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:74LS138 U4
+L allBonsaiSymbolLibs:74LS138-74xx U4
 U 1 1 57E935AE
 P 4150 1450
 F 0 "U4" H 4150 2116 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 4150 1450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS138 U5
+L allBonsaiSymbolLibs:74LS138-74xx U5
 U 1 1 57E936AE
 P 4150 2800
 F 0 "U5" H 4150 3466 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 4150 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R16
+L allBonsaiSymbolLibs:R-device R16
 U 1 1 57E93BD4
 P 4650 650
 F 0 "R16" H 4720 696 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 4650 650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R4
+L allBonsaiSymbolLibs:R-device R4
 U 1 1 57EA1677
 P 2500 4150
 F 0 "R4" H 2570 4196 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" H 2500 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R6
+L allBonsaiSymbolLibs:R-device R6
 U 1 1 57EA1712
 P 2800 4150
 F 0 "R6" H 2870 4196 50  0000 L CNN
@@ -70,7 +70,7 @@ F 3 "" H 2800 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R8
+L allBonsaiSymbolLibs:R-device R8
 U 1 1 57EA17C0
 P 3100 4150
 F 0 "R8" H 3170 4196 50  0000 L CNN
@@ -81,7 +81,7 @@ F 3 "" H 3100 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R10
+L allBonsaiSymbolLibs:R-device R10
 U 1 1 57EA182F
 P 3400 4150
 F 0 "R10" H 3470 4196 50  0000 L CNN
@@ -92,7 +92,7 @@ F 3 "" H 3400 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D4
+L allBonsaiSymbolLibs:LED-device D4
 U 1 1 57EA26FF
 P 2500 4500
 F 0 "D4" V 2454 4578 50  0000 L CNN
@@ -103,7 +103,7 @@ F 3 "" H 2500 4500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D6
+L allBonsaiSymbolLibs:LED-device D6
 U 1 1 57EA28E7
 P 2800 4500
 F 0 "D6" V 2754 4578 50  0000 L CNN
@@ -114,7 +114,7 @@ F 3 "" H 2800 4500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D8
+L allBonsaiSymbolLibs:LED-device D8
 U 1 1 57EA2963
 P 3100 4500
 F 0 "D8" V 3054 4578 50  0000 L CNN
@@ -125,7 +125,7 @@ F 3 "" H 3100 4500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D10
+L allBonsaiSymbolLibs:LED-device D10
 U 1 1 57EA29EE
 P 3400 4500
 F 0 "D10" V 3354 4578 50  0000 L CNN
@@ -191,7 +191,7 @@ F 3 "" H 5300 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R2
+L allBonsaiSymbolLibs:R-device R2
 U 1 1 57F32782
 P 2100 7000
 F 0 "R2" H 2170 7046 50  0000 L CNN
@@ -202,7 +202,7 @@ F 3 "" H 2100 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D2
+L allBonsaiSymbolLibs:LED_Small-device D2
 U 1 1 57F32788
 P 2100 7250
 F 0 "D2" V 2054 7328 50  0000 L CNN
@@ -224,7 +224,7 @@ F 3 "" H 2100 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R3
+L allBonsaiSymbolLibs:R-device R3
 U 1 1 57F331A6
 P 2400 7000
 F 0 "R3" H 2470 7046 50  0000 L CNN
@@ -235,7 +235,7 @@ F 3 "" H 2400 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D3
+L allBonsaiSymbolLibs:LED_Small-device D3
 U 1 1 57F331AC
 P 2400 7250
 F 0 "D3" V 2354 7328 50  0000 L CNN
@@ -257,7 +257,7 @@ F 3 "" H 2400 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R5
+L allBonsaiSymbolLibs:R-device R5
 U 1 1 57F332F4
 P 2700 7000
 F 0 "R5" H 2770 7046 50  0000 L CNN
@@ -268,7 +268,7 @@ F 3 "" H 2700 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D5
+L allBonsaiSymbolLibs:LED_Small-device D5
 U 1 1 57F332FA
 P 2700 7250
 F 0 "D5" V 2654 7328 50  0000 L CNN
@@ -290,7 +290,7 @@ F 3 "" H 2700 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R7
+L allBonsaiSymbolLibs:R-device R7
 U 1 1 57F34235
 P 3000 7000
 F 0 "R7" H 3070 7046 50  0000 L CNN
@@ -301,7 +301,7 @@ F 3 "" H 3000 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D7
+L allBonsaiSymbolLibs:LED_Small-device D7
 U 1 1 57F3423B
 P 3000 7250
 F 0 "D7" V 2954 7328 50  0000 L CNN
@@ -323,7 +323,7 @@ F 3 "" H 3000 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R9
+L allBonsaiSymbolLibs:R-device R9
 U 1 1 57F34377
 P 3300 7000
 F 0 "R9" H 3370 7046 50  0000 L CNN
@@ -334,7 +334,7 @@ F 3 "" H 3300 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D9
+L allBonsaiSymbolLibs:LED_Small-device D9
 U 1 1 57F3437D
 P 3300 7250
 F 0 "D9" V 3254 7328 50  0000 L CNN
@@ -356,7 +356,7 @@ F 3 "" H 3300 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R11
+L allBonsaiSymbolLibs:R-device R11
 U 1 1 57F34495
 P 3600 7000
 F 0 "R11" H 3670 7046 50  0000 L CNN
@@ -367,7 +367,7 @@ F 3 "" H 3600 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D11
+L allBonsaiSymbolLibs:LED_Small-device D11
 U 1 1 57F3449B
 P 3600 7250
 F 0 "D11" V 3554 7328 50  0000 L CNN
@@ -389,7 +389,7 @@ F 3 "" H 3600 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R13
+L allBonsaiSymbolLibs:R-device R13
 U 1 1 57F34799
 P 3900 7000
 F 0 "R13" H 3970 7046 50  0000 L CNN
@@ -400,7 +400,7 @@ F 3 "" H 3900 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D12
+L allBonsaiSymbolLibs:LED_Small-device D12
 U 1 1 57F3479F
 P 3900 7250
 F 0 "D12" V 3854 7328 50  0000 L CNN
@@ -422,7 +422,7 @@ F 3 "" H 3900 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R14
+L allBonsaiSymbolLibs:R-device R14
 U 1 1 57F347B1
 P 4200 7000
 F 0 "R14" H 4270 7046 50  0000 L CNN
@@ -433,7 +433,7 @@ F 3 "" H 4200 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D14
+L allBonsaiSymbolLibs:LED_Small-device D14
 U 1 1 57F347B7
 P 4200 7250
 F 0 "D14" V 4154 7328 50  0000 L CNN
@@ -455,7 +455,7 @@ F 3 "" H 4200 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R15
+L allBonsaiSymbolLibs:R-device R15
 U 1 1 57F347C9
 P 4500 7000
 F 0 "R15" H 4570 7046 50  0000 L CNN
@@ -466,7 +466,7 @@ F 3 "" H 4500 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D15
+L allBonsaiSymbolLibs:LED_Small-device D15
 U 1 1 57F347CF
 P 4500 7250
 F 0 "D15" V 4454 7328 50  0000 L CNN
@@ -488,7 +488,7 @@ F 3 "" H 4500 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R17
+L allBonsaiSymbolLibs:R-device R17
 U 1 1 57F347E1
 P 4800 7000
 F 0 "R17" H 4870 7046 50  0000 L CNN
@@ -499,7 +499,7 @@ F 3 "" H 4800 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D16
+L allBonsaiSymbolLibs:LED_Small-device D16
 U 1 1 57F347E7
 P 4800 7250
 F 0 "D16" V 4754 7328 50  0000 L CNN
@@ -521,7 +521,7 @@ F 3 "" H 4800 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R19
+L allBonsaiSymbolLibs:R-device R19
 U 1 1 57F347F9
 P 5100 7000
 F 0 "R19" H 5170 7046 50  0000 L CNN
@@ -532,7 +532,7 @@ F 3 "" H 5100 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D22
+L allBonsaiSymbolLibs:LED_Small-device D22
 U 1 1 57F347FF
 P 5100 7250
 F 0 "D22" V 5054 7328 50  0000 L CNN
@@ -554,7 +554,7 @@ F 3 "" H 5100 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R21
+L allBonsaiSymbolLibs:R-device R21
 U 1 1 57F34811
 P 5400 7000
 F 0 "R21" H 5470 7046 50  0000 L CNN
@@ -565,7 +565,7 @@ F 3 "" H 5400 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D29
+L allBonsaiSymbolLibs:LED_Small-device D29
 U 1 1 57F34817
 P 5400 7250
 F 0 "D29" V 5354 7328 50  0000 L CNN
@@ -587,7 +587,7 @@ F 3 "" H 5400 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R24
+L allBonsaiSymbolLibs:R-device R24
 U 1 1 57F36299
 P 5700 7000
 F 0 "R24" H 5770 7046 50  0000 L CNN
@@ -598,7 +598,7 @@ F 3 "" H 5700 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D32
+L allBonsaiSymbolLibs:LED_Small-device D32
 U 1 1 57F3629F
 P 5700 7250
 F 0 "D32" V 5654 7328 50  0000 L CNN
@@ -609,7 +609,7 @@ F 3 "" H 5700 7250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R26
+L allBonsaiSymbolLibs:R-device R26
 U 1 1 57F362B1
 P 6000 7000
 F 0 "R26" H 6070 7046 50  0000 L CNN
@@ -620,7 +620,7 @@ F 3 "" H 6000 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D34
+L allBonsaiSymbolLibs:LED_Small-device D34
 U 1 1 57F362B7
 P 6000 7250
 F 0 "D34" V 5954 7328 50  0000 L CNN
@@ -642,7 +642,7 @@ F 3 "" H 6000 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R28
+L allBonsaiSymbolLibs:R-device R28
 U 1 1 57F362C9
 P 6300 7000
 F 0 "R28" H 6370 7046 50  0000 L CNN
@@ -653,7 +653,7 @@ F 3 "" H 6300 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D36
+L allBonsaiSymbolLibs:LED_Small-device D36
 U 1 1 57F362CF
 P 6300 7250
 F 0 "D36" V 6254 7328 50  0000 L CNN
@@ -675,7 +675,7 @@ F 3 "" H 6300 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R30
+L allBonsaiSymbolLibs:R-device R30
 U 1 1 57F362E1
 P 6600 7000
 F 0 "R30" H 6670 7046 50  0000 L CNN
@@ -686,7 +686,7 @@ F 3 "" H 6600 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D41
+L allBonsaiSymbolLibs:LED_Small-device D41
 U 1 1 57F362E7
 P 6600 7250
 F 0 "D41" V 6554 7328 50  0000 L CNN
@@ -708,7 +708,7 @@ F 3 "" H 6600 7350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:Q_PNP_BCE Q1
+L allBonsaiSymbolLibs:Q_PNP_BCE-device Q1
 U 1 1 57FCD318
 P 4450 800
 F 0 "Q1" H 4750 850 50  0000 R CNN
@@ -730,7 +730,7 @@ F 3 "" H 4250 900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:LED D13
+L allBonsaiSymbolLibs:LED-device D13
 U 1 1 57FCE20E
 P 4150 600
 F 0 "D13" H 4150 700 50  0000 C CNN
@@ -741,7 +741,7 @@ F 3 "" H 4150 600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R12
+L allBonsaiSymbolLibs:R-device R12
 U 1 1 57FCE307
 P 3800 600
 F 0 "R12" V 3880 600 50  0000 C CNN
@@ -763,7 +763,7 @@ F 3 "" H 3650 600 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R1
+L allBonsaiSymbolLibs:R-device R1
 U 1 1 58103C09
 P 600 6400
 F 0 "R1" V 680 6400 50  0000 C CNN
@@ -774,7 +774,7 @@ F 3 "" H 600 6400 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:LED_Small D1
+L allBonsaiSymbolLibs:LED_Small-device D1
 U 1 1 58103D59
 P 600 6050
 F 0 "D1" V 554 6128 50  0000 L CNN
@@ -869,7 +869,7 @@ F 3 "" H 3550 1600 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:LED_Small D21
+L allBonsaiSymbolLibs:LED_Small-device D21
 U 1 1 58342180
 P 5100 1250
 F 0 "D21" H 5050 1375 50  0000 L CNN
@@ -880,7 +880,7 @@ F 3 "" V 5100 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D24
+L allBonsaiSymbolLibs:LED_Small-device D24
 U 1 1 5836CC1D
 P 5350 1250
 F 0 "D24" H 5300 1375 50  0000 L CNN
@@ -891,7 +891,7 @@ F 3 "" V 5350 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D23
+L allBonsaiSymbolLibs:LED_Small-device D23
 U 1 1 5836CDE4
 P 5350 1150
 F 0 "D23" H 5300 1275 50  0000 L CNN
@@ -902,7 +902,7 @@ F 3 "" V 5350 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D25
+L allBonsaiSymbolLibs:LED_Small-device D25
 U 1 1 5836CF4D
 P 5350 1450
 F 0 "D25" H 5300 1575 50  0000 L CNN
@@ -913,7 +913,7 @@ F 3 "" V 5350 1450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D17
+L allBonsaiSymbolLibs:LED_Small-device D17
 U 1 1 5836D0CD
 P 4850 1650
 F 0 "D17" H 4800 1775 50  0000 L CNN
@@ -924,7 +924,7 @@ F 3 "" V 4850 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D30
+L allBonsaiSymbolLibs:LED_Small-device D30
 U 1 1 5836E67E
 P 5600 1650
 F 0 "D30" H 5550 1775 50  0000 L CNN
@@ -935,7 +935,7 @@ F 3 "" V 5600 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D33
+L allBonsaiSymbolLibs:LED_Small-device D33
 U 1 1 5836E800
 P 5850 1550
 F 0 "D33" H 5800 1675 50  0000 L CNN
@@ -946,7 +946,7 @@ F 3 "" V 5850 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D37
+L allBonsaiSymbolLibs:LED_Small-device D37
 U 1 1 5836E981
 P 6350 1450
 F 0 "D37" H 6300 1575 50  0000 L CNN
@@ -957,7 +957,7 @@ F 3 "" V 6350 1450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D39
+L allBonsaiSymbolLibs:LED_Small-device D39
 U 1 1 5836EB0D
 P 6600 1650
 F 0 "D39" H 6550 1775 50  0000 L CNN
@@ -968,7 +968,7 @@ F 3 "" V 6600 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D43
+L allBonsaiSymbolLibs:LED_Small-device D43
 U 1 1 58370620
 P 7200 1050
 F 0 "D43" H 7150 1175 50  0000 L CNN
@@ -979,7 +979,7 @@ F 3 "" V 7200 1050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D44
+L allBonsaiSymbolLibs:LED_Small-device D44
 U 1 1 583707CA
 P 7200 1150
 F 0 "D44" H 7150 1275 50  0000 L CNN
@@ -990,7 +990,7 @@ F 3 "" V 7200 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D45
+L allBonsaiSymbolLibs:LED_Small-device D45
 U 1 1 5837094D
 P 7200 1250
 F 0 "D45" H 7150 1375 50  0000 L CNN
@@ -1001,7 +1001,7 @@ F 3 "" V 7200 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D46
+L allBonsaiSymbolLibs:LED_Small-device D46
 U 1 1 58370AD1
 P 7450 1150
 F 0 "D46" H 7400 1275 50  0000 L CNN
@@ -1012,7 +1012,7 @@ F 3 "" V 7450 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D47
+L allBonsaiSymbolLibs:LED_Small-device D47
 U 1 1 58370C6C
 P 7700 1350
 F 0 "D47" H 7650 1475 50  0000 L CNN
@@ -1023,7 +1023,7 @@ F 3 "" V 7700 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D48
+L allBonsaiSymbolLibs:LED_Small-device D48
 U 1 1 58370E12
 P 7700 1450
 F 0 "D48" H 7650 1575 50  0000 L CNN
@@ -1034,7 +1034,7 @@ F 3 "" V 7700 1450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D49
+L allBonsaiSymbolLibs:LED_Small-device D49
 U 1 1 58370FA1
 P 7700 1550
 F 0 "D49" H 7650 1675 50  0000 L CNN
@@ -1045,7 +1045,7 @@ F 3 "" V 7700 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D50
+L allBonsaiSymbolLibs:LED_Small-device D50
 U 1 1 58371135
 P 7700 1650
 F 0 "D50" H 7650 1775 50  0000 L CNN
@@ -1056,7 +1056,7 @@ F 3 "" V 7700 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D51
+L allBonsaiSymbolLibs:LED_Small-device D51
 U 1 1 583712D6
 P 7700 1750
 F 0 "D51" H 7650 1875 50  0000 L CNN
@@ -1067,7 +1067,7 @@ F 3 "" V 7700 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D59
+L allBonsaiSymbolLibs:LED_Small-device D59
 U 1 1 58371478
 P 7950 1550
 F 0 "D59" H 7900 1675 50  0000 L CNN
@@ -1078,7 +1078,7 @@ F 3 "" V 7950 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D26
+L allBonsaiSymbolLibs:LED_Small-device D26
 U 1 1 58378EB7
 P 5350 2400
 F 0 "D26" H 5300 2525 50  0000 L CNN
@@ -1089,7 +1089,7 @@ F 3 "" V 5350 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D18
+L allBonsaiSymbolLibs:LED_Small-device D18
 U 1 1 5837926C
 P 4850 2600
 F 0 "D18" H 4800 2725 50  0000 L CNN
@@ -1100,7 +1100,7 @@ F 3 "" V 4850 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D19
+L allBonsaiSymbolLibs:LED_Small-device D19
 U 1 1 58379419
 P 4850 2700
 F 0 "D19" H 4800 2825 50  0000 L CNN
@@ -1111,7 +1111,7 @@ F 3 "" V 4850 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D20
+L allBonsaiSymbolLibs:LED_Small-device D20
 U 1 1 583795BB
 P 4850 3000
 F 0 "D20" H 4800 3125 50  0000 L CNN
@@ -1122,7 +1122,7 @@ F 3 "" V 4850 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D28
+L allBonsaiSymbolLibs:LED_Small-device D28
 U 1 1 5837976E
 P 5350 3000
 F 0 "D28" H 5300 3125 50  0000 L CNN
@@ -1133,7 +1133,7 @@ F 3 "" V 5350 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D27
+L allBonsaiSymbolLibs:LED_Small-device D27
 U 1 1 5837992A
 P 5350 2900
 F 0 "D27" H 5300 3025 50  0000 L CNN
@@ -1144,7 +1144,7 @@ F 3 "" V 5350 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D31
+L allBonsaiSymbolLibs:LED_Small-device D31
 U 1 1 5837A513
 P 5600 2600
 F 0 "D31" H 5550 2725 50  0000 L CNN
@@ -1155,7 +1155,7 @@ F 3 "" V 5600 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D35
+L allBonsaiSymbolLibs:LED_Small-device D35
 U 1 1 5837A6F3
 P 6100 2500
 F 0 "D35" H 6050 2625 50  0000 L CNN
@@ -1166,7 +1166,7 @@ F 3 "" V 6100 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D38
+L allBonsaiSymbolLibs:LED_Small-device D38
 U 1 1 5837A8C6
 P 6350 2400
 F 0 "D38" H 6300 2525 50  0000 L CNN
@@ -1177,7 +1177,7 @@ F 3 "" V 6350 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D40
+L allBonsaiSymbolLibs:LED_Small-device D40
 U 1 1 5837AF7A
 P 6600 2600
 F 0 "D40" H 6550 2725 50  0000 L CNN
@@ -1188,7 +1188,7 @@ F 3 "" V 6600 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D42
+L allBonsaiSymbolLibs:LED_Small-device D42
 U 1 1 5837C493
 P 6950 2700
 F 0 "D42" H 6900 2825 50  0000 L CNN
@@ -1199,7 +1199,7 @@ F 3 "" V 6950 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D52
+L allBonsaiSymbolLibs:LED_Small-device D52
 U 1 1 5837C65B
 P 7700 2400
 F 0 "D52" H 7650 2525 50  0000 L CNN
@@ -1210,7 +1210,7 @@ F 3 "" V 7700 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D53
+L allBonsaiSymbolLibs:LED_Small-device D53
 U 1 1 5837C858
 P 7700 2500
 F 0 "D53" H 7650 2625 50  0000 L CNN
@@ -1221,7 +1221,7 @@ F 3 "" V 7700 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D54
+L allBonsaiSymbolLibs:LED_Small-device D54
 U 1 1 5837CA1C
 P 7700 2600
 F 0 "D54" H 7650 2725 50  0000 L CNN
@@ -1232,7 +1232,7 @@ F 3 "" V 7700 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D55
+L allBonsaiSymbolLibs:LED_Small-device D55
 U 1 1 5837CBE7
 P 7700 2700
 F 0 "D55" H 7650 2825 50  0000 L CNN
@@ -1243,7 +1243,7 @@ F 3 "" V 7700 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D56
+L allBonsaiSymbolLibs:LED_Small-device D56
 U 1 1 5837CDB5
 P 7700 2800
 F 0 "D56" H 7650 2925 50  0000 L CNN
@@ -1254,7 +1254,7 @@ F 3 "" V 7700 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D57
+L allBonsaiSymbolLibs:LED_Small-device D57
 U 1 1 5837CF8E
 P 7700 2900
 F 0 "D57" H 7650 3025 50  0000 L CNN
@@ -1265,7 +1265,7 @@ F 3 "" V 7700 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D58
+L allBonsaiSymbolLibs:LED_Small-device D58
 U 1 1 5837D16A
 P 7700 3000
 F 0 "D58" H 7650 3125 50  0000 L CNN
@@ -1276,7 +1276,7 @@ F 3 "" V 7700 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D60
+L allBonsaiSymbolLibs:LED_Small-device D60
 U 1 1 5837D34F
 P 7950 2800
 F 0 "D60" H 7900 2925 50  0000 L CNN
@@ -1287,7 +1287,7 @@ F 3 "" V 7950 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D61
+L allBonsaiSymbolLibs:LED_Small-device D61
 U 1 1 5837D53D
 P 8200 3000
 F 0 "D61" H 8150 3125 50  0000 L CNN
@@ -2101,7 +2101,7 @@ F 3 "" H 3550 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74ls161bonsai:74LS161 U3
+L allBonsaiSymbolLibs:74LS161-74ls161bonsai U3
 U 1 1 5B42C8F2
 P 2500 1200
 F 0 "U3" H 2493 1925 50  0000 C CNN
@@ -2128,7 +2128,7 @@ NoConn ~ 3100 1200
 Wire Wire Line
 	5200 1050 5200 1250
 $Comp
-L 3PinTerminalBlocktg:3PinTerminalBlocktg J3
+L allBonsaiSymbolLibs:3PinTerminalBlocktg-3PinTerminalBlocktg J3
 U 1 1 5AC3B199
 P 650 4900
 F 0 "J3" H 512 4586 50  0000 C CNN
@@ -2144,7 +2144,7 @@ F 8 "3PinTerminalBlocktg" H 650 4900 50  0001 L BNN "Field8"
 	-1   0    0    1   
 $EndComp
 $Comp
-L 3PinTerminalBlocktg:3PinTerminalBlocktg J4
+L allBonsaiSymbolLibs:3PinTerminalBlocktg-3PinTerminalBlocktg J4
 U 1 1 5AC3BD30
 P 650 7100
 F 0 "J4" H 512 6786 50  0000 C CNN
@@ -2164,7 +2164,7 @@ Wire Wire Line
 Wire Wire Line
 	850  7200 850  7550
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J2
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J2
 U 1 1 5ACD992E
 P 550 1000
 F 0 "J2" H 412 686 50  0000 C CNN
@@ -2180,7 +2180,7 @@ F 8 "2PinTerminalBlocktg" H 550 1000 50  0001 L BNN "Field8"
 	-1   0    0    1   
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J1
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J1
 U 1 1 5ACD9CB1
 P 550 800
 F 0 "J1" H 412 486 50  0000 C CNN
@@ -2211,7 +2211,7 @@ Wire Wire Line
 	1400 4800 1400 5150
 Connection ~ 1400 4800
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J5
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J5
 U 1 1 5AFA4AC6
 P 8850 5200
 F 0 "J5" H 8712 4886 50  0000 C CNN
@@ -2245,7 +2245,7 @@ Connection ~ 9800 4050
 Wire Wire Line
 	9800 4050 9900 4050
 $Comp
-L bonsai:D D62
+L allBonsaiSymbolLibs:D D62
 U 1 1 5B0188F2
 P 10900 4600
 F 0 "D62" V 10801 4678 50  0000 L CNN
@@ -2256,7 +2256,7 @@ F 3 "" H 10900 4600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L bonsai:C_Small C1
+L allBonsaiSymbolLibs:C_Small C1
 U 1 1 5B018E13
 P 9150 4600
 F 0 "C1" H 9242 4646 50  0000 L CNN
@@ -2267,7 +2267,7 @@ F 3 "" H 9150 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:C_Small C2
+L allBonsaiSymbolLibs:C_Small C2
 U 1 1 5B019017
 P 9400 4600
 F 0 "C2" H 9492 4646 50  0000 L CNN
@@ -2278,7 +2278,7 @@ F 3 "" H 9400 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:C_Small C3
+L allBonsaiSymbolLibs:C_Small C3
 U 1 1 5B019204
 P 9650 4600
 F 0 "C3" H 9742 4646 50  0000 L CNN
@@ -2289,7 +2289,7 @@ F 3 "" H 9650 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:C_Small C4
+L allBonsaiSymbolLibs:C_Small C4
 U 1 1 5B0193F0
 P 9900 4600
 F 0 "C4" H 9992 4646 50  0000 L CNN
@@ -2300,7 +2300,7 @@ F 3 "" H 9900 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:C_Small C5
+L allBonsaiSymbolLibs:C_Small C5
 U 1 1 5B0195E5
 P 10150 4600
 F 0 "C5" H 10242 4646 50  0000 L CNN
@@ -2311,7 +2311,7 @@ F 3 "" H 10150 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:C_Small C6
+L allBonsaiSymbolLibs:C_Small C6
 U 1 1 5B0197E3
 P 10400 4600
 F 0 "C6" H 10492 4646 50  0000 L CNN
@@ -2386,7 +2386,7 @@ Connection ~ 10400 5200
 Wire Wire Line
 	10400 5200 10900 5200
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J6
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J6
 U 1 1 5AC6BD39
 P 2850 7700
 F 0 "J6" V 2666 7765 50  0000 L CNN
@@ -2402,7 +2402,7 @@ F 8 "2PinTerminalBlocktg" H 2850 7700 50  0001 L BNN "Field8"
 	0    -1   1    0   
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J7
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J7
 U 1 1 5AC6C26F
 P 3400 7700
 F 0 "J7" V 3216 7765 50  0000 L CNN
@@ -2418,7 +2418,7 @@ F 8 "2PinTerminalBlocktg" H 3400 7700 50  0001 L BNN "Field8"
 	0    -1   1    0   
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J8
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J8
 U 1 1 5AC6C549
 P 4000 7700
 F 0 "J8" V 3816 7765 50  0000 L CNN
@@ -2434,7 +2434,7 @@ F 8 "2PinTerminalBlocktg" H 4000 7700 50  0001 L BNN "Field8"
 	0    -1   1    0   
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J9
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J9
 U 1 1 5AC6C811
 P 4600 7700
 F 0 "J9" V 4416 7765 50  0000 L CNN
@@ -2450,7 +2450,7 @@ F 8 "2PinTerminalBlocktg" H 4600 7700 50  0001 L BNN "Field8"
 	0    -1   1    0   
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J10
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J10
 U 1 1 5AC6CAD5
 P 5200 7700
 F 0 "J10" V 5016 7765 50  0000 L CNN
@@ -2466,7 +2466,7 @@ F 8 "2PinTerminalBlocktg" H 5200 7700 50  0001 L BNN "Field8"
 	0    -1   1    0   
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J11
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J11
 U 1 1 5AC6DC3D
 P 5800 7700
 F 0 "J11" V 5616 7765 50  0000 L CNN
@@ -2482,7 +2482,7 @@ F 8 "2PinTerminalBlocktg" H 5800 7700 50  0001 L BNN "Field8"
 	0    -1   1    0   
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J12
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J12
 U 1 1 5AC6EA99
 P 6550 7700
 F 0 "J12" V 6366 7765 50  0000 L CNN
@@ -2660,7 +2660,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 7500 6550 7500
 $Comp
-L 74xx:74LS374 U7
+L allBonsaiSymbolLibs:74LS374-74xx U7
 U 1 1 57E9528C
 P 5950 4300
 F 0 "U7" V 5904 3672 50  0000 R CNN
@@ -2671,7 +2671,7 @@ F 3 "" H 5950 4300 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L bonsai:R_PACK8BUSSED RP1
+L allBonsaiSymbolLibs:R_PACK8BUSSED RP1
 U 1 1 5B1ED72C
 P 7750 600
 F 0 "RP1" H 7878 699 50  0000 L CNN
@@ -2682,7 +2682,7 @@ F 3 "" H 7750 650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:R_PACK8BUSSED RP2
+L allBonsaiSymbolLibs:R_PACK8BUSSED RP2
 U 1 1 5B1EE38D
 P 5650 600
 F 0 "RP2" H 5778 699 50  0000 L CNN
@@ -2865,7 +2865,7 @@ b7
 Text Label 7950 800  0    50   ~ 0
 b8
 $Comp
-L 74xx:74LS374 U8
+L allBonsaiSymbolLibs:74LS374-74xx U8
 U 1 1 5C736462
 P 7750 4300
 F 0 "U8" V 7659 3671 50  0000 R CNN
@@ -2976,7 +2976,7 @@ Connection ~ 7850 2850
 Wire Wire Line
 	7850 2850 11150 2850
 $Comp
-L device:LED_Small D63
+L allBonsaiSymbolLibs:LED_Small-device D63
 U 1 1 5CF05099
 P 7950 2500
 F 0 "D63" H 7900 2625 50  0000 L CNN
@@ -3019,7 +3019,7 @@ Wire Wire Line
 Text Label 850  6700 0    60   ~ 0
 clrMPC
 $Comp
-L bonsai:74ls240 U9
+L allBonsaiSymbolLibs:74ls240 U9
 U 1 1 5C91C679
 P 900 5650
 F 0 "U9" H 900 6125 50  0000 C CNN
@@ -3072,7 +3072,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 6000 1100 5900
 $Comp
-L bonsai:74ls240 U9
+L allBonsaiSymbolLibs:74ls240 U9
 U 5 1 5CA9B1C1
 P 3400 3600
 F 0 "U9" V 3354 3938 50  0000 L CNN
@@ -3090,7 +3090,7 @@ Wire Wire Line
 Wire Wire Line
 	900  6550 900  6050
 $Comp
-L bonsai:74ls240 U9
+L allBonsaiSymbolLibs:74ls240 U9
 U 6 1 5CCD3F05
 P 3100 3600
 F 0 "U9" V 3054 3938 50  0000 L CNN
@@ -3101,7 +3101,7 @@ F 3 "" H 3100 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L bonsai:74ls240 U9
+L allBonsaiSymbolLibs:74ls240 U9
 U 7 1 5CCD50DA
 P 2800 3600
 F 0 "U9" V 2754 3938 50  0000 L CNN
@@ -3112,7 +3112,7 @@ F 3 "" H 2800 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L bonsai:74ls240 U9
+L allBonsaiSymbolLibs:74ls240 U9
 U 8 1 5CCD7140
 P 2500 3600
 F 0 "U9" V 2454 3938 50  0000 L CNN
@@ -3131,11 +3131,11 @@ Wire Wire Line
 	3350 700  3350 2450
 Wire Wire Line
 	3550 1800 3200 1800
+Connection ~ 3200 1800
+Wire Wire Line
+	3200 1800 3200 2950
 Wire Bus Line
 	4850 900  6600 900 
 Wire Bus Line
 	6950 900  8700 900 
-Connection ~ 3200 1800
-Wire Wire Line
-	3200 1800 3200 2950
 $EndSCHEMATC

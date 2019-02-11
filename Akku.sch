@@ -21,7 +21,7 @@ Dezember 2017
 Text Notes 7050 6850 0    197  ~ 0
 Akkumulator
 $Comp
-L Akku-rescue:74LS540-74xx-Akku-rescue-Akku-rescue U8
+L allBonsaiSymbolLibs:74LS540-74xx U8
 U 1 1 57E93AAD
 P 9100 2050
 F 0 "U8" V 9146 1422 50  0000 R CNN
@@ -32,7 +32,7 @@ F 3 "" H 9100 2050 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:LED-bonsai-Akku-rescue D12
+L allBonsaiSymbolLibs:LED-bonsai D12
 U 1 1 57E93BF0
 P 9300 850
 F 0 "D12" V 9346 742 50  0000 R CNN
@@ -43,7 +43,7 @@ F 3 "" H 9300 850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:LED-bonsai-Akku-rescue D11
+L allBonsaiSymbolLibs:LED-bonsai D11
 U 1 1 57E93CED
 P 9200 850
 F 0 "D11" V 9246 742 50  0000 R CNN
@@ -54,7 +54,7 @@ F 3 "" H 9200 850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:LED-bonsai-Akku-rescue D10
+L allBonsaiSymbolLibs:LED-bonsai D10
 U 1 1 57E93ED1
 P 9100 850
 F 0 "D10" V 9146 742 50  0000 R CNN
@@ -65,7 +65,7 @@ F 3 "" H 9100 850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:LED-bonsai-Akku-rescue D9
+L allBonsaiSymbolLibs:LED-bonsai D9
 U 1 1 57E93F38
 P 9000 850
 F 0 "D9" V 9046 742 50  0000 R CNN
@@ -76,7 +76,7 @@ F 3 "" H 9000 850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:LED-bonsai-Akku-rescue D8
+L allBonsaiSymbolLibs:LED-bonsai D8
 U 1 1 57E93F7E
 P 8900 850
 F 0 "D8" V 8946 742 50  0000 R CNN
@@ -87,7 +87,7 @@ F 3 "" H 8900 850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:LED-bonsai-Akku-rescue D6
+L allBonsaiSymbolLibs:LED-bonsai D6
 U 1 1 57E93FA3
 P 8800 850
 F 0 "D6" V 8846 742 50  0000 R CNN
@@ -98,7 +98,7 @@ F 3 "" H 8800 850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:LED-bonsai-Akku-rescue D5
+L allBonsaiSymbolLibs:LED-bonsai D5
 U 1 1 57E93FCF
 P 8700 850
 F 0 "D5" V 8746 742 50  0000 R CNN
@@ -109,7 +109,7 @@ F 3 "" H 8700 850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:LED-bonsai-Akku-rescue D4
+L allBonsaiSymbolLibs:LED-bonsai D4
 U 1 1 57E93FFA
 P 8600 850
 F 0 "D4" V 8646 742 50  0000 R CNN
@@ -120,7 +120,7 @@ F 3 "" H 8600 850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R13
+L allBonsaiSymbolLibs:R-device R13
 U 1 1 57E94162
 P 8600 1200
 F 0 "R13" H 8670 1246 50  0000 L CNN
@@ -131,7 +131,7 @@ F 3 "" H 8600 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R15
+L allBonsaiSymbolLibs:R-device R15
 U 1 1 57E942DE
 P 8700 1200
 F 0 "R15" H 8770 1246 50  0000 L CNN
@@ -142,7 +142,7 @@ F 3 "" H 8700 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R16
+L allBonsaiSymbolLibs:R-device R16
 U 1 1 57E94316
 P 8800 1200
 F 0 "R16" H 8870 1246 50  0000 L CNN
@@ -153,7 +153,7 @@ F 3 "" H 8800 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R17
+L allBonsaiSymbolLibs:R-device R17
 U 1 1 57E94362
 P 8900 1200
 F 0 "R17" H 8970 1246 50  0000 L CNN
@@ -164,7 +164,7 @@ F 3 "" H 8900 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R18
+L allBonsaiSymbolLibs:R-device R18
 U 1 1 57E943BA
 P 9000 1200
 F 0 "R18" H 9070 1246 50  0000 L CNN
@@ -175,7 +175,7 @@ F 3 "" H 9000 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R19
+L allBonsaiSymbolLibs:R-device R19
 U 1 1 57E94424
 P 9100 1200
 F 0 "R19" H 9170 1246 50  0000 L CNN
@@ -186,7 +186,7 @@ F 3 "" H 9100 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R20
+L allBonsaiSymbolLibs:R-device R20
 U 1 1 57E94464
 P 9200 1200
 F 0 "R20" H 9270 1246 50  0000 L CNN
@@ -197,7 +197,7 @@ F 3 "" H 9200 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R21
+L allBonsaiSymbolLibs:R-device R21
 U 1 1 57E944B7
 P 9300 1200
 F 0 "R21" H 9370 1246 50  0000 L CNN
@@ -219,7 +219,7 @@ F 3 "" H 9700 650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Akku-rescue:74LS193-RESCUE-Akku-Akku-rescue-Akku-rescue U5
+L allBonsaiSymbolLibs:74LS193 U5
 U 1 1 57E9530E
 P 7050 4150
 F 0 "U5" H 7050 4775 50  0000 C CNN
@@ -230,7 +230,7 @@ F 3 "" H 7050 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:74LS193-RESCUE-Akku-Akku-rescue-Akku-rescue U7
+L allBonsaiSymbolLibs:74LS193 U7
 U 1 1 57E95727
 P 9000 4150
 F 0 "U7" H 9000 4775 50  0000 C CNN
@@ -241,7 +241,7 @@ F 3 "" H 9000 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R14
+L allBonsaiSymbolLibs:R-device R14
 U 1 1 57E98213
 P 8650 5850
 F 0 "R14" H 8720 5896 50  0000 L CNN
@@ -263,7 +263,7 @@ F 3 "" H 9050 6000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R9
+L allBonsaiSymbolLibs:R-device R9
 U 1 1 57F2FBEB
 P 3650 2250
 F 0 "R9" H 3720 2296 50  0000 L CNN
@@ -274,7 +274,7 @@ F 3 "" H 3650 2250 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:LED-bonsai-Akku-rescue D7
+L allBonsaiSymbolLibs:LED-bonsai D7
 U 1 1 57FBC65C
 P 8850 6000
 F 0 "D7" H 8850 6100 50  0000 C CNN
@@ -285,7 +285,7 @@ F 3 "" H 8850 6000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R12
+L allBonsaiSymbolLibs:R-device R12
 U 1 1 57FC1E29
 P 8150 6200
 F 0 "R12" V 8230 6200 50  0000 C CNN
@@ -296,7 +296,7 @@ F 3 "" H 8150 6200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Akku-rescue:SWITCH_INV-bonsai-Akku-rescue SW3
+L allBonsaiSymbolLibs:SWITCH_INV-bonsai SW3
 U 1 1 57FC34DF
 P 7500 6200
 F 0 "SW3" H 7300 6350 50  0000 C CNN
@@ -340,7 +340,7 @@ F 3 "" H 9700 2750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:74LS541-74xx-Akku-rescue-Akku-rescue U6
+L allBonsaiSymbolLibs:74LS541-74xx U6
 U 1 1 57E939A0
 P 7200 2000
 F 0 "U6" V 7246 1371 50  0000 R CNN
@@ -351,7 +351,7 @@ F 3 "" H 7200 2000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:Conn_02x10_Counter_Clockwise-conn-Akku-rescue-Akku-rescue P7
+L allBonsaiSymbolLibs:Conn_02x10_Counter_Clockwise-conn P7
 U 1 1 58057A43
 P 4850 1600
 F 0 "P7" H 4850 2150 50  0000 C CNN
@@ -362,7 +362,7 @@ F 3 "" H 4850 400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:Conn_02x10_Counter_Clockwise-conn-Akku-rescue-Akku-rescue P8
+L allBonsaiSymbolLibs:Conn_02x10_Counter_Clockwise-conn P8
 U 1 1 5805867B
 P 4100 1600
 F 0 "P8" H 4100 2150 50  0000 C CNN
@@ -373,7 +373,7 @@ F 3 "" H 4100 400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:Conn_02x10_Counter_Clockwise-conn-Akku-rescue-Akku-rescue P9
+L allBonsaiSymbolLibs:Conn_02x10_Counter_Clockwise-conn P9
 U 1 1 58058F42
 P 5600 1600
 F 0 "P9" H 5600 2150 50  0000 C CNN
@@ -513,7 +513,7 @@ F 3 "" H 3250 2050 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Akku-rescue:LED-bonsai-Akku-rescue D1
+L allBonsaiSymbolLibs:LED-bonsai D1
 U 1 1 580EE5C2
 P 3450 2050
 F 0 "D1" H 3450 2150 50  0000 C CNN
@@ -524,7 +524,7 @@ F 3 "" H 3450 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:4069-cmos4000-Akku-rescue-Akku-rescue U1
+L allBonsaiSymbolLibs:4069-cmos4000 U1
 U 2 1 580F11C5
 P 3000 3350
 F 0 "U1" V 2954 3528 50  0000 L CNN
@@ -535,7 +535,7 @@ F 3 "" H 3000 3350 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R2
+L allBonsaiSymbolLibs:R-device R2
 U 1 1 580F178A
 P 1700 2800
 F 0 "R2" H 1770 2846 50  0000 L CNN
@@ -568,7 +568,7 @@ F 3 "" H 1850 3000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R3
+L allBonsaiSymbolLibs:R-device R3
 U 1 1 580F350E
 P 1700 3000
 F 0 "R3" H 1770 3046 50  0000 L CNN
@@ -583,7 +583,7 @@ Text Notes 2150 2850 0    60   ~ 0
 Text Notes 2150 3050 0    60   ~ 0
 (PC)
 $Comp
-L Akku-rescue:74LS08-74xx-Akku-rescue-Akku-rescue U4
+L allBonsaiSymbolLibs:74LS08-74xx U4
 U 4 1 580F517F
 P 4150 4050
 F 0 "U4" H 4150 4100 50  0000 C CNN
@@ -594,7 +594,7 @@ F 3 "" H 4150 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:7400-RESCUE-Akku-Akku-rescue-Akku-rescue U2
+L allBonsaiSymbolLibs:7400 U2
 U 4 1 580F5956
 P 2650 5000
 F 0 "U2" H 2650 5050 50  0000 C CNN
@@ -605,7 +605,7 @@ F 3 "" H 2650 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:7400-RESCUE-Akku-Akku-rescue-Akku-rescue U2
+L allBonsaiSymbolLibs:7400 U2
 U 1 1 580F5818
 P 2650 4200
 F 0 "U2" H 2650 4250 50  0000 C CNN
@@ -616,7 +616,7 @@ F 3 "" H 2650 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:SWITCH_INV-bonsai-Akku-rescue SW1
+L allBonsaiSymbolLibs:SWITCH_INV-bonsai SW1
 U 1 1 58100CBF
 P 1400 4600
 F 0 "SW1" H 1200 4750 50  0000 C CNN
@@ -638,7 +638,7 @@ F 3 "" H 900 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:4069-cmos4000-Akku-rescue-Akku-rescue U1
+L allBonsaiSymbolLibs:4069-cmos4000 U1
 U 5 1 581014B6
 P 5400 4050
 F 0 "U1" V 5354 4228 50  0000 L CNN
@@ -649,7 +649,7 @@ F 3 "" H 5400 4050 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R11
+L allBonsaiSymbolLibs:R-device R11
 U 1 1 581018B2
 P 5850 3900
 F 0 "R11" V 5930 3900 50  0000 C CNN
@@ -660,7 +660,7 @@ F 3 "" H 5850 3900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Akku-rescue:LED-bonsai-Akku-rescue D3
+L allBonsaiSymbolLibs:LED-bonsai D3
 U 1 1 58101E2D
 P 5850 3550
 F 0 "D3" H 5850 3650 50  0000 C CNN
@@ -682,7 +682,7 @@ F 3 "" H 5850 3350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Akku-rescue:7400-RESCUE-Akku-Akku-rescue-Akku-rescue U2
+L allBonsaiSymbolLibs:7400 U2
 U 3 1 58103E9D
 P 2650 5950
 F 0 "U2" H 2650 6000 50  0000 C CNN
@@ -693,7 +693,7 @@ F 3 "" H 2650 5950 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Akku-rescue:7400-RESCUE-Akku-Akku-rescue-Akku-rescue U2
+L allBonsaiSymbolLibs:7400 U2
 U 2 1 58103EA3
 P 2650 6750
 F 0 "U2" H 2650 6800 50  0000 C CNN
@@ -704,7 +704,7 @@ F 3 "" H 2650 6750 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Akku-rescue:SWITCH_INV-bonsai-Akku-rescue SW2
+L allBonsaiSymbolLibs:SWITCH_INV-bonsai SW2
 U 1 1 58103EB5
 P 1400 6350
 F 0 "SW2" H 1200 6500 50  0000 C CNN
@@ -726,7 +726,7 @@ F 3 "" H 900 6350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:74LS08-74xx-Akku-rescue-Akku-rescue U4
+L allBonsaiSymbolLibs:74LS08-74xx U4
 U 1 1 581052DF
 P 4000 6050
 F 0 "U4" H 4000 6100 50  0000 C CNN
@@ -903,7 +903,7 @@ Connection ~ 7300 3050
 Wire Wire Line
 	7300 2700 7300 3050
 $Comp
-L Akku-rescue:74HC14-RESCUE-Akku-Akku-rescue-Akku-rescue U1
+L allBonsaiSymbolLibs:74HC14 U1
 U 1 1 5A159C74
 P 2100 3350
 F 0 "U1" H 2250 3450 50  0000 C CNN
@@ -914,7 +914,7 @@ F 3 "" H 2100 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:74HC14-RESCUE-Akku-Akku-rescue-Akku-rescue U1
+L allBonsaiSymbolLibs:74HC14 U1
 U 3 1 5A159ED2
 P 3650 2900
 F 0 "U1" H 3800 3000 50  0000 C CNN
@@ -925,7 +925,7 @@ F 3 "" H 3650 2900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:74HC14-RESCUE-Akku-Akku-rescue-Akku-rescue U1
+L allBonsaiSymbolLibs:74HC14 U1
 U 6 1 5A15A24E
 P 5200 6050
 F 0 "U1" H 5350 6150 50  0000 C CNN
@@ -936,7 +936,7 @@ F 3 "" H 5200 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:74HC14-RESCUE-Akku-Akku-rescue-Akku-rescue U1
+L allBonsaiSymbolLibs:74HC14 U1
 U 4 1 5A15A4DE
 P 8650 5250
 F 0 "U1" H 8800 5350 50  0000 C CNN
@@ -1090,7 +1090,7 @@ Wire Wire Line
 Wire Wire Line
 	850  1400 800  1400
 $Comp
-L Akku-rescue:2PinTerminalBlocktg-2PinTerminalBlocktg-Akku-rescue-Akku-rescue J1
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J1
 U 1 1 5AECBED9
 P 850 850
 F 0 "J1" H 815 840 50  0000 L CNN
@@ -1106,7 +1106,7 @@ F 8 "2PinTerminalBlocktg" H 850 850 50  0001 L BNN "Field8"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Akku-rescue:2PinTerminalBlocktg-2PinTerminalBlocktg-Akku-rescue-Akku-rescue J2
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J2
 U 1 1 5AECC155
 P 10650 5300
 F 0 "J2" H 10615 5290 50  0000 L CNN
@@ -1122,7 +1122,7 @@ F 8 "2PinTerminalBlocktg" H 10650 5300 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:3PinTerminalBlocktg-3PinTerminalBlocktg-Akku-rescue-Akku-rescue J3
+L allBonsaiSymbolLibs:3PinTerminalBlocktg-3PinTerminalBlocktg J3
 U 1 1 5AECC360
 P 10650 5650
 F 0 "J3" H 10615 5690 50  0000 L CNN
@@ -1149,7 +1149,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 1150 1200 1150
 $Comp
-L Akku-rescue:R_PACK4BUSSED-bonsai-Akku-rescue RPA1
+L allBonsaiSymbolLibs:R_PACK4BUSSED RPA1
 U 1 1 5B220C3D
 P 2800 1000
 F 0 "RPA1" H 2927 1099 50  0000 L CNN
@@ -1220,7 +1220,7 @@ F 3 "" H 5650 6750 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Akku-rescue:R-device-Akku-rescue-Akku-rescue R10
+L allBonsaiSymbolLibs:R-device R10
 U 1 1 5810516E
 P 5650 6200
 F 0 "R10" V 5730 6200 50  0000 C CNN
@@ -1231,7 +1231,7 @@ F 3 "" H 5650 6200 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Akku-rescue:LED-bonsai-Akku-rescue D2
+L allBonsaiSymbolLibs:LED-bonsai D2
 U 1 1 58105174
 P 5650 6550
 F 0 "D2" H 5650 6650 50  0000 C CNN
@@ -1244,7 +1244,7 @@ $EndComp
 Text GLabel 2000 6950 3    50   Input ~ 0
 RPA3
 $Comp
-L Akku-rescue:R_PACK4BUSSED-bonsai-Akku-rescue RPB1
+L allBonsaiSymbolLibs:R_PACK4BUSSED RPB1
 U 1 1 5B22DE13
 P 2800 1700
 F 0 "RPB1" H 2927 1799 50  0000 L CNN
@@ -1599,7 +1599,7 @@ Wire Bus Line
 	5250 600  6000 600 
 Connection ~ 6000 600 
 $Comp
-L Akku-rescue:C-bonsai-Akku-rescue C1
+L allBonsaiSymbolLibs:C-bonsai C1
 U 1 1 5CBF3D2E
 P 1000 1400
 F 0 "C1" V 688 1400 50  0000 C CNN
@@ -1610,7 +1610,7 @@ F 3 "" H 1000 1400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Akku-rescue:C-bonsai-Akku-rescue C2
+L allBonsaiSymbolLibs:C-bonsai C2
 U 1 1 5CBF52E5
 P 1000 1600
 F 0 "C2" V 688 1600 50  0000 C CNN
@@ -1621,7 +1621,7 @@ F 3 "" H 1000 1600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Akku-rescue:D-bonsai-Akku-rescue D13
+L allBonsaiSymbolLibs:D-bonsai D13
 U 1 1 5CC05CEA
 P 1000 1250
 F 0 "D13" H 1000 929 50  0000 C CNN
@@ -1649,7 +1649,7 @@ Wire Wire Line
 	850  1600 850  1550
 Connection ~ 850  1550
 $Comp
-L Akku-rescue:C-bonsai-Akku-rescue C3
+L allBonsaiSymbolLibs:C-bonsai C3
 U 1 1 5CC7F388
 P 1000 1800
 F 0 "C3" V 688 1800 50  0000 C CNN

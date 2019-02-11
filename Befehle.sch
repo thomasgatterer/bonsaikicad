@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Befehle-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L device:R R10
+L allBonsaiSymbolLibs:R-device R10
 U 1 1 57E93BBB
 P -4550 200
 F 0 "R10" V -4550 200 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H -4550 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R11
+L allBonsaiSymbolLibs:R-device R11
 U 1 1 57E93CDA
 P -4450 200
 F 0 "R11" V -4450 200 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H -4450 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R13
+L allBonsaiSymbolLibs:R-device R13
 U 1 1 57E93D22
 P -4350 200
 F 0 "R13" V -4350 200 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H -4350 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R14
+L allBonsaiSymbolLibs:R-device R14
 U 1 1 57E93D69
 P -4250 200
 F 0 "R14" V -4250 200 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H -4250 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R15
+L allBonsaiSymbolLibs:R-device R15
 U 1 1 57E93DAB
 P -4150 200
 F 0 "R15" V -4150 200 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H -4150 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R16
+L allBonsaiSymbolLibs:R-device R16
 U 1 1 57E93DE4
 P -4050 200
 F 0 "R16" V -4050 200 50  0000 C CNN
@@ -81,7 +81,7 @@ F 3 "" H -4050 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R18
+L allBonsaiSymbolLibs:R-device R18
 U 1 1 57E93E32
 P -3950 200
 F 0 "R18" V -3950 200 50  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H -3950 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R21
+L allBonsaiSymbolLibs:R-device R21
 U 1 1 57E93E85
 P -3850 200
 F 0 "R21" V -3850 200 50  0000 C CNN
@@ -103,7 +103,7 @@ F 3 "" H -3850 200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L bonsai:Led_Small D5
+L allBonsaiSymbolLibs:Led_Small D5
 U 1 1 57E94020
 P -4550 -50
 F 0 "D5" H -4450 -50 50  0000 C CNN
@@ -114,7 +114,7 @@ F 3 "" V -4550 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:Led_Small D6
+L allBonsaiSymbolLibs:Led_Small D6
 U 1 1 57E94088
 P -4450 -50
 F 0 "D6" H -4350 -50 50  0000 C CNN
@@ -125,7 +125,7 @@ F 3 "" V -4450 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:Led_Small D8
+L allBonsaiSymbolLibs:Led_Small D8
 U 1 1 57E940D8
 P -4350 -50
 F 0 "D8" H -4250 -50 50  0000 C CNN
@@ -136,7 +136,7 @@ F 3 "" V -4350 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:Led_Small D9
+L allBonsaiSymbolLibs:Led_Small D9
 U 1 1 57E9412E
 P -4250 -50
 F 0 "D9" H -4150 -50 50  0000 C CNN
@@ -147,7 +147,7 @@ F 3 "" V -4250 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:Led_Small D10
+L allBonsaiSymbolLibs:Led_Small D10
 U 1 1 57E94186
 P -4150 -50
 F 0 "D10" H -4050 -50 50  0000 C CNN
@@ -158,7 +158,7 @@ F 3 "" V -4150 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:Led_Small D13
+L allBonsaiSymbolLibs:Led_Small D13
 U 1 1 57E941E2
 P -4050 -50
 F 0 "D13" H -3950 -50 50  0000 C CNN
@@ -169,7 +169,7 @@ F 3 "" V -4050 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:Led_Small D14
+L allBonsaiSymbolLibs:Led_Small D14
 U 1 1 57E94242
 P -3950 -50
 F 0 "D14" H -3850 -50 50  0000 C CNN
@@ -180,7 +180,7 @@ F 3 "" V -3950 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:Led_Small D18
+L allBonsaiSymbolLibs:Led_Small D18
 U 1 1 57E942A6
 P -3850 -50
 F 0 "D18" H -3750 -50 50  0000 C CNN
@@ -191,7 +191,7 @@ F 3 "" V -3850 -50 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xx:74LS373 U6
+L allBonsaiSymbolLibs:74LS373-74xx U6
 U 1 1 57E94D2E
 P -6400 4000
 F 0 "U6" H -6400 3234 50  0000 C CNN
@@ -202,7 +202,7 @@ F 3 "" H -6400 4000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xx:74LS541 U5
+L allBonsaiSymbolLibs:74LS541-74xx U5
 U 1 1 57E94F18
 P -6400 1200
 F 0 "U5" H -6400 434 50  0000 C CNN
@@ -213,7 +213,7 @@ F 3 "" H -6400 1200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xx:74LS139 U7
+L allBonsaiSymbolLibs:74LS139-74xx U7
 U 1 1 57E9588C
 P -5000 6100
 F 0 "U7" V -4954 5657 50  0000 R CNN
@@ -224,7 +224,7 @@ F 3 "" H -5000 6100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R24
+L allBonsaiSymbolLibs:R-device R24
 U 1 1 57E99EFD
 P -3350 9050
 F 0 "R24" V -3350 9050 50  0000 C CNN
@@ -235,7 +235,7 @@ F 3 "" H -3350 9050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R20
+L allBonsaiSymbolLibs:R-device R20
 U 1 1 57E9A030
 P -3900 9050
 F 0 "R20" V -3900 9050 50  0000 C CNN
@@ -246,7 +246,7 @@ F 3 "" H -3900 9050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R12
+L allBonsaiSymbolLibs:R-device R12
 U 1 1 57E9A0AC
 P -4400 9050
 F 0 "R12" V -4400 9050 50  0000 C CNN
@@ -257,7 +257,7 @@ F 3 "" H -4400 9050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R9
+L allBonsaiSymbolLibs:R-device R9
 U 1 1 57E9A129
 P -4850 9050
 F 0 "R9" V -4850 9050 50  0000 C CNN
@@ -268,7 +268,7 @@ F 3 "" H -4850 9050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L bonsai:Led_Small D21
+L allBonsaiSymbolLibs:Led_Small D21
 U 1 1 57E9A417
 P -3350 9300
 F 0 "D21" H -3350 9443 50  0000 C CNN
@@ -279,7 +279,7 @@ F 3 "" V -3350 9300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L bonsai:Led_Small D17
+L allBonsaiSymbolLibs:Led_Small D17
 U 1 1 57E9A814
 P -3900 9300
 F 0 "D17" H -3900 9443 50  0000 C CNN
@@ -290,7 +290,7 @@ F 3 "" V -3900 9300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L bonsai:Led_Small D7
+L allBonsaiSymbolLibs:Led_Small D7
 U 1 1 57E9A89E
 P -4400 9300
 F 0 "D7" H -4400 9443 50  0000 C CNN
@@ -301,7 +301,7 @@ F 3 "" V -4400 9300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L bonsai:Led_Small D4
+L allBonsaiSymbolLibs:Led_Small D4
 U 1 1 57E9A927
 P -4850 9300
 F 0 "D4" H -4850 9450 50  0000 C CNN
@@ -312,7 +312,7 @@ F 3 "" V -4850 9300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Befehle-rescue:74HCT02-RESCUE-Befehle U4
+L allBonsaiSymbolLibs:74HCT02 U4
 U 1 1 57F2C440
 P -7700 4500
 F 0 "U4" H -7700 4550 50  0000 C CNN
@@ -323,7 +323,7 @@ F 3 "" H -7700 4500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Befehle-rescue:74HCT02-RESCUE-Befehle U4
+L allBonsaiSymbolLibs:74HCT02 U4
 U 2 1 57F2C605
 P -7700 5050
 F 0 "U4" H -7700 5100 50  0000 C CNN
@@ -334,7 +334,7 @@ F 3 "" H -7700 5050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Befehle-rescue:74HCT02-RESCUE-Befehle U4
+L allBonsaiSymbolLibs:74HCT02 U4
 U 3 1 57F2C694
 P -7700 5600
 F 0 "U4" H -7700 5650 50  0000 C CNN
@@ -345,7 +345,7 @@ F 3 "" H -7700 5600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Befehle-rescue:74HCT02-RESCUE-Befehle U4
+L allBonsaiSymbolLibs:74HCT02 U4
 U 4 1 57F2C76F
 P -7700 6150
 F 0 "U4" H -7700 6200 50  0000 C CNN
@@ -356,7 +356,7 @@ F 3 "" H -7700 6150 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS540 U8
+L allBonsaiSymbolLibs:74LS540-74xx U8
 U 1 1 57E93AFB
 P -4050 1050
 F 0 "U8" H -4050 284 50  0000 C CNN
@@ -367,7 +367,7 @@ F 3 "" H -4050 1050 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Befehle-rescue:7400-RESCUE-Befehle U3
+L allBonsaiSymbolLibs:7400 U3
 U 3 1 57F32988
 P -8300 8550
 F 0 "U3" H -8300 8600 50  0000 C CNN
@@ -378,7 +378,7 @@ F 3 "" H -8300 8550 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Befehle-rescue:7400-RESCUE-Befehle U3
+L allBonsaiSymbolLibs:7400 U3
 U 4 1 57F32A39
 P -7650 8950
 F 0 "U3" H -7650 9000 50  0000 C CNN
@@ -389,7 +389,7 @@ F 3 "" H -7650 8950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R7
+L allBonsaiSymbolLibs:R-device R7
 U 1 1 57F34F54
 P -8300 3850
 F 0 "R7" V -8300 3850 50  0000 C CNN
@@ -400,7 +400,7 @@ F 3 "" H -8300 3850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R5
+L allBonsaiSymbolLibs:R-device R5
 U 1 1 57FBEFF9
 P -8800 2000
 F 0 "R5" V -8800 2000 50  0000 C CNN
@@ -411,7 +411,7 @@ F 3 "" H -8800 2000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L bonsai:Led_Small D2
+L allBonsaiSymbolLibs:Led_Small D2
 U 1 1 57FBF0ED
 P -8800 2250
 F 0 "D2" H -8850 2375 50  0000 L CNN
@@ -433,7 +433,7 @@ F 3 "" H -8800 2450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R1
+L allBonsaiSymbolLibs:R-device R1
 U 1 1 57FBF2F2
 P -9700 1100
 F 0 "R1" V -9700 1100 50  0000 C CNN
@@ -531,7 +531,7 @@ F 3 "" H -8300 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:Led_Small D15
+L allBonsaiSymbolLibs:Led_Small D15
 U 1 1 580EAA2D
 P -3950 5550
 F 0 "D15" V -3950 5650 50  0000 L CNN
@@ -542,7 +542,7 @@ F 3 "" V -3950 5550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L bonsai:Led_Small D11
+L allBonsaiSymbolLibs:Led_Small D11
 U 1 1 580EAB66
 P -4100 5550
 F 0 "D11" V -4100 5350 50  0000 L CNN
@@ -553,7 +553,7 @@ F 3 "" V -4100 5550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L bonsai:Led_Small D12
+L allBonsaiSymbolLibs:Led_Small D12
 U 1 1 580EABEB
 P -4100 5900
 F 0 "D12" V -4100 5700 50  0000 L CNN
@@ -564,7 +564,7 @@ F 3 "" V -4100 5900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L bonsai:Led_Small D16
+L allBonsaiSymbolLibs:Led_Small D16
 U 1 1 580EAC8E
 P -3950 6150
 F 0 "D16" V -3950 5950 50  0000 L CNN
@@ -575,7 +575,7 @@ F 3 "" V -3950 6150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L bonsai:Led_Small D20
+L allBonsaiSymbolLibs:Led_Small D20
 U 1 1 580EAD43
 P -3650 6400
 F 0 "D20" V -3650 6500 50  0000 L CNN
@@ -586,7 +586,7 @@ F 3 "" V -3650 6400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L bonsai:Led_Small D19
+L allBonsaiSymbolLibs:Led_Small D19
 U 1 1 580EAE00
 P -3850 6400
 F 0 "D19" V -3850 6200 50  0000 L CNN
@@ -612,7 +612,7 @@ upPC
 Text GLabel -8900 7850 0    60   Input ~ 0
 incPC
 $Comp
-L device:R R6
+L allBonsaiSymbolLibs:R-device R6
 U 1 1 580F54F3
 P -8700 8250
 F 0 "R6" V -8800 8250 50  0000 C CNN
@@ -636,7 +636,7 @@ $EndComp
 Text GLabel -9350 5350 0    60   Input ~ 0
 incPCz
 $Comp
-L device:R R3
+L allBonsaiSymbolLibs:R-device R3
 U 1 1 582A32C5
 P -9150 5750
 F 0 "R3" V -9070 5750 50  0000 C CNN
@@ -658,7 +658,7 @@ F 3 "" H -9150 5900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R2
+L allBonsaiSymbolLibs:R-device R2
 U 1 1 582AA727
 P -9350 4650
 F 0 "R2" V -9350 4650 50  0000 C CNN
@@ -669,7 +669,7 @@ F 3 "" H -9350 4650 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L bonsai:Led_Small D1
+L allBonsaiSymbolLibs:Led_Small D1
 U 1 1 582AC971
 P -9350 4900
 F 0 "D1" H -9350 5000 50  0000 C CNN
@@ -693,7 +693,7 @@ $EndComp
 Text GLabel -9100 3150 0    60   Input ~ 0
 loadIR
 $Comp
-L device:R R4
+L allBonsaiSymbolLibs:R-device R4
 U 1 1 582B55B4
 P -8850 3450
 F 0 "R4" V -8950 3450 50  0000 C CNN
@@ -715,7 +715,7 @@ F 3 "" H -8850 3600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R8
+L allBonsaiSymbolLibs:R-device R8
 U 1 1 582B6652
 P -7400 2350
 F 0 "R8" V -7400 2350 50  0000 C CNN
@@ -726,7 +726,7 @@ F 3 "" H -7400 2350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bonsai:Led_Small D3
+L allBonsaiSymbolLibs:Led_Small D3
 U 1 1 582B68A1
 P -7750 2350
 F 0 "D3" H -7750 2493 50  0000 C CNN
@@ -928,7 +928,7 @@ y7
 Text Label -6900 550  1    60   ~ 0
 y8
 $Comp
-L conn:Conn_02x10_Counter_Clockwise P2
+L allBonsaiSymbolLibs:Conn_02x10_Counter_Clockwise-conn P2
 U 1 1 58D096FC
 P -6050 -750
 F 0 "P2" V -6004 -1288 50  0000 R CNN
@@ -939,7 +939,7 @@ F 3 "" H -6050 -1950 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn:Conn_02x10_Counter_Clockwise P1
+L allBonsaiSymbolLibs:Conn_02x10_Counter_Clockwise-conn P1
 U 1 1 5A1624C1
 P -6300 7200
 F 0 "P1" V -6254 6662 50  0000 R CNN
@@ -952,7 +952,7 @@ $EndComp
 Text Label -6900 4700 1    60   ~ 0
 d2
 $Comp
-L Befehle-rescue:74LS14-RESCUE-Befehle U1
+L allBonsaiSymbolLibs:74LS14 U1
 U 2 1 5A2A45AB
 P -8300 950
 F 0 "U1" H -8150 1050 50  0000 C CNN
@@ -963,7 +963,7 @@ F 3 "" H -8300 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Befehle-rescue:74LS14-RESCUE-Befehle U1
+L allBonsaiSymbolLibs:74LS14 U1
 U 1 1 5A2A5408
 P -9250 950
 F 0 "U1" H -9100 1050 50  0000 C CNN
@@ -974,7 +974,7 @@ F 3 "" H -9250 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Befehle-rescue:74LS14-RESCUE-Befehle U1
+L allBonsaiSymbolLibs:74LS14 U1
 U 3 1 5A2A55C6
 P -8800 1400
 F 0 "U1" H -8650 1500 50  0000 C CNN
@@ -996,7 +996,7 @@ F 3 "" H -3300 -150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74540:74540 U2
+L allBonsaiSymbolLibs:74540 U2
 U 8 1 5A2905C7
 P -8950 4500
 F 0 "U2" H -8850 4600 60  0000 C CNN
@@ -1007,7 +1007,7 @@ F 3 "" H -8800 4350 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74540:74540 U2
+L allBonsaiSymbolLibs:74540 U2
 U 1 1 5A28303B
 P -5050 8250
 F 0 "U2" H -4950 8350 60  0000 C CNN
@@ -1018,7 +1018,7 @@ F 3 "" H -4900 8100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74540:74540 U2
+L allBonsaiSymbolLibs:74540 U2
 U 2 1 5A282F54
 P -4400 8250
 F 0 "U2" H -4300 8350 60  0000 C CNN
@@ -1029,7 +1029,7 @@ F 3 "" H -4250 8100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74540:74540 U2
+L allBonsaiSymbolLibs:74540 U2
 U 4 1 5A282C7C
 P -3350 8250
 F 0 "U2" H -3250 8350 60  0000 C CNN
@@ -1040,7 +1040,7 @@ F 3 "" H -3200 8100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74540:74540 U2
+L allBonsaiSymbolLibs:74540 U2
 U 7 1 5A287D96
 P -7750 3000
 F 0 "U2" H -7650 3100 60  0000 C CNN
@@ -1062,7 +1062,7 @@ F 3 "" H -2800 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:R_PACK4BUSSED RP1
+L allBonsaiSymbolLibs:R_PACK4BUSSED RP1
 U 1 1 5A5FCAF2
 P -3950 5050
 F 0 "RP1" V -3960 4772 50  0000 R CNN
@@ -1139,7 +1139,7 @@ F 3 "" H 1550 7300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D D22
+L allBonsaiSymbolLibs:D-device D22
 U 1 1 5ABA7A1B
 P 2750 6900
 F 0 "D22" V 2841 6822 50  0000 R CNN
@@ -1150,7 +1150,7 @@ F 3 "" H 2750 6900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J1
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J1
 U 1 1 5AC8E498
 P 750 7300
 F 0 "J1" H 612 6986 50  0000 C CNN
@@ -1166,7 +1166,7 @@ F 8 "2PinTerminalBlocktg" H 750 7300 50  0001 L BNN "Field8"
 	-1   0    0    1   
 $EndComp
 $Comp
-L bonsai:C_Small C1
+L allBonsaiSymbolLibs:C_Small C1
 U 1 1 5AD62DCF
 P 1750 7000
 F 0 "C1" H 1842 7046 50  0000 L CNN
@@ -1177,7 +1177,7 @@ F 3 "" H 1750 7000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bonsai:C_Small C2
+L allBonsaiSymbolLibs:C_Small C2
 U 1 1 5AD62ED1
 P 2200 7000
 F 0 "C2" H 2292 7046 50  0000 L CNN
@@ -1188,7 +1188,7 @@ F 3 "" H 2200 7000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J4
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J4
 U 1 1 5ADB99D1
 P -1850 6950
 F 0 "J4" H -1885 6940 50  0000 L CNN
@@ -1204,7 +1204,7 @@ F 8 "2PinTerminalBlocktg" H -1850 6950 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J5
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J5
 U 1 1 5ADB9B3E
 P -1850 7150
 F 0 "J5" H -1885 7140 50  0000 L CNN
@@ -1220,7 +1220,7 @@ F 8 "2PinTerminalBlocktg" H -1850 7150 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2PinTerminalBlocktg:2PinTerminalBlocktg J2
+L allBonsaiSymbolLibs:2PinTerminalBlocktg-2PinTerminalBlocktg J2
 U 1 1 5ADBA454
 P -11150 1900
 F 0 "J2" H -11288 1586 50  0000 C CNN
@@ -1236,7 +1236,7 @@ F 8 "2PinTerminalBlocktg" H -11150 1900 50  0001 L BNN "Field8"
 	-1   0    0    1   
 $EndComp
 $Comp
-L 3PinTerminalBlocktg:3PinTerminalBlocktg J3
+L allBonsaiSymbolLibs:3PinTerminalBlocktg-3PinTerminalBlocktg J3
 U 1 1 5ADBA737
 P -10750 7250
 F 0 "J3" H -10888 6936 50  0000 C CNN
@@ -1781,7 +1781,7 @@ F 3 "" H -6350 -1050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Befehle-rescue:74LS14-RESCUE-Befehle U1
+L allBonsaiSymbolLibs:74LS14 U1
 U 6 1 5AD7DB58
 P -8400 200
 F 0 "U1" H -8250 300 50  0000 C CNN
@@ -1792,7 +1792,7 @@ F 3 "" H -8400 200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Befehle-rescue:74LS14-RESCUE-Befehle U1
+L allBonsaiSymbolLibs:74LS14 U1
 U 5 1 5AD7DCFA
 P -8400 -200
 F 0 "U1" H -8250 -100 50  0000 C CNN
@@ -1803,7 +1803,7 @@ F 3 "" H -8400 -200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Befehle-rescue:74LS14-RESCUE-Befehle U1
+L allBonsaiSymbolLibs:74LS14 U1
 U 4 1 5AD7DDF7
 P -8400 -600
 F 0 "U1" H -8250 -500 50  0000 C CNN
@@ -2050,7 +2050,7 @@ F 3 "" H -3200 9450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74540:74540 U2
+L allBonsaiSymbolLibs:74540 U2
 U 3 1 5A282E5F
 P -3900 8250
 F 0 "U2" H -3800 8350 60  0000 C CNN
@@ -2096,7 +2096,7 @@ Wire Wire Line
 Wire Wire Line
 	-4400 8750 -4400 8650
 $Comp
-L Befehle-rescue:7400-RESCUE-Befehle U3
+L allBonsaiSymbolLibs:7400 U3
 U 1 1 57F3278C
 P -8400 7250
 F 0 "U3" H -8400 7300 50  0000 C CNN
@@ -2118,7 +2118,7 @@ Wire Wire Line
 Wire Wire Line
 	-8200 7850 -8400 7850
 $Comp
-L Befehle-rescue:7400-RESCUE-Befehle U3
+L allBonsaiSymbolLibs:7400 U3
 U 2 1 57F331B6
 P -8650 6050
 F 0 "U3" H -8650 6100 50  0000 C CNN
