@@ -1,12 +1,3 @@
 (fp_lib_table
-  (lib (name 2PinTerminalBlocktg)(type Legacy)(uri "$(KIPRJMOD)/bonsaicomplib/pcbTerminalBlockstg/2PinTerminalBlocktg.mod")(options "")(descr ""))
-  (lib (name 3PinTerminalBlocktg)(type Legacy)(uri "$(KIPRJMOD)/bonsaicomplib/pcbTerminalBlockstg/3PinTerminalBlocktg.mod")(options "")(descr ""))
-  (lib (name Pin_Headers)(type KiCad)(uri "$(KIPRJMOD)/tg_foodprint.pretty")(options "")(descr ""))
-  (lib (name 3)(type KiCad)(uri "$(KIGITHUB)/Housings_DIP.pretty")(options "")(descr ""))
-  (lib (name tg_foodprint)(type KiCad)(uri "$(KIPRJMOD)/tg_foodprint.pretty")(options "")(descr ""))
-  (lib (name tg_bonsai_proj_spec_libs)(type KiCad)(uri "$(KIPRJMOD)/tg_common.pretty")(options "")(descr ""))
-  (lib (name github)(type KiCad)(uri ${KIGITHUB}/Housings_DIP.pretty)(options "")(descr ""))
-  (lib (name locallibstg)(type KiCad)(uri /home/tomm/devTomm/bonsaikicad/tg_locallibs)(options "")(descr ""))
-  (lib (name tg_locallibs)(type KiCad)(uri ${BONLIB}/tg_locallibs.pretty)(options "")(descr ""))
-  (lib (name bonsaicomplib)(type KiCad)(uri ${KIPRJMOD}/bonsaicomplib.pretty)(options "")(descr ""))
+  (lib (name allBonsaiFootprintsLibs)(type KiCad)(uri ${KIPRJMOD}/allBonsaiFootprintsLibs)(options "")(descr ""))
 )

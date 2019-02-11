@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Befehle-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -196,7 +195,7 @@ U 1 1 57E94D2E
 P -6400 4000
 F 0 "U6" H -6400 3234 50  0000 C CNN
 F 1 "74LS373" H -6400 3325 50  0000 C CNN
-F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" V -6400 4000 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-20_W7.62mm_Socket_LongPadstg" V -6400 4000 50  0000 C CNN
 F 3 "" H -6400 4000 50  0000 C CNN
 	1    -6400 4000
 	0    -1   -1   0   
@@ -207,7 +206,7 @@ U 1 1 57E94F18
 P -6400 1200
 F 0 "U5" H -6400 434 50  0000 C CNN
 F 1 "74LS541" H -6400 525 50  0000 C CNN
-F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" V -6200 1200 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-20_W7.62mm_Socket_LongPadstg" V -6200 1200 50  0000 C CNN
 F 3 "" H -6400 1200 50  0000 C CNN
 	1    -6400 1200
 	0    -1   -1   0   
@@ -218,7 +217,7 @@ U 1 1 57E9588C
 P -5000 6100
 F 0 "U7" V -4954 5657 50  0000 R CNN
 F 1 "74LS139" V -5045 5657 50  0000 R CNN
-F 2 "tg_foodprint:DIP-16_W7.62mm_Socket_LongPadstg" H -5400 6100 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-16_W7.62mm_Socket_LongPadstg" H -5400 6100 50  0000 C CNN
 F 3 "" H -5000 6100 50  0000 C CNN
 	1    -5000 6100
 	1    0    0    -1  
@@ -317,7 +316,7 @@ U 1 1 57F2C440
 P -7700 4500
 F 0 "U4" H -7700 4550 50  0000 C CNN
 F 1 "74HCT02" H -7650 4450 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 4750 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 4750 50  0000 C CNN
 F 3 "" H -7700 4500 50  0000 C CNN
 	1    -7700 4500
 	-1   0    0    1   
@@ -328,7 +327,7 @@ U 2 1 57F2C605
 P -7700 5050
 F 0 "U4" H -7700 5100 50  0000 C CNN
 F 1 "74HCT02" H -7650 5000 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 5300 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 5300 50  0000 C CNN
 F 3 "" H -7700 5050 50  0000 C CNN
 	2    -7700 5050
 	-1   0    0    1   
@@ -339,7 +338,7 @@ U 3 1 57F2C694
 P -7700 5600
 F 0 "U4" H -7700 5650 50  0000 C CNN
 F 1 "74HCT02" H -7650 5550 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 5850 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 5850 50  0000 C CNN
 F 3 "" H -7700 5600 50  0000 C CNN
 	3    -7700 5600
 	-1   0    0    1   
@@ -350,7 +349,7 @@ U 4 1 57F2C76F
 P -7700 6150
 F 0 "U4" H -7700 6200 50  0000 C CNN
 F 1 "74HCT02" H -7650 6100 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 6450 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-14_W7.62mm_Socket_LongPadstg" H -8250 6450 50  0000 C CNN
 F 3 "" H -7700 6150 50  0000 C CNN
 	4    -7700 6150
 	-1   0    0    1   
@@ -361,7 +360,7 @@ U 1 1 57E93AFB
 P -4050 1050
 F 0 "U8" H -4050 284 50  0000 C CNN
 F 1 "74LS540" H -4050 375 50  0000 C CNN
-F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" V -3850 1050 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-20_W7.62mm_Socket_LongPadstg" V -3850 1050 50  0000 C CNN
 F 3 "" H -4050 1050 50  0000 C CNN
 	1    -4050 1050
 	0    -1   -1   0   
@@ -372,7 +371,7 @@ U 3 1 57F32988
 P -8300 8550
 F 0 "U3" H -8300 8600 50  0000 C CNN
 F 1 "7400" H -8300 8450 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8650 8850 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-14_W7.62mm_Socket_LongPadstg" H -8650 8850 50  0000 C CNN
 F 3 "" H -8300 8550 50  0000 C CNN
 	3    -8300 8550
 	0    -1   1    0   
@@ -383,7 +382,7 @@ U 4 1 57F32A39
 P -7650 8950
 F 0 "U3" H -7650 9000 50  0000 C CNN
 F 1 "7400" H -7650 8850 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -7650 9200 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-14_W7.62mm_Socket_LongPadstg" H -7650 9200 50  0000 C CNN
 F 3 "" H -7650 8950 50  0000 C CNN
 	4    -7650 8950
 	0    1    1    0   
@@ -536,7 +535,7 @@ U 1 1 580EAA2D
 P -3950 5550
 F 0 "D15" V -3950 5650 50  0000 L CNN
 F 1 "Led_Small" V -4000 6750 50  0000 L CNN
-F 2 "tg_foodprint:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" V -3900 7100 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" V -3900 7100 50  0000 C CNN
 F 3 "" V -3950 5550 50  0000 C CNN
 	1    -3950 5550
 	0    1    1    0   
@@ -547,7 +546,7 @@ U 1 1 580EAB66
 P -4100 5550
 F 0 "D11" V -4100 5350 50  0000 L CNN
 F 1 "Led_Small" V -4250 6900 50  0000 L CNN
-F 2 "tg_foodprint:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" V -4100 4300 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" V -4100 4300 50  0000 C CNN
 F 3 "" V -4100 5550 50  0000 C CNN
 	1    -4100 5550
 	0    1    1    0   
@@ -558,7 +557,7 @@ U 1 1 580EABEB
 P -4100 5900
 F 0 "D12" V -4100 5700 50  0000 L CNN
 F 1 "Led_Small" V -4050 7150 50  0000 L CNN
-F 2 "tg_foodprint:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" H -2500 5900 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" H -2500 5900 50  0000 C CNN
 F 3 "" V -4100 5900 50  0000 C CNN
 	1    -4100 5900
 	0    1    1    0   
@@ -569,7 +568,7 @@ U 1 1 580EAC8E
 P -3950 6150
 F 0 "D16" V -3950 5950 50  0000 L CNN
 F 1 "Led_Small" V -3950 7200 50  0000 L CNN
-F 2 "tg_foodprint:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" H -2600 6150 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" H -2600 6150 50  0000 C CNN
 F 3 "" V -3950 6150 50  0000 C CNN
 	1    -3950 6150
 	0    1    1    0   
@@ -580,7 +579,7 @@ U 1 1 580EAD43
 P -3650 6400
 F 0 "D20" V -3650 6500 50  0000 L CNN
 F 1 "Led_Small" V -3750 7100 50  0000 L CNN
-F 2 "tg_foodprint:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" H -2550 6400 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" H -2550 6400 50  0000 C CNN
 F 3 "" V -3650 6400 50  0000 C CNN
 	1    -3650 6400
 	0    1    1    0   
@@ -591,7 +590,7 @@ U 1 1 580EAE00
 P -3850 6400
 F 0 "D19" V -3850 6200 50  0000 L CNN
 F 1 "Led_Small" V -3850 7250 50  0000 L CNN
-F 2 "tg_foodprint:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" H -2750 6400 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:Diode_D1.8mm_W3.3mm_H2.4mmBonsai" H -2750 6400 50  0000 C CNN
 F 3 "" V -3850 6400 50  0000 C CNN
 	1    -3850 6400
 	0    1    1    0   
@@ -933,7 +932,7 @@ U 1 1 58D096FC
 P -6050 -750
 F 0 "P2" V -6004 -1288 50  0000 R CNN
 F 1 "CONN_02X10" V -6095 -1288 50  0000 R CNN
-F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H -6050 -1950 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H -6050 -1950 50  0000 C CNN
 F 3 "" H -6050 -1950 50  0000 C CNN
 	1    -6050 -750
 	0    -1   -1   0   
@@ -944,7 +943,7 @@ U 1 1 5A1624C1
 P -6300 7200
 F 0 "P1" V -6254 6662 50  0000 R CNN
 F 1 "CONN_02X10" V -6345 6662 50  0000 R CNN
-F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" V -6650 7100 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" V -6650 7100 50  0000 C CNN
 F 3 "" H -6300 6000 50  0000 C CNN
 	1    -6300 7200
 	0    -1   -1   0   
@@ -957,7 +956,7 @@ U 2 1 5A2A45AB
 P -8300 950
 F 0 "U1" H -8150 1050 50  0000 C CNN
 F 1 "74LS14" H -8100 850 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -9900 950 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-14_W7.62mm_Socket_LongPadstg" H -9900 950 50  0000 C CNN
 F 3 "" H -8300 950 50  0000 C CNN
 	2    -8300 950 
 	1    0    0    -1  
@@ -968,7 +967,7 @@ U 1 1 5A2A5408
 P -9250 950
 F 0 "U1" H -9100 1050 50  0000 C CNN
 F 1 "74LS14" H -9050 850 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" V -9250 2100 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-14_W7.62mm_Socket_LongPadstg" V -9250 2100 50  0000 C CNN
 F 3 "" H -9250 950 50  0000 C CNN
 	1    -9250 950 
 	1    0    0    -1  
@@ -979,7 +978,7 @@ U 3 1 5A2A55C6
 P -8800 1400
 F 0 "U1" H -8650 1500 50  0000 C CNN
 F 1 "74LS14" H -8600 1300 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" V -8800 2550 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-14_W7.62mm_Socket_LongPadstg" V -8800 2550 50  0000 C CNN
 F 3 "" H -8800 1400 50  0000 C CNN
 	3    -8800 1400
 	0    1    1    0   
@@ -1001,7 +1000,7 @@ U 8 1 5A2905C7
 P -8950 4500
 F 0 "U2" H -8850 4600 60  0000 C CNN
 F 1 "74540" H -8800 4350 60  0000 C CNN
-F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -8800 4350 60  0001 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-20_W7.62mm_Socket_LongPadstg" H -8800 4350 60  0001 C CNN
 F 3 "" H -8800 4350 60  0001 C CNN
 	8    -8950 4500
 	-1   0    0    1   
@@ -1012,7 +1011,7 @@ U 1 1 5A28303B
 P -5050 8250
 F 0 "U2" H -4950 8350 60  0000 C CNN
 F 1 "74540" H -4900 8100 60  0000 C CNN
-F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -4900 8100 60  0001 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-20_W7.62mm_Socket_LongPadstg" H -4900 8100 60  0001 C CNN
 F 3 "" H -4900 8100 60  0001 C CNN
 	1    -5050 8250
 	0    1    1    0   
@@ -1023,7 +1022,7 @@ U 2 1 5A282F54
 P -4400 8250
 F 0 "U2" H -4300 8350 60  0000 C CNN
 F 1 "74540" H -4250 8100 60  0000 C CNN
-F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -4250 8100 60  0001 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-20_W7.62mm_Socket_LongPadstg" H -4250 8100 60  0001 C CNN
 F 3 "" H -4250 8100 60  0001 C CNN
 	2    -4400 8250
 	0    1    1    0   
@@ -1034,7 +1033,7 @@ U 4 1 5A282C7C
 P -3350 8250
 F 0 "U2" H -3250 8350 60  0000 C CNN
 F 1 "74540" H -3200 8100 60  0000 C CNN
-F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -3250 9050 60  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-20_W7.62mm_Socket_LongPadstg" H -3250 9050 60  0000 C CNN
 F 3 "" H -3200 8100 60  0001 C CNN
 	4    -3350 8250
 	0    1    1    0   
@@ -1045,7 +1044,7 @@ U 7 1 5A287D96
 P -7750 3000
 F 0 "U2" H -7650 3100 60  0000 C CNN
 F 1 "74540" H -7600 2850 60  0000 C CNN
-F 2 "tg_foodprint:DIP-20_W7.62mm_Socket_LongPadstg" H -7600 2850 60  0001 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-20_W7.62mm_Socket_LongPadstg" H -7600 2850 60  0001 C CNN
 F 3 "" H -7600 2850 60  0001 C CNN
 	7    -7750 3000
 	1    0    0    -1  
@@ -1786,7 +1785,7 @@ U 6 1 5AD7DB58
 P -8400 200
 F 0 "U1" H -8250 300 50  0000 C CNN
 F 1 "74LS14" H -8200 100 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -10000 200 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-14_W7.62mm_Socket_LongPadstg" H -10000 200 50  0000 C CNN
 F 3 "" H -8400 200 50  0000 C CNN
 	6    -8400 200 
 	1    0    0    -1  
@@ -1797,7 +1796,7 @@ U 5 1 5AD7DCFA
 P -8400 -200
 F 0 "U1" H -8250 -100 50  0000 C CNN
 F 1 "74LS14" H -8200 -300 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -10000 -200 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-14_W7.62mm_Socket_LongPadstg" H -10000 -200 50  0000 C CNN
 F 3 "" H -8400 -200 50  0000 C CNN
 	5    -8400 -200
 	1    0    0    -1  
@@ -1808,7 +1807,7 @@ U 4 1 5AD7DDF7
 P -8400 -600
 F 0 "U1" H -8250 -500 50  0000 C CNN
 F 1 "74LS14" H -8200 -700 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -10000 -600 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-14_W7.62mm_Socket_LongPadstg" H -10000 -600 50  0000 C CNN
 F 3 "" H -8400 -600 50  0000 C CNN
 	4    -8400 -600
 	1    0    0    -1  
@@ -2101,7 +2100,7 @@ U 1 1 57F3278C
 P -8400 7250
 F 0 "U3" H -8400 7300 50  0000 C CNN
 F 1 "7400" H -8400 7150 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8700 7500 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-14_W7.62mm_Socket_LongPadstg" H -8700 7500 50  0000 C CNN
 F 3 "" H -8400 7250 50  0000 C CNN
 	1    -8400 7250
 	0    1    1    0   
@@ -2123,7 +2122,7 @@ U 2 1 57F331B6
 P -8650 6050
 F 0 "U3" H -8650 6100 50  0000 C CNN
 F 1 "7400" H -8650 5950 50  0000 C CNN
-F 2 "tg_foodprint:DIP-14_W7.62mm_Socket_LongPadstg" H -8800 6300 50  0000 C CNN
+F 2 "allBonsaiFootprintsLibs:DIP-14_W7.62mm_Socket_LongPadstg" H -8800 6300 50  0000 C CNN
 F 3 "" H -8650 6050 50  0000 C CNN
 	2    -8650 6050
 	0    1    1    0   

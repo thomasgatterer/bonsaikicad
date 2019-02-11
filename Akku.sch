@@ -301,7 +301,7 @@ U 1 1 57FC34DF
 P 7500 6200
 F 0 "SW3" H 7300 6350 50  0000 C CNN
 F 1 "CLR_Bonsai_SWITCH_INV" H 7350 6050 50  0000 C CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H 7500 6200 50  0001 C CNN
+F 2 "allBonsaiFootprintsLibs:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H 7500 6200 50  0001 C CNN
 F 3 "" H 7500 6200 50  0000 C CNN
 	1    7500 6200
 	-1   0    0    -1  
@@ -356,7 +356,7 @@ U 1 1 58057A43
 P 4850 1600
 F 0 "P7" H 4850 2150 50  0000 C CNN
 F 1 "CONN_02X10" V 4850 1600 50  0000 C CNN
-F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 4850 1600 50  0001 C CNN
+F 2 "allBonsaiFootprintsLibs:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 4850 1600 50  0001 C CNN
 F 3 "" H 4850 400 50  0000 C CNN
 	1    4850 1600
 	1    0    0    -1  
@@ -367,7 +367,7 @@ U 1 1 5805867B
 P 4100 1600
 F 0 "P8" H 4100 2150 50  0000 C CNN
 F 1 "CONN_02X10" V 4100 1600 50  0000 C CNN
-F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 4100 1650 50  0001 C CNN
+F 2 "allBonsaiFootprintsLibs:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 4100 1650 50  0001 C CNN
 F 3 "" H 4100 400 50  0000 C CNN
 	1    4100 1600
 	1    0    0    -1  
@@ -378,7 +378,7 @@ U 1 1 58058F42
 P 5600 1600
 F 0 "P9" H 5600 2150 50  0000 C CNN
 F 1 "CONN_02X10" V 5600 1600 50  0000 C CNN
-F 2 "tg_foodprint:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 5600 1600 50  0001 C CNN
+F 2 "allBonsaiFootprintsLibs:Pin_Header_Straight_2x10_Pitch2.00mmBonsai.pretty" H 5600 1600 50  0001 C CNN
 F 3 "" H 5600 400 50  0000 C CNN
 	1    5600 1600
 	1    0    0    -1  
@@ -621,7 +621,7 @@ U 1 1 58100CBF
 P 1400 4600
 F 0 "SW1" H 1200 4750 50  0000 C CNN
 F 1 "UP_Bonsai_SWITCH_INV" H 1250 4450 50  0000 C CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H 1400 4600 50  0001 C CNN
+F 2 "allBonsaiFootprintsLibs:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H 1400 4600 50  0001 C CNN
 F 3 "" H 1400 4600 50  0000 C CNN
 	1    1400 4600
 	1    0    0    1   
@@ -709,7 +709,7 @@ U 1 1 58103EB5
 P 1400 6350
 F 0 "SW2" H 1200 6500 50  0000 C CNN
 F 1 "DOWN_Bonsai_SWITCH_INV" H 1250 6200 50  0000 C CNN
-F 2 "tg_foodprint:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H 1400 6350 50  0001 C CNN
+F 2 "allBonsaiFootprintsLibs:SW_PUSH_LCD_E3_SAxxxx_tg_V2" H 1400 6350 50  0001 C CNN
 F 3 "" H 1400 6350 50  0000 C CNN
 	1    1400 6350
 	1    0    0    -1  
@@ -1604,7 +1604,7 @@ U 1 1 5CBF3D2E
 P 1000 1400
 F 0 "C1" V 688 1400 50  0000 C CNN
 F 1 "C" V 779 1400 50  0000 C CNN
-F 2 "tg_foodprint:C_Disc_D10.0mm_W2.5mm_P5.00mm" V 855 1400 30  0001 C CNN
+F 2 "allBonsaiFootprintsLibs:C_Disc_D10.0mm_W2.5mm_P5.00mm" V 855 1400 30  0001 C CNN
 F 3 "" H 1000 1400 60  0000 C CNN
 	1    1000 1400
 	0    1    1    0   
@@ -1615,7 +1615,7 @@ U 1 1 5CBF52E5
 P 1000 1600
 F 0 "C2" V 688 1600 50  0000 C CNN
 F 1 "C" V 779 1600 50  0000 C CNN
-F 2 "tg_foodprint:C_Disc_D10.0mm_W2.5mm_P5.00mm" V 855 1600 30  0001 C CNN
+F 2 "allBonsaiFootprintsLibs:C_Disc_D10.0mm_W2.5mm_P5.00mm" V 855 1600 30  0001 C CNN
 F 3 "" H 1000 1600 60  0000 C CNN
 	1    1000 1600
 	0    1    1    0   
@@ -1654,7 +1654,7 @@ U 1 1 5CC7F388
 P 1000 1800
 F 0 "C3" V 688 1800 50  0000 C CNN
 F 1 "C" V 779 1800 50  0000 C CNN
-F 2 "tg_foodprint:C_Disc_D10.0mm_W2.5mm_P5.00mm" V 855 1800 30  0001 C CNN
+F 2 "allBonsaiFootprintsLibs:C_Disc_D10.0mm_W2.5mm_P5.00mm" V 855 1800 30  0001 C CNN
 F 3 "" H 1000 1800 60  0000 C CNN
 	1    1000 1800
 	0    1    1    0   
