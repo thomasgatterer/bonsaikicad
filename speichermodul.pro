@@ -1,15 +1,5 @@
-update=Mo 11 Feb 2019 12:28:15 CET
-last_client=pcbnew
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
+update=Fr 05 Apr 2019 03:25:28 CEST
+last_client=eeschema
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -56,3 +46,13 @@ SolderMaskClearance=0
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
 SolderPasteRatio=0
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
